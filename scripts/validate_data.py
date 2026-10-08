@@ -11,12 +11,13 @@ from urllib.parse import urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EXPECTED_ROUNDS = {"75", "76", "77", "78", "79"}
+EXPECTED_ROUNDS = {str(round_id) for round_id in range(70, 80)}
 REGION_TOLERANCE = 0.000001
 # Public history institutions whose domains do not use government/academic suffixes.
 PRIMARY_SOURCE_DOMAINS = {
     "i815.or.kr", "kdemo.or.kr", "itkc.or.kr", "koreanhistory.or.kr", "nahf.or.kr",
     "britishmuseum.org", "metmuseum.org", "si.edu",
+    "korea.kr",  # Official Korean government Policy Briefing portal.
 }
 
 
@@ -49,7 +50,7 @@ def validate(data_path: Path) -> list[str]:
         return [f"Cannot read exam data: {exc}"]
     if not isinstance(exams, list):
         return ["Dataset must be an array of exams."]
-    check(len(exams) == 5, f"Expected 5 exams, found {len(exams)}.")
+    check(len(exams) == 10, f"Expected 10 exams, found {len(exams)}.")
     rounds = []
     image_paths = []
     total_questions = 0
@@ -171,8 +172,8 @@ def validate(data_path: Path) -> list[str]:
               f"{label}: question numbers must cover 1–50 exactly once.")
         check(points == 100, f"{label}: weighted total must be 100, found {points}.")
     check(len(rounds) == len(set(rounds)), "Exam IDs must be unique.")
-    check(set(rounds) == EXPECTED_ROUNDS, "Expected rounds 79, 78, 77, 76, and 75.")
-    check(total_questions == 250, f"Expected 250 questions, found {total_questions}.")
+    check(set(rounds) == EXPECTED_ROUNDS, "Expected all ten rounds from 70 through 79.")
+    check(total_questions == 500, f"Expected 500 questions, found {total_questions}.")
     check(len(image_paths) == len(set(image_paths)), "Every question must have a distinct image.")
     return errors
 
@@ -187,7 +188,7 @@ def main():
         for error in errors:
             print(f"  - {error}")
         raise SystemExit(1)
-    print("Validated 5 exams / 250 questions and images / 1,250 choice regions, short notes and source-backed explanations / 100 points per exam.")
+    print("Validated 10 exams / 500 questions and images / 2,500 choice regions, short notes and source-backed explanations / 100 points per exam.")
 
 
 if __name__ == "__main__":

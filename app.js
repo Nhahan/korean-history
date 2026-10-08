@@ -14,8 +14,57 @@
   let toastId;
   let dialogBusy = false;
   let storageAvailable = true;
+  let conceptMatcher;
+  const conceptFrequency = new Map();
+  const frequentConcepts = new Set();
+  const conceptVocabulary = `숙종|고종|세종|정조|성종|박정희|신민회|임진왜란|김영삼|영조|가락바퀴|견훤|골품제|광종|궁예|성균관|신간회|안창호|왕건|이승만|임오군란|전두환|태종|회사령|갑오개혁|계미자|공민왕|규장각|김대중|김정희|대동법|독립협회|만적|묘청|무왕|법흥왕|별무반|병인양요|보안회|사헌부|서희|성왕|소도|신문왕|외규장각|윤관|의열단|의천|주자감|초계문신제|최승로|충렬왕|형평사|홍문관|훈련도감|순종|예종|홍경래|국채 보상 운동|화폐 정리 사업|6·10 만세 운동|광교산 전투|김헌창의 난|미쓰야 협정|범금8조|사르후 전투|시무28조|연가7년명 여래 입상|이괄의 난|조선 혁명 선언|태극 서관|홍범14조|황무지 개간권 요구|대한 제국|민립 대학|광복군|흥선대원군|훈민정음|균역법|탕평책|과전법|직전법|전시과|녹읍|관료전|진대법|정동행성|전민변정도감|도병마사|삼사|집현전|승정원|비변사|통리기무아문|금난전권|강화도 조약|제물포 조약|갑신정변|을미사변|을미개혁|아관파천|광무개혁|관민 공동회|동학 농민 운동|전봉준|독립신문|대한매일신보|황성신문|3·1 운동|105인 사건|한국 독립군|조선 혁명군|봉오동 전투|청산리 전투|쌍성보 전투|대전자령 전투|영릉가 전투|한인 애국단|조선 의용대|자유시 참변|대한민국 임시 정부|건국 준비 위원회|미소 공동 위원회|5·10 총선거|6·25 전쟁|4·19 혁명|5·16 군사 정변|유신 헌법|5·18 민주화 운동|6월 민주 항쟁|3·15 부정 선거|7·4 남북 공동 성명|금융 실명제|남북 기본 합의서|6·15 남북 공동 선언|빗살무늬 토기|반달 돌칼|비파형 동검|세형 동검|팔관회|연등회|향약|동의보감|대동여지도|경국대전|삼국사기|삼국유사|직지심체요절|진성왕|문무왕|신무왕|근초고왕|광개토 대왕|장수왕|무령왕|침류왕|아신왕|진흥왕|진평왕|선덕 여왕|진덕 여왕|경덕왕|혜공왕|원성왕|소성왕|헌덕왕|흥덕왕|경문왕|헌강왕|진성 여왕|경순왕|태조왕|임시 정부|고인돌|뗀석기|간석기|주먹도끼|청동 방울|부경|책화|서옥제|민며느리제|화백 회의|정사암 회의|향교|국학|태학|경당|문종|헌종|철종|인조|중종|광해군|선조|효종|현종|공양왕|노비안검법|사심관|기인 제도|강동6주|동북9성|흑창|제위보|양현고|교관겸수|정혜쌍수|돈오점수|원효|의상|지눌|설총|혜초|강수|최치원|박지원|박제가|홍대용|정약용|김홍도|신윤복|강세황|김득신|정선|오죽헌|선운사|집강소|통감부|토지 조사 사업|물산 장려 운동|형평 운동|김구|김규식|여운형|김원봉|지청천|김좌진|박은식|신채호|조소앙|원산 총파업|6월 항쟁|부마 항쟁|사사오입 개헌|발췌 개헌|장면 내각|남북 협상|박정희 정부|김대중 정부|노태우 정부|전두환 정부|김영삼 정부|삼정이정청|대한국 국제|홍범 14조|백두산정계비|동국문헌비고`.split('|');
 
   const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
+  const normalizeConcept = value => value.replace(/\s+/gu, '');
+  function prepareFrequentConcepts() {
+    conceptFrequency.clear();
+    frequentConcepts.clear();
+    const candidates = new Set(conceptVocabulary.map(normalizeConcept));
+    const protectedCompounds = ['태종무열왕', '향약집성방', '향약제생집성방', '중소도시', '소도시', '소도구', '태고종'];
+    const vocabulary = [...new Set([...candidates, ...protectedCompounds])].sort((a, b) => b.length - a.length);
+    const escaped = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    // Keep all longer names in the matcher, even when their frequency is low.
+    // This stops 성왕 matching 진성왕, 무왕 matching 문무왕, and similar compounds.
+    conceptMatcher = new RegExp(vocabulary.map(term => [...term].map(escaped).join('\\s*')).join('|'), 'gu');
+    exams.forEach(exam => exam.questions.forEach(question => {
+      const conceptsInQuestion = new Set();
+      const fields = [question.text, ...(question.options || []), ...(question.shortExplanations || [])];
+      fields.forEach(field => {
+        for (const match of String(field || '').matchAll(conceptMatcher)) {
+          const concept = normalizeConcept(match[0]);
+          if (candidates.has(concept)) conceptsInQuestion.add(concept);
+        }
+      });
+      conceptsInQuestion.forEach(concept => {
+        const frequency = conceptFrequency.get(concept) || { questions: 0, rounds: new Set() };
+        frequency.questions++;
+        frequency.rounds.add(exam.id);
+        conceptFrequency.set(concept, frequency);
+      });
+    }));
+    conceptFrequency.forEach((frequency, concept) => {
+      if (frequency.questions >= 5 && frequency.rounds.size >= 3) frequentConcepts.add(concept);
+    });
+  }
+  function highlightedNoteHTML(text) {
+    const raw = String(text || '');
+    if (!conceptMatcher || !frequentConcepts.size) return escapeHTML(raw);
+    let html = '';
+    let offset = 0;
+    for (const match of raw.matchAll(conceptMatcher)) {
+      html += escapeHTML(raw.slice(offset, match.index));
+      const concept = normalizeConcept(match[0]);
+      const frequency = conceptFrequency.get(concept);
+      html += frequentConcepts.has(concept) ? `<mark class="frequent-concept" data-concept="${escapeHTML(concept)}" data-round-count="${frequency.rounds.size}" data-question-count="${frequency.questions}" title="${frequency.rounds.size}개 회차 · ${frequency.questions}문항 등장">${escapeHTML(match[0])}</mark>` : escapeHTML(match[0]);
+      offset = match.index + match[0].length;
+    }
+    return html + escapeHTML(raw.slice(offset));
+  }
   const key = (round, practiceMode) => `${storagePrefix}${round}:${practiceMode}`;
   const resultKey = round => `${storagePrefix}${round}:result`;
   const getStored = name => {
@@ -74,11 +123,12 @@
 
   async function init() {
     try {
-      const response = await fetch('assets/data/exams.json?v=20261008-short-notes');
+      const response = await fetch('assets/data/exams.json?v=20261008-ten-rounds-marker');
       if (!response.ok) throw new Error('자료 파일을 가져오지 못했습니다. 잠시 후 다시 시도해 주세요.');
       const data = await response.json();
       exams = (Array.isArray(data) ? data : data.exams).slice().sort((a, b) => b.id - a.id);
       if (!exams.length || exams.some(exam => !Array.isArray(exam.questions) || !exam.questions.length)) throw new Error('기출문제 자료가 비어 있습니다.');
+      prepareFrequentConcepts();
       const requestedRound = params.get('round');
       currentExam = requestedRound === null ? exams[0] : exams.find(exam => exam.id === Number(requestedRound));
       if (!currentExam) throw new Error('해당 회차를 찾을 수 없습니다. 회차 선택 페이지에서 다시 선택해 주세요.');
@@ -160,7 +210,7 @@
       return `<div class="source-choice-row${ordered.length > 1 ? ' multi-row' : ''}" style="grid-template-columns:${columns}">${ordered.map((region, index) => {
         const crop = crops[index];
         const short = question.shortExplanations?.[region.index] || '';
-        return `<figure class="source-choice-figure" style="--choice-span:${crop.w * 100}%">${sourceSliceHTML(question, crop, question.options?.[region.index] || `${region.index + 1}번 원문 보기`, overlay ? choiceButtonHTML(question, region.index, region, crop) : '')}<figcaption class="choice-inline-note${region.index + 1 === Number(question.answer) ? ' is-correct' : ''}" data-choice-note="${region.index + 1}"${reveal ? '' : ' hidden'}>${escapeHTML(short)}</figcaption></figure>`;
+        return `<figure class="source-choice-figure" style="--choice-span:${crop.w * 100}%">${sourceSliceHTML(question, crop, question.options?.[region.index] || `${region.index + 1}번 원문 보기`, overlay ? choiceButtonHTML(question, region.index, region, crop) : '')}<figcaption class="choice-inline-note${region.index + 1 === Number(question.answer) ? ' is-correct' : ''}" data-choice-note="${region.index + 1}"${reveal ? '' : ' hidden'}>${highlightedNoteHTML(short)}</figcaption></figure>`;
       }).join('')}</div>`;
     }).join('');
     return `<div class="question-source${reveal ? ' revealed' : ''}">${stem}<div class="source-choice-body"${overlay ? ` role="radiogroup" aria-label="${question.number}번 문제 답 선택"` : ''}>${choices}</div></div>`;

@@ -6,13 +6,16 @@ from pathlib import Path
 CIRCLES='①②③④⑤'
 # Three illustrations above two, with reviewed label row positions.
 ILLUSTRATIONS={
+ (70,27):(.630,.851),(71,7):(.600,.803),(71,16):(.643,.825),
+ (72,17):(.634,.819),(72,23):(.591,.754),(73,6):(.630,.818),
+ (74,13):(.570,.794),
  (75,3):(.559,.784),(75,18):(.589,.797),
  (76,4):(.583,.799),(76,17):(.672,.837),(76,27):(.613,.781),
  (77,4):(.589,.792),(77,13):(.579,.796),
  (78,9):(.635,.826),(78,14):(.596,.800),
  (79,6):(.604,.811),(79,11):(.647,.833),
 }
-HORIZONTAL={(76,34):.947,(77,18):.940,(78,23):.917,(79,17):.940,(79,33):.905}
+HORIZONTAL={(70,9):.947,(70,23):.951,(70,50):.957,(71,9):.931,(71,40):.943,(72,21):.941,(72,38):.955,(72,48):.896,(72,50):.961,(74,18):.947,(74,35):.950,(76,34):.947,(77,18):.940,(78,23):.917,(79,17):.940,(79,33):.905}
 
 def region(x,y,w,h):
  x=max(0,x);y=max(0,y)
@@ -20,6 +23,17 @@ def region(x,y,w,h):
 
 def build(n,q):
  identity=(n,q)
+ if identity in {(73,26),(74,19)}:
+  # Two paintings/buildings per row, followed by one final option.
+  ys=[.559,.715,.871] if n==73 else [.569,.711,.855]
+  rs=[]
+  for k in range(5):
+   row=k//2;x=.035 if k%2==0 else .516;right=.625 if identity==(73,26) and k==4 else .488 if k%2==0 else .990
+   rs.append(region(x,ys[row],right-x,(ys[row+1]-.009 if row<2 else .993)-ys[row]))
+  return rs
+ if identity==(72,42):
+  ys=[.734,.784,.837,.888,.940]
+  return [region(.035,y,.957,(ys[k+1]-.001 if k<4 else .994)-y) for k,y in enumerate(ys)]
  if identity in ILLUSTRATIONS:
   top,bottom=ILLUSTRATIONS[identity];ys=[top-.009,bottom-.009]
   regions=[]
@@ -76,7 +90,9 @@ if __name__=='__main__':
  path=Path('assets/data/exams.json');exams=json.loads(path.read_text())
  for e in exams:
   for q in e['questions']:
+   if e['id'] >= 75 and len(q.get('choiceRegions',[])) == 5:
+    continue
    q['choiceRegions']=build(e['id'],q['number'])
    assert all(r['w']>0 and r['h']>0 for r in q['choiceRegions'])
  path.write_text(json.dumps(exams,ensure_ascii=False,indent=2)+'\n')
- print('Built five directly selectable original options for all 250 questions.')
+ print(f'Built five directly selectable original options for all {sum(len(e["questions"]) for e in exams)} questions.')

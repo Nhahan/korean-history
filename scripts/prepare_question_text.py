@@ -8,8 +8,10 @@ Path('tmp/explanations').mkdir(parents=True,exist_ok=True)
 if '--render' in sys.argv:
  for e in exams:
   for q in e['questions']:
-   Image.open(q['image']).save(f'tmp/question-ocr/{e["id"]}-{q["number"]:02}.png')
- print('Rendered 250 question images for OCR.')
+   target=Path(f'tmp/question-ocr/{e["id"]}-{q["number"]:02}.png')
+   if not target.exists():
+    Image.open(q['image']).save(target)
+ print(f'Rendered question images for {len(exams)} exams for OCR.')
  sys.exit(0)
 for exam in exams:
  for start,end in [(1,25),(26,50)]:

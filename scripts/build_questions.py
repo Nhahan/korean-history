@@ -4,9 +4,16 @@ import json,re
 import pymupdf as fitz
 CIRCLES='①②③④⑤'
 EXAMS=json.loads(Path('tmp/sources.json').read_text())
+DATA_PATH=Path('assets/data/exams.json')
+existing={exam['id']:exam for exam in json.loads(DATA_PATH.read_text())} if DATA_PATH.exists() else {}
 for exam in EXAMS:
  n=exam['id'];anchors={};lines_by_page={}
- for i in range(1,13):
+ if n in existing and all(Path(question['image']).is_file() for question in existing[n]['questions']):
+  exam.update(existing[n])
+  print(n,'preserved existing reviewed questions')
+  continue
+ page_count=len(fitz.open(f'tmp/pdfs/{n}-paper.pdf'))
+ for i in range(1,page_count+1):
   lines=json.loads(Path(f'tmp/pdfs/{n}-{i:02}.png.json').read_text());lines_by_page[i]=lines
   for l in lines:
    m=re.match(r'^(\d{1,2})[.．]',l['text'])
@@ -16,11 +23,17 @@ for exam in EXAMS:
     for m in re.finditer(r'(?:^|\s)(\d{1,2})[.．]\s',l['text']):
      number=int(m[1]);column=0 if m.start()==0 and l['x']<.1 else 1
      anchors[number]={'page':i,'column':column,'y':l['y']}
- if n==76: anchors[5]={'page':2,'column':0,'y':.07104413335854332} # Vision reads '5.' as 'S.'
+ if n in (71,76): anchors[5]={'page':2,'column':0,'y':.07104413335854332} # Vision reads '5.' as 'S.'
  assert set(anchors)==set(range(1,51)),(n,set(range(1,51))-set(anchors))
  # Official answer tables have repeating triples: question, circled answer, weight.
  answertext=Path(f'tmp/pdfs/{n}-answers.txt').read_text()
  answers={int(q):(CIRCLES.index(a)+1,int(w)) for q,a,w in re.findall(r'(\d+)\s*([①②③④⑤])\s*([123])(?:\s|$)',answertext)}
+ if not answers:
+  # Round 73's official table uses ordinary digits instead of circled answers.
+  cells=[int(value) for value in re.findall(r'^\s*(\d+)\s*$',answertext.rsplit('배점',1)[-1].split('제')[0],re.M)]
+  assert len(cells)==150,(n,'numeric answer table',len(cells))
+  answers={cells[i]:(cells[i+1],cells[i+2]) for i in range(0,len(cells),3)}
+  assert all(1<=a<=5 and 1<=w<=3 for a,w in answers.values())
  assert set(answers)==set(range(1,51)),(n,'answer extraction',answers)
  assert sum(w for a,w in answers.values())==100
  doc=fitz.open(f'tmp/pdfs/{n}-paper.pdf');questions=[]

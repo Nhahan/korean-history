@@ -22,4 +22,5 @@ for exam in exams:
   q['imageWidth'],q['imageHeight']=Image.open(q['image']).size
   q.update(topic=item['topic'],keyExplanation=item['keyExplanation'],options=item['optionTexts'],explanations=item['explanations'],explanationSources=item['explanationSources'])
 path.write_text(json.dumps(exams,ensure_ascii=False,indent=2)+'\n')
-print('Merged 250 questions / 1,250 concise choice notes; official answers and weights unchanged.')
+count=sum(len(exam['questions']) for exam in exams)
+print(f'Merged {count} questions / {count*5:,} concise choice notes; official answers and weights unchanged.')
