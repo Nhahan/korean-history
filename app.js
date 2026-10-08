@@ -25,12 +25,12 @@
     conceptFrequency.clear();
     frequentConcepts.clear();
     const candidates = new Set(conceptVocabulary.map(normalizeConcept));
-    const protectedCompounds = ['태종무열왕', '향약집성방', '향약제생집성방', '중소도시', '소도시', '소도구', '태고종'];
+    const protectedCompounds = ['태종무열왕', '향약집성방', '향약제생집성방', '중소도시', '소도시', '소도구', '태고종', '천태종', '정조의 상업'];
     const vocabulary = [...new Set([...candidates, ...protectedCompounds])].sort((a, b) => b.length - a.length);
     const escaped = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     // Keep all longer names in the matcher, even when their frequency is low.
     // This stops 성왕 matching 진성왕, 무왕 matching 문무왕, and similar compounds.
-    conceptMatcher = new RegExp(vocabulary.map(term => [...term].map(escaped).join('\\s*')).join('|'), 'gu');
+    conceptMatcher = new RegExp(vocabulary.map(term => [...term].map(escaped).join('\\s*') + (term === '태조왕' ? '(?!\\s*건)' : '')).join('|'), 'gu');
     exams.forEach(exam => exam.questions.forEach(question => {
       const conceptsInQuestion = new Set();
       const fields = [question.text, ...(question.options || []), ...(question.shortExplanations || [])];
@@ -135,7 +135,66 @@
       if (page === 'home') renderHome();
       else if (page === 'exam') initExam();
       else if (page === 'answers') renderAnswers();
+      else if (page === 'concepts') await renderConcepts();
     } catch (error) { showError(error.message || '인터넷 연결을 확인하고 다시 시도해 주세요.'); }
+  }
+
+
+  async function renderConcepts() {
+    const response = await fetch('assets/data/concept-eras.json?v=20261008-concept-library');
+    if (!response.ok) throw new Error('시대별 개념을 가져오지 못했습니다.');
+    const taxonomy = await response.json();
+    const eraByConcept = new Map(taxonomy.eras.flatMap(era => era.terms.map(term => [term, era.id])));
+    const entries = new Map();
+    exams.forEach(exam => exam.questions.forEach(question => {
+      (question.shortExplanations || []).forEach(note => {
+        const concepts = [...new Set([...note.matchAll(conceptMatcher)].map(match => normalizeConcept(match[0])))];
+        concepts.filter(concept => frequentConcepts.has(concept)).forEach(concept => {
+          const era = taxonomy.noteEras?.[`${concept}|${note}`] || eraByConcept.get(concept);
+          if (!era) throw new Error('시대 분류가 없는 개념이 있습니다.');
+          const identity = `${era}:${concept}`;
+          const entry = entries.get(identity) || { concept, era, notes: new Map(), references: new Map() };
+          if (!entry.notes.has(note)) entry.notes.set(note, { round: exam.id, number: question.number });
+          entry.references.set(`${exam.id}:${question.number}`, { round: exam.id, number: question.number });
+          entries.set(identity, entry);
+        });
+      });
+    }));
+    const labels = new Map(conceptVocabulary.map(term => [normalizeConcept(term), term]));
+    const cards = [...entries.values()].sort((a, b) => conceptFrequency.get(b.concept).questions - conceptFrequency.get(a.concept).questions || a.concept.localeCompare(b.concept, 'ko'));
+    const eraCounts = new Map(taxonomy.eras.map(era => [era.id, cards.filter(card => card.era === era.id).length]));
+    const questionLink = reference => `exam.html?round=${reference.round}&mode=instant#q-${reference.number}`;
+    const noteHTML = ([note, reference]) => `<li><span>${highlightedNoteHTML(note)}</span><a href="${questionLink(reference)}" aria-label="${reference.round}회 ${reference.number}번 문제로 이동">${reference.round}회 ${reference.number}번 ↗</a></li>`;
+    main.innerHTML = `<div class="concept-heading"><h1>형광펜 개념</h1><span>${new Set(cards.map(card => card.concept)).size}개 개념</span></div><div class="concept-controls"><div class="era-filters" role="group" aria-label="시대 선택"><button type="button" data-era="all" aria-pressed="true">전체 <small>${new Set(cards.map(card => card.concept)).size}</small></button>${taxonomy.eras.map(era => `<button type="button" data-era="${era.id}" aria-pressed="false">${escapeHTML(era.label)} <small>${eraCounts.get(era.id)}</small></button>`).join('')}</div><label class="concept-search"><span class="visually-hidden">개념 검색</span><input type="search" id="concept-search" placeholder="개념 검색" autocomplete="off"></label></div><p id="concept-count" class="concept-count" aria-live="polite"></p><div id="concept-groups">${taxonomy.eras.map(era => `<section class="concept-era" data-era-group="${era.id}" aria-labelledby="era-${era.id}"><h2 id="era-${era.id}">${escapeHTML(era.label)} <small>${eraCounts.get(era.id)}</small></h2><div class="concept-grid">${cards.filter(card => card.era === era.id).map(card => {
+      const frequency = conceptFrequency.get(card.concept);
+      const notes = [...card.notes];
+      const label = taxonomy.labels?.[card.concept] || labels.get(card.concept) || card.concept;
+      const references = [...card.references.values()];
+      return `<article class="concept-card" data-era="${era.id}" data-concept="${escapeHTML(card.concept)}" data-search="${escapeHTML(normalizeConcept(label + notes.map(([note]) => note).join(' ')).toLowerCase())}"><div class="concept-card-heading"><h3>${highlightedNoteHTML(label)}</h3><span>${frequency.rounds.size}회차 · ${frequency.questions}문항</span></div><ul class="concept-notes">${notes.slice(0,3).map(noteHTML).join('')}</ul>${notes.length > 3 ? `<details class="concept-more"><summary>해설 더 보기 <small>${notes.length - 3}</small></summary><ul class="concept-notes">${notes.slice(3).map(noteHTML).join('')}</ul></details>` : ''}<details class="concept-references"><summary>관련 기출 <small>${references.length}</small></summary><div>${references.map(reference => `<a href="${questionLink(reference)}">${reference.round}회 ${reference.number}번 ↗</a>`).join('')}</div></details></article>`;
+    }).join('')}</div></section>`).join('')}</div><p class="concept-empty" hidden>검색 결과가 없습니다.</p>`;
+    let selectedEra = taxonomy.eras.some(era => era.id === params.get('era')) ? params.get('era') : 'all';
+    const search = document.querySelector('#concept-search');
+    function updateConcepts() {
+      const query = normalizeConcept(search.value.trim()).toLowerCase();
+      let shown = 0;
+      document.querySelectorAll('.concept-card').forEach(card => {
+        card.hidden = (selectedEra !== 'all' && card.dataset.era !== selectedEra) || !card.dataset.search.includes(query);
+        if (!card.hidden) shown++;
+      });
+      document.querySelectorAll('.concept-era').forEach(group => { group.hidden = !group.querySelector('.concept-card:not([hidden])'); });
+      document.querySelectorAll('[data-era][aria-pressed]').forEach(button => { button.setAttribute('aria-pressed', String(button.dataset.era === selectedEra)); });
+      document.querySelector('#concept-count').textContent = query || selectedEra !== 'all' ? `${new Set([...document.querySelectorAll('.concept-card:not([hidden])')].map(card => card.dataset.concept)).size}개 개념` : '';
+      document.querySelector('.concept-empty').hidden = shown !== 0;
+    }
+    document.querySelectorAll('.era-filters button').forEach(button => button.addEventListener('click', () => {
+      selectedEra = button.dataset.era;
+      const url = new URL(location.href);
+      if (selectedEra === 'all') url.searchParams.delete('era'); else url.searchParams.set('era', selectedEra);
+      history.replaceState(null, '', url);
+      updateConcepts();
+    }));
+    search.addEventListener('input', updateConcepts);
+    updateConcepts();
   }
 
   function renderHome() {
@@ -266,6 +325,14 @@
     if (mode === 'exam') {
       updateTimer();
       if (!state.submitted) timerId = setInterval(updateTimer, 1000);
+    }
+    const linkedNumber = location.hash.match(/^#q-(\d+)$/)?.[1];
+    const linkedQuestion = linkedNumber && document.querySelector(`#q-${linkedNumber}`);
+    if (linkedQuestion) {
+      linkedQuestion.scrollIntoView({ block: 'start', behavior: 'instant' });
+      const heading = linkedQuestion.querySelector('h2');
+      heading.tabIndex = -1;
+      heading.focus({ preventScroll: true });
     }
   }
   function selectAnswer(number, choice) {
