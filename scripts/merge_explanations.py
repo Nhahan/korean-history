@@ -2,6 +2,8 @@
 import json
 from pathlib import Path
 from PIL import Image
+from normalize_short_notes import load_aliases
+aliases=load_aliases()
 path=Path('assets/data/exams.json');exams=json.loads(path.read_text())
 for exam in exams:
  annotations={}
@@ -18,7 +20,7 @@ for exam in exams:
  for q in exam['questions']:
   item=annotations[q['number']]
   assert len(item['explanations'])==len(item['optionTexts'])==5
-  q['shortExplanations']=short_notes[q['number']]
+  q['shortExplanations']=[aliases.get(note,note) for note in short_notes[q['number']]]
   q['imageWidth'],q['imageHeight']=Image.open(q['image']).size
   q.update(topic=item['topic'],keyExplanation=item['keyExplanation'],options=item['optionTexts'],explanations=item['explanations'],explanationSources=item['explanationSources'])
 path.write_text(json.dumps(exams,ensure_ascii=False,indent=2)+'\n')
