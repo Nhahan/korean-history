@@ -29,10 +29,12 @@ jobs:
         run: node scripts/validate_concepts.cjs
       - name: Validate core study curriculum
         run: python3 scripts/validate_study_guide.py
+      - name: Validate all exam keywords
+        run: python3 scripts/validate_keyword_guide.py
       - name: Prepare static site
         run: |
           mkdir -p _site
-          cp index.html exam.html answers.html concepts.html styles.css app.js .nojekyll _site/
+          cp index.html exam.html answers.html concepts.html keywords.html styles.css app.js .nojekyll _site/
           cp -R assets _site/assets
       - name: Configure Pages
         uses: actions/configure-pages@v5

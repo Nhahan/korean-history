@@ -136,6 +136,7 @@
       else if (page === 'exam') initExam();
       else if (page === 'answers') renderAnswers();
       else if (page === 'concepts') await renderConcepts();
+      else if (page === 'keywords') await renderKeywords();
     } catch (error) { showError(error.message || '인터넷 연결을 확인하고 다시 시도해 주세요.'); }
   }
 
@@ -198,6 +199,55 @@
     }));
     search.addEventListener('input', updateConcepts);
     updateConcepts();
+  }
+
+  async function renderKeywords() {
+    const response = await fetch('assets/data/keyword-guide.json?v=20261009-all-keywords');
+    if (!response.ok) throw new Error('기출 키워드를 가져오지 못했습니다.');
+    const guide = await response.json();
+    const references = studyGuideReferences(guide.facts);
+    const eras = guide.eras.map(era => {
+      const keywords = new Map();
+      guide.facts.filter(fact => fact.era === era.id).forEach(fact => {
+        if (!keywords.has(fact.keyword)) keywords.set(fact.keyword, []);
+        keywords.get(fact.keyword).push(fact);
+      });
+      return { ...era, keywords: [...keywords].sort(([a], [b]) => a.localeCompare(b, 'ko')) };
+    });
+    main.innerHTML = `<div class="concept-heading"><h1>시대별 기출 키워드</h1></div><div class="concept-controls"><div class="era-filters" role="group" aria-label="시대와 나라 선택"><button type="button" data-era="all" aria-pressed="true">전체</button>${eras.map(era => `<button type="button" data-era="${era.id}" aria-pressed="false">${escapeHTML(era.label)}</button>`).join('')}</div><label class="concept-search"><span class="visually-hidden">키워드·내용 검색</span><input type="search" id="keyword-search" placeholder="키워드·내용 검색" autocomplete="off"></label></div><p id="keyword-count" class="concept-count" aria-live="polite"></p><div id="keyword-groups">${eras.map(era => `<section class="concept-era" data-era-group="${era.id}" aria-labelledby="era-${era.id}"><h2 id="era-${era.id}">${escapeHTML(era.label)}</h2><div class="keyword-grid">${era.keywords.map(([keyword, facts], index) => `<article class="keyword-card" data-keyword-era="${era.id}" aria-labelledby="keyword-${era.id}-${index}"><h3 id="keyword-${era.id}-${index}">${highlightedNoteHTML(keyword)}</h3><ul>${facts.map(fact => {
+      const links = [...references.get(fact.id).values()].sort((a, b) => b.round - a.round || a.number - b.number);
+      return `<li class="keyword-fact" data-fact-id="${fact.id}" data-search="${escapeHTML(normalizeConcept(era.label + keyword + fact.text).toLowerCase())}"><span class="concept-fact-note">${highlightedNoteHTML(fact.text)}</span><details class="concept-references"><summary>기출 ${links.length}문항</summary><div>${links.map(link => `<a href="exam.html?round=${link.round}&mode=instant#q-${link.number}">${link.round}회 ${link.number}번 ↗</a>`).join('')}</div></details></li>`;
+    }).join('')}</ul></article>`).join('')}</div></section>`).join('')}</div><p class="concept-empty" hidden>검색 결과가 없습니다.</p>`;
+    let selectedEra = eras.some(era => era.id === params.get('era')) ? params.get('era') : 'all';
+    const search = document.querySelector('#keyword-search');
+    function updateKeywords() {
+      const query = normalizeConcept(search.value.trim()).toLowerCase();
+      document.querySelectorAll('.keyword-fact').forEach(fact => {
+        fact.hidden = !fact.dataset.search.includes(query);
+      });
+      let count = 0;
+      document.querySelectorAll('.keyword-card').forEach(card => {
+        card.hidden = (selectedEra !== 'all' && card.dataset.keywordEra !== selectedEra) || !card.querySelector('.keyword-fact:not([hidden])');
+        if (!card.hidden) count++;
+      });
+      document.querySelectorAll('.concept-era').forEach(group => {
+        group.hidden = !group.querySelector('.keyword-card:not([hidden])');
+      });
+      document.querySelectorAll('.era-filters button').forEach(button => {
+        button.setAttribute('aria-pressed', String(button.dataset.era === selectedEra));
+      });
+      document.querySelector('#keyword-count').textContent = query ? `${count}개 키워드` : '';
+      document.querySelector('.concept-empty').hidden = count !== 0;
+    }
+    document.querySelectorAll('.era-filters button').forEach(button => button.addEventListener('click', () => {
+      selectedEra = button.dataset.era;
+      const url = new URL(location.href);
+      if (selectedEra === 'all') url.searchParams.delete('era'); else url.searchParams.set('era', selectedEra);
+      history.replaceState(null, '', url);
+      updateKeywords();
+    }));
+    search.addEventListener('input', updateKeywords);
+    updateKeywords();
   }
 
   function renderHome() {
