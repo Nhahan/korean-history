@@ -140,45 +140,54 @@
   }
 
 
-  async function renderConcepts() {
-    const response = await fetch('assets/data/concept-eras.json?v=20261008-era-facts-final');
-    if (!response.ok) throw new Error('시대별 정리를 가져오지 못했습니다.');
-    const taxonomy = await response.json();
-    const eraByConcept = new Map(taxonomy.eras.flatMap(era => era.terms.map(term => [term, era.id])));
-    const groups = new Map(taxonomy.eras.map(era => [era.id, new Map()]));
+  function studyGuideReferences(facts) {
+    const targets = new Map();
+    const references = new Map(facts.map(fact => [fact.id, new Map()]));
+    facts.forEach(fact => {
+      new Set([fact.text, ...(fact.noteAliases || [])]).forEach(note => {
+        const ids = targets.get(note) || new Set();
+        ids.add(fact.id);
+        targets.set(note, ids);
+      });
+    });
     exams.forEach(exam => exam.questions.forEach(question => {
       (question.shortExplanations || []).forEach(note => {
-        const concepts = [...new Set([...note.matchAll(conceptMatcher)].map(match => normalizeConcept(match[0])))].filter(concept => frequentConcepts.has(concept));
-        const eras = concepts.length ? new Set(taxonomy.notePeriods?.[note] ? [taxonomy.notePeriods[note]] : concepts.map(concept => taxonomy.noteEras?.[`${concept}|${note}`] || eraByConcept.get(concept))) : new Set();
-        eras.forEach(era => {
-          if (!groups.has(era)) throw new Error('시대 분류가 없는 개념이 있습니다.');
-          const facts = groups.get(era);
-          const fact = facts.get(note) || { note, references: new Map() };
-          fact.references.set(`${exam.id}:${question.number}`, { round: exam.id, number: question.number });
-          facts.set(note, fact);
-        });
+        targets.get(note)?.forEach(id => references.get(id).set(`${exam.id}:${question.number}`, { round: exam.id, number: question.number }));
       });
     }));
-    const total = new Set([...groups.values()].flatMap(facts => [...facts.keys()])).size;
+    return references;
+  }
+
+  async function renderConcepts() {
+    const response = await fetch('assets/data/study-guide.json?v=20261009-complete-guide');
+    if (!response.ok) throw new Error('시대별 정리를 가져오지 못했습니다.');
+    const guide = await response.json();
+    const references = studyGuideReferences(guide.facts);
+    const sourceById = new Map(guide.sources.map(source => [source.id, source]));
     const questionLink = reference => `exam.html?round=${reference.round}&mode=instant#q-${reference.number}`;
-    const activeEras = taxonomy.eras.filter(era => groups.get(era.id).size);
-    main.innerHTML = `<div class="concept-heading"><h1>시대별 핵심 정리</h1><span>${total}개 핵심 내용</span></div><div class="concept-controls"><div class="era-filters" role="group" aria-label="시대와 나라 선택"><button type="button" data-era="all" aria-pressed="true">전체</button>${activeEras.map(era => `<button type="button" data-era="${era.id}" aria-pressed="false">${escapeHTML(era.label)}</button>`).join('')}</div><label class="concept-search"><span class="visually-hidden">내용 검색</span><input type="search" id="concept-search" placeholder="내용 검색" autocomplete="off"></label></div><p id="concept-count" class="concept-count" aria-live="polite"></p><div id="concept-groups">${activeEras.map(era => `<section class="concept-era" data-era-group="${era.id}" aria-labelledby="era-${era.id}"><h2 id="era-${era.id}">${escapeHTML(era.label)}</h2><ul class="concept-facts">${[...groups.get(era.id).values()].sort((a, b) => a.note.localeCompare(b.note, 'ko')).map(fact => {
-      const references = [...fact.references.values()].sort((a, b) => b.round - a.round || a.number - b.number);
-      return `<li class="concept-fact" data-era="${era.id}" data-search="${escapeHTML(normalizeConcept(fact.note).toLowerCase())}"><span class="concept-fact-note">${highlightedNoteHTML(fact.note)}</span><details class="concept-references"><summary>기출 ${references.length}문항</summary><div>${references.map(reference => `<a href="${questionLink(reference)}">${reference.round}회 ${reference.number}번 ↗</a>`).join('')}</div></details></li>`;
-    }).join('')}</ul></section>`).join('')}</div><p class="concept-empty" hidden>검색 결과가 없습니다.</p>`;
-    let selectedEra = activeEras.some(era => era.id === params.get('era')) ? params.get('era') : 'all';
+    const eras = guide.eras.map(era => ({ ...era, facts: guide.facts.filter(fact => fact.era === era.id) }));
+    main.innerHTML = `<div class="concept-heading"><h1>시대별 핵심 정리</h1><span>${guide.facts.length}개 핵심 내용</span></div><div class="concept-controls"><div class="era-filters" role="group" aria-label="시대와 나라 선택"><button type="button" data-era="all" aria-pressed="true">전체</button>${eras.map(era => `<button type="button" data-era="${era.id}" aria-pressed="false">${escapeHTML(era.label)}</button>`).join('')}</div><label class="concept-search"><span class="visually-hidden">내용 검색</span><input type="search" id="concept-search" placeholder="내용 검색" autocomplete="off"></label></div><p id="concept-count" class="concept-count" aria-live="polite"></p><div id="concept-groups">${eras.map(era => {
+      const categories = [...new Set(era.facts.map(fact => fact.category))];
+      const sources = [...new Set(era.facts.flatMap(fact => fact.sourceIds))].map(id => sourceById.get(id));
+      return `<section class="concept-era" data-era-group="${era.id}" aria-labelledby="era-${era.id}"><h2 id="era-${era.id}">${escapeHTML(era.label)}</h2>${categories.map((category, index) => `<div class="guide-category" aria-labelledby="category-${era.id}-${index}"><h3 id="category-${era.id}-${index}">${escapeHTML(category)}</h3><ul class="concept-facts">${era.facts.filter(fact => fact.category === category).map(fact => {
+        const links = [...references.get(fact.id).values()].sort((a, b) => b.round - a.round || a.number - b.number);
+        return `<li class="concept-fact" data-fact-id="${fact.id}" data-era="${era.id}" data-search="${escapeHTML(normalizeConcept(era.label + category + fact.text).toLowerCase())}"><span class="concept-fact-note">${highlightedNoteHTML(fact.text)}</span>${links.length ? `<details class="concept-references"><summary>기출 ${links.length}문항</summary><div>${links.map(reference => `<a href="${questionLink(reference)}">${reference.round}회 ${reference.number}번 ↗</a>`).join('')}</div></details>` : ''}</li>`;
+      }).join('')}</ul></div>`).join('')}<details class="guide-sources"><summary>참고 자료</summary><ul>${sources.map(source => `<li><a href="${escapeHTML(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(source.title)} ↗</a></li>`).join('')}</ul></details></section>`;
+    }).join('')}</div><p class="concept-empty" hidden>검색 결과가 없습니다.</p>`;
+    let selectedEra = eras.some(era => era.id === params.get('era')) ? params.get('era') : 'all';
     const search = document.querySelector('#concept-search');
     function updateConcepts() {
       const query = normalizeConcept(search.value.trim()).toLowerCase();
-      const visibleNotes = new Set();
+      let count = 0;
       document.querySelectorAll('.concept-fact').forEach(fact => {
         fact.hidden = (selectedEra !== 'all' && fact.dataset.era !== selectedEra) || !fact.dataset.search.includes(query);
-        if (!fact.hidden) visibleNotes.add(fact.querySelector('.concept-fact-note').textContent);
+        if (!fact.hidden) count++;
       });
+      document.querySelectorAll('.guide-category').forEach(category => { category.hidden = !category.querySelector('.concept-fact:not([hidden])'); });
       document.querySelectorAll('.concept-era').forEach(group => { group.hidden = !group.querySelector('.concept-fact:not([hidden])'); });
       document.querySelectorAll('[data-era][aria-pressed]').forEach(button => { button.setAttribute('aria-pressed', String(button.dataset.era === selectedEra)); });
-      document.querySelector('#concept-count').textContent = query || selectedEra !== 'all' ? `${visibleNotes.size}개 핵심 내용` : '';
-      document.querySelector('.concept-empty').hidden = visibleNotes.size !== 0;
+      document.querySelector('#concept-count').textContent = query || selectedEra !== 'all' ? `${count}개 핵심 내용` : '';
+      document.querySelector('.concept-empty').hidden = count !== 0;
     }
     document.querySelectorAll('.era-filters button').forEach(button => button.addEventListener('click', () => {
       selectedEra = button.dataset.era;

@@ -56,4 +56,4 @@ assert(!context.qa.render('정조의 상업').includes('data-concept="의상"'))
 assert(context.qa.render('태조 왕건').includes('data-concept="왕건"'));
 const expected = '대한 자강회는 고종 퇴위에 반대.';
 assert.equal(aliases['고종 퇴위 반대는 대한자강회.'], expected);
-console.log(`Validated ${marked.size} highlighted concepts / ${classified} occurrences / ${facts.size} distinct study facts / ${taxonomy.eras.length} periods / ${Object.keys(aliases).length} reviewed aliases.`);
+console.log(`Validated ${marked.size} highlighted concepts / ${classified} occurrences / ${facts.size} distinct highlighted note sentences / ${taxonomy.eras.length} note periods / ${Object.keys(aliases).length} reviewed aliases.`);

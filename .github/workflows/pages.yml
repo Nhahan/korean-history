@@ -27,6 +27,8 @@ jobs:
         run: python3 scripts/validate_data.py
       - name: Validate study notes and periods
         run: node scripts/validate_concepts.cjs
+      - name: Validate core study curriculum
+        run: python3 scripts/validate_study_guide.py
       - name: Prepare static site
         run: |
           mkdir -p _site
