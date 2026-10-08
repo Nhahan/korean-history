@@ -263,7 +263,7 @@
         updateRoundLinks();
       });
     });
-    document.querySelector('#round-list').innerHTML = exams.map((exam, index) => `<article class="round-card"><div class="round-card-top"><span class="round-level">심화</span>${index === 0 ? '<span class="latest-badge">최신 회차</span>' : ''}</div><h3>제${exam.id}회</h3><p class="round-date">${escapeHTML(dateLabel(exam.date))} 시행</p><div class="round-divider"></div><div class="round-meta"><span>${questionCount(exam)}문항</span><span>${exam.duration || 80}분 · 100점</span></div><a class="round-start" data-round="${exam.id}" href="exam.html?round=${exam.id}&mode=${selectedMode}"><span>문제 풀기</span><span aria-hidden="true">→</span></a><p class="round-progress" data-progress-round="${exam.id}" hidden></p><a class="round-answer" href="answers.html?round=${exam.id}">정답표 보기</a></article>`).join('');
+    document.querySelector('#round-list').innerHTML = exams.map(exam => `<article class="round-card"><div class="round-card-top"><span class="round-level">심화</span></div><h3>제${exam.id}회</h3><p class="round-date">${escapeHTML(dateLabel(exam.date))} 시행</p><div class="round-divider"></div><div class="round-meta"><span>${questionCount(exam)}문항</span><span>${exam.duration || 80}분 · 100점</span></div><a class="round-start" data-round="${exam.id}" href="exam.html?round=${exam.id}&mode=${selectedMode}"><span>문제 풀기</span><span aria-hidden="true">→</span></a><p class="round-progress" data-progress-round="${exam.id}" hidden></p><a class="round-answer" href="answers.html?round=${exam.id}">정답표 보기</a></article>`).join('');
     function updateRoundLinks() {
       document.querySelectorAll('.round-start').forEach(link => {
         const exam = exams.find(item => item.id === Number(link.dataset.round));
