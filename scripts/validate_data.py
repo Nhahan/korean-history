@@ -3,6 +3,8 @@
 
 import argparse
 import json
+import math
+import re
 from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
@@ -10,6 +12,28 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED_ROUNDS = {"75", "76", "77", "78", "79"}
+REGION_TOLERANCE = 0.000001
+# Public history institutions whose domains do not use government/academic suffixes.
+PRIMARY_SOURCE_DOMAINS = {
+    "i815.or.kr", "kdemo.or.kr", "itkc.or.kr", "koreanhistory.or.kr", "nahf.or.kr",
+    "britishmuseum.org", "metmuseum.org", "si.edu",
+}
+
+
+def primary_source_url(url):
+    if not isinstance(url, str):
+        return False
+    try:
+        parsed = urlparse(url)
+        host = (parsed.hostname or "").lower().rstrip(".")
+    except ValueError:
+        return False
+    if parsed.scheme != "https" or not host or parsed.username or parsed.password:
+        return False
+    public_suffix = re.search(r"\.(?:go\.kr|ac\.kr|mil\.kr|gov|edu|gov\.[a-z]{2}|edu\.[a-z]{2})$", host)
+    institution = any(host == domain or host.endswith("." + domain)
+                      for domain in PRIMARY_SOURCE_DOMAINS)
+    return bool(public_suffix or institution)
 
 
 def validate(data_path: Path) -> list[str]:
@@ -83,8 +107,46 @@ def validate(data_path: Path) -> list[str]:
             check(isinstance(question.get("text"), str), f"{qlabel}: text must be a string.")
             options = question.get("options")
             check(isinstance(options, list) and len(options) == 5 and
-                  all(isinstance(option, str) for option in options),
-                  f"{qlabel}: options must contain five strings.")
+                  all(isinstance(option, str) and bool(option.strip()) for option in options),
+                  f"{qlabel}: options must contain five nonempty transcriptions or image descriptions.")
+            if isinstance(options, list):
+                for index, option in enumerate(options, 1):
+                    generic = isinstance(option, str) and re.fullmatch(
+                        r"(?:[①②③④⑤1-5]\s*(?:번)?\s*(?:보기|선택지|답안)|(?:보기|선택지|답안)\s*[①②③④⑤1-5])",
+                        option.strip())
+                    check(not generic, f"{qlabel}, choice {index}: replace the generic label with actual choice content.")
+            regions = question.get("choiceRegions")
+            check(isinstance(regions, list) and len(regions) == 5,
+                  f"{qlabel}: choiceRegions must contain five original-choice rectangles.")
+            if isinstance(regions, list):
+                for index, region in enumerate(regions, 1):
+                    values = [region.get(key) for key in ("x", "y", "w", "h")] if isinstance(region, dict) else []
+                    finite = len(values) == 4 and all(type(value) in (int, float) and math.isfinite(value)
+                                                    for value in values)
+                    if not finite:
+                        errors.append(f"{qlabel}, choice {index}: region coordinates must be finite numbers.")
+                        continue
+                    x, y, width, height = values
+                    check(all(0 <= value <= 1 for value in values) and width > 0 and height > 0 and
+                          x + width <= 1 + REGION_TOLERANCE and y + height <= 1 + REGION_TOLERANCE,
+                          f"{qlabel}, choice {index}: region must have positive area within normalized image bounds.")
+            explanations = question.get("explanations")
+            check(isinstance(explanations, list) and len(explanations) == 5 and
+                  all(isinstance(item, str) and len(item.strip()) >= 20 for item in explanations),
+                  f"{qlabel}: explanations must contain five substantive strings of at least 20 characters.")
+            key_explanation = question.get("keyExplanation")
+            check(isinstance(key_explanation, str) and bool(key_explanation.strip()),
+                  f"{qlabel}: keyExplanation must be a nonempty string.")
+            explanation_sources = question.get("explanationSources")
+            check(isinstance(explanation_sources, list) and len(explanation_sources) >= 1,
+                  f"{qlabel}: explanationSources must contain at least one primary source.")
+            if isinstance(explanation_sources, list):
+                for index, explanation_source in enumerate(explanation_sources, 1):
+                    valid = isinstance(explanation_source, dict)
+                    title = explanation_source.get("title") if valid else None
+                    url = explanation_source.get("url") if valid else None
+                    check(isinstance(title, str) and bool(title.strip()) and primary_source_url(url),
+                          f"{qlabel}, explanation source {index}: a title and reliable primary HTTPS URL are required.")
             image = question.get("image")
             if not isinstance(image, str) or not image:
                 errors.append(f"{qlabel}: image path is missing.")
@@ -116,7 +178,7 @@ def main():
         for error in errors:
             print(f"  - {error}")
         raise SystemExit(1)
-    print("Validated 5 exams / 250 questions / 250 images / 100 points per exam.")
+    print("Validated 5 exams / 250 questions / 250 images / 1,250 choice regions and explanations / 100 points per exam.")
 
 
 if __name__ == "__main__":
