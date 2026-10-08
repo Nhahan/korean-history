@@ -134,6 +134,11 @@ def validate(data_path: Path) -> list[str]:
             check(isinstance(explanations, list) and len(explanations) == 5 and
                   all(isinstance(item, str) and len(item.strip()) >= 20 for item in explanations),
                   f"{qlabel}: explanations must contain five substantive strings of at least 20 characters.")
+            short_explanations = question.get("shortExplanations")
+            check(isinstance(short_explanations, list) and len(short_explanations) == 5 and
+                  all(isinstance(item, str) and len(item.strip()) >= 4 and len(item) <= 26 and
+                      not re.search(r"[\r\n\v\f\x85\u2028\u2029]", item) for item in short_explanations),
+                  f"{qlabel}: shortExplanations must contain five single-line strings of 4–26 characters.")
             key_explanation = question.get("keyExplanation")
             check(isinstance(key_explanation, str) and bool(key_explanation.strip()),
                   f"{qlabel}: keyExplanation must be a nonempty string.")
@@ -148,6 +153,10 @@ def validate(data_path: Path) -> list[str]:
                     check(isinstance(title, str) and bool(title.strip()) and primary_source_url(url),
                           f"{qlabel}, explanation source {index}: a title and reliable primary HTTPS URL are required.")
             image = question.get("image")
+            for dimension in ("imageWidth", "imageHeight"):
+                value = question.get(dimension)
+                check(type(value) is int and value > 0,
+                      f"{qlabel}: {dimension} must be a positive integer.")
             if not isinstance(image, str) or not image:
                 errors.append(f"{qlabel}: image path is missing.")
                 continue
@@ -178,7 +187,7 @@ def main():
         for error in errors:
             print(f"  - {error}")
         raise SystemExit(1)
-    print("Validated 5 exams / 250 questions / 250 images / 1,250 choice regions and explanations / 100 points per exam.")
+    print("Validated 5 exams / 250 questions and images / 1,250 choice regions, short notes and source-backed explanations / 100 points per exam.")
 
 
 if __name__ == "__main__":

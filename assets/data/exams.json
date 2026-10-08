@@ -70,7 +70,16 @@
             "title": "우리역사넷 — 구석기 시대의 생활",
             "url": "https://contents.history.go.kr/front/ta/view.do?levelId=ta_h71_0030_0010_0020_0030"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "가락바퀴는 신석기 도구.",
+          "구석기: 동굴·막집 생활.",
+          "청동 방울은 청동기 도구.",
+          "고인돌은 청동기 무덤.",
+          "빗살무늬 토기는 신석기."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 855
       },
       {
         "number": 2,
@@ -132,7 +141,16 @@
             "title": "한국민족문화대백과사전 — 동예",
             "url": "https://encykorea.aks.ac.kr/Article/E0016693"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "소도는 삼한의 신성 구역.",
+          "범금 8조는 고조선의 법.",
+          "제가 회의는 고구려.",
+          "단궁·과하마·반어피는 동예.",
+          "12배 배상은 부여·고구려."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 896
       },
       {
         "number": 3,
@@ -194,7 +212,16 @@
             "title": "우리역사넷 — 무령왕",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?code=kc_age_10&levelId=kc_n100930"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "고흥의 서기는 근초고왕 때.",
+          "22담로 왕족 파견은 무령왕.",
+          "고국원왕 전사는 371년.",
+          "불교 수용은 침류왕 때.",
+          "58성 상실은 아신왕 때."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 822
       },
       {
         "number": 4,
@@ -260,7 +287,16 @@
             "title": "한국민족문화대백과사전 — 동시전",
             "url": "https://encykorea.aks.ac.kr/Article/E0016605"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "금관가야는 철을 수출.",
+          "부경은 고구려 곡식 창고.",
+          "은병은 고려의 은 화폐.",
+          "벽란도는 고려 무역항.",
+          "동시전은 신라 시장 관청."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 930
       },
       {
         "number": 5,
@@ -322,7 +358,16 @@
             "title": "우리역사넷 — 강수 이야기",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_039_0030"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "삼대목은 위홍·대구화상.",
+          "청방인문표의 저자는 강수.",
+          "왕오천축국전은 혜초.",
+          "화왕계는 설총의 우화.",
+          "이두 정리는 설총의 업적."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 778
       },
       {
         "number": 6,
@@ -388,7 +433,16 @@
             "title": "한국민족문화대백과사전 — 평창 월정사 팔각 구층석탑",
             "url": "https://encykorea.aks.ac.kr/Article/E0041063"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "정림사지 오층석탑은 백제.",
+          "불국사 다보탑은 통일신라.",
+          "분황사 모전석탑은 신라.",
+          "사사자 삼층석탑은 통일신라.",
+          "월정사 구층석탑은 고려."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 1003
       },
       {
         "number": 7,
@@ -450,7 +504,16 @@
             "title": "한국민족문화대백과사전 — 발해",
             "url": "https://encykorea.aks.ac.kr/Article/E0021626"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "골품제는 신라의 신분 제도.",
+          "정사암 회의는 백제.",
+          "인안·대흥은 발해 연호.",
+          "진대법은 고구려 구휼 제도.",
+          "기인 제도는 고려."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 651
       },
       {
         "number": 8,
@@ -512,7 +575,16 @@
             "title": "우리역사넷 — 국학",
             "url": "https://contents.history.go.kr/front/tg/view.do?ganada=전체&levelId=tg_001_0600&pageUnit=10&treeId=0102"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "전국 지방 학교는 향교.",
+          "국학은 박사·조교가 교육.",
+          "7재는 고려 국자감의 과정.",
+          "양현고는 고려 장학 기금.",
+          "생원·진사는 조선 성균관."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 609
       },
       {
         "number": 9,
@@ -574,7 +646,16 @@
             "title": "한국민족문화대백과사전 — 광평성",
             "url": "https://encykorea.aks.ac.kr/Article/E0005320"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "공산 전투 전사는 신숭겸.",
+          "경주 사심관은 경순왕.",
+          "후당·오월에 사신을 보낸 견훤.",
+          "일리천 승리는 왕건.",
+          "궁예가 광평성 등을 설치."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 614
       },
       {
         "number": 10,
@@ -640,7 +721,16 @@
             "title": "한국민족문화대백과사전 — 헌덕왕",
             "url": "https://encykorea.aks.ac.kr/Article/E0063205"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "후백제 건국은 900년.",
+          "걸사표 작성은 608년.",
+          "김헌창의 난은 822년.",
+          "최치원 시무책은 894년.",
+          "김춘추 즉위는 654년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 747
       },
       {
         "number": 11,
@@ -706,7 +796,16 @@
             "title": "한국민족문화대백과사전 — 이불병좌상",
             "url": "https://encykorea.aks.ac.kr/Article/E0044496"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "이불병좌상은 발해 유물.",
+          "금관은 신라 유물.",
+          "연가 7년명 불상은 고구려.",
+          "금동 대향로는 백제 유물.",
+          "상감 청자 주전자는 고려."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 1106
       },
       {
         "number": 12,
@@ -772,7 +871,16 @@
             "title": "우리역사넷 — 소 수공업",
             "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_019_0030_0040_0010_0020"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "솔빈부의 말은 발해 특산물.",
+          "상품 작물 재배는 조선 후기.",
+          "광산 경영자 덕대는 조선 후기.",
+          "중강 개시·후시는 조선 후기.",
+          "고려의 소에서 특산물 생산."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 709
       },
       {
         "number": 13,
@@ -834,7 +942,16 @@
             "title": "우리역사넷 — 초조대장경, 고려의 첫 번째 대장경",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200500"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "현종 때 초조대장경 시작.",
+          "시무 28조는 성종 때.",
+          "별무반은 숙종 때 설치.",
+          "만부교 사건은 태조 때.",
+          "광덕·준풍은 광종 연호."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 813
       },
       {
         "number": 14,
@@ -896,7 +1013,16 @@
             "title": "우리역사넷 — 묘청의 난",
             "url": "https://contents.history.go.kr/mobile/ht/view.do?levelId=ht_002_0030_0030"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "정방 설치는 1225년.",
+          "과거제 도입은 958년.",
+          "묘청의 난은 1135년 시작.",
+          "만적의 모의는 1198년.",
+          "서희의 담판은 993년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 748
       },
       {
         "number": 15,
@@ -958,7 +1084,16 @@
             "title": "한국민족문화대백과사전 — 삼국유사",
             "url": "https://encykorea.aks.ac.kr/Article/E0026482"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "기전체는 삼국사기의 형식.",
+          "남북국 용어는 발해고.",
+          "삼국유사에 단군 건국 이야기.",
+          "동명왕편은 이규보의 서사시.",
+          "상대·중대·하대는 삼국사기."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 829
       },
       {
         "number": 16,
@@ -1020,7 +1155,16 @@
             "title": "우리역사넷 — 몽고풍",
             "url": "https://contents.history.go.kr/eh_kk/teach/notebook/data/37_d02.htm"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "서얼 통청 운동은 조선 후기.",
+          "정감록 유포는 조선 후기.",
+          "원 간섭기에 변발·호복 유행.",
+          "망이·망소이 봉기는 1176년.",
+          "흑창은 고려 태조 때 설치."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 823
       },
       {
         "number": 17,
@@ -1082,7 +1226,16 @@
             "title": "한국민족문화대백과사전 — 고려, 위화도 회군",
             "url": "https://encykorea.aks.ac.kr/Article/E0003424"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "1196~1232년: 회군 이전.",
+          "1232~1274년: 회군 이전.",
+          "1274~1356년: 회군 이전.",
+          "회군 1388년: 탈환·과전법 사이.",
+          "1391~1398년: 회군 이후."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 756
       },
       {
         "number": 18,
@@ -1144,7 +1297,16 @@
             "title": "우리역사넷 — 고려 성균관과 성리학 교육",
             "url": "https://contents.history.go.kr/front/km/view.do?levelId=km_024_0040_0010_0030"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "화랑세기·고승전은 김대문.",
+          "삼국사기 편찬은 김부식.",
+          "불씨잡변은 정도전.",
+          "예안 향약은 이황.",
+          "이색이 정몽주를 학관에 추천."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 851
       },
       {
         "number": 19,
@@ -1206,7 +1368,16 @@
             "title": "한국민족문화대백과사전 — 칠정산내편",
             "url": "https://encykorea.aks.ac.kr/Article/E0058537"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "계미자 주조는 태종 때.",
+          "동의보감 완성은 광해군 때.",
+          "대전통편은 정조 때 반포.",
+          "국조오례의 완성은 성종 때.",
+          "칠정산 내편은 세종 때."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 1092
       },
       {
         "number": 20,
@@ -1268,7 +1439,16 @@
             "title": "우리역사넷 — 관수관급제",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_080_0040"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "역분전은 고려 태조 때.",
+          "공음전은 고려의 세습 토지.",
+          "녹과전은 고려 원종 때.",
+          "관수관급제: 관청이 세금 징수.",
+          "전지·시지 지급은 고려 전시과."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 808
       },
       {
         "number": 21,
@@ -1330,7 +1510,16 @@
             "title": "한국사데이터베이스 — 초량 왜관과 계해약조",
             "url": "https://db.history.go.kr/id/kn_061_0080_0050"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "주자감은 발해의 학교.",
+          "초량 왜관은 조선 후기 무역항.",
+          "팔관회는 고려의 국가 행사.",
+          "제위보는 고려의 구휼 기금.",
+          "빈공과 응시는 통일신라."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 993
       },
       {
         "number": 22,
@@ -1392,7 +1581,16 @@
             "title": "한국민족문화대백과사전 — 강홍립",
             "url": "https://encykorea.aks.ac.kr/Article/E0001497"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "처인성 전투는 1232년.",
+          "건주위 정벌은 1467년.",
+          "행주 대첩은 1593년.",
+          "사르후 참전은 1619년.",
+          "광교산 전투는 1637년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 707
       },
       {
         "number": 23,
@@ -1454,7 +1652,16 @@
             "title": "한국민족문화대백과사전 — 이인좌의 난",
             "url": "https://encykorea.aks.ac.kr/Article/E0045630"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "장용영은 정조 때 설치.",
+          "예송은 현종 때 발생.",
+          "정계비는 숙종 때 건립.",
+          "이인좌의 난은 영조 때.",
+          "신류의 나선 정벌은 효종 때."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 851
       },
       {
         "number": 24,
@@ -1516,7 +1723,16 @@
             "title": "국사편찬위원회 — 승정원의 조직과 기능",
             "url": "https://sjw.history.go.kr/intro/intro.do"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "내각일력은 규장각 기록.",
+          "상설 기구가 된 것은 비변사.",
+          "은대·후원은 승정원의 별칭.",
+          "대제학·경연은 홍문관.",
+          "서경권은 사헌부·사간원."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1035
       },
       {
         "number": 25,
@@ -1582,7 +1798,16 @@
             "title": "한국민족문화대백과사전 — 지구",
             "url": "https://encykorea.aks.ac.kr/Article/E0054086"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "의산문답의 저자는 홍대용.",
+          "양반전은 박지원의 소설.",
+          "북학의의 저자는 박제가.",
+          "지구전요의 저자는 최한기.",
+          "고금석림의 저자는 이의봉."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 762
       },
       {
         "number": 26,
@@ -1644,7 +1869,16 @@
             "title": "노걸대 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0012632"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "신량역천은 천한 역을 진 양인.",
+          "감사·방백은 관찰사의 별칭.",
+          "역관은 노걸대로 외국어 공부.",
+          "매매·상속 대상은 노비.",
+          "사초를 쓴 관원은 사관."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 687
       },
       {
         "number": 27,
@@ -1706,7 +1940,16 @@
             "title": "홍경래의 난 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0063948"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "1811년 홍경래·우군칙 봉기.",
+          "청군 파병은 임오군란·동학.",
+          "집강소는 동학 농민군 기구.",
+          "공주 피란은 이괄의 난.",
+          "박규수 파견은 진주 농민 봉기."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 925
       },
       {
         "number": 28,
@@ -1768,7 +2011,16 @@
             "title": "병인양요 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0023142"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "거문도 점령은 영국.",
+          "용암포 조차 요구는 러시아.",
+          "운산 금광 채굴권은 미국.",
+          "셔먼호 구실 침략은 미국.",
+          "프랑스가 외규장각 도서 약탈."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 804
       },
       {
         "number": 29,
@@ -1830,7 +2082,16 @@
             "title": "임오군란 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0047565"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "임오군란 뒤 제물포 조약 체결.",
+          "13도 창의군은 정미의병.",
+          "입헌 군주제는 독립 협회 목표.",
+          "척화비는 1871년 건립.",
+          "황사영 백서는 1801년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 782
       },
       {
         "number": 30,
@@ -1896,7 +2157,16 @@
             "title": "5군영의 운영 — 국사편찬위원회 우리역사넷",
             "url": "https://contents.history.go.kr/front/tg/view.do?ganada=0~9&levelId=tg_003_1510&pageUnit=20&treeId=0209"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "간도 관리사 임명은 1903년.",
+          "1881년 무위영·장어영 개편.",
+          "동국문헌비고는 1770년 편찬.",
+          "23부 개편은 1895년.",
+          "대한국 국제는 1899년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 823
       },
       {
         "number": 31,
@@ -1958,7 +2228,16 @@
             "title": "한성사범학교 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0061733"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "톈진 조약은 1885년.",
+          "사범 학교 관제는 1895년.",
+          "독립신문은 1896년 창간.",
+          "경부선 개통은 1905년.",
+          "원산 학사는 1883년 설립."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 673
       },
       {
         "number": 32,
@@ -2020,7 +2299,16 @@
             "title": "한일의정서 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0061922"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "러일 전쟁 뒤 한일의정서 강요.",
+          "고종 퇴위는 1907년.",
+          "군대 해산은 1907년.",
+          "화폐 정리 사업은 1905년.",
+          "합방 청원서는 1909년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 646
       },
       {
         "number": 33,
@@ -2082,7 +2370,16 @@
             "title": "의병 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0043232"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "1863~1871년: 의병 이전.",
+          "1871~1884년: 의병 이전.",
+          "1884~1895년: 단발령 이전.",
+          "1896년 을미의병 해산 권고.",
+          "1905~1910년: 의병 이후."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 481
       },
       {
         "number": 34,
@@ -2144,7 +2441,16 @@
             "title": "지계아문의 설치 — 국사편찬위원회 우리역사넷",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_129_0040"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "한성순보는 1883년 발행.",
+          "1901년 지계아문이 지계 발급.",
+          "육영 공원은 1894년 폐교.",
+          "보빙사 파견은 1883년.",
+          "우정총국 축하연은 1884년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 720
       },
       {
         "number": 35,
@@ -2206,7 +2512,16 @@
             "title": "대한매일신보와 국채 보상 운동 — 국사편찬위원회 우리역사넷",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_139_0040"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "대한 천일 은행은 1899년.",
+          "대한매일신보가 국채 보상 지원.",
+          "민립 대학 모금은 1923년.",
+          "백정 차별 철폐는 형평 운동.",
+          "자작회는 물산 장려 운동."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 887
       },
       {
         "number": 36,
@@ -2272,7 +2587,16 @@
             "title": "숭무학교 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0032067"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "대한광복회는 공화정 추구.",
+          "숭무 학교는 멕시코에서 설립.",
+          "만민 공동회는 독립 협회.",
+          "국권 반환 요구는 독립의군부.",
+          "독립 공채는 임시 정부가 발행."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 799
       },
       {
         "number": 37,
@@ -2334,7 +2658,16 @@
             "title": "조선 프롤레타리아 예술가 동맹 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0052252"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "은세계 공연은 1908년.",
+          "독립문 모금은 1896년.",
+          "카프는 1925년 결성.",
+          "석조전은 1910년 완공.",
+          "전차 개통은 1899년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 885
       },
       {
         "number": 38,
@@ -2400,7 +2733,16 @@
             "title": "원산 총파업 — 국사편찬위원회 우리역사넷",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i402600"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "방곡령은 1889~1890년대 초.",
+          "농광 회사는 1904년 설립.",
+          "총상회 상권 수호는 1898년.",
+          "회사령은 1910년 공포.",
+          "원산 총파업은 1929년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1030
       },
       {
         "number": 39,
@@ -2462,7 +2804,16 @@
             "title": "광주학생운동 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0005301"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "형평사는 백정 차별 철폐 단체.",
+          "통감부는 1910년까지 운영.",
+          "순종 장례일 시위는 6·10 운동.",
+          "정우회 선언은 1926년.",
+          "신간회가 진상 조사단 파견."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 760
       },
       {
         "number": 40,
@@ -2524,7 +2875,16 @@
             "title": "전시체제기 일제의 교육방침 — 국사편찬위원회 우리역사넷",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_125_0150"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "태형령은 1912년 시행.",
+          "교육 입국 조서는 1895년.",
+          "여권통문 발표는 1898년.",
+          "국민학교 명칭은 1941년부터.",
+          "토월회는 1923년 조직."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 1033
       },
       {
         "number": 41,
@@ -2586,7 +2946,16 @@
             "title": "방정환 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0021783"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "방정환이 천도교 소년회 주도.",
+          "상록수의 저자는 심훈.",
+          "광야·절정의 작가는 이육사.",
+          "대성 학교는 안창호가 설립.",
+          "과학 데이는 김용관이 추진."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 884
       },
       {
         "number": 42,
@@ -2652,7 +3021,16 @@
             "title": "사정한 조선어 표준말 모음 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0025951"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "진단 학보는 진단 학회.",
+          "제국신문 창간은 이종일 등.",
+          "태극 서관은 신민회가 설립.",
+          "조선어학회가 맞춤법·표준어 정리.",
+          "국문 연구소는 대한제국 기구."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 878
       },
       {
         "number": 43,
@@ -2714,7 +3092,16 @@
             "title": "국가총동원법 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0006142"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "신문지법은 1907년 제정.",
+          "미쓰야 협정은 1925년.",
+          "국가 총동원법은 1938년 시행.",
+          "토지 조사는 1910~1918년.",
+          "제1차 교육령은 1911년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 930
       },
       {
         "number": 44,
@@ -2776,7 +3163,16 @@
             "title": "한국광복군 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0005134"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "청산리 승리는 김좌진 등 독립군.",
+          "하와이 부대는 대조선 국민군단.",
+          "흥경성 승리는 조선혁명군.",
+          "광복군은 인도·미얀마에서 활동.",
+          "최초 관내 부대는 조선의용대."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 861
       },
       {
         "number": 45,
@@ -2838,7 +3234,16 @@
             "title": "4·3특별법 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0081347"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "제암리 학살은 1919년.",
+          "공동위는 모스크바 회의 결정.",
+          "허정 정부는 4·19 혁명 이후.",
+          "6·3 시위는 한일 회담 반대.",
+          "2000년 제주 4·3 특별법 제정."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 848
       },
       {
         "number": 46,
@@ -2900,7 +3305,16 @@
             "title": "김구 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0008753"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "김구·김규식이 남북 협상 추진.",
+          "흥사단은 안창호가 결성.",
+          "건국 동맹은 여운형이 조직.",
+          "남한 단독 정부 주장은 이승만.",
+          "혁명 간부 학교는 김원봉."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 762
       },
       {
         "number": 47,
@@ -2962,7 +3376,16 @@
             "title": "경제개발계획 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0002782"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "기초 생활 보장은 2000년 시행.",
+          "제1차 경제 계획은 1962~66년.",
+          "소련 수교는 1990년.",
+          "프로 야구 출범은 1982년.",
+          "지방 자치 전면 시행은 1995년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 830
       },
       {
         "number": 48,
@@ -3024,7 +3447,16 @@
             "title": "6월 민주 항쟁 — 국사편찬위원회 우리역사넷",
             "url": "https://contents.history.go.kr/mobile/eh/view.do?code=eh_age_50&levelId=eh_r0420_0010"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "시민군은 5·18 민주화 운동.",
+          "유신 붕괴는 10·26 사건.",
+          "부정 선거 항의는 4·19 혁명.",
+          "김영삼 제명은 부마 항쟁 계기.",
+          "6월 항쟁으로 대통령 직선제."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 859
       },
       {
         "number": 49,
@@ -3090,7 +3522,16 @@
             "title": "남북경제협력협의사무소 개설 및 운영에 관한 합의서(2005.7.12) — 통일부",
             "url": "https://dialogue.unikorea.go.kr/ukd/ca/usrtalkmanage/View.do?agreement_type=&id=216&tab=5"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "7·4 성명은 박정희 정부.",
+          "1991년 남북한 유엔 동시 가입.",
+          "개성 협의 사무소는 노무현 정부.",
+          "고향 방문단은 전두환 정부.",
+          "평창 단일팀은 문재인 정부."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 768
       },
       {
         "number": 50,
@@ -3152,7 +3593,16 @@
             "title": "훈련도감 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0065793"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "병마절도사는 조선 지방 지휘관.",
+          "좌·우별초·신의군은 삼별초.",
+          "훈련도감은 포수·살수·사수.",
+          "응양군·용호군은 고려 2군.",
+          "무예도보통지는 고려에 없던 책."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 860
       }
     ]
   },
@@ -3227,7 +3677,16 @@
             "title": "우리역사넷 · 직물과 염색",
             "url": "https://contents.history.go.kr/mobile/tt/view.do?levelId=tt_b53"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "청동 방울은 청동기 의례 도구.",
+          "주먹도끼는 구석기 도구.",
+          "세형 동검은 초기 철기 유물.",
+          "철제 농기구는 철기 시대 도구.",
+          "가락바퀴·뼈바늘은 신석기 도구."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 929
       },
       {
         "number": 2,
@@ -3289,7 +3748,16 @@
             "title": "한국민족문화대백과사전 · 고조선",
             "url": "https://encykorea.aks.ac.kr/Article/E0003937"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "위만의 확장이 우거왕보다 먼저.",
+          "진개 침입→위만 확장→한과 전쟁.",
+          "우거왕의 전쟁이 가장 나중.",
+          "진개의 침입이 가장 먼저.",
+          "진개의 침입이 위만보다 먼저."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 746
       },
       {
         "number": 3,
@@ -3355,7 +3823,16 @@
             "title": "한국민족문화대백과사전 · 영",
             "url": "https://encykorea.aks.ac.kr/Article/E0037167"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "소도는 삼한의 신성 구역.",
+          "민며느리제는 옥저의 풍습.",
+          "위화부·영객부는 신라 관청.",
+          "상가·대로·패자는 고구려 관직.",
+          "책화는 동예의 배상 풍습."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 800
       },
       {
         "number": 4,
@@ -3417,7 +3894,16 @@
             "title": "한국사데이터베이스 · 백제가 고구려의 도살성을 빼앗다",
             "url": "https://db.history.go.kr/item/compareViewer.do?levelId=sg_004_0040_0120"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "웅진 천도는 백제 문주왕.",
+          "백가의 난 진압은 백제 무령왕.",
+          "미륵사 창건은 백제 무왕.",
+          "서기 편찬은 백제 근초고왕.",
+          "도살성 점령은 성왕, 550년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 703
       },
       {
         "number": 5,
@@ -3479,7 +3965,16 @@
             "title": "한국민족문화대백과사전 · 학교",
             "url": "https://encykorea.aks.ac.kr/Article/E0060773"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "22담로 왕족 파견은 백제.",
+          "태학·경당은 고구려 교육 기관.",
+          "무천은 동예의 제천 행사.",
+          "범금 8조는 고조선의 법.",
+          "누각박사는 통일신라 성덕왕 때."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 893
       },
       {
         "number": 6,
@@ -3541,7 +4036,16 @@
             "title": "한국민족문화대백과사전 · 좌평",
             "url": "https://encykorea.aks.ac.kr/Article/E0053160"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "서옥제는 고구려의 혼인 풍습.",
+          "서시·남시 설치는 통일신라.",
+          "골품제는 신라의 신분 제도.",
+          "6좌평·달솔은 백제의 관제.",
+          "진대법은 고구려 고국천왕 때."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 910
       },
       {
         "number": 7,
@@ -3607,7 +4111,16 @@
             "title": "한국민족문화대백과사전 · 계백",
             "url": "https://encykorea.aks.ac.kr/Article/E0003142"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "대가야 병합은 562년.",
+          "우산국 복속은 512년.",
+          "살수 대첩은 612년.",
+          "황산벌 전투는 660년.",
+          "광개토 대왕의 왜 격퇴는 400년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 743
       },
       {
         "number": 8,
@@ -3669,7 +4182,16 @@
             "title": "한국민족문화대백과사전 · 김헌창의 난",
             "url": "https://encykorea.aks.ac.kr/Article/E0011027"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "비담의 난은 647년 선덕여왕 때.",
+          "김흠돌의 난은 681년 신문왕 때.",
+          "김헌창의 난은 822년 신라 하대.",
+          "걸사표 작성은 신라 진평왕 때.",
+          "불교 공인은 527년 법흥왕 때."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 703
       },
       {
         "number": 9,
@@ -3743,7 +4265,16 @@
             "title": "국립중앙박물관 · 경주 구황동 금제 여래 입상",
             "url": "https://www.museum.go.kr/site/main/relic/treasure/view?relicId=768"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "연가 7년명 입상은 고구려 불상.",
+          "하사창동 철불은 고려 초기 불상.",
+          "이불병좌상은 발해의 불상.",
+          "부석사 소조불은 고려의 불상.",
+          "구황동 금제 입상은 신라 불상."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 1070
       },
       {
         "number": 10,
@@ -3805,7 +4336,16 @@
             "title": "한국민족문화대백과사전 · 공산전투",
             "url": "https://encykorea.aks.ac.kr/Article/E0004338"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "대공의 난은 768년.",
+          "보덕국왕 임명은 674년.",
+          "태봉으로 국호 변경은 911년.",
+          "고창 전투는 930년.",
+          "천문령 전투는 698년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 855
       },
       {
         "number": 11,
@@ -3871,7 +4411,16 @@
             "title": "한국민족문화대백과사전 · 노비안검법",
             "url": "https://encykorea.aks.ac.kr/Article/E0012765"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "광군사 설치는 고려 정종.",
+          "12목 설치는 고려 성종.",
+          "양현고 설치는 고려 예종.",
+          "노비안검법은 고려 광종.",
+          "정계·계백료서는 태조 왕건."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 630
       },
       {
         "number": 12,
@@ -3933,7 +4482,16 @@
             "title": "한국민족문화대백과사전 · 벽란도",
             "url": "https://encykorea.aks.ac.kr/Article/E0022829"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "덕대의 광산 경영은 조선 후기.",
+          "고추·담배 재배는 조선 후기.",
+          "벽란도는 고려의 국제 무역항.",
+          "덩이쇠 수출은 변한·가야 지역.",
+          "청해진 무역은 통일신라 장보고."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 894
       },
       {
         "number": 13,
@@ -3999,7 +4557,16 @@
             "title": "한국민족문화대백과사전 · 윤관",
             "url": "https://encykorea.aks.ac.kr/Article/E0042215"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "강화 천도는 몽골 침입 대응.",
+          "박위의 대마도 공격은 왜구 대응.",
+          "양규의 곽주성 탈환은 거란 대응.",
+          "송문주의 죽주성 전투는 몽골 대응.",
+          "동북 9성은 윤관의 여진 정벌."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 607
       },
       {
         "number": 14,
@@ -4065,7 +4632,16 @@
             "title": "한국민족문화대백과사전 · 양양 진전사지 삼층석탑",
             "url": "https://encykorea.aks.ac.kr/Article/E0054864"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "정림사지 오층석탑은 백제.",
+          "법흥사지 칠층전탑은 통일신라.",
+          "경천사지 십층석탑은 고려.",
+          "진전사지 삼층석탑은 통일신라.",
+          "분황사 모전석탑은 신라."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 1030
       },
       {
         "number": 15,
@@ -4127,7 +4703,16 @@
             "title": "한국민족문화대백과사전 · 제위보",
             "url": "https://encykorea.aks.ac.kr/Article/E0051370"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "주자감은 발해의 교육 기관.",
+          "구황촬요는 조선 명종 때 기근 대처서.",
+          "동시전은 신라의 시장 관리 관청.",
+          "제위보는 고려의 빈민 구제 기관.",
+          "세책가의 소설 대여는 조선 후기."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 965
       },
       {
         "number": 16,
@@ -4189,7 +4774,16 @@
             "title": "한국민족문화대백과사전 · 쌍성총관부",
             "url": "https://encykorea.aks.ac.kr/Article/E0034141"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "배중손의 삼별초 항쟁은 원종 때.",
+          "홍산 대첩은 1376년 우왕 때.",
+          "쌍성총관부 수복은 공민왕 때.",
+          "일본 원정은 1274년 충렬왕 때.",
+          "만적의 봉기 모의는 신종 때."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 776
       },
       {
         "number": 17,
@@ -4251,7 +4845,16 @@
             "title": "한국민족문화대백과사전 · 천태종",
             "url": "https://encykorea.aks.ac.kr/Article/E0056076"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "삼국유사는 일연의 저술.",
+          "백련 결사를 이끈 승려는 요세.",
+          "선문염송집을 편찬한 승려는 혜심.",
+          "보현십원가를 지은 승려는 균여.",
+          "교관겸수를 강조한 승려는 의천."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 972
       },
       {
         "number": 18,
@@ -4313,7 +4916,16 @@
             "title": "우리역사넷 · 서경 세력과 묘청의 난",
             "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_012_0030_0020_0030_0020"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "시무 28조는 최승로의 건의.",
+          "화통도감 설치 건의는 최무선.",
+          "목종 폐위 정변은 강조.",
+          "칭제건원·금 정벌 주장은 묘청.",
+          "교정별감은 최충헌 등 무신 집권자."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 928
       },
       {
         "number": 19,
@@ -4375,7 +4987,16 @@
             "title": "한국민족문화대백과사전 · 이징옥의 난",
             "url": "https://encykorea.aks.ac.kr/Article/E0046156"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "이징옥의 난은 1453년 단종 때.",
+          "이괄의 난은 1624년 인조 때.",
+          "경신환국은 1680년 숙종 때.",
+          "기묘사화는 1519년 중종 때.",
+          "기축옥사는 1589년 선조 때."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 817
       },
       {
         "number": 20,
@@ -4437,7 +5058,16 @@
             "title": "한국민족문화대백과사전 · 의금부",
             "url": "https://encykorea.aks.ac.kr/Article/E0043138"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "수도 행정을 담당한 곳은 한성부.",
+          "천문·역법 사무는 관상감.",
+          "검서관을 둔 기관은 규장각.",
+          "경연을 주관한 기관은 홍문관.",
+          "의금부는 국왕 직속 사법 기관."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 869
       },
       {
         "number": 21,
@@ -4503,7 +5133,16 @@
             "title": "우리역사넷 · 훈민정음 해례 후서",
             "url": "https://contents.history.go.kr/front/hm/print.do?levelId=hm_091_0020&tabId=01&treeId=020405"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "훈민정음 해례 편찬에 신숙주 참여.",
+          "백운동 서원 건립은 주세붕.",
+          "기축봉사를 올린 인물은 송시열.",
+          "해주 향약을 마련한 인물은 이이.",
+          "가례집람을 지은 인물은 김장생."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 563
       },
       {
         "number": 22,
@@ -4573,7 +5212,16 @@
             "title": "한국민족문화대백과사전 · 김준룡",
             "url": "https://encykorea.aks.ac.kr/Article/E0010554"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "용골산성 항쟁은 정묘호란 때.",
+          "광교산 전투는 병자호란 때.",
+          "6진 개척은 조선 세종 때.",
+          "행주 대첩은 1593년 임진왜란.",
+          "대마도 정벌은 1419년 세종 때."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 735
       },
       {
         "number": 23,
@@ -4639,7 +5287,16 @@
             "title": "한국민족문화대백과사전 · 장용영",
             "url": "https://encykorea.aks.ac.kr/Article/E0048705"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "1654년, 인조반정과 경신환국 사이.",
+          "경신환국은 1680년.",
+          "이인좌의 난은 1728년.",
+          "장용영은 정조, 홍경래의 난은 1811년.",
+          "병인양요는 1866년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 563
       },
       {
         "number": 24,
@@ -4701,7 +5358,16 @@
             "title": "한국민족문화대백과사전 · 초계문신제명록",
             "url": "https://encykorea.aks.ac.kr/Article/E0076220"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "연잉군의 왕세제 책봉은 경종 때.",
+          "백두산정계비는 숙종 때.",
+          "훈련도감 창설은 선조 때.",
+          "탕평 교서·탕평비는 영조 때.",
+          "초계문신제는 정조의 문신 재교육."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1019
       },
       {
         "number": 25,
@@ -4771,7 +5437,16 @@
             "title": "한국민족문화대백과사전 · 투자",
             "url": "https://encykorea.aks.ac.kr/Article/E0059488"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "활구·은병은 고려 숙종 때 화폐.",
+          "공인은 조선 후기 관청 납품 상인.",
+          "송상·만상의 대청 무역은 조선 후기.",
+          "보부상은 장시를 다니던 행상.",
+          "설점수세제는 조선 후기 광산 정책."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 756
       },
       {
         "number": 26,
@@ -4837,7 +5512,16 @@
             "title": "국립중앙박물관 — 매화초옥도와 매화서옥도",
             "url": "https://www.museum.go.kr/MUSEUM/contents/M0501000000.do?relicRecommendId=16842&schM=view"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "월하정인은 신윤복의 풍속화.",
+          "매화서옥도는 조희룡의 작품.",
+          "강변의 큰 나무·배를 그린 산수화.",
+          "파적도는 김득신의 풍속화.",
+          "세한도는 김정희의 제주 유배작."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 1108
       },
       {
         "number": 27,
@@ -4899,7 +5583,16 @@
             "title": "한국민족문화대백과사전 — 향전",
             "url": "https://encykorea.aks.ac.kr/Article/E0062980"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "최충의 9재 학당은 고려 문종 때.",
+          "서얼의 통청 운동은 조선 후기.",
+          "변발·호복은 고려 원 간섭기.",
+          "망이·망소이의 난은 1176년.",
+          "향약구급방은 고려의 의서."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 727
       },
       {
         "number": 28,
@@ -4961,7 +5654,16 @@
             "title": "우리역사넷 — 강화도 조약·조일 수호 조규",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_115_0010"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "천주교 포교 허용은 조불 조약.",
+          "강화도 조약은 해안 측량 허용.",
+          "최혜국 대우는 조미 조약 등에 규정.",
+          "경비병 주둔은 1882년 제물포 조약.",
+          "내지 통상권은 조청 상민 수륙 무역 장정."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 709
       },
       {
         "number": 29,
@@ -5023,7 +5725,16 @@
             "title": "우리역사넷 — 한성 조약과 톈진 조약",
             "url": "https://contents.history.go.kr/front/hm/print.do?levelId=hm_115_0070&treeId=010701"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "1885년 한성 조약으로 배상금 지급.",
+          "외규장각 약탈은 1866년 병인양요.",
+          "미국의 강화 침략은 1871년 신미양요.",
+          "대원군 청 피랍은 1882년 임오군란.",
+          "홍범 14조는 제2차 갑오개혁."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1076
       },
       {
         "number": 30,
@@ -5085,7 +5796,16 @@
             "title": "한국민족문화대백과사전 — 원산학사",
             "url": "https://encykorea.aks.ac.kr/Article/E0040700"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "동문학은 1883년 통역 인재 양성.",
+          "원산 학사는 관민이 합심해 설립.",
+          "이화 학당은 1886년 스크랜턴 설립.",
+          "최초 근대 여성 교육 기관은 이화 학당.",
+          "한성 사범 학교는 교원 양성 기관."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 795
       },
       {
         "number": 31,
@@ -5147,7 +5867,16 @@
             "title": "우리역사넷 — 화폐 정리 사업·구 백동화 교환에 관한 건",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_131_0020"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "삼국 간섭은 1895년.",
+          "삼정이정청 설치는 1862년.",
+          "황국 중앙 총상회 결성은 1898년.",
+          "화폐 정리 사업은 1905년 메가타 추진.",
+          "조미 수호 통상 조약은 1882년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 926
       },
       {
         "number": 32,
@@ -5209,7 +5938,16 @@
             "title": "우리역사넷 — 동학농민운동",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i402520"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "황토현 승리는 동학 농민군 1차 봉기.",
+          "교정청은 전주 화약 뒤 설치.",
+          "2차 봉기 때 남접·북접이 논산 집결.",
+          "삼례 집회는 1892년.",
+          "고부 봉기는 1894년 초."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 652
       },
       {
         "number": 33,
@@ -5271,7 +6009,16 @@
             "title": "우리역사넷 — 정미의병",
             "url": "https://contents.history.go.kr/front/tg/view.do?levelId=tg_004_0880"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "미쓰야 협정은 1925년.",
+          "1907년 군대 해산 뒤 의병 합류.",
+          "거문도 점령은 1885년.",
+          "데라우치 총독 부임은 1910년.",
+          "기유각서는 1909년 사법권 박탈."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 548
       },
       {
         "number": 34,
@@ -5333,7 +6080,16 @@
             "title": "우리역사넷 — 국채 보상 운동과 신문 광고",
             "url": "https://contents.history.go.kr/mobile/km/view.do?levelId=km_020_0040_0010_0080"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "브나로드 운동은 동아일보 주도.",
+          "천도교 계열 언론은 만세보·개벽.",
+          "최초 상업 광고 게재는 한성주보.",
+          "대한매일신보는 국채 보상 운동 지원.",
+          "최초 순한글 신문은 독립신문."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 645
       },
       {
         "number": 35,
@@ -5395,7 +6151,16 @@
             "title": "한국민족문화대백과사전 — 안창호",
             "url": "https://encykorea.aks.ac.kr/Article/E0035050"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "대한 광복회 조직은 박상진 등.",
+          "한국통사는 박은식의 저술.",
+          "안창호는 임시 정부 내무총장.",
+          "조선 혁명 선언은 신채호 작성.",
+          "헤이그 특사는 이상설·이준·이위종."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 891
       },
       {
         "number": 36,
@@ -5457,7 +6222,16 @@
             "title": "우리역사넷 — 1910년대 식민 통치와 경제",
             "url": "https://contents.history.go.kr/mobile/km/view.do?levelId=km_016_0060_0010_0020"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "헌병 경찰제는 1910년대 무단 통치.",
+          "치안 유지법 제정은 1925년.",
+          "친위대·진위대 설치는 1895년.",
+          "조선 여성 동우회 결성은 1924년.",
+          "예방 구금령은 1941년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 729
       },
       {
         "number": 37,
@@ -5523,7 +6297,16 @@
             "title": "한국민족문화대백과사전 — 조선노농총동맹",
             "url": "https://encykorea.aks.ac.kr/Article/E0051958"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "지계아문 설치는 1901년.",
+          "회사령 제정은 1910년.",
+          "조선 농민 총동맹 결성은 1927년.",
+          "농광 회사 설립은 1904년.",
+          "조선 물산 공진회는 1915년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 907
       },
       {
         "number": 38,
@@ -5585,7 +6368,16 @@
             "title": "한국민족문화대백과사전 — 6·10만세운동",
             "url": "https://encykorea.aks.ac.kr/Article/E0042124"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "김광제·서상돈은 국채 보상 운동.",
+          "보국안민·제폭구민은 동학 농민 운동.",
+          "제암리 학살은 1919년 3·1 운동 때.",
+          "6·10 만세 운동은 신간회 결성에 영향.",
+          "학생 간 충돌은 광주 학생 항일 운동."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 801
       },
       {
         "number": 39,
@@ -5647,7 +6439,16 @@
             "title": "우리역사넷 — 조선 형평사",
             "url": "https://contents.history.go.kr/front/tg/view.do?levelId=tg_004_2020"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "보안회는 황무지 개간권 요구 저지.",
+          "형평사는 1923년 진주에서 결성.",
+          "군국기무처는 갑오개혁 추진 기구.",
+          "전주 화약은 1894년.",
+          "대한 자강회는 고종 퇴위에 반대."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 730
       },
       {
         "number": 40,
@@ -5709,7 +6510,16 @@
             "title": "우리역사넷 — 내선 일체",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_125_0090&treeId=010701"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "원산 총파업은 1929년.",
+          "105인 사건은 1911년.",
+          "근우회 창립은 1927년.",
+          "황국 신민 서사 암송은 황국 신민화.",
+          "태화관 선언식은 1919년 3·1 운동."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 814
       },
       {
         "number": 41,
@@ -5771,7 +6581,16 @@
             "title": "우리역사넷 — 한글운동·조선어학회잡지 한글 창간사",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_141_0050"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "진단 학보는 진단 학회 발행.",
+          "조선어연구회는 1926년 가갸날 제정.",
+          "태극 서관은 신민회의 계몽 활동.",
+          "주시경·지석영 중심 기관은 국문 연구소.",
+          "독립문 건립 추진은 독립협회."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 944
       },
       {
         "number": 42,
@@ -5833,7 +6652,16 @@
             "title": "우리역사넷 — 조선의용대 조직",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_126_0090"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "1942년 일부가 한국광복군 편입.",
+          "청산리 전투는 1920년.",
+          "동북 항일 연군은 1936년 조직.",
+          "대전자령 전투는 지청천의 한국 독립군.",
+          "남만주의 군사 조직은 조선 혁명군."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 903
       },
       {
         "number": 43,
@@ -5895,7 +6723,16 @@
             "title": "한국민족문화대백과사전 — 방송",
             "url": "https://encykorea.aks.ac.kr/Article/E0021719"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "최초 TV 방송은 1956년.",
+          "화학조미료 보급은 일제 강점기.",
+          "문화 주택은 일제 강점기 주택 양식.",
+          "임자 없는 나룻배는 1932년 개봉.",
+          "모던 걸·보이는 일제 강점기 도시 청년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 918
       },
       {
         "number": 44,
@@ -5957,7 +6794,16 @@
             "title": "우리역사넷 — 5·10선거와 국내 정치세력의 대응",
             "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_052_0050_0010_0020_0020"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "6·3 시위는 1964년.",
+          "발췌 개헌은 1952년.",
+          "신한 민주당 제1 야당은 1985년.",
+          "통일 주체 국민 회의는 유신 헌법 이후.",
+          "김구·김규식은 단독 선거에 불참."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 754
       },
       {
         "number": 45,
@@ -6019,7 +6865,16 @@
             "title": "대한민국역사박물관 — 국군3사단 흥남 철수",
             "url": "https://archive.much.go.kr/archive/userrecordimage/recordImageView.do?idnbr=2023006907&jobdirSeq=2010"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "애치슨 라인은 1950년 1월 발표.",
+          "한미 상호 방위 조약은 정전 뒤 체결.",
+          "여수·순천 사건은 1948년.",
+          "모스크바 외상 회의는 1945년 12월.",
+          "흥남 철수는 1950년 12월."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 778
       },
       {
         "number": 46,
@@ -6081,7 +6936,16 @@
             "title": "우리역사넷 — 4·19 혁명과 민주주의의 성장",
             "url": "https://contents.history.go.kr/mobile/ta/view.do?levelId=ta_h62_0050_0030_0010"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "긴급 조치 철폐는 유신 체제 저항.",
+          "4·19 뒤 내각 책임제, 장면 내각.",
+          "계엄 확대 반발은 5·18 민주화 운동.",
+          "김영삼 제명은 부마 항쟁의 배경.",
+          "직선제 개헌은 1987년 6월 항쟁."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 842
       },
       {
         "number": 47,
@@ -6143,7 +7007,16 @@
             "title": "국가기록원 — 국민기초생활보장법 제·개정",
             "url": "https://www.archives.go.kr/next/newsearch/listSubjectDescription.do?id=000360&sitePage=1-2-3"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "포항 제철소 준공은 1973년.",
+          "기초 생활 보장법은 김대중 정부.",
+          "마산 수출 자유 지역 지정은 1970년.",
+          "베트남 파병은 박정희 정부.",
+          "제2차 계획은 1967~1971년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 892
       },
       {
         "number": 48,
@@ -6205,7 +7078,16 @@
             "title": "국회기록원 — 제8차 헌법 개정",
             "url": "https://www.nara.go.kr/bbs/bbsView.do?bbs_id=5&bbs_no=26&curr_menu_cd=0102020000&menu_cd=0102020000"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "사사오입 개헌은 1954년.",
+          "3선 허용 개헌은 1969년.",
+          "3·1 민주 구국 선언은 유신 반대.",
+          "양원제는 1960년 내각 책임제 개헌.",
+          "제5공화국은 선거인단의 대통령 간선."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 795
       },
       {
         "number": 49,
@@ -6267,7 +7149,16 @@
             "title": "국가기록원 — 6·15 남북공동선언 사진 기록물",
             "url": "https://theme.archives.go.kr/next/unikorea/six/six03_photo.do"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "7·4 공동 성명은 박정희 정부.",
+          "최초 남북 정상 회담은 김대중 정부.",
+          "유엔 동시 가입은 노태우 정부.",
+          "최초 이산가족 고향 방문은 전두환 정부.",
+          "평창 단일팀은 문재인 정부."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 775
       },
       {
         "number": 50,
@@ -6329,7 +7220,16 @@
             "title": "한국민족문화대백과사전 — 박재혁",
             "url": "https://encykorea.aks.ac.kr/Article/E0021111"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "신립의 배수진은 충주 탄금대.",
+          "2·28 민주 운동은 대구.",
+          "김사미의 봉기는 청도 운문 지역.",
+          "YH 농성은 서울 신민당사.",
+          "박재혁의 폭탄 의거는 부산 경찰서."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 980
       }
     ]
   },
@@ -6404,7 +7304,16 @@
             "title": "한국민족문화대백과사전 · 청동기시대",
             "url": "https://encykorea.aks.ac.kr/Article/E0056357"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "철제 무기는 철기 시대.",
+          "우경 장려는 신라 지증왕.",
+          "고인돌은 청동기 지배층의 무덤.",
+          "주먹도끼·찍개는 구석기 도구.",
+          "가락바퀴·뼈바늘은 신석기부터."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 986
       },
       {
         "number": 2,
@@ -6466,7 +7375,16 @@
             "title": "한국민족문화대백과사전 · 고조선",
             "url": "https://encykorea.aks.ac.kr/Article/E0003937"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "민며느리제는 옥저의 혼인 풍습.",
+          "정사암 회의는 백제의 제도.",
+          "사출도는 부여의 지방 통치.",
+          "욕살·처려근지는 고구려 관리.",
+          "범금 8조는 고조선의 법."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 749
       },
       {
         "number": 3,
@@ -6528,7 +7446,16 @@
             "title": "한국민족문화대백과사전 · 동예",
             "url": "https://encykorea.aks.ac.kr/Article/E0016693"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "진대법은 고구려 고국천왕 때.",
+          "책화는 동예의 경계 침범 배상.",
+          "소도는 삼한의 신성 구역.",
+          "화백 회의는 신라 귀족 회의.",
+          "포상 8국 전쟁은 가야 지역."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 816
       },
       {
         "number": 4,
@@ -6598,7 +7525,16 @@
             "title": "국립경주박물관 · 천마총 금제 관식",
             "url": "https://gyeongju.museum.go.kr/kor/html/sub02/0202.html?d_mng_no=193&mng_no=300&mode=V"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "금동 대향로는 백제 유물.",
+          "칠지도는 백제와 왜의 교류 유물.",
+          "농경문 청동기는 초기 철기 유물.",
+          "천마총 금제 관식은 신라 유물.",
+          "연가 7년명 불상은 고구려 유물."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 971
       },
       {
         "number": 5,
@@ -6664,7 +7600,16 @@
             "title": "삼국사기 · 백제가 고구려의 도살성을 빼앗다",
             "url": "https://db.history.go.kr/common/compareViewer.do?levelId=sg_004r_0040_0120&type=ancient"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "미륵사 창건은 백제 무왕.",
+          "서기 편찬은 근초고왕.",
+          "22담로 왕족 파견은 무령왕.",
+          "불교 수용은 384년 침류왕.",
+          "도살성 공격은 550년 성왕."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 673
       },
       {
         "number": 6,
@@ -6726,7 +7671,16 @@
             "title": "우리역사넷 · 복신",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?code=kc_age_10&levelId=kc_n101150"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "살수 대첩은 612년.",
+          "백제 부흥은 660~676년 사이.",
+          "대야성 함락은 642년.",
+          "연개소문의 정변은 642년.",
+          "나당 동맹은 648년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 665
       },
       {
         "number": 7,
@@ -6788,7 +7742,16 @@
             "title": "우리역사넷 · 발해의 유학과 교육",
             "url": "https://contents.history.go.kr/front/km/view.do?levelId=km_002_0030_0010_0050"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "영고는 부여의 제천 행사.",
+          "주자감은 발해의 교육 기관.",
+          "9서당 10정은 통일 신라 군제.",
+          "기인 제도는 고려의 호족 견제책.",
+          "부여씨·8성 귀족은 백제 지배층."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 578
       },
       {
         "number": 8,
@@ -6850,7 +7813,16 @@
             "title": "한국민족문화대백과사전 · 부경",
             "url": "https://encykorea.aks.ac.kr/Article/E0024090"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "서시·남시 설치는 신라 효소왕.",
+          "활구는 고려 숙종 때의 은병.",
+          "부경은 고구려의 작은 창고.",
+          "녹읍 폐지는 신라 신문왕.",
+          "연분 9등법은 조선 세종 때."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1131
       },
       {
         "number": 9,
@@ -6912,7 +7884,16 @@
             "title": "우리역사넷 · 궁예와 초기 권력 기구",
             "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_013_0020_0010_0010_0020"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "안승을 보덕왕으로 봉한 문무왕.",
+          "광평성을 설치한 궁예.",
+          "강동 6주를 확보한 서희.",
+          "사심관 제도를 시행한 왕건.",
+          "경애왕을 죽게 한 견훤."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 710
       },
       {
         "number": 10,
@@ -6978,7 +7959,16 @@
             "title": "한국민족문화대백과사전 · 계백료서",
             "url": "https://encykorea.aks.ac.kr/Article/E0003143"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "계백료서는 936년 고려 태조.",
+          "담배 재배는 조선 후기.",
+          "조위총의 난은 1174년.",
+          "진전사 참선은 신라 말 선종.",
+          "낙랑과 철 교역은 초기 변한."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 774
       },
       {
         "number": 11,
@@ -7040,7 +8030,16 @@
             "title": "우리역사넷 · 초조대장경",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?code=kc_age_20&levelId=kc_r200380"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "별무반은 여진에 대응한 군대.",
+          "화통도감은 왜구 대응에 활용.",
+          "진관 체제는 조선 전기 군제.",
+          "초조대장경은 거란 격퇴 기원.",
+          "동녕부는 몽골의 지배 기구."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 881
       },
       {
         "number": 12,
@@ -7102,7 +8101,16 @@
             "title": "한국민족문화대백과사전 · 응방",
             "url": "https://encykorea.aks.ac.kr/Article/E0043077"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "응방 설치는 1275년 고려.",
+          "시화호 조성은 1994년.",
+          "수의 침략은 7세기 초.",
+          "강치 멸종은 근대 이후의 남획.",
+          "을축년 대홍수는 1925년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 924
       },
       {
         "number": 13,
@@ -7168,7 +8176,16 @@
             "title": "국립중앙박물관 · 청자 상감모란문 표주박모양 주전자",
             "url": "https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=655&schM=view&searchId=search"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "경천사지 십층석탑은 고려 유물.",
+          "상감청자 주전자는 고려 유물.",
+          "수월관음도는 고려 불교 회화.",
+          "호우명 그릇은 415년 고구려.",
+          "관촉사 미륵보살은 고려 초기."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 978
       },
       {
         "number": 14,
@@ -7234,7 +8251,16 @@
             "title": "한국학중앙연구원 · 통천관",
             "url": "https://dh.aks.ac.kr/Encyves/wiki/index.php/%ED%86%B5%EC%B2%9C%EA%B4%80"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "신해통공은 1791년 정조.",
+          "소중화주의 강화는 조선 후기.",
+          "골품제는 신라의 신분 제도.",
+          "울산항 교류는 신라의 무역.",
+          "통천관·독자 연호는 황제국 표방."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 911
       },
       {
         "number": 15,
@@ -7300,7 +8326,16 @@
             "title": "한국민족문화대백과사전 · 제왕운기",
             "url": "https://encykorea.aks.ac.kr/Article/E0051343"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "제왕운기는 1287년 충렬왕 때.",
+          "만동묘는 조선 후기의 사당.",
+          "동몽선습은 조선 중종 때.",
+          "독서삼품과는 788년 원성왕 때.",
+          "계미자 주조는 1403년 태종."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 779
       },
       {
         "number": 16,
@@ -7362,7 +8397,16 @@
             "title": "우리역사넷 · 최충헌의 봉사 10조",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_050_0030"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "비담의 난을 진압한 김유신.",
+          "만권당에서 교유한 이제현.",
+          "정방을 폐지한 공민왕.",
+          "봉사 10조를 올린 최충헌.",
+          "오월에 사신을 보낸 견훤."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1073
       },
       {
         "number": 17,
@@ -7424,7 +8468,16 @@
             "title": "한국민족문화대백과사전 · 김부식",
             "url": "https://encykorea.aks.ac.kr/Article/E0009275"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "묘청의 난을 진압한 김부식.",
+          "시무 28조를 올린 최승로.",
+          "백련 결사를 이끈 요세.",
+          "주전도감을 건의한 의천.",
+          "유불 일치를 주장한 혜심."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 869
       },
       {
         "number": 18,
@@ -7486,7 +8539,16 @@
             "title": "우리역사넷 · 위화도 회군",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?code=kc_age_20&levelId=kc_i201240"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "1009~1126년 구간.",
+          "1126~1232년 구간.",
+          "1232~1273년 구간.",
+          "1273~1351년 구간.",
+          "1388년은 1351~1392년 사이."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 677
       },
       {
         "number": 19,
@@ -7548,7 +8610,16 @@
             "title": "한국학중앙연구원 · 사간원",
             "url": "https://waks.aks.ac.kr/rsh/dir/rview.aspx?dataID=AKS-2013-CKD-1240001_DIC%4000002920&rshID=AKS-2013-CKD-1240001"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "사간원은 사헌부·홍문관과 3사.",
+          "반역죄 사법 기구는 의금부.",
+          "실록 편찬은 춘추관·실록청.",
+          "왕명 출납은 승정원.",
+          "외교 문서 관리는 승문원."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 710
       },
       {
         "number": 20,
@@ -7610,7 +8681,16 @@
             "title": "한국민족문화대백과사전 · 직전",
             "url": "https://encykorea.aks.ac.kr/Article/E0054533"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "무오사화는 1498년 연산군.",
+          "혼일강리 지도는 1402년 태종.",
+          "악학궤범은 1493년 성종.",
+          "동국문헌비고는 1770년 영조.",
+          "직전법은 세조의 토지 제도."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 944
       },
       {
         "number": 21,
@@ -7672,7 +8752,16 @@
             "title": "한국민족문화대백과사전 · 징비록",
             "url": "https://encykorea.aks.ac.kr/Article/E0055088"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "사단칠정 논쟁의 당사자는 이황.",
+          "현량과를 주장한 조광조.",
+          "기축봉사를 올린 송시열.",
+          "징비록을 저술한 유성룡.",
+          "동국지도를 제작한 정상기."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 845
       },
       {
         "number": 22,
@@ -7734,7 +8823,16 @@
             "title": "한국민족문화대백과사전 · 어영청등록",
             "url": "https://encykorea.aks.ac.kr/Article/E0036036"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "사르후 전투 참전은 1619년.",
+          "6진 개척은 15세기 세종 때.",
+          "진주성 승리는 1592년.",
+          "쓰시마 정벌은 1419년.",
+          "이완의 북벌 준비는 효종 때."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 913
       },
       {
         "number": 23,
@@ -7796,7 +8894,16 @@
             "title": "한국학중앙연구원 · 초량왜관",
             "url": "https://dh.aks.ac.kr/sillokwiki/index.php/%EC%B4%88%EB%9F%89%EC%99%9C%EA%B4%80%28%E8%8D%89%E6%A2%81%E5%80%AD%E9%A4%A8%29"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "계해약조는 1443년 세종 때.",
+          "민화 유행은 조선 후기.",
+          "세책업 성행은 조선 후기.",
+          "서리의 시사 활동은 조선 후기.",
+          "산대놀이 공연은 조선 후기."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 928
       },
       {
         "number": 24,
@@ -7858,7 +8965,16 @@
             "title": "우리역사넷 · 금위영",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?code=kc_age_30&levelId=kc_o300110"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "초계문신제는 정조의 정책.",
+          "공노비 해방은 1801년 순조.",
+          "금위영 창설은 1682년 숙종.",
+          "농사직설 편찬은 세종.",
+          "탕평비 건립은 영조."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 856
       },
       {
         "number": 25,
@@ -7920,7 +9036,16 @@
             "title": "한국민족문화대백과사전 · 공인",
             "url": "https://encykorea.aks.ac.kr/Article/E0004416"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "전지·시지 지급은 고려 전시과.",
+          "솔빈부의 말 수출은 발해.",
+          "공인은 대동법 이후 물품 조달.",
+          "당항성·영암 무역은 신라.",
+          "해동통보 발행은 고려 숙종."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 741
       },
       {
         "number": 26,
@@ -7982,7 +9107,16 @@
             "title": "한국민족문화대백과사전 · 박제가",
             "url": "https://encykorea.aks.ac.kr/Article/E0021136"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "강화학파를 형성한 정제두.",
+          "거중기를 설계한 정약용.",
+          "추사체를 창안한 김정희.",
+          "무예도보통지를 편찬한 박제가.",
+          "왜양일체론을 주장한 최익현."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 911
       },
       {
         "number": 27,
@@ -8044,7 +9178,16 @@
             "title": "우리역사넷 · 몽골의 침입과 김윤후의 활약",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_051_0010"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "이괄의 난은 평안도 영변에서.",
+          "세한도 제작은 제주 유배 중.",
+          "자산어보 저술은 흑산도에서.",
+          "강주룡 농성은 평양 을밀대.",
+          "충주성을 지킨 김윤후."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 970
       },
       {
         "number": 28,
@@ -8106,7 +9249,16 @@
             "title": "한국민족문화대백과사전 · 임술민란",
             "url": "https://encykorea.aks.ac.kr/Article/E0047507"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "홍경래의 난은 1811~1812년.",
+          "신돈의 개혁은 1366년.",
+          "삼정이정청 설치는 1862년.",
+          "제위보 설치는 963년.",
+          "황사영 백서는 1801년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 606
       },
       {
         "number": 29,
@@ -8168,7 +9320,16 @@
             "title": "한국민족문화대백과사전 · 병인박해",
             "url": "https://encykorea.aks.ac.kr/Article/E0023139"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "운요호 사건은 1875년.",
+          "남연군 묘 도굴 시도는 1868년.",
+          "보은 집회는 1893년.",
+          "병인박해가 병인양요의 구실.",
+          "조선책략 유포는 1880년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 647
       },
       {
         "number": 30,
@@ -8230,7 +9391,16 @@
             "title": "우리역사넷 · 을미개혁",
             "url": "https://contents.history.go.kr/front/tg/view.do?ganada=&levelId=tg_004_0720&pageUnit=10&treeId=0200"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "한성순보 발행은 1883년.",
+          "기기창 설립은 1883년.",
+          "친위대·진위대는 을미개혁.",
+          "노비법 폐지는 1차 갑오개혁.",
+          "비변사 폐지는 흥선 대원군."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 650
       },
       {
         "number": 31,
@@ -8292,7 +9462,16 @@
             "title": "한국민족문화대백과사전 · 임오군란",
             "url": "https://encykorea.aks.ac.kr/Article/E0047565"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "급진 개화파는 1884년 갑신정변.",
+          "임오군란 뒤 제물포 조약 체결.",
+          "홍범 14조는 1895년.",
+          "통리기무아문 설치는 1880년.",
+          "외규장각 약탈은 1866년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 744
       },
       {
         "number": 32,
@@ -8358,7 +9537,16 @@
             "title": "한국민족문화대백과사전 · 박달학원",
             "url": "https://encykorea.aks.ac.kr/Article/E0020621"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "경학사는 서간도의 자치 기구.",
+          "박달 학원은 상하이의 학교.",
+          "국민 군단은 박용만의 하와이 조직.",
+          "2·8 독립 선언은 도쿄에서.",
+          "광복군 정부는 러시아 연해주."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 815
       },
       {
         "number": 33,
@@ -8420,7 +9608,16 @@
             "title": "우리역사넷 · 통감",
             "url": "https://contents.history.go.kr/mobile/tg/view.do?ganada=&levelId=tg_004_1160&pageUnit=10&subjectCode=all&tabId=01"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "청의 알선은 조미 수호 통상 조약.",
+          "을사늑약으로 통감부 설치.",
+          "포교 허용은 조불 수호 통상 조약.",
+          "고문 부임은 1차 한일 협약.",
+          "군대 해산은 1907년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 912
       },
       {
         "number": 34,
@@ -8482,7 +9679,16 @@
             "title": "한국민족문화대백과사전 · 신민회",
             "url": "https://encykorea.aks.ac.kr/Article/E0032974"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "만세보는 천도교계 신문.",
+          "대성 학교는 신민회의 교육 활동.",
+          "만민 공동회는 독립협회.",
+          "부민관 의거는 1945년.",
+          "황무지 개간권 저지는 보안회."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 914
       },
       {
         "number": 35,
@@ -8544,7 +9750,16 @@
             "title": "우리역사넷 · 육영 공원 설립",
             "url": "https://contents.history.go.kr/mobile/hm/view.do?levelId=hm_140_0020"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "7재는 고려 예종의 국자감 강좌.",
+          "덕원 관민이 세운 원산 학사.",
+          "교육입국 조서는 1895년.",
+          "대성전·명륜당은 성균관·향교.",
+          "육영공원은 좌원·우원으로 구분."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 822
       },
       {
         "number": 36,
@@ -8606,7 +9821,16 @@
             "title": "한국민족문화대백과사전 · 의열단",
             "url": "https://encykorea.aks.ac.kr/Article/E0043334"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "퇴위 반대 시위는 대한 자강회.",
+          "국권 반환 요구는 대한 독립 의군부.",
+          "독립 공채 발행은 임시 정부.",
+          "혁명 선언은 의열단의 활동 지침.",
+          "상하이 동제사는 신규식 중심."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 958
       },
       {
         "number": 37,
@@ -8668,7 +9892,16 @@
             "title": "국가기록원 · 토지 조사 사업의 생산 배경",
             "url": "https://theme.archives.go.kr/next/acreage/typeArchive.do"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "태형 집행은 1910년대 헌병 경찰.",
+          "원수부 설치는 1899년.",
+          "몸뻬 장려는 전시 동원 체제.",
+          "경인선 개통은 1899년.",
+          "아리랑 상영은 1926년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1099
       },
       {
         "number": 38,
@@ -8734,7 +9967,16 @@
             "title": "우리역사넷 · 재미 한인 국방 경위대",
             "url": "https://contents.history.go.kr/mphoto/imsi/imsi_period03_04.do"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "개벽·신여성은 천도교계 잡지.",
+          "중추원 개편 추진은 독립협회.",
+          "국방 경위대 결성은 1942년.",
+          "6·10 만세 운동은 1926년.",
+          "광주 운동 조사단 파견은 신간회."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 647
       },
       {
         "number": 39,
@@ -8796,7 +10038,16 @@
             "title": "국가기록원 · 농촌진흥운동",
             "url": "https://www.archives.go.kr/next/newsearch/listSubjectDescription.do?id=003695&sitePage=1-2-1"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "민립 대학 기성회는 1923년.",
+          "화폐 정리 사업은 1905년부터.",
+          "신한 공사는 광복 후 미군정기.",
+          "회사령은 1910년 공포.",
+          "농촌 진흥 운동은 1932년부터."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 799
       },
       {
         "number": 40,
@@ -8858,7 +10109,16 @@
             "title": "한국민족문화대백과사전 · 윤심덕",
             "url": "https://encykorea.aks.ac.kr/Article/E0042442"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "아침 이슬은 1971년 발표.",
+          "사의 찬미는 1926년 녹음.",
+          "굳세어라 금순아는 1950년대.",
+          "손에 손 잡고는 1988년 올림픽.",
+          "단장의 미아리 고개는 1950년대."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 1116
       },
       {
         "number": 41,
@@ -8920,7 +10180,16 @@
             "title": "한국민족문화대백과사전 · 조선혁명군",
             "url": "https://encykorea.aks.ac.kr/Article/E0052267"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "흥경성 승리는 양세봉의 혁명군.",
+          "자유시 이동은 1920년 참변 이후.",
+          "남한 대토벌 작전은 1909년.",
+          "인면 전구 파견은 한국 광복군.",
+          "조국 광복회는 1936년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 645
       },
       {
         "number": 42,
@@ -8982,7 +10251,16 @@
             "title": "한국민족문화대백과사전 · 민족혁명당",
             "url": "https://encykorea.aks.ac.kr/Article/E0020276"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "흥사단을 창립한 안창호.",
+          "이토 히로부미를 사살한 안중근.",
+          "독립운동지혈사를 쓴 박은식.",
+          "한국 독립군 총사령관은 지청천.",
+          "민족 혁명당을 결성한 조소앙."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 991
       },
       {
         "number": 43,
@@ -9044,7 +10322,16 @@
             "title": "국립한글박물관 · 1926년, 한글의 새로운 빛 가갸날",
             "url": "https://www.hangeul.go.kr/webzine/201810/sub1_1.html"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "제헌절은 1948년 헌법 제정 기념.",
+          "가갸날 제정은 1926년.",
+          "예비군 창설은 1968년.",
+          "은사의 날 제정은 1963년.",
+          "이산가족의 날은 현대 기념일."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 901
       },
       {
         "number": 44,
@@ -9106,7 +10393,16 @@
             "title": "한국민족문화대백과사전 · 황국신민서사",
             "url": "https://encykorea.aks.ac.kr/Article/E0076120"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "원산 총파업은 1929년.",
+          "국채 보상 운동은 1907년.",
+          "은세계 공연은 1908년.",
+          "국민학교 개칭은 1941년.",
+          "형평사 창립은 1923년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 887
       },
       {
         "number": 45,
@@ -9168,7 +10464,16 @@
             "title": "우리역사넷 · 농지 개혁법",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_154_0050"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "농지 개혁은 광복 후 유상 분배.",
+          "광주 대단지 사건은 1971년.",
+          "개발 제한 구역은 도시 확산 억제.",
+          "산미 증식 계획은 1920년대부터.",
+          "지계아문은 대한 제국 토지 관리."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 740
       },
       {
         "number": 46,
@@ -9230,7 +10535,16 @@
             "title": "우리역사넷 · 여운형",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402700"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "건국 동맹을 결성한 여운형.",
+          "임시 정부 초대 국무총리는 이동휘.",
+          "정읍 발언은 1946년 이승만.",
+          "헤이그 특사는 이준·이상설·이위종.",
+          "독사신론을 발표한 신채호."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 910
       },
       {
         "number": 47,
@@ -9292,7 +10606,16 @@
             "title": "국가기록원 · 포항제철",
             "url": "https://theme.archives.go.kr/next/koreaOfRecord/pohangJecheol.do"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "최저 임금 위원회는 1987년.",
+          "포항 제철소 1기 준공은 1973년.",
+          "민주노총 창립은 1995년.",
+          "한·칠레 FTA 발효는 2004년.",
+          "OECD 가입은 1996년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 841
       },
       {
         "number": 48,
@@ -9354,7 +10677,16 @@
             "title": "한국민족문화대백과사전 · 부마민주항쟁",
             "url": "https://encykorea.aks.ac.kr/Article/E0024157"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "애치슨 라인 발표는 1950년.",
+          "부마 항쟁은 1979년 10월.",
+          "사사오입 개헌은 1954년.",
+          "반민특위 해체는 1949년.",
+          "양원제 국회 구성은 1960년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 839
       },
       {
         "number": 49,
@@ -9420,7 +10752,16 @@
             "title": "주헝가리 대한민국 대사관 · 주요현황",
             "url": "https://overseas.mofa.go.kr/hu-ko/wpge/m_9711/contents.do"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "헝가리 대표부 설치는 1988년.",
+          "박종철 고문치사는 1987년.",
+          "조봉암 처형은 1959년.",
+          "금융 실명제는 1993년.",
+          "지하철 1호선 개통은 1974년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 809
       },
       {
         "number": 50,
@@ -9482,7 +10823,16 @@
             "title": "한국민족문화대백과사전 · 성왕",
             "url": "https://encykorea.aks.ac.kr/Article/E0029457"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "평양 천도는 장수왕, 공격은 미천왕.",
+          "웅진 천도는 문주왕, 혼인은 동성왕.",
+          "사비 천도·남부여 개칭은 성왕.",
+          "강화 천도는 고종, 수복은 공민왕.",
+          "한양 천도는 태조, 법전 완성은 성종."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1092
       }
     ]
   },
@@ -9557,7 +10907,16 @@
             "title": "한국민족문화대백과사전: 구석기시대",
             "url": "https://encykorea.aks.ac.kr/Article/E0005842"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "민무늬 토기는 주로 청동기 시대.",
+          "가락바퀴는 신석기 방직 도구.",
+          "명도전·반량전은 철기 시대 화폐.",
+          "철제 농기구는 철기 시대 도구.",
+          "구석기는 동굴·막집에서 생활."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 945
       },
       {
         "number": 2,
@@ -9619,7 +10978,16 @@
             "title": "한국민족문화대백과사전: 고구려",
             "url": "https://encykorea.aks.ac.kr/Article/E0003323"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "소도는 삼한의 신성 구역.",
+          "동맹은 고구려의 10월 제천 행사.",
+          "책화는 동예의 경계 침범 배상 풍속.",
+          "범금 8조는 고조선의 법.",
+          "화백 회의는 신라의 귀족 회의."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 742
       },
       {
         "number": 3,
@@ -9685,7 +11053,16 @@
             "title": "한국민족문화대백과사전: 고구려",
             "url": "https://encykorea.aks.ac.kr/Article/E0003323"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "475→371→554년: 순서가 뒤바뀜.",
+          "475→554→371년: 순서가 뒤바뀜.",
+          "371→475→554년: 올바른 순서.",
+          "371→554→475년: 순서가 뒤바뀜.",
+          "554→475→371년: 순서가 뒤바뀜."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 720
       },
       {
         "number": 4,
@@ -9751,7 +11128,16 @@
             "title": "한국민족문화대백과사전: 이불병좌상",
             "url": "https://encykorea.aks.ac.kr/Article/E0044496"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "산수무늬 벽돌은 백제 유물.",
+          "나뭇가지 장식 금관은 신라 유물.",
+          "고구려 제작, 신라 호우총 출토.",
+          "철제 갑옷은 가야의 문화유산.",
+          "이불병좌상은 발해의 불상."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1006
       },
       {
         "number": 5,
@@ -9813,7 +11199,16 @@
             "title": "우리역사넷: 신라의 촌락 지배",
             "url": "https://contents.history.go.kr/mobile/hm/view.do?levelId=hm_033_0050"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "경성·경원 무역소는 조선·여진 교역.",
+          "솔빈부의 말은 발해의 특산물.",
+          "서적점·다점은 고려의 관영 상점.",
+          "청해진 무역은 통일 신라 장보고.",
+          "소는 고려의 특수 생산 구역."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 900
       },
       {
         "number": 6,
@@ -9875,7 +11270,16 @@
             "title": "우리역사넷: 신문왕",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n101240"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "병부·율령은 신라 법흥왕의 정책.",
+          "관료전·녹읍 폐지는 신문왕의 정책.",
+          "화랑도 정비는 진흥왕의 정책.",
+          "독서삼품과는 788년 원성왕의 정책.",
+          "마진·철원 천도는 궁예의 정책."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 673
       },
       {
         "number": 7,
@@ -9941,7 +11345,16 @@
             "title": "한국민족문화대백과사전: 화엄일승법계도",
             "url": "https://encykorea.aks.ac.kr/Article/E0064812"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "보현십원가는 고려 균여의 향가.",
+          "세속 5계는 원광의 가르침.",
+          "대승기신론소는 원효의 저술.",
+          "화엄일승법계도는 의상의 저술.",
+          "교장총록은 고려 의천의 목록."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 749
       },
       {
         "number": 8,
@@ -10003,7 +11416,16 @@
             "title": "한국민족문화대백과사전: 발해",
             "url": "https://encykorea.aks.ac.kr/Article/E0021626"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "유기·신집은 고구려의 역사서.",
+          "6좌평은 백제의 중앙 관제.",
+          "5경 15부 62주는 발해의 지방 제도.",
+          "도병마사는 고려의 군사 회의 기구.",
+          "골품제는 신라의 신분 제도."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 899
       },
       {
         "number": 9,
@@ -10065,7 +11487,16 @@
             "title": "한국민족문화대백과사전: 김헌창의 난",
             "url": "https://encykorea.aks.ac.kr/Article/E0011027"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "비담·염종의 난은 647년.",
+          "김헌창의 난은 822년: 구간에 해당.",
+          "연개소문의 정변은 642년.",
+          "만적의 반란 모의는 고려 1198년.",
+          "김춘추의 당 방문은 648년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 695
       },
       {
         "number": 10,
@@ -10127,7 +11558,16 @@
             "title": "한국민족문화대백과사전: 일리천전투",
             "url": "https://encykorea.aks.ac.kr/Article/E0047180"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "공산 전투는 927년: 귀순 이전.",
+          "일리천 전투는 936년: 귀순 이후.",
+          "나주 점령은 왕건이 궁예의 부하일 때.",
+          "고창 전투는 930년: 귀순 이전.",
+          "경애왕 사망은 927년: 귀순 이전."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 567
       },
       {
         "number": 11,
@@ -10193,7 +11633,16 @@
             "title": "한국민족문화대백과사전: 서적포",
             "url": "https://encykorea.aks.ac.kr/Article/E0028157"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "7재는 고려 예종의 관학 진흥책.",
+          "경학 박사 파견은 성종의 정책.",
+          "서적포 설치는 숙종의 정책.",
+          "만권당 설치는 충선왕의 정책.",
+          "통문관 설치는 충렬왕의 정책."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 674
       },
       {
         "number": 12,
@@ -10255,7 +11704,16 @@
             "title": "한국민족문화대백과사전: 최우",
             "url": "https://encykorea.aks.ac.kr/Article/E0057502"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "원종 폐위는 무신 집권자 임연.",
+          "9재 학당은 고려 유학자 최충.",
+          "정방은 최우의 인사 담당 기구.",
+          "전민변정도감 개혁은 신돈.",
+          "오월과 교류한 인물은 견훤."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 828
       },
       {
         "number": 13,
@@ -10317,7 +11775,16 @@
             "title": "한국민족문화대백과사전: 주전도감",
             "url": "https://encykorea.aks.ac.kr/Article/E0053417"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "초량 왜관은 조선 후기 무역 창구.",
+          "덕대 경영은 조선 후기 광업.",
+          "당항성·영암은 삼국 시대 교류항.",
+          "거란도·영주도는 발해의 교통로.",
+          "해동통보 발행은 고려 숙종."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 826
       },
       {
         "number": 14,
@@ -10387,7 +11854,16 @@
             "title": "한국민족문화대백과사전: 이자겸의 난",
             "url": "https://encykorea.aks.ac.kr/Article/E0045670"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "1126→945→1009년: 순서 오류.",
+          "1126→1009→945년: 순서 오류.",
+          "945→1126→1009년: 순서 오류.",
+          "945→1009→1126년: 올바른 순서.",
+          "1009→1126→945년: 순서 오류."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 805
       },
       {
         "number": 15,
@@ -10449,7 +11925,16 @@
             "title": "한국민족문화대백과사전: 강감찬",
             "url": "https://encykorea.aks.ac.kr/Article/E0000954"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "저고여 피살지는 압록강 부근.",
+          "강동 6주는 압록강 동쪽 지역.",
+          "개경 나성은 강감찬의 건의로 축조.",
+          "김보당은 동계에서 봉기.",
+          "진포 대첩은 금강 하구의 전투."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 835
       },
       {
         "number": 16,
@@ -10515,7 +12000,16 @@
             "title": "한국민족문화대백과사전: 최우",
             "url": "https://encykorea.aks.ac.kr/Article/E0057502"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "강화도 천도는 몽골 침입 대응.",
+          "광군은 거란 침입에 대비한 군대.",
+          "훈련도감은 임진왜란 때 설치.",
+          "별무반·동북 9성은 여진 대응.",
+          "요동 정벌은 명의 철령위 설치 대응."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 734
       },
       {
         "number": 17,
@@ -10581,7 +12075,16 @@
             "title": "국립중앙박물관: 분청사기 희준(상준)",
             "url": "https://www.museum.go.kr/MUSEUM/contents/M0502000000.do?relicId=2124&schM=view&searchId=search"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "고려 청자 어룡 모양 주전자.",
+          "물고기 모양 연적은 조선 백자.",
+          "철화 넝쿨무늬 병은 조선 분청사기.",
+          "바퀴장식 뿔잔은 가야 토기.",
+          "코끼리 상준은 조선 분청사기."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1176
       },
       {
         "number": 18,
@@ -10647,7 +12150,16 @@
             "title": "한국민족문화대백과사전: 충렬왕",
             "url": "https://encykorea.aks.ac.kr/Article/E0058130"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "과거제 도입은 958년 광종.",
+          "흑창 설치는 고려 태조.",
+          "응방 설치는 1275년 충렬왕.",
+          "천태종 개창은 1097년 의천.",
+          "망이·망소이의 난은 1176년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 722
       },
       {
         "number": 19,
@@ -10709,7 +12221,16 @@
             "title": "한국민족문화대백과사전: 삼강행실도",
             "url": "https://encykorea.aks.ac.kr/Article/E0026452"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "무예도보통지는 1790년 정조 때.",
+          "동의보감은 광해군 때 완성.",
+          "악학궤범은 1493년 성종 때.",
+          "삼강행실도는 1434년 세종 때.",
+          "만기요람은 1808년 순조 때."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 796
       },
       {
         "number": 20,
@@ -10771,7 +12292,16 @@
             "title": "한국민족문화대백과사전: 무오사화",
             "url": "https://encykorea.aks.ac.kr/Article/E0019174"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "남이 처형은 1468년 예종 때.",
+          "기사환국은 1689년 숙종 때.",
+          "윤임 제거는 1545년 을사사화.",
+          "조광조 축출은 1519년 기묘사화.",
+          "조의제문은 1498년 무오사화의 발단."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 796
       },
       {
         "number": 21,
@@ -10833,7 +12363,16 @@
             "title": "한국민족문화대백과사전: 북관대첩",
             "url": "https://encykorea.aks.ac.kr/Article/E0076551"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "북관대첩은 임진왜란 때의 승리.",
+          "용골산성 항쟁은 정묘호란 때.",
+          "이만주 정벌은 1433년 세종 때.",
+          "사르후 전투는 1619년 명·후금 전쟁.",
+          "광교산 전투는 병자호란 때."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 888
       },
       {
         "number": 22,
@@ -10895,7 +12434,16 @@
             "title": "한국민족문화대백과사전: 홍문관",
             "url": "https://encykorea.aks.ac.kr/Article/E0064081"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "수도 행정·치안은 한성부의 업무.",
+          "홍문관·사헌부·사간원이 조선 3사.",
+          "대사성·좨주·직강은 성균관 관직.",
+          "왕명 출납은 승정원의 업무.",
+          "실록 편찬은 실록청의 업무."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 652
       },
       {
         "number": 23,
@@ -10957,7 +12505,16 @@
             "title": "한국민족문화대백과사전: 대동법",
             "url": "https://encykorea.aks.ac.kr/Article/E0014246"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "전시과는 고려의 토지 지급 제도.",
+          "선무군관포는 균역법의 보완책.",
+          "현직 관리만 지급한 제도는 직전법.",
+          "전세액 고정은 인조 때 영정법.",
+          "대동법 시행으로 공인이 등장."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 635
       },
       {
         "number": 24,
@@ -11023,7 +12580,16 @@
             "title": "우리역사넷: 성호사설의 육두",
             "url": "https://contents.history.go.kr/mobile/km/view.do?levelId=km_017_0040_0020_0010"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "의산문답·무한 우주론은 홍대용.",
+          "북학의·소비 권장은 박제가.",
+          "열하일기·수레 이용은 박지원.",
+          "성호사설·여섯 가지 좀은 이익.",
+          "우서·직업적 평등은 유수원."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 661
       },
       {
         "number": 25,
@@ -11089,7 +12655,16 @@
             "title": "한국민족문화대백과사전: 준천사",
             "url": "https://encykorea.aks.ac.kr/Article/E0053649"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "나선 정벌 파병은 효종 때.",
+          "속대전은 1746년 영조 때 편찬.",
+          "백두산정계비는 1712년 숙종 때.",
+          "초계문신제는 정조의 정책.",
+          "총융청·수어청은 인조 때 설치."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 780
       },
       {
         "number": 26,
@@ -11155,7 +12730,16 @@
             "title": "한국민족문화대백과사전 · 계미자",
             "url": "https://encykorea.aks.ac.kr/Article/E0003132"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "상평통보는 조선 후기 유통 화폐.",
+          "송상은 조선 후기 인삼 무역 상인.",
+          "계미자는 1403년 태종 때의 활자.",
+          "상품 작물 재배는 조선 후기 확산.",
+          "전기수는 조선 후기 소설 낭독자."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 793
       },
       {
         "number": 27,
@@ -11221,7 +12805,16 @@
             "title": "한국민족문화대백과사전 · 기산풍속도",
             "url": "https://encykorea.aks.ac.kr/Article/E0008270"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "파적도는 김득신의 그림.",
+          "투호 치는 모양은 김준근의 그림.",
+          "월하정인은 신윤복의 그림.",
+          "무동은 김홍도의 그림.",
+          "고사관수도는 강희안의 그림."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 1003
       },
       {
         "number": 28,
@@ -11283,7 +12876,16 @@
             "title": "우리역사넷 · 왜양일체론",
             "url": "https://contents.history.go.kr/mobile/tg/view.do?levelId=tg_004_0660"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "1863~1871년: 상소보다 이전.",
+          "1871~1884년: 1876년 상소 포함.",
+          "1884~1895년: 상소보다 이후.",
+          "1895~1904년: 상소보다 이후.",
+          "1904~1910년: 상소보다 이후."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 786
       },
       {
         "number": 29,
@@ -11349,7 +12951,16 @@
             "title": "우리역사넷 · 경복궁 중건",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i300500"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "청일 전쟁은 1894년 발발.",
+          "삼정이정청은 1862년 설치.",
+          "영국의 거문도 점령은 1885년.",
+          "김기수 수신사 파견은 1876년.",
+          "문수산성 항전은 1866년 병인양요."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1020
       },
       {
         "number": 30,
@@ -11411,7 +13022,16 @@
             "title": "우리역사넷 · 조청 상민 수륙 무역 장정",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_115_0050"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "1882년 임오군란 후 청과 체결.",
+          "거중 조정은 조미 수호 통상 조약.",
+          "방곡령 조건은 조일 통상 장정.",
+          "항구 추가 개항은 강화도 조약.",
+          "재정 고문은 제1차 한일 협약."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 739
       },
       {
         "number": 31,
@@ -11473,7 +13093,16 @@
             "title": "우리역사넷 · 집강소의 향촌 통치",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_117_0040"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "황무지 개간권 저지는 1904년 보안회.",
+          "총독부 탄압은 민립 대학 설립 운동.",
+          "동학 농민군은 집강소로 개혁 추진.",
+          "남한 대토벌은 1909년 의병 탄압.",
+          "박규수는 1862년 진주에 파견."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 888
       },
       {
         "number": 32,
@@ -11535,7 +13164,16 @@
             "title": "우리역사넷 · 관민 공동회의 헌의 6조",
             "url": "https://contents.history.go.kr/front/nh/view.do?levelId=nh_041_0050_0030_0050"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "고종 퇴위 반대는 대한자강회.",
+          "만세보는 천도교 계열의 신문.",
+          "파리 파견은 1919년 신한청년당.",
+          "독립협회는 헌의 6조를 결의.",
+          "태극 서관은 신민회가 운영."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 819
       },
       {
         "number": 33,
@@ -11597,7 +13235,16 @@
             "title": "우리역사넷 · 대한제국과 광무개혁",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i401000"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "군국기무처는 제1차 갑오개혁 기구.",
+          "8아문 개편은 제1차 갑오개혁.",
+          "기기창은 1883년 설립.",
+          "광무개혁에서 토지 소유 지계 발급.",
+          "홍범 14조는 제2차 갑오개혁."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 807
       },
       {
         "number": 34,
@@ -11663,7 +13310,16 @@
             "title": "우리역사넷 · 개신교의 전래와 근대 교육",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o401410"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "ㄱ 오류: 배재학당은 1885년 설립.",
+          "ㄱ 오류: 아펜젤러가 배재학당 설립.",
+          "광혜원 1885년, 전차 1899년.",
+          "ㄹ 오류: 아리랑은 단성사에서 개봉.",
+          "ㄹ 오류: 원각사는 창극 공연 극장."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 866
       },
       {
         "number": 35,
@@ -11725,7 +13381,16 @@
             "title": "우리역사넷 · 헤이그 특사 사건",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i403600"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "조선책략 도입은 1880년 김홍집.",
+          "갑신정변은 1884년 김옥균.",
+          "영선사 파견은 1881년 김윤식.",
+          "유길준의 중립화론은 1880년대.",
+          "헤이그 특사 파견은 1907년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 814
       },
       {
         "number": 36,
@@ -11787,7 +13452,16 @@
             "title": "우리역사넷 · 일제 식민 통치의 성격",
             "url": "https://contents.history.go.kr/front/nh/view.do?levelId=nh_048_0010"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "암태도 소작 쟁의는 1923~1924년.",
+          "제복·칼 착용 교사는 1910년대.",
+          "어린이는 1923년 창간.",
+          "토월회는 1923년 조직.",
+          "여자 직공 조합 파업은 1923년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 960
       },
       {
         "number": 37,
@@ -11853,7 +13527,16 @@
             "title": "우리역사넷 · 물산 장려 운동과 민립 대학 설립 운동",
             "url": "https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0336_0010"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "해조신문은 1908년 창간.",
+          "송죽회는 1913년 결성.",
+          "화폐 정리 사업은 1905년 시작.",
+          "회사령은 1910년 공포.",
+          "민립 대학 기성회 총회는 1923년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 898
       },
       {
         "number": 38,
@@ -11915,7 +13598,16 @@
             "title": "우리역사넷 · 의열단과 조선 혁명 선언",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_126_0020"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "신흥 강습소는 1911년 서간도 설립.",
+          "구미 위원부는 임시정부 외교 기관.",
+          "이봉창은 한인 애국단 단원.",
+          "의열단 지침은 조선 혁명 선언.",
+          "국권 반환 요구는 대한 독립 의군부."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 964
       },
       {
         "number": 39,
@@ -11977,7 +13669,16 @@
             "title": "우리역사넷 · 물산 장려 운동",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i401800"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "대한매일신보 후원은 국채 보상 운동.",
+          "순종 인산일은 6·10 만세 운동.",
+          "자작회·토산 애용 부인회는 물산 장려.",
+          "신간회 지원은 광주 학생 항일 운동.",
+          "강주룡 농성은 1931년 노동 운동."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 1087
       },
       {
         "number": 40,
@@ -12039,7 +13740,16 @@
             "title": "우리역사넷 · 근우회",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o400420"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "개벽·신여성은 개벽사 발행 잡지.",
+          "이화 학당은 1886년 스크랜턴 설립.",
+          "근우회는 좌우 여성 운동가의 연합.",
+          "여유당전서 간행은 조선학 운동.",
+          "여권통문은 1898년 북촌 여성 발표."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 799
       },
       {
         "number": 41,
@@ -12101,7 +13811,16 @@
             "title": "우리역사넷 · 참의부",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o403530"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "경학사는 1911년 서간도 조직.",
+          "임시정부는 독립 공채를 발행.",
+          "건국 강령은 1941년 삼균주의 기반.",
+          "참의부는 임시정부 직할 군사 조직.",
+          "임시정부는 한일 관계 사료집 간행."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1059
       },
       {
         "number": 42,
@@ -12163,7 +13882,16 @@
             "title": "우리역사넷 · 일제의 노동력 강제 동원",
             "url": "https://contents.history.go.kr/front/kc/printViewPopup.do?levelId=kc_i400700"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "미쓰야 협정은 1925년 체결.",
+          "치안 유지법은 1925년 제정.",
+          "조선사 편수회는 1925년 조직.",
+          "여자 정신 근로령은 1944년 공포.",
+          "동양 척식 주식회사는 1908년 설립."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 743
       },
       {
         "number": 43,
@@ -12225,7 +13953,16 @@
             "title": "한국민족문화대백과사전 · 새마을운동",
             "url": "https://encykorea.aks.ac.kr/Article/E0027443"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "몸뻬는 일제 전시 체제의 작업복.",
+          "경성 라디오 방송은 1927년 시작.",
+          "경평 축구 대회는 1929년 시작.",
+          "새마을 운동은 1970년 박정희 때.",
+          "모던 걸은 1920~1930년대 여성상."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 847
       },
       {
         "number": 44,
@@ -12287,7 +14024,16 @@
             "title": "한국민족문화대백과사전 · 조선건국준비위원회",
             "url": "https://encykorea.aks.ac.kr/Article/E0051909"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "신한공사는 1946년 미군정 설립.",
+          "7원칙은 좌우 합작 위원회 발표.",
+          "국방 경위대는 1946년 미군정 창설.",
+          "남북 협상 공동 성명은 1948년.",
+          "건준은 1945년 인민 공화국 선포 후 해산."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 713
       },
       {
         "number": 45,
@@ -12349,7 +14095,16 @@
             "title": "우리역사넷 · 제주 4·3 사건",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i503000"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "예비군은 1968년 무장 침투 대응.",
+          "조봉암은 진보당 사건으로 사형.",
+          "유엔군 파병은 6·25 전쟁 대응.",
+          "허정 과도 정부는 4·19 혁명 이후.",
+          "제주 4·3 특별법은 2000년 제정."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 804
       },
       {
         "number": 46,
@@ -12411,7 +14166,16 @@
             "title": "한국민족문화대백과사전 · 사단칠정",
             "url": "https://encykorea.aks.ac.kr/Article/E0025438"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "남연군 묘 도굴 미수는 1868년.",
+          "윤봉길은 한인 애국단 단원.",
+          "수덕사 대웅전은 고려 주심포 건물.",
+          "임존성은 백제 부흥 운동 거점.",
+          "추사 고택은 김정희, 논쟁은 기대승."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1033
       },
       {
         "number": 47,
@@ -12477,7 +14241,16 @@
             "title": "우리역사넷 · 현행 대한민국 헌법",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_151_0060"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "1954→1972→1987년: 올바른 순서.",
+          "1954→1987→1972년: 순서 오류.",
+          "1972→1954→1987년: 순서 오류.",
+          "1972→1987→1954년: 순서 오류.",
+          "1987→1954→1972년: 순서 오류."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 830
       },
       {
         "number": 48,
@@ -12539,7 +14312,16 @@
             "title": "국가기록원 · 지하철",
             "url": "https://theme.archives.go.kr/next/koreaOfRecord/subway.do"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "서울 지하철 개통은 1974년 박정희 때.",
+          "반민족 행위 처벌법은 1948년.",
+          "한·중 FTA 서명은 2015년 박근혜 때.",
+          "금융실명제는 1993년 김영삼 때.",
+          "금 모으기 운동은 1998년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 898
       },
       {
         "number": 49,
@@ -12605,7 +14387,16 @@
             "title": "통일부 · 남북경제협력추진위원회 제11차 회의 자료",
             "url": "https://dialogue.unikorea.go.kr/ukd/a/ad/usrtaltotal/View.do?id=533"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "남북 조절위원회는 1972년 박정희 때.",
+          "유엔 동시 가입은 1991년 노태우 때.",
+          "금강산 관광은 1998년 김대중 때.",
+          "개성 협의 사무소는 2005년 노무현 때.",
+          "고향 방문단 교환은 1985년 전두환 때."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 778
       },
       {
         "number": 50,
@@ -12667,7 +14458,16 @@
             "title": "우리역사넷 · 대한국 국제",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i401310"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "영락은 광개토대왕, 신라 지원.",
+          "건원은 법흥왕, 금관가야 병합.",
+          "인안은 무왕, 장문휴 파견.",
+          "광덕·준풍은 광종, 노비안검법.",
+          "융희는 순종, 대한국 국제는 고종."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 964
       }
     ]
   },
@@ -12742,7 +14542,16 @@
             "title": "한국민족문화대백과사전 · 부여 송국리 선사 취락지",
             "url": "https://encykorea.aks.ac.kr/Article/E0024420"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "주먹도끼는 구석기 도구.",
+          "소를 쓴 깊이갈이는 청동기 이후.",
+          "동굴·막집은 구석기 주거.",
+          "고인돌은 청동기 지배층 무덤.",
+          "가락바퀴는 신석기부터 사용."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 821
       },
       {
         "number": 2,
@@ -12804,7 +14613,16 @@
             "title": "우리역사넷 · 위만",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n101500"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "위만 집권은 기원전 194년경.",
+          "우산국 복속은 512년.",
+          "백제 건국은 기원전 18년.",
+          "환도성 함락은 244년.",
+          "서안평 공격은 311년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 666
       },
       {
         "number": 3,
@@ -12870,7 +14688,16 @@
             "title": "한국민족문화대백과사전 · 정혜공주 묘",
             "url": "https://encykorea.aks.ac.kr/Article/E0051146"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "백제 금동 대향로.",
+          "고구려 연가 7년명 여래 입상.",
+          "발해 정혜공주 묘 돌사자.",
+          "발해 상경 용천부 석등.",
+          "신라 천마도 말다래."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1007
       },
       {
         "number": 4,
@@ -12936,7 +14763,16 @@
             "title": "한국민족문화대백과사전 · 진흥왕",
             "url": "https://encykorea.aks.ac.kr/Article/E0055013"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "대가야는 562년 진흥왕이 정복.",
+          "광평성은 태봉의 정치 기구.",
+          "화백 회의는 신라 귀족 회의.",
+          "사자·조의·선인은 고구려 관직.",
+          "박·석·김의 교대는 신라 초기."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 737
       },
       {
         "number": 5,
@@ -13002,7 +14838,16 @@
             "title": "우리역사넷 · 백제의 서사문화",
             "url": "https://contents.history.go.kr/mobile/km/view.do?levelId=km_037_0030_0020_0020"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "동시전은 신라 지증왕 때 설치.",
+          "부경은 고구려의 집집마다 둔 창고.",
+          "건원중보는 고려 성종 때 화폐.",
+          "솔빈부의 말은 발해 특산물.",
+          "좌관대식기는 백제의 곡물 장부."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 602
       },
       {
         "number": 6,
@@ -13064,7 +14909,16 @@
             "title": "한국민족문화대백과사전 · 김헌창의 난",
             "url": "https://encykorea.aks.ac.kr/Article/E0011027"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "김흠돌의 난은 신문왕 때, 681년.",
+          "만적의 봉기는 고려, 1198년.",
+          "관료전·녹읍 폐지는 신문왕 때.",
+          "김헌창의 난은 신라 하대, 822년.",
+          "불교 공인은 법흥왕 때, 527년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 692
       },
       {
         "number": 7,
@@ -13126,7 +14980,16 @@
             "title": "우리역사넷 · 고구려·당 전쟁",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i100300"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "살수 대첩은 612년.",
+          "왜군 격퇴는 광개토 대왕, 400년.",
+          "관산성 전투는 554년.",
+          "연개소문 정변은 642년.",
+          "고국원왕 전사는 371년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 607
       },
       {
         "number": 8,
@@ -13188,7 +15051,16 @@
             "title": "한국민족문화대백과사전 · 주자감",
             "url": "https://encykorea.aks.ac.kr/Article/E0053398"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "골품제는 신라의 신분 제도.",
+          "주자감은 발해의 교육 기관.",
+          "6좌평은 백제의 중앙 관제.",
+          "양계 병마사는 고려의 지방 제도.",
+          "상수리는 신라의 지방 통제 제도."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 726
       },
       {
         "number": 9,
@@ -13250,7 +15122,16 @@
             "title": "한국민족문화대백과사전 · 사비천도",
             "url": "https://encykorea.aks.ac.kr/Article/E0071959"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "자산어보 저술지는 흑산도.",
+          "비담·염종의 반란은 경주.",
+          "성왕의 새 도읍 사비는 부여.",
+          "윤충이 함락한 대야성은 합천.",
+          "신립의 배수진은 충주 탄금대."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1047
       },
       {
         "number": 10,
@@ -13312,7 +15193,16 @@
             "title": "한국민족문화대백과사전 · 신숭겸",
             "url": "https://encykorea.aks.ac.kr/Article/E0033141"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "공산 전투는 927년.",
+          "안승의 보덕국 왕 책봉은 674년.",
+          "임존성의 백제 부흥 운동은 660년.",
+          "최치원의 시무 10여 조는 894년.",
+          "일리천 전투는 936년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 706
       },
       {
         "number": 11,
@@ -13374,7 +15264,16 @@
             "title": "한국민족문화대백과사전 · 성종",
             "url": "https://encykorea.aks.ac.kr/Article/E0029553"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "광덕·준풍은 광종의 연호.",
+          "신돈의 전민변정은 공민왕 때.",
+          "청연각·보문각은 예종 때.",
+          "정계·계백료서는 태조의 글.",
+          "시무 28조 수용은 성종 때."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 911
       },
       {
         "number": 12,
@@ -13436,7 +15335,16 @@
             "title": "한국민족문화대백과사전 · 대장도감",
             "url": "https://encykorea.aks.ac.kr/Article/E0014690"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "동북 9성은 여진 정벌의 결과.",
+          "훈련도감은 조선 임진왜란 때.",
+          "박위의 쓰시마 정벌은 왜구 대응.",
+          "서희의 담판은 거란 침입 때.",
+          "팔만대장경은 몽골 침입 때 조성."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 790
       },
       {
         "number": 13,
@@ -13498,7 +15406,16 @@
             "title": "한국민족문화대백과사전 · 최충",
             "url": "https://encykorea.aks.ac.kr/Article/E0057700"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "불씨잡변의 저자는 정도전.",
+          "만권당에서 교류한 학자는 이제현.",
+          "구재학당을 세운 학자는 최충.",
+          "입학도설의 저자는 권근.",
+          "정몽주를 학관으로 천거한 이는 이색."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 772
       },
       {
         "number": 14,
@@ -13560,7 +15477,16 @@
             "title": "한국민족문화대백과사전 · 묘청의 난",
             "url": "https://encykorea.aks.ac.kr/Article/E0018893"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "(가)는 918~1009년.",
+          "(나)는 1009~1126년.",
+          "묘청의 난은 1135년, (다).",
+          "(라)는 1170~1356년.",
+          "(마)는 1356~1392년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 633
       },
       {
         "number": 15,
@@ -13622,7 +15548,16 @@
             "title": "우리역사넷 · 위화도회군",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i201240"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "김사미의 봉기는 1193년.",
+          "흥화진 전투는 1018년.",
+          "과거제 도입은 958년.",
+          "교정도감 설치는 1209년.",
+          "위화도 회군은 1388년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 901
       },
       {
         "number": 16,
@@ -13684,7 +15619,16 @@
             "title": "우리역사넷 · 벽란도",
             "url": "https://contents.history.go.kr/mobile/tg/view.do?levelId=tg_002_1090"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "청해진은 통일신라, 828년.",
+          "당백전은 흥선대원군 때 화폐.",
+          "계해약조는 조선, 1443년.",
+          "금난전권 폐지는 정조의 신해통공.",
+          "벽란도는 고려의 국제 무역항."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 664
       },
       {
         "number": 17,
@@ -13746,7 +15690,16 @@
             "title": "한국민족문화대백과사전 · 직지심체요절구결",
             "url": "https://encykorea.aks.ac.kr/Article/E0078837"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "향약집성방은 조선 세종 때 편찬.",
+          "동국지도는 조선 정상기가 제작.",
+          "석굴암은 통일신라 때 조성.",
+          "직지는 고려, 1377년 금속활자본.",
+          "임원경제지는 조선 서유구의 저술."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 958
       },
       {
         "number": 18,
@@ -13816,7 +15769,16 @@
             "title": "동북아역사넷 · 영광탑",
             "url": "https://contents.nahf.or.kr/id/NAHF.isea.d_0003_0010_0010_0040_0080"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "미륵사지 석탑은 백제 무왕 때.",
+          "정림사지 오층석탑은 백제 사비 때.",
+          "경천사지 십층석탑은 고려의 탑.",
+          "영광탑은 발해의 벽돌탑.",
+          "분황사 모전석탑은 신라의 탑."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 1022
       },
       {
         "number": 19,
@@ -13878,7 +15840,16 @@
             "title": "우리역사넷 · 왕자의 난",
             "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i304500"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "방석 책봉에 반발한 이방원의 난.",
+          "수양대군의 집권은 계유정난.",
+          "동인·서인 분당은 1575년.",
+          "폐모살제 명분의 반정은 인조반정.",
+          "남인 축출은 1680년 경신환국."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 729
       },
       {
         "number": 20,
@@ -13940,7 +15911,16 @@
             "title": "한국민족문화대백과사전 · 사헌부",
             "url": "https://encykorea.aks.ac.kr/Article/E0026104"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "수도 행정·치안은 한성부.",
+          "을묘왜변 뒤 상설화된 것은 비변사.",
+          "검서관은 정조의 규장각.",
+          "역사 편찬·보관은 춘추관.",
+          "사헌부의 수장은 대사헌."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 914
       },
       {
         "number": 21,
@@ -14002,7 +15982,16 @@
             "title": "한국민족문화대백과사전 · 육진",
             "url": "https://encykorea.aks.ac.kr/Article/E0042168"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "동평관은 일본 사신 접대소.",
+          "6진은 세종 때 김종서 등이 개척.",
+          "강화 천도는 고려의 몽골 대응.",
+          "요동 정벌은 고려 우왕 때.",
+          "별무반은 고려 윤관의 여진 대응."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 909
       },
       {
         "number": 22,
@@ -14064,7 +16053,16 @@
             "title": "한국민족문화대백과사전 · 을사사화",
             "url": "https://encykorea.aks.ac.kr/Article/E0042955"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "예송은 1659·1674년.",
+          "윤임 제거는 1545년 을사사화.",
+          "정철 유배는 1591년 건저의 사건.",
+          "원자 책봉 갈등은 1689년 기사환국.",
+          "폐비 윤씨 관련 사화는 1504년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 870
       },
       {
         "number": 23,
@@ -14126,7 +16124,16 @@
             "title": "우리역사넷 · 김준용의 광교산 전투",
             "url": "https://contents.history.go.kr/data/pdf/eh/eh_r0295_0010.pdf"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "동래성 항전은 1592년 임진왜란.",
+          "광교산 승리는 병자호란, 1637년.",
+          "이괄의 난은 1624년.",
+          "사르후 전투는 1619년.",
+          "신류의 나선 정벌은 1658년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 851
       },
       {
         "number": 24,
@@ -14192,7 +16199,16 @@
             "title": "한국민족문화대백과사전 · 영수백세록",
             "url": "https://encykorea.aks.ac.kr/Article/E0037472"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "경기도 대동법은 광해군 때.",
+          "금위영 창설은 숙종 때.",
+          "탕평 교서·탕평비는 영조 때.",
+          "초계문신제는 정조 때.",
+          "대전회통은 고종 때 편찬."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 773
       },
       {
         "number": 25,
@@ -14258,7 +16274,16 @@
             "title": "한국민족문화대백과사전 · 시장",
             "url": "https://encykorea.aks.ac.kr/Article/E0032448"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "세책가의 소설 대여는 조선 후기.",
+          "동국정운은 세종 때, 1447년.",
+          "계미자는 태종 때, 1403년.",
+          "형평사 창립은 1923년.",
+          "경시서는 1466년 평시서로 개칭."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 987
       },
       {
         "number": 26,
@@ -14324,7 +16349,16 @@
             "title": "상업 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0027204"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "염포 왜관은 조선 전기 삼포 무역.",
+          "상평통보 본격 유통은 1678년.",
+          "공인은 대동법 이후 납품 상인.",
+          "송상·만상은 청과 무역한 상인.",
+          "덕대는 조선 후기 광산 관리자."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 520
       },
       {
         "number": 27,
@@ -14386,7 +16420,16 @@
             "title": "홍경래의 난 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0063948"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "남연군 묘 도굴 시도는 1868년.",
+          "영남 만인소는 1881년.",
+          "이시애의 난은 1467년.",
+          "홍경래의 난은 순조 때, 1811년.",
+          "곽재우·고경명은 임진왜란 의병장."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 743
       },
       {
         "number": 28,
@@ -14448,7 +16491,16 @@
             "title": "갑신정변 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0000922"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "교정청은 1894년 개혁 기구.",
+          "홍범 14조는 1895년.",
+          "통리기무아문 설치는 1880년.",
+          "김기수의 수신사 파견은 1876년.",
+          "갑신정변 이후 청·일의 톈진 조약."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 647
       },
       {
         "number": 29,
@@ -14514,7 +16566,16 @@
             "title": "대한의민단 — 우리역사넷 신편 한국사",
             "url": "https://contents.history.go.kr/front/nh/view.do?levelId=nh_048_0040_0010_0020_0010_0090"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "포접제는 동학의 교단 조직.",
+          "배재 학당은 개신교 교육 기관.",
+          "새생활 운동은 원불교.",
+          "사찰령 폐지 운동은 불교.",
+          "의민단은 천주교계 무장 단체."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1044
       },
       {
         "number": 30,
@@ -14576,7 +16637,16 @@
             "title": "우리 땅 울릉도와 독도 — 국사편찬위원회",
             "url": "https://contents.history.go.kr/data/pdf/eh/eh_r0305_0010.pdf"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "아관 파천은 1896년.",
+          "독도 침탈은 러일 전쟁 중, 1905년.",
+          "절영도 조차 요구는 1890년대 후반.",
+          "조청 무역 장정은 1882년.",
+          "제너럴 셔먼호 사건은 1866년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 789
       },
       {
         "number": 31,
@@ -14638,7 +16708,16 @@
             "title": "최익현 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0057582"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "독립 의군부를 조직한 이는 임병찬.",
+          "도쿄 폭탄 의거는 이봉창.",
+          "최익현은 1906년 태인에서 의병.",
+          "이완용을 습격한 이는 이재명.",
+          "서울 진공은 이인영·허위가 추진."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 1115
       },
       {
         "number": 32,
@@ -14700,7 +16779,16 @@
             "title": "보안회 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0023463"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "퇴위 반대 운동은 대한 자강회.",
+          "보안회는 황무지 개간권을 저지.",
+          "105인 사건은 신민회 탄압 사건.",
+          "대성 학교는 신민회 계열 교육.",
+          "건국 강령은 임시정부가 발표."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 795
       },
       {
         "number": 33,
@@ -14762,7 +16850,16 @@
             "title": "안중근 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0035026"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "흥사단을 창립한 이는 안창호.",
+          "조선책략을 소개한 이는 김홍집.",
+          "안중근은 하얼빈에서 이토를 사살.",
+          "부민관 의거는 조문기·유만수 등.",
+          "한국통사의 저자는 박은식."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 688
       },
       {
         "number": 34,
@@ -14824,7 +16921,16 @@
             "title": "회사령 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0065503"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "미쓰야 협정은 1925년.",
+          "예방 구금령은 1941년.",
+          "박문국 설치는 1883년.",
+          "황국 중앙 총상회는 1898년.",
+          "회사령은 1910년 말 제정."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1000
       },
       {
         "number": 35,
@@ -14890,7 +16996,16 @@
             "title": "경성제국대학 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0002583"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "영선사 파견은 1881년.",
+          "경성 제국 대학은 1924년 개교.",
+          "국채 보상 운동은 1907년.",
+          "육영 공원은 1894년 폐지.",
+          "서울 전차 개통은 1899년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 1061
       },
       {
         "number": 36,
@@ -14952,7 +17067,16 @@
             "title": "3·1운동 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0026772"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "간도 참변은 1920년.",
+          "보빙사 파견은 1883년.",
+          "순종 서거는 6·10 만세 운동 계기.",
+          "브나로드 운동은 1931년 시작.",
+          "민족 자결주의가 3·1 운동에 영향."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 786
       },
       {
         "number": 37,
@@ -15014,7 +17138,16 @@
             "title": "대한광복회 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0014922"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "대한 광복회는 군대식 비밀 결사.",
+          "정우회 선언은 신간회 결성에 영향.",
+          "조선 혁명 선언은 의열단의 지침.",
+          "영릉가 전투는 양세봉의 조선 혁명군.",
+          "만민 공동회는 독립 협회의 활동."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 755
       },
       {
         "number": 38,
@@ -15076,7 +17209,16 @@
             "title": "대동단결선언 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0014234"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "나(1898)→가(1899)가 맞다.",
+          "나(1898)→가(1899)가 맞다.",
+          "나→가→라→다 순서.",
+          "다(1948)는 네 문서 중 마지막.",
+          "다(1948)는 맨 끝에 와야 한다."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 1155
       },
       {
         "number": 39,
@@ -15138,7 +17280,16 @@
             "title": "숭무학교 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0032067"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "경학사는 서간도의 한인 자치 조직.",
+          "권업회는 연해주의 한인 단체.",
+          "중광단은 북간도 대종교계 단체.",
+          "숭무 학교는 멕시코 메리다에 설립.",
+          "2·8 독립 선언은 일본 도쿄."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 712
       },
       {
         "number": 40,
@@ -15204,7 +17355,16 @@
             "title": "조선농민총동맹 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0051974"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "양전·지계 발급은 대한제국 때.",
+          "방곡령은 1889~1890년.",
+          "농민 총동맹 결성은 1927년.",
+          "농광 회사는 1904년 설립.",
+          "토지 조사령은 1912년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 881
       },
       {
         "number": 41,
@@ -15274,7 +17434,16 @@
             "title": "대한문전 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0014999"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "띄어쓰기 보급은 독립신문의 활동.",
+          "대한문전은 유길준의 저술.",
+          "태극 서관은 신민회 계열 서점.",
+          "조선어 학회는 우리말 사전을 편찬.",
+          "국문 연구소는 대한제국 학부 기관."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 712
       },
       {
         "number": 42,
@@ -15336,7 +17505,16 @@
             "title": "아리랑 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0034276"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "아리랑은 1926년 개봉 영화.",
+          "제국신문 창간은 1898년.",
+          "자유부인은 1954년 발표 소설.",
+          "사상계는 1953년 창간 잡지.",
+          "아침 이슬 금지곡 지정은 1975년."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 888
       },
       {
         "number": 43,
@@ -15398,7 +17576,16 @@
             "title": "한국광복군 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0005134"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "청산리 전투는 1920년 독립군.",
+          "광복군은 OSS와 국내 진공을 준비.",
+          "동북 항일 연군은 만주 유격 부대.",
+          "대전자령 전투는 한국 독립군.",
+          "최초 관내 무장 부대는 조선 의용대."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 947
       },
       {
         "number": 44,
@@ -15460,7 +17647,16 @@
             "title": "애국반 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0073853"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "신문지법은 1907년.",
+          "애국반은 1938년부터 생활 통제.",
+          "조선 물산 공진회는 1915년.",
+          "화폐 정리 사업은 1905년.",
+          "제1차 조선 교육령은 1911년."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 904
       },
       {
         "number": 45,
@@ -15522,7 +17718,16 @@
             "title": "남한만의 단독 정부 수립 반대 — 김구의 성명 발표, 우리역사넷",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_145_0040"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "3국 외상 회의는 1945년 12월.",
+          "한국 민주당 창당은 1945년 9월.",
+          "좌우 합작 7원칙은 1946년 10월.",
+          "5·10 총선거는 1948년 5월.",
+          "건국 준비 위원회는 1945년 8월."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 773
       },
       {
         "number": 46,
@@ -15584,7 +17789,16 @@
             "title": "한미상호방위조약 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0061616"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "경부 고속 도로는 박정희 정부.",
+          "한미 방위 조약은 이승만 정부.",
+          "함평 고구마 운동은 박정희 정부.",
+          "금융 실명제는 김영삼 정부.",
+          "삼청 교육대는 전두환의 신군부 때."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 782
       },
       {
         "number": 47,
@@ -15646,7 +17860,16 @@
             "title": "3·1 민주 구국 선언 — 우리역사넷",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_150_0130"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "부천 성 고문 사건은 전두환 정부.",
+          "경향신문 폐간은 이승만 정부.",
+          "최저 임금 위원회는 전두환 정부.",
+          "지방 자치 전면 시행은 김영삼 정부.",
+          "3·1 민주 구국 선언은 유신 반대."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 905
       },
       {
         "number": 48,
@@ -15712,7 +17935,16 @@
             "title": "6·29 민주화 선언 — 우리역사넷",
             "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_151_0050"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "유신 붕괴는 1979년.",
+          "이승만 하야는 1960년 4·19.",
+          "6월 항쟁은 직선제 개헌을 이끌었다.",
+          "시민군의 항전은 1980년 5·18.",
+          "국교 정상화 반대는 1964년 6·3."
+        ],
+        "imageWidth": 703,
+        "imageHeight": 848
       },
       {
         "number": 49,
@@ -15778,7 +18010,16 @@
             "title": "한·칠레 자유무역협정 서명 — 외교부 2003.2.15 보도자료",
             "url": "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=102026&seq=291556"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "한칠레 FTA 서명은 김대중 정부.",
+          "수출 100억 달러는 박정희 정부.",
+          "7·4 공동 성명은 박정희 정부.",
+          "한소 수교는 노태우 정부.",
+          "거창 사건 명예 회복법은 김영삼 정부."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 894
       },
       {
         "number": 50,
@@ -15840,7 +18081,16 @@
             "title": "김만덕 — 한국민족문화대백과사전",
             "url": "https://encykorea.aks.ac.kr/Article/E0076304"
           }
-        ]
+        ],
+        "shortExplanations": [
+          "원종·애노의 봉기는 상주.",
+          "외규장각 도서 약탈은 강화도.",
+          "강주룡의 고공 시위는 평양.",
+          "김만덕은 재산을 내어 제주민을 구제.",
+          "영국군의 점령지는 여수 거문도."
+        ],
+        "imageWidth": 706,
+        "imageHeight": 815
       }
     ]
   }

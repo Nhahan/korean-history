@@ -74,7 +74,7 @@
 
   async function init() {
     try {
-      const response = await fetch('assets/data/exams.json?v=20261008-explanations');
+      const response = await fetch('assets/data/exams.json?v=20261008-short-notes');
       if (!response.ok) throw new Error('자료 파일을 가져오지 못했습니다. 잠시 후 다시 시도해 주세요.');
       const data = await response.json();
       exams = (Array.isArray(data) ? data : data.exams).slice().sort((a, b) => b.id - a.id);
@@ -120,33 +120,67 @@
     updateRoundLinks();
   }
 
-  function imageHTML(question, overlay = false) {
+  function choiceButtonHTML(question, index, region, crop = { x: 0, y: 0, w: 1, h: 1 }) {
+    const left = Math.max(0, (region.x - crop.x) / crop.w);
+    const top = Math.max(0, (region.y - crop.y) / crop.h);
+    const width = Math.max(0, Math.min(region.w / crop.w, 1 - left));
+    const height = Math.max(0, Math.min(region.h / crop.h, 1 - top));
+    return `<button type="button" class="image-choice" role="radio" data-question="${question.number}" data-choice="${index + 1}" aria-label="${index + 1}번 보기${question.options?.[index] ? `: ${escapeHTML(question.options[index])}` : ''}" aria-checked="false" tabindex="${index === 0 ? '0' : '-1'}" style="left:${left * 100}%;top:${top * 100}%;width:${width * 100}%;height:${height * 100}%"><svg class="pen-mark pen-cross" viewBox="0 0 30 30" aria-hidden="true"><path d="M6 5 Q14 13 24 25 M24 5 Q15 14 5 24"/><path class="pen-echo" d="M7 5 Q15 14 24 24"/></svg><svg class="pen-mark pen-check" viewBox="0 0 30 30" aria-hidden="true"><path d="M3 14 Q8 17 11 23 Q18 11 27 4"/><path class="pen-echo" d="M11 23 Q17 14 25 6"/></svg></button>`;
+  }
+  function sourceSliceHTML(question, crop, alt, button = '') {
+    return `<div class="source-slice" style="aspect-ratio:${question.imageWidth * crop.w} / ${question.imageHeight * crop.h}"><img class="question-image source-slice-image" src="${escapeHTML(question.image)}" alt="${escapeHTML(alt)}" loading="lazy" decoding="async" style="width:${100 / crop.w}%;left:${-crop.x / crop.w * 100}%;top:${-crop.y / crop.h * 100}%">${button}</div>`;
+  }
+  function imageHTML(question, overlay = false, reveal = false) {
     const image = `<img class="question-image" src="${escapeHTML(question.image)}" alt="${escapeHTML(question.text || `제${currentExam.id}회 심화 ${question.number}번 원문 문제와 다섯 개 보기`)}" loading="lazy" decoding="async">`;
     const regions = question.choiceRegions;
-    if (!overlay || !Array.isArray(regions) || regions.length !== 5) return image;
+    if (!Array.isArray(regions) || regions.length !== 5) return image;
     const valid = regions.every(region => ['x', 'y', 'w', 'h'].every(axis => Number.isFinite(region[axis])) && region.w > 0 && region.h > 0);
     if (!valid) return image;
-    return `<div class="question-image-wrap">${image}<div class="image-choice-overlays" role="radiogroup" aria-label="${question.number}번 문제 답 선택">${regions.map((region, index) => `<button type="button" class="image-choice" role="radio" data-question="${question.number}" data-choice="${index + 1}" aria-label="${index + 1}번 보기${question.options?.[index] ? `: ${escapeHTML(question.options[index])}` : ''}" aria-checked="false" tabindex="${index === 0 ? '0' : '-1'}" style="left:${Math.max(0,region.x) * 100}%;top:${Math.max(0,region.y) * 100}%;width:${Math.min(region.w,1-region.x) * 100}%;height:${Math.min(region.h,1-region.y) * 100}%"></button>`).join('')}</div></div>`;
-  }
-  function compactOptions(question) {
-    return !question.options || question.options.every(option => !option || /^[①②③④⑤1-5]?\s*번?\s*보기$/.test(option));
+    if (!(question.imageWidth > 0 && question.imageHeight > 0)) {
+      if (!overlay) return image;
+      return `<div class="question-image-wrap">${image}<div class="image-choice-overlays" role="radiogroup" aria-label="${question.number}번 문제 답 선택">${regions.map((region, index) => choiceButtonHTML(question, index, region)).join('')}</div></div>`;
+    }
+    const indexed = regions.map((region, index) => ({ ...region, index })).sort((a, b) => a.y - b.y || a.x - b.x);
+    const rows = [];
+    indexed.forEach(region => {
+      let row = rows.at(-1);
+      if (!row || Math.abs(row.top - region.y) > 0.025) { row = { top: region.y, choices: [] }; rows.push(row); }
+      row.top = Math.min(row.top, region.y);
+      row.choices.push(region);
+    });
+    const stemCrop = { x: 0, y: 0, w: 1, h: rows[0].top };
+    const stem = stemCrop.h > 0 ? sourceSliceHTML(question, stemCrop, question.text || `${question.number}번 원문 문제`) : '';
+    const choices = rows.map((row, rowIndex) => {
+      const bottom = rows[rowIndex + 1]?.top ?? 1;
+      const height = bottom - row.top;
+      const ordered = row.choices.sort((a, b) => a.x - b.x);
+      const boundaries = [0, ...ordered.slice(1).map((region, index) => (ordered[index].x + ordered[index].w + region.x) / 2), 1];
+      const crops = ordered.map((region, index) => ({ x: boundaries[index], y: row.top, w: boundaries[index + 1] - boundaries[index], h: height }));
+      const columns = crops.map(crop => `${crop.w}fr`).join(' ');
+      return `<div class="source-choice-row${ordered.length > 1 ? ' multi-row' : ''}" style="grid-template-columns:${columns}">${ordered.map((region, index) => {
+        const crop = crops[index];
+        const short = question.shortExplanations?.[region.index] || '';
+        return `<figure class="source-choice-figure" style="--choice-span:${crop.w * 100}%">${sourceSliceHTML(question, crop, question.options?.[region.index] || `${region.index + 1}번 원문 보기`, overlay ? choiceButtonHTML(question, region.index, region, crop) : '')}<figcaption class="choice-inline-note${region.index + 1 === Number(question.answer) ? ' is-correct' : ''}" data-choice-note="${region.index + 1}"${reveal ? '' : ' hidden'}>${escapeHTML(short)}</figcaption></figure>`;
+      }).join('')}</div>`;
+    }).join('');
+    return `<div class="question-source${reveal ? ' revealed' : ''}">${stem}<div class="source-choice-body"${overlay ? ` role="radiogroup" aria-label="${question.number}번 문제 답 선택"` : ''}>${choices}</div></div>`;
   }
   function questionHTML(question) {
-    return `<section class="question" id="q-${question.number}" aria-labelledby="question-title-${question.number}"><div class="question-head"><h2 id="question-title-${question.number}">${question.number}번 <small>[${question.points}점]</small></h2><button class="bookmark-button" data-bookmark="${question.number}" aria-pressed="false" aria-label="${question.number}번 문제 다시 볼 문제로 표시"><span aria-hidden="true">☆</span> 다시 보기</button></div>${imageHTML(question, true)}<div class="answer-feedback" id="feedback-${question.number}" hidden></div></section>`;
+    return `<section class="question" id="q-${question.number}" aria-labelledby="question-title-${question.number}"><div class="question-head"><h2 id="question-title-${question.number}">${question.number}번 <small>[${question.points}점]</small></h2><button class="bookmark-button" data-bookmark="${question.number}" aria-pressed="false" aria-label="${question.number}번 문제 다시 볼 문제로 표시"><span aria-hidden="true">☆</span> 다시 보기</button></div>${imageHTML(question, true)}<span class="visually-hidden" id="feedback-${question.number}" role="status" aria-live="polite"></span></section>`;
   }
   function initExam() {
     state = normalizeState(getStored(key(currentExam.id, mode)));
     document.title = `제${currentExam.id}회 심화 · ${mode === 'exam' ? '실전 시험' : '바로 채점'} · 한국사 기출연습`;
     document.querySelector('#header-answer-link').href = `answers.html?round=${currentExam.id}&mode=${mode}`;
     document.querySelector('#header-answer-link').hidden = mode === 'instant';
-    main.innerHTML = `<div class="exam-breadcrumb"><a href="index.html">기출문제</a><span aria-hidden="true">/</span><span>제${currentExam.id}회 심화</span></div><div id="exam-result"></div><div class="exam-layout"><div class="exam-paper-column"><article class="exam-sheet"><div class="sheet-heading"><p class="sheet-overline">제${currentExam.id}회 · 심화 1·2·3급</p><h1>한국사능력검정시험</h1><div class="sheet-subtitle"><span>심화 문제지</span><span aria-hidden="true">│</span><span>${questionCount(currentExam)}문항 · 100점</span></div></div><div class="sheet-information"><span>시험일 ${escapeHTML(dateLabel(currentExam.date))}</span><span class="mode-tag">${mode === 'exam' ? '실전 시험 모드' : '바로 채점 모드'}</span><span>시험 시간 ${currentExam.duration || 80}분</span></div><p class="exam-help">${mode === 'instant' ? '선지를 클릭하면 모든 보기의 해설을 확인할 수 있어요.' : '모든 문제를 푼 뒤 답안 제출을 누르세요. 정답과 점수는 제출 후에 공개됩니다. 제한 시간이 끝나면 자동으로 제출됩니다.'} 풀이 기록은 자동 저장됩니다.</p><div class="mobile-status"><span id="mobile-progress"></span>${mode === 'exam' ? '<span id="mobile-timer" class="mobile-time"></span>' : ''}<button class="mobile-omr-link" id="jump-omr">답안지 ↑</button></div><div id="questions">${currentExam.questions.map(questionHTML).join('')}</div><div class="sheet-end"><p>— 제${currentExam.id}회 심화 문제 끝 —</p><button class="button button-primary" id="end-submit">${mode === 'exam' ? '답안 제출하고 점수 보기' : '채점하고 점수 보기'}</button></div></article></div><aside class="exam-sidebar" aria-label="답안지와 풀이 현황"><div class="control-panel" id="omr-panel"><div class="panel-head"><strong>나의 답안지</strong><span class="mode-small">${mode === 'exam' ? '실전 시험' : '바로 채점'}</span></div>${mode === 'exam' ? '<div class="timer-area"><span class="timer-caption">남은 시험 시간</span><div class="timer-value" id="timer" role="timer" aria-live="off">80:00</div></div>' : ''}<div class="progress-line"><span>풀이 진행</span><strong id="progress-text"></strong></div><div class="progress-track" role="progressbar" aria-label="풀이 진행률" aria-valuemin="0" aria-valuemax="${questionCount(currentExam)}" aria-valuenow="0"><div class="progress-fill"></div></div><div class="omr-grid">${currentExam.questions.map(q => `<button class="omr-button" data-jump="${q.number}" aria-label="${q.number}번 문제로 이동">${q.number}</button>`).join('')}</div><div class="omr-legend"><span><i class="legend-dot"></i>선택한 답</span><span><i class="legend-dot empty"></i>미선택</span><span><i class="legend-dot flag"></i>다시 보기</span></div><div class="panel-actions"><button class="button button-primary panel-submit" id="submit-exam">${mode === 'exam' ? '답안 제출' : '채점하기'}</button><div class="panel-tools">${mode === 'exam' ? `<a class="text-button" href="answers.html?round=${currentExam.id}&mode=${mode}">정답표</a>` : ''}<button class="text-button" id="reset-exam">처음부터</button></div></div><p class="save-note"><span class="save-dot" aria-hidden="true"></span><span id="save-message">현재 브라우저에 자동 저장됨</span></p></div><p class="sidebar-note">문항 번호를 누르면 해당 문제로 이동합니다.<br>별표를 눌러 다시 볼 문제를 표시하세요.<br><a href="${escapeHTML(currentExam.source?.paper || 'https://www.historyexam.go.kr')}" target="_blank" rel="noopener noreferrer">원본 문제지 보기 ↗</a></p></aside></div>`;
+    main.innerHTML = `<div class="exam-breadcrumb"><a href="index.html">기출문제</a><span aria-hidden="true">/</span><span>제${currentExam.id}회 심화</span></div><div id="exam-result"></div><div class="exam-layout"><div class="exam-paper-column"><article class="exam-sheet"><div class="sheet-heading"><p class="sheet-overline">제${currentExam.id}회 · 심화 1·2·3급</p><h1>한국사능력검정시험</h1><div class="sheet-subtitle"><span>심화 문제지</span><span aria-hidden="true">│</span><span>${questionCount(currentExam)}문항 · 100점</span></div></div><div class="sheet-information"><span>시험일 ${escapeHTML(dateLabel(currentExam.date))}</span><span class="mode-tag">${mode === 'exam' ? '실전 시험 모드' : '바로 채점 모드'}</span><span>시험 시간 ${currentExam.duration || 80}분</span></div><p class="exam-help">${mode === 'instant' ? '오답은 해당 보기 해설만, 정답은 모든 해설을 보여줍니다.' : '모든 문제를 푼 뒤 답안 제출을 누르세요. 정답과 점수는 제출 후에 공개됩니다. 제한 시간이 끝나면 자동으로 제출됩니다.'} 풀이 기록은 자동 저장됩니다.</p><div class="mobile-status"><span id="mobile-progress"></span>${mode === 'exam' ? '<span id="mobile-timer" class="mobile-time"></span>' : ''}<button class="mobile-omr-link" id="jump-omr">답안지 ↑</button></div><div id="questions">${currentExam.questions.map(questionHTML).join('')}</div><div class="sheet-end"><p>— 제${currentExam.id}회 심화 문제 끝 —</p><button class="button button-primary" id="end-submit">${mode === 'exam' ? '답안 제출하고 점수 보기' : '채점하고 점수 보기'}</button></div></article></div><aside class="exam-sidebar" aria-label="답안지와 풀이 현황"><div class="control-panel" id="omr-panel"><div class="panel-head"><strong>나의 답안지</strong><span class="mode-small">${mode === 'exam' ? '실전 시험' : '바로 채점'}</span></div>${mode === 'exam' ? '<div class="timer-area"><span class="timer-caption">남은 시험 시간</span><div class="timer-value" id="timer" role="timer" aria-live="off">80:00</div></div>' : ''}<div class="progress-line"><span>풀이 진행</span><strong id="progress-text"></strong></div><div class="progress-track" role="progressbar" aria-label="풀이 진행률" aria-valuemin="0" aria-valuemax="${questionCount(currentExam)}" aria-valuenow="0"><div class="progress-fill"></div></div><div class="omr-grid">${currentExam.questions.map(q => `<button class="omr-button" data-jump="${q.number}" aria-label="${q.number}번 문제로 이동">${q.number}</button>`).join('')}</div><div class="omr-legend"><span><i class="legend-dot"></i>선택한 답</span><span><i class="legend-dot empty"></i>미선택</span><span><i class="legend-dot flag"></i>다시 보기</span></div><div class="panel-actions"><button class="button button-primary panel-submit" id="submit-exam">${mode === 'exam' ? '답안 제출' : '채점하기'}</button><div class="panel-tools">${mode === 'exam' ? `<a class="text-button" href="answers.html?round=${currentExam.id}&mode=${mode}">정답표</a>` : ''}<button class="text-button" id="reset-exam">처음부터</button></div></div><p class="save-note"><span class="save-dot" aria-hidden="true"></span><span id="save-message">현재 브라우저에 자동 저장됨</span></p></div><p class="sidebar-note">문항 번호를 누르면 해당 문제로 이동합니다.<br>별표를 눌러 다시 볼 문제를 표시하세요.<br><a href="${escapeHTML(currentExam.source?.paper || 'https://www.historyexam.go.kr')}" target="_blank" rel="noopener noreferrer">원본 문제지 보기 ↗</a></p></aside></div>`;
     document.querySelectorAll('.image-choice').forEach(button => {
       button.addEventListener('click', () => selectAnswer(Number(button.dataset.question), Number(button.dataset.choice)));
       button.addEventListener('keydown', event => {
         const directions = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 };
         if (!(event.key in directions) && !['Home', 'End'].includes(event.key)) return;
         event.preventDefault();
-        const buttons = [...button.parentElement.querySelectorAll('.image-choice')];
+        const buttons = [...button.closest('.question').querySelectorAll('.image-choice')].sort((a, b) => Number(a.dataset.choice) - Number(b.dataset.choice));
         const next = event.key === 'Home' ? 0 : event.key === 'End' ? 4 : (buttons.indexOf(button) + directions[event.key] + 5) % 5;
         if (buttons[next].disabled) return;
         buttons[next].focus();
@@ -195,36 +229,26 @@
       showResult();
     }
   }
-  function explanationsHTML(question, selected) {
-    const explanations = Array.isArray(question.explanations) ? question.explanations : [];
-    const sources = Array.isArray(question.explanationSources) ? question.explanationSources : [];
-    return `<div class="choice-explanations"><h3>보기별 해설</h3>${question.keyExplanation ? `<p class="key-explanation">${escapeHTML(question.keyExplanation)}</p>` : ''}<ol>${Array.from({ length: 5 }, (_, index) => {
-      const correct = index + 1 === Number(question.answer);
-      const chosen = index + 1 === selected;
-      const option = question.options?.[index];
-      return `<li class="explanation-item${correct ? ' is-correct' : ''}${chosen ? ' is-selected' : ''}"><div class="explanation-item-head"><span class="explanation-number" aria-hidden="true">${symbols[index + 1]}</span><strong>${correct ? '정답' : '오답'}${chosen ? ' · 내가 선택한 보기' : ''}</strong></div>${option && !compactOptions(question) ? `<p class="explanation-option">${escapeHTML(option)}</p>` : ''}<p>${escapeHTML(explanations[index] || '이 보기의 해설을 준비하고 있습니다.')}</p></li>`;
-    }).join('')}</ol>${sources.length ? `<details class="explanation-sources"><summary>해설 참고 자료</summary><ul>${sources.map(source => `<li><a href="${escapeHTML(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(source.title)} ↗</a></li>`).join('')}</ul></details>` : ''}</div>`;
-  }
   function updateQuestion(question) {
     const section = document.querySelector(`#q-${question.number}`);
     const selected = Number(state.selections[question.number]);
-    const reveal = state.submitted || (mode === 'instant' && selected >= 1);
+    const revealAll = mode === 'exam' ? state.submitted : selected === Number(question.answer);
+    const revealAny = mode === 'exam' ? state.submitted : selected >= 1;
     section.querySelectorAll('.image-choice').forEach(button => {
       const option = Number(button.dataset.choice);
       button.disabled = state.submitted && mode === 'exam';
       button.setAttribute('aria-checked', option === selected ? 'true' : 'false');
       button.tabIndex = option === (selected || 1) ? 0 : -1;
       button.classList.toggle('selected', option === selected);
-      button.classList.toggle('correct', reveal && option === Number(question.answer));
-      button.classList.toggle('incorrect', reveal && option === selected && option !== Number(question.answer));
+      button.classList.toggle('has-pen-check', revealAll && option === Number(question.answer));
+      button.classList.toggle('has-pen-cross', (revealAll && option !== Number(question.answer)) || (mode === 'instant' && option === selected && selected !== Number(question.answer)));
     });
-    const feedback = section.querySelector('.answer-feedback');
-    feedback.hidden = !reveal;
-    if (reveal) {
-      const correct = selected === Number(question.answer);
-      feedback.classList.toggle('wrong', !correct);
-      feedback.innerHTML = `<div class="feedback-status" role="status"><strong>${correct ? '정답입니다.' : selected ? '다시 확인해 보세요.' : '선택하지 않은 문항입니다.'}</strong><span>공식 정답 ${symbols[question.answer]}${correct ? ` · ${question.points}점` : ''}</span></div>${explanationsHTML(question, selected)}`;
-    }
+    section.querySelector('.question-source')?.classList.toggle('revealed', revealAny);
+    section.querySelectorAll('[data-choice-note]').forEach(note => {
+      note.hidden = !(revealAll || (mode === 'instant' && Number(note.dataset.choiceNote) === selected));
+    });
+    const feedback = section.querySelector(`#feedback-${question.number}`);
+    feedback.textContent = revealAny ? mode === 'instant' && selected !== Number(question.answer) ? `${selected}번은 오답입니다. 선택한 보기 아래 해설을 확인하세요.` : '모든 보기 아래 해설을 확인하세요.' : '';
     const bookmarked = state.bookmarks.includes(question.number);
     const bookmark = section.querySelector('.bookmark-button');
     bookmark.setAttribute('aria-pressed', String(bookmarked));
@@ -329,7 +353,7 @@
   }
   function initImageErrors() {
     document.querySelectorAll('.question-image').forEach(image => image.addEventListener('error', () => {
-      const wrap = image.closest('.question-image-wrap');
+      const wrap = image.closest('.question-source') || image.closest('.question-image-wrap');
       const fallback = document.createElement('div');
       fallback.className = 'image-missing';
       fallback.innerHTML = `문제 이미지를 불러오지 못했습니다.<br><a class="question-source-link" href="${escapeHTML(currentExam.source?.paper || 'https://www.historyexam.go.kr')}" target="_blank" rel="noopener noreferrer">원본 문제지에서 확인하기 ↗</a>`;
@@ -373,7 +397,7 @@
   function answerRowHTML(question, result) {
     const selected = Number(result?.selections?.[question.number]);
     const correct = selected === Number(question.answer);
-    return `<details class="answer-row" id="answer-${question.number}" data-answer-number="${question.number}"><summary><span class="answer-question-number">${question.number}번<small>${question.points}점</small></span><span><span class="answer-item-label">공식 정답</span><strong class="answer-choice-number">${symbols[question.answer]}</strong></span><span><span class="answer-item-label">내가 선택한 답</span><span class="answer-choice-number">${selected ? symbols[selected] : '—'}</span></span><span class="answer-status${result ? correct ? ' correct' : ' wrong' : ''}">${!result ? '답안 없음' : correct ? '정답' : selected ? '오답' : '미선택'}</span></summary><div class="answer-detail">${imageHTML(question)}<p class="answer-detail-note"><span>공식 정답 <strong>${symbols[question.answer]}</strong></span><span>배점 ${question.points}점</span>${result ? `<span>내 점수 ${correct ? question.points : 0}점</span>` : ''}</p>${explanationsHTML(question, selected)}</div></details>`;
+    return `<details class="answer-row" id="answer-${question.number}" data-answer-number="${question.number}"><summary><span class="answer-question-number">${question.number}번<small>${question.points}점</small></span><span><span class="answer-item-label">공식 정답</span><strong class="answer-choice-number">${symbols[question.answer]}</strong></span><span><span class="answer-item-label">내가 선택한 답</span><span class="answer-choice-number">${selected ? symbols[selected] : '—'}</span></span><span class="answer-status${result ? correct ? ' correct' : ' wrong' : ''}">${!result ? '답안 없음' : correct ? '정답' : selected ? '오답' : '미선택'}</span></summary><div class="answer-detail">${imageHTML(question, false, true)}<p class="answer-detail-note"><span>공식 정답 <strong>${symbols[question.answer]}</strong></span><span>배점 ${question.points}점</span>${result ? `<span>내 점수 ${correct ? question.points : 0}점</span>` : ''}</p></div></details>`;
   }
   function filterAnswers(wrongOnly, result) {
     document.querySelector('#filter-all').setAttribute('aria-pressed', String(!wrongOnly));
