@@ -48,7 +48,7 @@
       });
     }));
     conceptFrequency.forEach((frequency, concept) => {
-      if (frequency.questions >= 5 && frequency.rounds.size >= 3) frequentConcepts.add(concept);
+      if (frequency.questions >= 2) frequentConcepts.add(concept);
     });
   }
   function highlightedNoteHTML(text) {
