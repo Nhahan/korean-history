@@ -44,8 +44,8 @@ def validate():
         categories.setdefault(fact['era'], set()).add(fact['category'])
         linked += bool(fact['noteAliases'] or text in notes)
     for era in EXPECTED_ERAS:
-        assert counts[era] >= 5, f'Insufficient basic coverage: {era}'
-    # A study curriculum must include everyday life and tools, independent of frequency.
+        assert counts[era] > 0, f'Missing period: {era}'
+    # Retain the few basic distinctions needed to tell prehistoric periods apart.
     for era, terms in {
         'paleolithic': ['뗀석기', '사냥', '채집', '동굴', '막집', '이동', '주먹도끼'],
         'neolithic': ['간석기', '빗살무늬', '농경', '목축', '움집', '정착', '가락바퀴', '뼈바늘'],
@@ -55,7 +55,6 @@ def validate():
         text = re.sub(r'\s', '', ' '.join(f['text'] for f in guide['facts'] if f['era'] == era))
         for term in terms:
             assert term in text, f'Missing basic topic: {era} / {term}'
-    assert len(categories['paleolithic']) >= 3 and len(categories['neolithic']) >= 3
     print(f"Validated {len(guide['facts'])} study facts / {len(counts)} periods / {len(sources)} primary sources / {linked} facts linked to exam notes.")
     print(' / '.join(f"{era['label']} {counts[era['id']]}" for era in guide['eras']))
 

@@ -159,17 +159,17 @@
   }
 
   async function renderConcepts() {
-    const response = await fetch('assets/data/study-guide.json?v=20261009-complete-guide');
+    const response = await fetch('assets/data/study-guide.json?v=20261009-essential-guide');
     if (!response.ok) throw new Error('시대별 정리를 가져오지 못했습니다.');
     const guide = await response.json();
     const references = studyGuideReferences(guide.facts);
     const sourceById = new Map(guide.sources.map(source => [source.id, source]));
     const questionLink = reference => `exam.html?round=${reference.round}&mode=instant#q-${reference.number}`;
     const eras = guide.eras.map(era => ({ ...era, facts: guide.facts.filter(fact => fact.era === era.id) }));
-    main.innerHTML = `<div class="concept-heading"><h1>시대별 핵심 정리</h1><span>${guide.facts.length}개 핵심 내용</span></div><div class="concept-controls"><div class="era-filters" role="group" aria-label="시대와 나라 선택"><button type="button" data-era="all" aria-pressed="true">전체</button>${eras.map(era => `<button type="button" data-era="${era.id}" aria-pressed="false">${escapeHTML(era.label)}</button>`).join('')}</div><label class="concept-search"><span class="visually-hidden">내용 검색</span><input type="search" id="concept-search" placeholder="내용 검색" autocomplete="off"></label></div><p id="concept-count" class="concept-count" aria-live="polite"></p><div id="concept-groups">${eras.map(era => {
+    main.innerHTML = `<div class="concept-heading"><h1>시대별 핵심 정리</h1></div><div class="concept-controls"><div class="era-filters" role="group" aria-label="시대와 나라 선택"><button type="button" data-era="all" aria-pressed="true">전체</button>${eras.map(era => `<button type="button" data-era="${era.id}" aria-pressed="false">${escapeHTML(era.label)}</button>`).join('')}</div><label class="concept-search"><span class="visually-hidden">내용 검색</span><input type="search" id="concept-search" placeholder="내용 검색" autocomplete="off"></label></div><p id="concept-count" class="concept-count" aria-live="polite"></p><div id="concept-groups">${eras.map(era => {
       const categories = [...new Set(era.facts.map(fact => fact.category))];
       const sources = [...new Set(era.facts.flatMap(fact => fact.sourceIds))].map(id => sourceById.get(id));
-      return `<section class="concept-era" data-era-group="${era.id}" aria-labelledby="era-${era.id}"><h2 id="era-${era.id}">${escapeHTML(era.label)}</h2>${categories.map((category, index) => `<div class="guide-category" aria-labelledby="category-${era.id}-${index}"><h3 id="category-${era.id}-${index}">${escapeHTML(category)}</h3><ul class="concept-facts">${era.facts.filter(fact => fact.category === category).map(fact => {
+      return `<section class="concept-era" data-era-group="${era.id}" aria-labelledby="era-${era.id}"><h2 id="era-${era.id}">${escapeHTML(era.label)}</h2>${categories.map((category, index) => `<div class="guide-category" ${categories.length > 1 ? `aria-labelledby="category-${era.id}-${index}"` : ''}>${categories.length > 1 ? `<h3 id="category-${era.id}-${index}">${escapeHTML(category)}</h3>` : ''}<ul class="concept-facts">${era.facts.filter(fact => fact.category === category).map(fact => {
         const links = [...references.get(fact.id).values()].sort((a, b) => b.round - a.round || a.number - b.number);
         return `<li class="concept-fact" data-fact-id="${fact.id}" data-era="${era.id}" data-search="${escapeHTML(normalizeConcept(era.label + category + fact.text).toLowerCase())}"><span class="concept-fact-note">${highlightedNoteHTML(fact.text)}</span>${links.length ? `<details class="concept-references"><summary>기출 ${links.length}문항</summary><div>${links.map(reference => `<a href="${questionLink(reference)}">${reference.round}회 ${reference.number}번 ↗</a>`).join('')}</div></details>` : ''}</li>`;
       }).join('')}</ul></div>`).join('')}<details class="guide-sources"><summary>참고 자료</summary><ul>${sources.map(source => `<li><a href="${escapeHTML(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(source.title)} ↗</a></li>`).join('')}</ul></details></section>`;
@@ -186,7 +186,7 @@
       document.querySelectorAll('.guide-category').forEach(category => { category.hidden = !category.querySelector('.concept-fact:not([hidden])'); });
       document.querySelectorAll('.concept-era').forEach(group => { group.hidden = !group.querySelector('.concept-fact:not([hidden])'); });
       document.querySelectorAll('[data-era][aria-pressed]').forEach(button => { button.setAttribute('aria-pressed', String(button.dataset.era === selectedEra)); });
-      document.querySelector('#concept-count').textContent = query || selectedEra !== 'all' ? `${count}개 핵심 내용` : '';
+      document.querySelector('#concept-count').textContent = query ? `${count}개 핵심 내용` : '';
       document.querySelector('.concept-empty').hidden = count !== 0;
     }
     document.querySelectorAll('.era-filters button').forEach(button => button.addEventListener('click', () => {
