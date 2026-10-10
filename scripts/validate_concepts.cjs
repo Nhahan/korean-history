@@ -11,7 +11,7 @@ const context = { URLSearchParams, location: { search: '' }, document: { body: {
 vm.runInNewContext(source, context);
 // Repetition within one question is not a second appearance. Two different
 // questions qualify even when both belong to the same round.
-const repeatedQuestion = { text: '간석기 간석기', options: ['간석기'], shortExplanations: ['간석기'] };
+const repeatedQuestion = { text: '간석기 간석기', shortKeyExplanation: '간석기', options: ['간석기'], shortExplanations: ['간석기'] };
 context.qa.prepare([{ id: 79, questions: [repeatedQuestion] }]);
 assert.equal(context.qa.frequency.get('간석기').questions, 1);
 assert(!context.qa.render('간석기').includes('<mark'));
@@ -40,6 +40,7 @@ for (const exam of data) {
   const manuscript = readJSON(`assets/explanations/${exam.id}-short.json`);
   for (const question of exam.questions) {
     assert.deepEqual(question.shortExplanations, manuscript.questions.find(q => q.number === question.number).shortExplanations);
+    assert.equal(question.shortKeyExplanation, manuscript.questions.find(q => q.number === question.number).shortKeyExplanation);
     for (const note of question.shortExplanations) {
       assert(!Object.hasOwn(aliases, note), `Noncanonical note: ${note}`);
       for (const match of note.matchAll(context.qa.matcher())) {

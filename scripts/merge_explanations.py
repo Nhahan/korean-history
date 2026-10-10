@@ -11,6 +11,7 @@ for exam in exams:
  shorts=json.loads(shorts_path.read_text())
  assert int(shorts['round'])==exam['id']
  short_notes={q['number']:q['shortExplanations'] for q in shorts['questions']}
+ short_keys={q['number']:q['shortKeyExplanation'] for q in shorts['questions']}
  assert sorted(short_notes)==list(range(1,51))
  for start,end in [(1,25),(26,50)]:
   p=Path(f'assets/explanations/{exam["id"]}-{start}-{end}.json')
@@ -21,6 +22,7 @@ for exam in exams:
   item=annotations[q['number']]
   assert len(item['explanations'])==len(item['optionTexts'])==5
   q['shortExplanations']=[aliases.get(note,note) for note in short_notes[q['number']]]
+  q['shortKeyExplanation']=short_keys[q['number']]
   q['imageWidth'],q['imageHeight']=Image.open(q['image']).size
   q.update(topic=item['topic'],keyExplanation=item['keyExplanation'],options=item['optionTexts'],explanations=item['explanations'],explanationSources=item['explanationSources'])
 path.write_text(json.dumps(exams,ensure_ascii=False,indent=2)+'\n')

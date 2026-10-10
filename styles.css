@@ -59,6 +59,11 @@
 
 /* Highlight recurring concepts beneath the existing blue study notes. */
 .frequent-concept{position:relative;isolation:isolate;background:transparent;color:inherit;font:inherit;padding:0 .06em;margin:0 -.06em;white-space:inherit}
+.question-key-note{margin:8px 0 12px;padding:9px 11px;border-left:2px solid #2356a0;background:#2356a007;font-family:var(--sans);color:#2356a0}
+.question-note-label{display:block;font-size:10px;font-weight:500;margin-bottom:3px}
+.question-key-note p{font-size:13px;font-weight:600;line-height:1.8}
+.question-key-note[hidden]{display:none}
+@media(max-width:600px){.question-key-note{padding:8px 9px}.question-key-note p{font-size:12px}}
 .frequent-concept::before{content:'';position:absolute;z-index:-1;left:-.05em;right:-.06em;top:23%;bottom:2%;background:#ffe45cbd;clip-path:polygon(1% 8%,19% 3%,35% 9%,52% 0,75% 6%,98% 2%,100% 88%,82% 96%,61% 89%,39% 100%,18% 91%,0 97%);transform:rotate(-.6deg);border-radius:1px;pointer-events:none}
 @media print{.frequent-concept::before{background:#f3eaaa;print-color-adjust:exact;-webkit-print-color-adjust:exact}}
 

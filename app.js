@@ -33,7 +33,7 @@
     conceptMatcher = new RegExp(vocabulary.map(term => [...term].map(escaped).join('\\s*') + (term === '태조왕' ? '(?!\\s*건)' : term === '의천' ? '(?!\\s*태종)' : '')).join('|'), 'gu');
     exams.forEach(exam => exam.questions.forEach(question => {
       const conceptsInQuestion = new Set();
-      const fields = [question.text, ...(question.options || []), ...(question.shortExplanations || [])];
+      const fields = [question.text, question.shortKeyExplanation, ...(question.options || []), ...(question.shortExplanations || [])];
       fields.forEach(field => {
         for (const match of String(field || '').matchAll(conceptMatcher)) {
           const concept = normalizeConcept(match[0]);
@@ -123,7 +123,7 @@
 
   async function init() {
     try {
-      const response = await fetch('assets/data/exams.json?v=20261008-era-facts-final');
+      const response = await fetch('assets/data/exams.json?v=20261010-question-explanation');
       if (!response.ok) throw new Error('자료 파일을 가져오지 못했습니다. 잠시 후 다시 시도해 주세요.');
       const data = await response.json();
       exams = (Array.isArray(data) ? data : data.exams).slice().sort((a, b) => b.id - a.id);
@@ -325,7 +325,8 @@
         return `<figure class="source-choice-figure" style="--choice-span:${crop.w * 100}%">${sourceSliceHTML(question, crop, question.options?.[region.index] || `${region.index + 1}번 원문 보기`, overlay ? choiceButtonHTML(question, region.index, region, crop) : '')}<figcaption class="choice-inline-note${region.index + 1 === Number(question.answer) ? ' is-correct' : ''}" data-choice-note="${region.index + 1}"${reveal ? '' : ' hidden'}>${highlightedNoteHTML(short)}</figcaption></figure>`;
       }).join('')}</div>`;
     }).join('');
-    return `<div class="question-source${reveal ? ' revealed' : ''}">${stem}<div class="source-choice-body"${overlay ? ` role="radiogroup" aria-label="${question.number}번 문제 답 선택"` : ''}>${choices}</div></div>`;
+    const keyNote = `<div class="question-key-note" data-question-note${reveal ? '' : ' hidden'}><span class="question-note-label">문제 해설</span><p>${highlightedNoteHTML(question.shortKeyExplanation || question.keyExplanation)}</p></div>`;
+    return `<div class="question-source${reveal ? ' revealed' : ''}">${stem}${keyNote}<div class="source-choice-body"${overlay ? ` role="radiogroup" aria-label="${question.number}번 문제 답 선택"` : ''}>${choices}</div></div>`;
   }
   function questionHTML(question) {
     return `<section class="question" id="q-${question.number}" aria-labelledby="question-title-${question.number}"><div class="question-head"><h2 id="question-title-${question.number}">${question.number}번 <small>[${question.points}점]</small></h2><button class="bookmark-button" data-bookmark="${question.number}" aria-pressed="false" aria-label="${question.number}번 문제 다시 볼 문제로 표시"><span aria-hidden="true">☆</span> 다시 보기</button></div>${imageHTML(question, true)}<span class="visually-hidden" id="feedback-${question.number}" role="status" aria-live="polite"></span></section>`;
@@ -417,8 +418,9 @@
     section.querySelectorAll('[data-choice-note]').forEach(note => {
       note.hidden = !(revealAll || (mode === 'instant' && Number(note.dataset.choiceNote) === selected));
     });
+    section.querySelector('[data-question-note]')?.toggleAttribute('hidden', !revealAll);
     const feedback = section.querySelector(`#feedback-${question.number}`);
-    feedback.textContent = revealAny ? mode === 'instant' && selected !== Number(question.answer) ? `${selected}번은 오답입니다. 선택한 보기 아래 해설을 확인하세요.` : '모든 보기 아래 해설을 확인하세요.' : '';
+    feedback.textContent = revealAny ? mode === 'instant' && selected !== Number(question.answer) ? `${selected}번은 오답입니다. 선택한 보기 아래 해설을 확인하세요.` : '문제 해설과 모든 보기 해설을 확인하세요.' : '';
     const bookmarked = state.bookmarks.includes(question.number);
     const bookmark = section.querySelector('.bookmark-button');
     bookmark.setAttribute('aria-pressed', String(bookmarked));

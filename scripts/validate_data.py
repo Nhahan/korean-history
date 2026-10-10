@@ -143,6 +143,10 @@ def validate(data_path: Path) -> list[str]:
             key_explanation = question.get("keyExplanation")
             check(isinstance(key_explanation, str) and bool(key_explanation.strip()),
                   f"{qlabel}: keyExplanation must be a nonempty string.")
+            short_key = question.get("shortKeyExplanation")
+            check(isinstance(short_key, str) and 4 <= len(short_key.strip()) <= 50 and
+                  not re.search(r"[\r\n\v\f\x85\u2028\u2029]", short_key),
+                  f"{qlabel}: shortKeyExplanation must be a single line of 4–50 characters.")
             explanation_sources = question.get("explanationSources")
             check(isinstance(explanation_sources, list) and len(explanation_sources) >= 1,
                   f"{qlabel}: explanationSources must contain at least one primary source.")
