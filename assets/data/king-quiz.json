@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": "9bc1d19d5188",
+  "revision": "491ad41738ea",
   "rounds": [
     70,
     71,
@@ -53,37 +53,8 @@
       ]
     },
     {
-      "id": "king-28c403c078c1",
-      "prompt": "백성을 구휼하기 위해 진대법을 시행하였다.",
-      "king": "고국천왕",
-      "kingdom": "고구려",
-      "acceptedAnswers": [
-        "고국천왕",
-        "고국천",
-        "고구려 고국천왕",
-        "고구려 고국천"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 6,
-          "choice": 3
-        },
-        {
-          "round": 77,
-          "number": 3,
-          "choice": 1
-        },
-        {
-          "round": 79,
-          "number": 7,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-2db9d5204133",
-      "prompt": "봄에 곡식을 빌려 주고 가을에 돌려받는 진대법을 시행하였다.",
+      "id": "king-2aaf278f765b",
+      "prompt": "진대법을 시행하였다.",
       "king": "고국천왕",
       "kingdom": "고구려",
       "acceptedAnswers": [
@@ -97,25 +68,26 @@
           "round": 70,
           "number": 48,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-d61dc7bb441c",
-      "prompt": "을파소를 등용하고 진대법을 시행하였다.",
-      "king": "고국천왕",
-      "kingdom": "고구려",
-      "acceptedAnswers": [
-        "고국천왕",
-        "고국천",
-        "고구려 고국천왕",
-        "고구려 고국천"
-      ],
-      "sources": [
+        },
+        {
+          "round": 72,
+          "number": 6,
+          "choice": 3
+        },
+        {
+          "round": 77,
+          "number": 3,
+          "choice": 1
+        },
         {
           "round": 78,
           "number": 6,
           "choice": 5
+        },
+        {
+          "round": 79,
+          "number": 7,
+          "choice": 4
         }
       ]
     },
@@ -267,8 +239,8 @@
       ]
     },
     {
-      "id": "king-7fe85185c61e",
-      "prompt": "연개소문의 정변으로 시해되었다.",
+      "id": "king-7772ae55c01b",
+      "prompt": "재위 중 연개소문이 정변을 일으켰다.",
       "king": "영류왕",
       "kingdom": "고구려",
       "acceptedAnswers": [
@@ -289,28 +261,14 @@
           "choice": 4
         },
         {
-          "round": 77,
-          "number": 6,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-9feab96d5c09",
-      "prompt": "재위 말 연개소문이 정변을 일으켜 권력을 잡았다.",
-      "king": "영류왕",
-      "kingdom": "고구려",
-      "acceptedAnswers": [
-        "영류왕",
-        "영류",
-        "고구려 영류왕",
-        "고구려 영류"
-      ],
-      "sources": [
-        {
           "round": 76,
           "number": 9,
           "choice": 3
+        },
+        {
+          "round": 77,
+          "number": 6,
+          "choice": 4
         }
       ]
     },
@@ -334,8 +292,8 @@
       ]
     },
     {
-      "id": "king-5fa62ce8fe9e",
-      "prompt": "재위 중 을지문덕이 살수에서 대승을 거두었다.",
+      "id": "king-04b9280e7685",
+      "prompt": "재위 중 을지문덕이 살수에서 승리하였다.",
       "king": "영양왕",
       "kingdom": "고구려",
       "acceptedAnswers": [
@@ -345,6 +303,11 @@
         "고구려 영양"
       ],
       "sources": [
+        {
+          "round": 70,
+          "number": 4,
+          "choice": 4
+        },
         {
           "round": 71,
           "number": 8,
@@ -373,25 +336,6 @@
       ]
     },
     {
-      "id": "king-e8c49e7a2f6e",
-      "prompt": "재위 중 을지문덕이 살수에서 수의 군대를 물리쳤다.",
-      "king": "영양왕",
-      "kingdom": "고구려",
-      "acceptedAnswers": [
-        "영양왕",
-        "영양",
-        "고구려 영양왕",
-        "고구려 영양"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 4,
-          "choice": 4
-        }
-      ]
-    },
-    {
       "id": "king-12169d39f3f0",
       "prompt": "재위 중 이문진이 유기를 간추린 신집 5권을 편찬하였다.",
       "king": "영양왕",
@@ -411,25 +355,6 @@
       ]
     },
     {
-      "id": "king-e4f1e2a8d904",
-      "prompt": "국내성에서 평양으로 천도하였다.",
-      "king": "장수왕",
-      "kingdom": "고구려",
-      "acceptedAnswers": [
-        "장수왕",
-        "장수",
-        "고구려 장수왕",
-        "고구려 장수"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 3,
-          "choice": 2
-        }
-      ]
-    },
-    {
       "id": "king-dd6a8da25590",
       "prompt": "평양으로 천도하였다.",
       "king": "장수왕",
@@ -445,6 +370,11 @@
           "round": 70,
           "number": 3,
           "choice": 1
+        },
+        {
+          "round": 72,
+          "number": 3,
+          "choice": 2
         }
       ]
     },
@@ -468,27 +398,8 @@
       ]
     },
     {
-      "id": "king-e46b24cd05c9",
-      "prompt": "내신좌평 등 6좌평의 관제를 정비하였다.",
-      "king": "고이왕",
-      "kingdom": "백제",
-      "acceptedAnswers": [
-        "고이왕",
-        "고이",
-        "백제 고이왕",
-        "백제 고이"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 8,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-13af200116e2",
-      "prompt": "내신좌평·내두좌평 등 6좌평의 관제를 마련하였다.",
+      "id": "king-cfcdcd6edb7d",
+      "prompt": "6좌평의 관제를 정비하였다.",
       "king": "고이왕",
       "kingdom": "백제",
       "acceptedAnswers": [
@@ -502,6 +413,11 @@
           "round": 73,
           "number": 8,
           "choice": 5
+        },
+        {
+          "round": 75,
+          "number": 8,
+          "choice": 3
         }
       ]
     },
@@ -583,27 +499,8 @@
       ]
     },
     {
-      "id": "king-1e4aa0d65852",
-      "prompt": "소지 마립간과 혼인 동맹을 맺었다.",
-      "king": "동성왕",
-      "kingdom": "백제",
-      "acceptedAnswers": [
-        "동성왕",
-        "동성",
-        "백제 동성왕",
-        "백제 동성"
-      ],
-      "sources": [
-        {
-          "round": 77,
-          "number": 50,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-9f5aac67b5a5",
-      "prompt": "신라 왕실과 혼인 동맹을 맺어 나제 동맹을 강화하였다.",
+      "id": "king-062e2a500baa",
+      "prompt": "신라 왕실과 혼인 동맹을 맺었다.",
       "king": "동성왕",
       "kingdom": "백제",
       "acceptedAnswers": [
@@ -616,6 +513,11 @@
         {
           "round": 70,
           "number": 3,
+          "choice": 2
+        },
+        {
+          "round": 77,
+          "number": 50,
           "choice": 2
         }
       ]
@@ -868,8 +770,8 @@
       ]
     },
     {
-      "id": "king-83f7d54fd26a",
-      "prompt": "고구려에서 남하하여 한성을 도읍으로 삼았다.",
+      "id": "king-a141cb9f3621",
+      "prompt": "한성에 도읍을 정하였다.",
       "king": "온조왕",
       "kingdom": "백제",
       "acceptedAnswers": [
@@ -883,21 +785,7 @@
           "round": 72,
           "number": 4,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-fa122589de32",
-      "prompt": "위례성에 도읍을 정하였다.",
-      "king": "온조왕",
-      "kingdom": "백제",
-      "acceptedAnswers": [
-        "온조왕",
-        "온조",
-        "백제 온조왕",
-        "백제 온조"
-      ],
-      "sources": [
+        },
         {
           "round": 75,
           "number": 2,
@@ -945,27 +833,8 @@
       ]
     },
     {
-      "id": "king-10f35bc56b35",
-      "prompt": "재위 중 계백이 이끄는 군대가 황산벌에서 항전하였다.",
-      "king": "의자왕",
-      "kingdom": "백제",
-      "acceptedAnswers": [
-        "의자왕",
-        "의자",
-        "백제 의자왕",
-        "백제 의자"
-      ],
-      "sources": [
-        {
-          "round": 78,
-          "number": 7,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-ceaede02f268",
-      "prompt": "재위 중 계백이 이끈 결사대가 황산벌에서 패배하였다.",
+      "id": "king-d5dfb0c12f3b",
+      "prompt": "재위 중 계백이 이끄는 군대가 황산벌에서 싸웠다.",
       "king": "의자왕",
       "kingdom": "백제",
       "acceptedAnswers": [
@@ -984,6 +853,11 @@
           "round": 74,
           "number": 4,
           "choice": 3
+        },
+        {
+          "round": 78,
+          "number": 7,
+          "choice": 4
         }
       ]
     },
@@ -1029,6 +903,11 @@
       ],
       "sources": [
         {
+          "round": 70,
+          "number": 10,
+          "choice": 3
+        },
+        {
           "round": 72,
           "number": 9,
           "choice": 2
@@ -1037,25 +916,6 @@
           "round": 73,
           "number": 10,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-4b64006418e0",
-      "prompt": "고려에 항복한 뒤 경주의 사심관으로 임명되었다.",
-      "king": "경순왕",
-      "kingdom": "신라",
-      "acceptedAnswers": [
-        "경순왕",
-        "경순",
-        "신라 경순왕",
-        "신라 경순"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 10,
-          "choice": 3
         },
         {
           "round": 79,
@@ -1122,8 +982,8 @@
       ]
     },
     {
-      "id": "king-9f0a8148be74",
-      "prompt": "즉위 전에 당과의 군사 동맹을 성사시켰다.",
+      "id": "king-baa7b0a6244c",
+      "prompt": "즉위 전에 당과 군사 협력을 추진하였다.",
       "king": "무열왕",
       "kingdom": "신라",
       "acceptedAnswers": [
@@ -1143,27 +1003,7 @@
           "round": 71,
           "number": 8,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-0b9cc96fd2df",
-      "prompt": "즉위 전에 당으로 건너가 군사 동맹을 체결하였다.",
-      "king": "무열왕",
-      "kingdom": "신라",
-      "acceptedAnswers": [
-        "무열왕",
-        "태종 무열왕",
-        "김춘추",
-        "태종무열",
-        "무열",
-        "신라 무열왕",
-        "신라 태종 무열왕",
-        "신라 김춘추",
-        "신라 태종무열",
-        "신라 무열"
-      ],
-      "sources": [
+        },
         {
           "round": 72,
           "number": 3,
@@ -1180,33 +1020,13 @@
           "choice": 4
         },
         {
-          "round": 77,
-          "number": 6,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-6b129648267e",
-      "prompt": "즉위 전에 당으로 건너가 군사적 지원을 요청하였다.",
-      "king": "무열왕",
-      "kingdom": "신라",
-      "acceptedAnswers": [
-        "무열왕",
-        "태종 무열왕",
-        "김춘추",
-        "태종무열",
-        "무열",
-        "신라 무열왕",
-        "신라 태종 무열왕",
-        "신라 김춘추",
-        "신라 태종무열",
-        "신라 무열"
-      ],
-      "sources": [
-        {
           "round": 76,
           "number": 9,
+          "choice": 5
+        },
+        {
+          "round": 77,
+          "number": 6,
           "choice": 5
         }
       ]
@@ -1300,27 +1120,8 @@
       ]
     },
     {
-      "id": "king-ce333fa56c54",
-      "prompt": "재위 중 사찬 시득이 기벌포에서 당군을 격파하였다.",
-      "king": "문무왕",
-      "kingdom": "신라",
-      "acceptedAnswers": [
-        "문무왕",
-        "문무",
-        "신라 문무왕",
-        "신라 문무"
-      ],
-      "sources": [
-        {
-          "round": 73,
-          "number": 2,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-fc1f04cf9a7d",
-      "prompt": "재위 중 신라가 기벌포에서 당군을 격파하였다.",
+      "id": "king-e9f9bfe8fcb4",
+      "prompt": "재위 중 기벌포에서 당군을 격파하였다.",
       "king": "문무왕",
       "kingdom": "신라",
       "acceptedAnswers": [
@@ -1334,6 +1135,11 @@
           "round": 72,
           "number": 3,
           "choice": 1
+        },
+        {
+          "round": 73,
+          "number": 2,
+          "choice": 2
         }
       ]
     },
@@ -1457,32 +1263,6 @@
       ]
     },
     {
-      "id": "king-29b04c6fa9ba",
-      "prompt": "자장의 건의로 황룡사 구층 목탑을 건립하였다.",
-      "king": "선덕 여왕",
-      "kingdom": "신라",
-      "acceptedAnswers": [
-        "선덕 여왕",
-        "선덕왕",
-        "선덕",
-        "신라 선덕 여왕",
-        "신라 선덕왕",
-        "신라 선덕"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 10,
-          "choice": 3
-        },
-        {
-          "round": 73,
-          "number": 7,
-          "choice": 5
-        }
-      ]
-    },
-    {
       "id": "king-afca0a2b017c",
       "prompt": "재위 중 경주 분황사 모전석탑이 건립되었다.",
       "king": "선덕 여왕",
@@ -1514,8 +1294,8 @@
       ]
     },
     {
-      "id": "king-95abf8e189c1",
-      "prompt": "재위 중 자장이 황룡사 구층 목탑의 축조를 건의하였다.",
+      "id": "king-d9bb5df0dafb",
+      "prompt": "재위 중 자장이 황룡사 구층 목탑 건립을 건의하였다.",
       "king": "선덕 여왕",
       "kingdom": "신라",
       "acceptedAnswers": [
@@ -1527,6 +1307,16 @@
         "신라 선덕"
       ],
       "sources": [
+        {
+          "round": 72,
+          "number": 10,
+          "choice": 3
+        },
+        {
+          "round": 73,
+          "number": 7,
+          "choice": 5
+        },
         {
           "round": 74,
           "number": 3,
@@ -1641,27 +1431,8 @@
       ]
     },
     {
-      "id": "king-ae88e767dfba",
-      "prompt": "김흠돌 등 진골 세력을 숙청하였다.",
-      "king": "신문왕",
-      "kingdom": "신라",
-      "acceptedAnswers": [
-        "신문왕",
-        "신문",
-        "신라 신문왕",
-        "신라 신문"
-      ],
-      "sources": [
-        {
-          "round": 73,
-          "number": 7,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-82c5197d73d0",
-      "prompt": "김흠돌의 난을 진압하고 귀족들을 숙청하였다.",
+      "id": "king-f31920b6902d",
+      "prompt": "재위 중 김흠돌의 난이 일어났다.",
       "king": "신문왕",
       "kingdom": "신라",
       "acceptedAnswers": [
@@ -1675,21 +1446,22 @@
           "round": 71,
           "number": 6,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-89b220b60fec",
-      "prompt": "재위 중 김흠돌이 반란을 꾀하다 처형되었다.",
-      "king": "신문왕",
-      "kingdom": "신라",
-      "acceptedAnswers": [
-        "신문왕",
-        "신문",
-        "신라 신문왕",
-        "신라 신문"
-      ],
-      "sources": [
+        },
+        {
+          "round": 72,
+          "number": 8,
+          "choice": 1
+        },
+        {
+          "round": 73,
+          "number": 7,
+          "choice": 1
+        },
+        {
+          "round": 75,
+          "number": 6,
+          "choice": 1
+        },
         {
           "round": 78,
           "number": 8,
@@ -1717,46 +1489,8 @@
       ]
     },
     {
-      "id": "king-25f9dbe8d42a",
-      "prompt": "즉위 직후 김흠돌의 난을 진압하였다.",
-      "king": "신문왕",
-      "kingdom": "신라",
-      "acceptedAnswers": [
-        "신문왕",
-        "신문",
-        "신라 신문왕",
-        "신라 신문"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 6,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-2c2dc01b272d",
-      "prompt": "즉위 초 김흠돌이 반란을 도모하였다.",
-      "king": "신문왕",
-      "kingdom": "신라",
-      "acceptedAnswers": [
-        "신문왕",
-        "신문",
-        "신라 신문왕",
-        "신라 신문"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 8,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-40db1776b40a",
-      "prompt": "관리 선발을 위해 독서삼품과를 시행하였다.",
+      "id": "king-0b6afe26b714",
+      "prompt": "독서삼품과를 시행하였다.",
       "king": "원성왕",
       "kingdom": "신라",
       "acceptedAnswers": [
@@ -1777,6 +1511,11 @@
           "choice": 5
         },
         {
+          "round": 74,
+          "number": 50,
+          "choice": 1
+        },
+        {
           "round": 76,
           "number": 6,
           "choice": 4
@@ -1789,27 +1528,8 @@
       ]
     },
     {
-      "id": "king-0b6afe26b714",
-      "prompt": "독서삼품과를 시행하였다.",
-      "king": "원성왕",
-      "kingdom": "신라",
-      "acceptedAnswers": [
-        "원성왕",
-        "원성",
-        "신라 원성왕",
-        "신라 원성"
-      ],
-      "sources": [
-        {
-          "round": 74,
-          "number": 50,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-01ef5492379a",
-      "prompt": "동시전을 설치하여 시장을 감독하였다.",
+      "id": "king-4cbc2cf2236f",
+      "prompt": "동시전을 설치하였다.",
       "king": "지증왕",
       "kingdom": "신라",
       "acceptedAnswers": [
@@ -1835,28 +1555,14 @@
           "choice": 5
         },
         {
-          "round": 79,
-          "number": 4,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-6ea2ff06b297",
-      "prompt": "수도에 동시전을 설치하였다.",
-      "king": "지증왕",
-      "kingdom": "신라",
-      "acceptedAnswers": [
-        "지증왕",
-        "지증",
-        "신라 지증왕",
-        "신라 지증"
-      ],
-      "sources": [
-        {
           "round": 75,
           "number": 5,
           "choice": 1
+        },
+        {
+          "round": 79,
+          "number": 4,
+          "choice": 5
         }
       ]
     },
@@ -1895,8 +1601,8 @@
       ]
     },
     {
-      "id": "king-6933a78dfc22",
-      "prompt": "재위 중 김유신이 비담과 염종의 난을 진압하였다.",
+      "id": "king-ba287f11b07d",
+      "prompt": "재위 중 비담과 염종의 난이 진압되었다.",
       "king": "진덕 여왕",
       "kingdom": "신라",
       "acceptedAnswers": [
@@ -1912,68 +1618,20 @@
           "round": 72,
           "number": 8,
           "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-ba287f11b07d",
-      "prompt": "재위 중 비담과 염종의 난이 진압되었다.",
-      "king": "진덕 여왕",
-      "kingdom": "신라",
-      "acceptedAnswers": [
-        "진덕 여왕",
-        "진덕왕",
-        "진덕",
-        "신라 진덕 여왕",
-        "신라 진덕왕",
-        "신라 진덕"
-      ],
-      "sources": [
+        },
         {
-          "round": 78,
-          "number": 8,
+          "round": 76,
+          "number": 9,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-b0ec819bf8bd",
-      "prompt": "즉위 직후 김유신이 비담과 염종의 반란을 진압하였다.",
-      "king": "진덕 여왕",
-      "kingdom": "신라",
-      "acceptedAnswers": [
-        "진덕 여왕",
-        "진덕왕",
-        "진덕",
-        "신라 진덕 여왕",
-        "신라 진덕왕",
-        "신라 진덕"
-      ],
-      "sources": [
+        },
         {
           "round": 77,
           "number": 16,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-ea90b65dd9bd",
-      "prompt": "즉위 직후 비담과 염종의 난이 진압되었다.",
-      "king": "진덕 여왕",
-      "kingdom": "신라",
-      "acceptedAnswers": [
-        "진덕 여왕",
-        "진덕왕",
-        "진덕",
-        "신라 진덕 여왕",
-        "신라 진덕왕",
-        "신라 진덕"
-      ],
-      "sources": [
+        },
         {
-          "round": 76,
-          "number": 9,
+          "round": 78,
+          "number": 8,
           "choice": 1
         }
       ]
@@ -2340,8 +1998,8 @@
       ]
     },
     {
-      "id": "king-558f2380549a",
-      "prompt": "장문휴를 보내 당의 등주를 공격하였다.",
+      "id": "king-08542e140277",
+      "prompt": "장문휴를 보내 당의 산둥반도를 공격하였다.",
       "king": "무왕",
       "kingdom": "발해",
       "acceptedAnswers": [
@@ -2353,19 +2011,7 @@
           "round": 73,
           "number": 2,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-08542e140277",
-      "prompt": "장문휴를 보내 당의 산둥반도를 공격하였다.",
-      "king": "무왕",
-      "kingdom": "발해",
-      "acceptedAnswers": [
-        "무왕",
-        "발해 무왕"
-      ],
-      "sources": [
+        },
         {
           "round": 76,
           "number": 50,
@@ -2457,23 +2103,6 @@
       ]
     },
     {
-      "id": "king-ded2df71f390",
-      "prompt": "완산주를 도읍으로 삼아 나라를 세웠다.",
-      "king": "견훤",
-      "kingdom": "후백제",
-      "acceptedAnswers": [
-        "견훤",
-        "후백제 견훤"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 9,
-          "choice": 4
-        }
-      ]
-    },
-    {
       "id": "king-ac6c0b0f1098",
       "prompt": "후당과 오월에 사신을 파견하였다.",
       "king": "견훤",
@@ -2500,6 +2129,11 @@
         "후백제 견훤"
       ],
       "sources": [
+        {
+          "round": 72,
+          "number": 9,
+          "choice": 4
+        },
         {
           "round": 79,
           "number": 10,
@@ -2667,8 +2301,8 @@
       ]
     },
     {
-      "id": "king-3043530042c9",
-      "prompt": "대장도감을 설치하여 팔만대장경을 간행하였다.",
+      "id": "king-88015df9bfd6",
+      "prompt": "몽골의 침입에 맞서 강화도로 도읍을 옮겼다.",
       "king": "고종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -2677,44 +2311,20 @@
       ],
       "sources": [
         {
-          "round": 73,
-          "number": 18,
-          "choice": 5
+          "round": 71,
+          "number": 15,
+          "choice": 1
         },
         {
-          "round": 75,
+          "round": 74,
           "number": 12,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-cc4a6dfa95df",
-      "prompt": "몽골 침입에 맞서 강화도로 도읍을 옮겨 장기 항전을 준비하였다.",
-      "king": "고종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "고종",
-        "고려 고종"
-      ],
-      "sources": [
+          "choice": 4
+        },
         {
           "round": 75,
           "number": 21,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-63d88e92b0a7",
-      "prompt": "몽골의 침입에 맞서 강화도로 도읍을 옮겨 항전하였다.",
-      "king": "고종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "고종",
-        "고려 고종"
-      ],
-      "sources": [
+        },
         {
           "round": 76,
           "number": 16,
@@ -2728,25 +2338,8 @@
       ]
     },
     {
-      "id": "king-2d10785ad33d",
-      "prompt": "재위 중 김윤후가 처인성 전투에서 활약하였다.",
-      "king": "고종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "고종",
-        "고려 고종"
-      ],
-      "sources": [
-        {
-          "round": 79,
-          "number": 22,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-2bc568d814f7",
-      "prompt": "재위 중 김윤후가 처인성에서 몽골 장수 살리타를 사살하였다.",
+      "id": "king-a98a4370a34b",
+      "prompt": "재위 중 김윤후가 처인성에서 몽골군을 격퇴하였다.",
       "king": "고종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -2758,6 +2351,11 @@
           "round": 70,
           "number": 15,
           "choice": 4
+        },
+        {
+          "round": 79,
+          "number": 22,
+          "choice": 1
         }
       ]
     },
@@ -2796,23 +2394,6 @@
       ]
     },
     {
-      "id": "king-b960a67ba8f6",
-      "prompt": "재위 중 몽골의 침입을 물리치기를 기원하며 팔만대장경판을 제작하였다.",
-      "king": "고종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "고종",
-        "고려 고종"
-      ],
-      "sources": [
-        {
-          "round": 74,
-          "number": 3,
-          "choice": 3
-        }
-      ]
-    },
-    {
       "id": "king-69c16eef8dde",
       "prompt": "재위 중 송문주가 죽주성에서 몽골군을 격퇴하였다.",
       "king": "고종",
@@ -2830,8 +2411,8 @@
       ]
     },
     {
-      "id": "king-c330feef53f1",
-      "prompt": "재위 중 최우가 강화도로 도읍을 옮겨 몽골에 항전하였다.",
+      "id": "king-fa681ac3c999",
+      "prompt": "팔만대장경을 조성하였다.",
       "king": "고종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -2840,14 +2421,19 @@
       ],
       "sources": [
         {
-          "round": 71,
-          "number": 15,
-          "choice": 1
+          "round": 73,
+          "number": 18,
+          "choice": 5
         },
         {
           "round": 74,
+          "number": 3,
+          "choice": 3
+        },
+        {
+          "round": 75,
           "number": 12,
-          "choice": 4
+          "choice": 5
         }
       ]
     },
@@ -2871,8 +2457,8 @@
       ]
     },
     {
-      "id": "king-17115e5f7f75",
-      "prompt": "신돈을 전민변정도감의 책임자로 삼았다.",
+      "id": "king-55b598ec5c16",
+      "prompt": "신돈을 중심으로 전민변정 사업을 추진하였다.",
       "king": "공민왕",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -2886,21 +2472,7 @@
           "round": 71,
           "number": 11,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-55b598ec5c16",
-      "prompt": "신돈을 중심으로 전민변정 사업을 추진하였다.",
-      "king": "공민왕",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "공민왕",
-        "공민",
-        "고려 공민왕",
-        "고려 공민"
-      ],
-      "sources": [
+        },
         {
           "round": 73,
           "number": 17,
@@ -2934,21 +2506,7 @@
           "round": 77,
           "number": 50,
           "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-4f037a46123f",
-      "prompt": "유인우 등을 보내 이자춘의 협조로 쌍성총관부를 수복하였다.",
-      "king": "공민왕",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "공민왕",
-        "공민",
-        "고려 공민왕",
-        "고려 공민"
-      ],
-      "sources": [
+        },
         {
           "round": 78,
           "number": 16,
@@ -2976,27 +2534,8 @@
       ]
     },
     {
-      "id": "king-044ca1d00700",
-      "prompt": "경기 지역에 한정하여 관리에게 과전을 지급하는 과전법을 시행하였다.",
-      "king": "공양왕",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "공양왕",
-        "공양",
-        "고려 공양왕",
-        "고려 공양"
-      ],
-      "sources": [
-        {
-          "round": 73,
-          "number": 14,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-5a9b7f80eea8",
-      "prompt": "경기에 한하여 과전법을 실시하였다.",
+      "id": "king-2d85e986a855",
+      "prompt": "경기 지역에 한정하여 과전법을 시행하였다.",
       "king": "공양왕",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3010,6 +2549,11 @@
           "round": 71,
           "number": 11,
           "choice": 1
+        },
+        {
+          "round": 73,
+          "number": 14,
+          "choice": 5
         }
       ]
     },
@@ -3106,27 +2650,8 @@
       ]
     },
     {
-      "id": "king-74bb30ce7ccf",
-      "prompt": "쌍기에게서 과거제 도입을 건의받았다.",
-      "king": "광종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "광종",
-        "왕소",
-        "고려 광종",
-        "고려 왕소"
-      ],
-      "sources": [
-        {
-          "round": 79,
-          "number": 14,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-8af33ea95117",
-      "prompt": "쌍기의 건의로 과거제를 도입하였다.",
+      "id": "king-50703fcec2e7",
+      "prompt": "쌍기의 건의를 받아 과거제를 도입하였다.",
       "king": "광종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3152,68 +2677,25 @@
           "choice": 2
         },
         {
-          "round": 76,
-          "number": 18,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-6d61ec312290",
-      "prompt": "후주 출신 쌍기에게 과거제 도입을 건의받았다.",
-      "king": "광종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "광종",
-        "왕소",
-        "고려 광종",
-        "고려 왕소"
-      ],
-      "sources": [
-        {
           "round": 75,
           "number": 15,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-8a81ed004eb0",
-      "prompt": "재위 중 공주 명학소에서 망이·망소이 등이 봉기하였다.",
-      "king": "명종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "명종",
-        "고려 명종"
-      ],
-      "sources": [
-        {
-          "round": 79,
-          "number": 16,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-ec3b875483d7",
-      "prompt": "재위 중 김보당이 동계에서 무신 정권에 저항하여 봉기하였다.",
-      "king": "명종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "명종",
-        "고려 명종"
-      ],
-      "sources": [
+        },
         {
           "round": 76,
-          "number": 15,
-          "choice": 4
+          "number": 18,
+          "choice": 1
+        },
+        {
+          "round": 79,
+          "number": 14,
+          "choice": 2
         }
       ]
     },
     {
-      "id": "king-a725d3aed1d6",
-      "prompt": "재위 중 김보당이 전왕의 복위를 주장하며 난을 일으켰다.",
+      "id": "king-7bccafa457ab",
+      "prompt": "재위 중 김보당의 난이 일어났다.",
       "king": "명종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3225,46 +2707,17 @@
           "round": 72,
           "number": 15,
           "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-31d2942d5442",
-      "prompt": "재위 중 김사미가 가혹한 수탈에 맞서 봉기하였다.",
-      "king": "명종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "명종",
-        "고려 명종"
-      ],
-      "sources": [
+        },
         {
-          "round": 78,
-          "number": 50,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-800514b4e321",
-      "prompt": "재위 중 김사미가 운문을 거점으로 봉기하였다.",
-      "king": "명종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "명종",
-        "고려 명종"
-      ],
-      "sources": [
-        {
-          "round": 75,
+          "round": 76,
           "number": 15,
-          "choice": 1
+          "choice": 4
         }
       ]
     },
     {
-      "id": "king-1b60e838235b",
-      "prompt": "재위 중 김사미와 효심이 난을 일으켰다.",
+      "id": "king-c771d45b087b",
+      "prompt": "재위 중 김사미가 봉기하였다.",
       "king": "명종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3276,29 +2729,22 @@
           "round": 72,
           "number": 8,
           "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-b7b96de910fd",
-      "prompt": "재위 중 망이·망소이가 가혹한 수탈에 저항하여 봉기하였다.",
-      "king": "명종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "명종",
-        "고려 명종"
-      ],
-      "sources": [
+        },
         {
-          "round": 76,
-          "number": 18,
-          "choice": 5
+          "round": 75,
+          "number": 15,
+          "choice": 1
+        },
+        {
+          "round": 78,
+          "number": 50,
+          "choice": 3
         }
       ]
     },
     {
-      "id": "king-47eedfb32dff",
-      "prompt": "재위 중 망이·망소이의 난 등 하층민의 봉기가 발생하였다.",
+      "id": "king-6cc9824fc68a",
+      "prompt": "재위 중 망이·망소이의 난이 일어났다.",
       "king": "명종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3312,15 +2758,25 @@
           "choice": 4
         },
         {
+          "round": 76,
+          "number": 18,
+          "choice": 5
+        },
+        {
           "round": 78,
           "number": 27,
+          "choice": 4
+        },
+        {
+          "round": 79,
+          "number": 16,
           "choice": 4
         }
       ]
     },
     {
-      "id": "king-8db009a7888d",
-      "prompt": "재위 중 서경유수 조위총이 무신 정권에 반발하여 반란을 일으켰다.",
+      "id": "king-635be19faa1a",
+      "prompt": "재위 중 조위총의 난이 일어났다.",
       "king": "명종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3332,19 +2788,7 @@
           "round": 70,
           "number": 14,
           "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-066a1e4d4984",
-      "prompt": "재위 중 조위총의 난이 일어나 진압되었다.",
-      "king": "명종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "명종",
-        "고려 명종"
-      ],
-      "sources": [
+        },
         {
           "round": 77,
           "number": 10,
@@ -3353,8 +2797,8 @@
       ]
     },
     {
-      "id": "king-f77711fe1efc",
-      "prompt": "재위 중 최충헌이 봉사 10조를 올려 시정 개혁을 건의하였다.",
+      "id": "king-2a0d541add63",
+      "prompt": "최충헌에게서 봉사 10조를 건의받았다.",
       "king": "명종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3366,19 +2810,7 @@
           "round": 71,
           "number": 11,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-2f0b32998f57",
-      "prompt": "재위 중 최충헌이 봉사 10조를 올렸다.",
-      "king": "명종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "명종",
-        "고려 명종"
-      ],
-      "sources": [
+        },
         {
           "round": 72,
           "number": 13,
@@ -3392,8 +2824,8 @@
       ]
     },
     {
-      "id": "king-b7d94a2372eb",
-      "prompt": "강조의 정변으로 왕위에서 폐위되었다.",
+      "id": "king-737b830c7147",
+      "prompt": "재위 중 강조가 정변을 일으켰다.",
       "king": "목종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3407,25 +2839,13 @@
           "choice": 3
         },
         {
-          "round": 78,
-          "number": 18,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-48172b8a2429",
-      "prompt": "재위 중 강조가 정변을 일으켜 김치양을 제거하였다.",
-      "king": "목종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "목종",
-        "고려 목종"
-      ],
-      "sources": [
-        {
           "round": 72,
           "number": 15,
+          "choice": 3
+        },
+        {
+          "round": 78,
+          "number": 18,
           "choice": 3
         }
       ]
@@ -3448,25 +2868,8 @@
       ]
     },
     {
-      "id": "king-db8a82bff7d6",
-      "prompt": "12목에 지방관을 처음으로 파견하였다.",
-      "king": "성종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "성종",
-        "고려 성종"
-      ],
-      "sources": [
-        {
-          "round": 73,
-          "number": 10,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-55334646a68a",
-      "prompt": "12목을 설치하고 지방관을 파견하였다.",
+      "id": "king-f76228b47345",
+      "prompt": "12목에 지방관을 파견하였다.",
       "king": "성종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3477,6 +2880,11 @@
         {
           "round": 70,
           "number": 13,
+          "choice": 2
+        },
+        {
+          "round": 73,
+          "number": 10,
           "choice": 2
         },
         {
@@ -3531,47 +2939,8 @@
       ]
     },
     {
-      "id": "king-5457704a9453",
-      "prompt": "서희를 파견하여 소손녕과 외교 담판을 벌였다.",
-      "king": "성종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "성종",
-        "고려 성종"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 12,
-          "choice": 4
-        },
-        {
-          "round": 79,
-          "number": 14,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-ac8beba62c27",
-      "prompt": "서희의 외교 담판으로 강동 6주를 확보할 계기를 마련하였다.",
-      "king": "성종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "성종",
-        "고려 성종"
-      ],
-      "sources": [
-        {
-          "round": 74,
-          "number": 12,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-9907116f7b89",
-      "prompt": "재위 중 서희가 외교 담판으로 강동 6주를 확보하였다.",
+      "id": "king-7490e3202144",
+      "prompt": "재위 중 서희가 거란과 외교 담판을 벌였다.",
       "king": "성종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3585,6 +2954,16 @@
           "choice": 5
         },
         {
+          "round": 74,
+          "number": 12,
+          "choice": 3
+        },
+        {
+          "round": 75,
+          "number": 12,
+          "choice": 4
+        },
+        {
           "round": 76,
           "number": 15,
           "choice": 2
@@ -3593,6 +2972,11 @@
           "round": 77,
           "number": 9,
           "choice": 3
+        },
+        {
+          "round": 79,
+          "number": 14,
+          "choice": 5
         }
       ]
     },
@@ -3614,8 +2998,8 @@
       ]
     },
     {
-      "id": "king-a9b1520ae813",
-      "prompt": "최승로에게 시무 28조를 받아 국가 운영 방안을 마련하였다.",
+      "id": "king-0b1853d87580",
+      "prompt": "최승로에게서 시무 28조를 건의받았다.",
       "king": "성종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3637,19 +3021,7 @@
           "round": 77,
           "number": 17,
           "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-0b1853d87580",
-      "prompt": "최승로에게서 시무 28조를 건의받았다.",
-      "king": "성종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "성종",
-        "고려 성종"
-      ],
-      "sources": [
+        },
         {
           "round": 78,
           "number": 18,
@@ -3680,23 +3052,6 @@
       ]
     },
     {
-      "id": "king-0dc9b47e2a1b",
-      "prompt": "삼한통보와 해동통보 등의 화폐를 발행하였다.",
-      "king": "숙종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "숙종",
-        "고려 숙종"
-      ],
-      "sources": [
-        {
-          "round": 77,
-          "number": 25,
-          "choice": 5
-        }
-      ]
-    },
-    {
       "id": "king-ec1a644ed41b",
       "prompt": "서적포를 설치하여 출판을 담당하게 하였다.",
       "king": "숙종",
@@ -3714,8 +3069,8 @@
       ]
     },
     {
-      "id": "king-5dc8e9f2403e",
-      "prompt": "신기군, 신보군, 항마군 등으로 구성된 별무반을 조직하였다.",
+      "id": "king-f1627a7348c2",
+      "prompt": "여진에 대응하기 위해 별무반을 조직하였다.",
       "king": "숙종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3723,6 +3078,11 @@
         "고려 숙종"
       ],
       "sources": [
+        {
+          "round": 70,
+          "number": 13,
+          "choice": 1
+        },
         {
           "round": 71,
           "number": 15,
@@ -3737,53 +3097,12 @@
           "round": 75,
           "number": 21,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-e0b2b04fb8bc",
-      "prompt": "여진 정벌을 위해 별무반을 창설하였다.",
-      "king": "숙종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "숙종",
-        "고려 숙종"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 13,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-16f36a897881",
-      "prompt": "여진에 대응하기 위해 별무반을 편성하였다.",
-      "king": "숙종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "숙종",
-        "고려 숙종"
-      ],
-      "sources": [
+        },
         {
           "round": 77,
           "number": 11,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-51d599d72fe4",
-      "prompt": "윤관의 건의로 별무반을 조직하였다.",
-      "king": "숙종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "숙종",
-        "고려 숙종"
-      ],
-      "sources": [
+        },
         {
           "round": 79,
           "number": 13,
@@ -3792,8 +3111,8 @@
       ]
     },
     {
-      "id": "king-c9c9ec0e0190",
-      "prompt": "은병을 만들어 화폐 유통을 추진하였다.",
+      "id": "king-0da20e6026ce",
+      "prompt": "은병을 주조하여 화폐 유통을 추진하였다.",
       "king": "숙종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3805,6 +3124,21 @@
           "round": 72,
           "number": 6,
           "choice": 2
+        },
+        {
+          "round": 77,
+          "number": 8,
+          "choice": 2
+        },
+        {
+          "round": 78,
+          "number": 25,
+          "choice": 1
+        },
+        {
+          "round": 79,
+          "number": 4,
+          "choice": 3
         }
       ]
     },
@@ -3843,25 +3177,8 @@
       ]
     },
     {
-      "id": "king-b068eb00b242",
-      "prompt": "주전도감에서 해동통보를 발행하였다.",
-      "king": "숙종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "숙종",
-        "고려 숙종"
-      ],
-      "sources": [
-        {
-          "round": 74,
-          "number": 27,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-31edf4d074b6",
-      "prompt": "주전도감을 설치하여 해동통보를 발행하였다.",
+      "id": "king-486172da7e6c",
+      "prompt": "해동통보 등의 화폐를 발행하였다.",
       "king": "숙종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3880,86 +3197,25 @@
           "choice": 2
         },
         {
+          "round": 74,
+          "number": 27,
+          "choice": 3
+        },
+        {
           "round": 76,
           "number": 13,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-11377d3617d9",
-      "prompt": "활구라고 불리는 은병을 주조하였다.",
-      "king": "숙종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "숙종",
-        "고려 숙종"
-      ],
-      "sources": [
+        },
         {
           "round": 77,
-          "number": 8,
-          "choice": 2
-        },
-        {
-          "round": 78,
           "number": 25,
-          "choice": 1
-        },
-        {
-          "round": 79,
-          "number": 4,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-0b4954bff42b",
-      "prompt": "재위 중 만적을 비롯한 노비들이 반란을 모의하였다.",
-      "king": "신종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "신종",
-        "고려 신종"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 9,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-c4892d1bf880",
-      "prompt": "재위 중 만적이 개경에서 노비를 모아 반란을 모의하였다.",
-      "king": "신종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "신종",
-        "고려 신종"
-      ],
-      "sources": [
-        {
-          "round": 71,
-          "number": 11,
-          "choice": 4
-        },
-        {
-          "round": 73,
-          "number": 17,
-          "choice": 3
-        },
-        {
-          "round": 78,
-          "number": 16,
           "choice": 5
         }
       ]
     },
     {
-      "id": "king-2310120916bc",
-      "prompt": "재위 중 만적이 개경에서 반란을 모의하였다.",
+      "id": "king-0e92437135b4",
+      "prompt": "재위 중 만적이 노비들의 반란을 모의하였다.",
       "king": "신종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -3973,9 +3229,29 @@
           "choice": 2
         },
         {
+          "round": 71,
+          "number": 11,
+          "choice": 4
+        },
+        {
+          "round": 73,
+          "number": 17,
+          "choice": 3
+        },
+        {
           "round": 75,
           "number": 6,
           "choice": 2
+        },
+        {
+          "round": 76,
+          "number": 9,
+          "choice": 4
+        },
+        {
+          "round": 78,
+          "number": 16,
+          "choice": 5
         },
         {
           "round": 79,
@@ -4003,12 +3279,17 @@
           "round": 78,
           "number": 11,
           "choice": 3
+        },
+        {
+          "round": 79,
+          "number": 8,
+          "choice": 4
         }
       ]
     },
     {
-      "id": "king-9fab6116ba05",
-      "prompt": "국자감에 7재라는 전문 강좌를 개설하였다.",
+      "id": "king-d17f491e69d8",
+      "prompt": "국자감에 전문 강좌인 7재를 두었다.",
       "king": "예종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -4022,6 +3303,11 @@
           "choice": 1
         },
         {
+          "round": 72,
+          "number": 19,
+          "choice": 2
+        },
+        {
           "round": 76,
           "number": 11,
           "choice": 1
@@ -4030,40 +3316,11 @@
           "round": 77,
           "number": 35,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-be3b6627fef0",
-      "prompt": "국자감에 전문 강좌인 7재를 설치하여 운영하였다.",
-      "king": "예종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "예종",
-        "고려 예종"
-      ],
-      "sources": [
+        },
         {
           "round": 79,
           "number": 8,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-de6b925b3705",
-      "prompt": "국자감에 전문 강좌인 7재를 운영하였다.",
-      "king": "예종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "예종",
-        "고려 예종"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 19,
-          "choice": 2
         }
       ]
     },
@@ -4102,8 +3359,8 @@
       ]
     },
     {
-      "id": "king-4f0e01673196",
-      "prompt": "윤관을 보내 동북 9성을 개척하였다.",
+      "id": "king-c30046cd3831",
+      "prompt": "재위 중 동북 9성을 개척하였다.",
       "king": "예종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -4117,56 +3374,15 @@
           "choice": 1
         },
         {
-          "round": 75,
-          "number": 12,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-3070e2a58890",
-      "prompt": "윤관이 별무반을 이끌고 동북 9성을 개척하게 하였다.",
-      "king": "예종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "예종",
-        "고려 예종"
-      ],
-      "sources": [
-        {
           "round": 74,
           "number": 12,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-46df45026982",
-      "prompt": "장학 기금 마련을 위해 양현고를 설립하였다.",
-      "king": "예종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "예종",
-        "고려 예종"
-      ],
-      "sources": [
+        },
         {
-          "round": 79,
-          "number": 8,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-01e240683f9c",
-      "prompt": "재위 중 동북 9성을 축조하고 경계를 알리는 비석을 건립하였다.",
-      "king": "예종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "예종",
-        "고려 예종"
-      ],
-      "sources": [
+          "round": 75,
+          "number": 12,
+          "choice": 1
+        },
         {
           "round": 78,
           "number": 13,
@@ -4197,8 +3413,8 @@
       ]
     },
     {
-      "id": "king-b61421431df0",
-      "prompt": "재위 중 나세 등이 화포를 사용하여 진포에서 왜구를 격퇴하였다.",
+      "id": "king-12e4c802a0be",
+      "prompt": "재위 중 진포에서 왜구를 격퇴하였다.",
       "king": "우왕",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -4207,9 +3423,19 @@
       ],
       "sources": [
         {
+          "round": 70,
+          "number": 15,
+          "choice": 2
+        },
+        {
           "round": 74,
           "number": 21,
           "choice": 2
+        },
+        {
+          "round": 76,
+          "number": 15,
+          "choice": 5
         }
       ]
     },
@@ -4231,42 +3457,8 @@
       ]
     },
     {
-      "id": "king-4a6c61e7c02b",
-      "prompt": "재위 중 최무선이 진포에서 왜구를 격퇴하였다.",
-      "king": "우왕",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "우왕",
-        "고려 우왕"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 15,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-4365c32dcfad",
-      "prompt": "재위 중 최무선이 진포에서 화포를 이용하여 왜구를 물리쳤다.",
-      "king": "우왕",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "우왕",
-        "고려 우왕"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 15,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-a34202f8f4c9",
-      "prompt": "재위 중 최영의 지휘 아래 홍산에서 왜구를 격퇴하였다.",
+      "id": "king-f50acb0f9ea1",
+      "prompt": "재위 중 최영이 홍산에서 왜구를 격퇴하였다.",
       "king": "우왕",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -4278,36 +3470,7 @@
           "round": 73,
           "number": 15,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-843938fd0db4",
-      "prompt": "재위 중 최영이 철령위 설치에 반발하여 요동 정벌을 추진하였다.",
-      "king": "우왕",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "우왕",
-        "고려 우왕"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 14,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-ec1a3612c000",
-      "prompt": "재위 중 최영이 홍산 전투에서 큰 승리를 거두었다.",
-      "king": "우왕",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "우왕",
-        "고려 우왕"
-      ],
-      "sources": [
+        },
         {
           "round": 78,
           "number": 16,
@@ -4325,6 +3488,11 @@
         "고려 우왕"
       ],
       "sources": [
+        {
+          "round": 70,
+          "number": 14,
+          "choice": 2
+        },
         {
           "round": 71,
           "number": 15,
@@ -4348,59 +3516,8 @@
       ]
     },
     {
-      "id": "king-f79500447982",
-      "prompt": "최무선에게서 화통도감 설치를 건의받았다.",
-      "king": "우왕",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "우왕",
-        "고려 우왕"
-      ],
-      "sources": [
-        {
-          "round": 78,
-          "number": 18,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-92ee0f7d29d7",
-      "prompt": "화약 무기 제조를 위해 화통도감을 설치하였다.",
-      "king": "우왕",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "우왕",
-        "고려 우왕"
-      ],
-      "sources": [
-        {
-          "round": 77,
-          "number": 11,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-b6b610751119",
-      "prompt": "화통도감을 두어 화포를 제작하였다.",
-      "king": "우왕",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "우왕",
-        "고려 우왕"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 12,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-f9bff94035e2",
-      "prompt": "화통도감을 설치하여 군사력을 증강하였다.",
+      "id": "king-86b773a0639e",
+      "prompt": "화통도감을 설치하였다.",
       "king": "우왕",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -4412,23 +3529,21 @@
           "round": 71,
           "number": 15,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-48c1c8504388",
-      "prompt": "경기 8현에 한정하여 녹과전을 지급하였다.",
-      "king": "원종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "원종",
-        "고려 원종"
-      ],
-      "sources": [
+        },
         {
-          "round": 79,
-          "number": 20,
-          "choice": 3
+          "round": 72,
+          "number": 12,
+          "choice": 2
+        },
+        {
+          "round": 77,
+          "number": 11,
+          "choice": 2
+        },
+        {
+          "round": 78,
+          "number": 18,
+          "choice": 2
         }
       ]
     },
@@ -4446,6 +3561,11 @@
           "round": 74,
           "number": 3,
           "choice": 1
+        },
+        {
+          "round": 79,
+          "number": 20,
+          "choice": 3
         }
       ]
     },
@@ -4518,64 +3638,8 @@
       ]
     },
     {
-      "id": "king-a2cb9087aa65",
-      "prompt": "재위 중 김부식이 관군을 이끌고 묘청의 난을 진압하였다.",
-      "king": "인종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "인종",
-        "고려 인종"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 13,
-          "choice": 2
-        },
-        {
-          "round": 77,
-          "number": 17,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-dc4dad0ebfdd",
-      "prompt": "재위 중 김부식이 묘청의 난을 진압하였다.",
-      "king": "인종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "인종",
-        "고려 인종"
-      ],
-      "sources": [
-        {
-          "round": 79,
-          "number": 14,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-61deba0f0b21",
-      "prompt": "재위 중 묘청 등이 서경에서 난을 일으켰다.",
-      "king": "인종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "인종",
-        "고려 인종"
-      ],
-      "sources": [
-        {
-          "round": 73,
-          "number": 13,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-6d419aa55e62",
-      "prompt": "재위 중 묘청이 반란을 일으키고 국호를 대위라 하였다.",
+      "id": "king-fe49d1266736",
+      "prompt": "재위 중 묘청이 서경에서 난을 일으켰다.",
       "king": "인종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -4587,21 +3651,24 @@
           "round": 71,
           "number": 18,
           "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-f02abb023f5a",
-      "prompt": "재위 중 묘청이 칭제 건원과 금국 정벌을 주장하였다.",
-      "king": "인종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "인종",
-        "고려 인종"
-      ],
-      "sources": [
+        },
         {
-          "round": 70,
+          "round": 72,
+          "number": 13,
+          "choice": 2
+        },
+        {
+          "round": 73,
+          "number": 13,
+          "choice": 4
+        },
+        {
+          "round": 77,
+          "number": 17,
+          "choice": 1
+        },
+        {
+          "round": 79,
           "number": 14,
           "choice": 3
         }
@@ -4617,6 +3684,11 @@
         "고려 인종"
       ],
       "sources": [
+        {
+          "round": 70,
+          "number": 14,
+          "choice": 3
+        },
         {
           "round": 74,
           "number": 12,
@@ -4675,19 +3747,7 @@
           "round": 76,
           "number": 16,
           "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-fc3e969010f5",
-      "prompt": "외침에 대비하여 광군사를 창설하였다.",
-      "king": "정종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "정종",
-        "고려 정종"
-      ],
-      "sources": [
+        },
         {
           "round": 78,
           "number": 11,
@@ -4696,25 +3756,8 @@
       ]
     },
     {
-      "id": "king-94de0a413375",
-      "prompt": "박위로 하여금 쓰시마섬을 정벌하게 하였다.",
-      "king": "창왕",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "창왕",
-        "고려 창왕"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 12,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-fc4a7e19ead6",
-      "prompt": "박위를 보내 왜구의 근거지인 쓰시마섬을 토벌하였다.",
+      "id": "king-2d20a4a0a5cf",
+      "prompt": "박위를 보내 쓰시마섬을 정벌하였다.",
       "king": "창왕",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -4733,28 +3776,14 @@
           "choice": 3
         },
         {
+          "round": 75,
+          "number": 12,
+          "choice": 3
+        },
+        {
           "round": 78,
           "number": 13,
           "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-de9914eb83fa",
-      "prompt": "매를 기르고 훈련시키는 응방을 설치하였다.",
-      "king": "충렬왕",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "충렬왕",
-        "충렬",
-        "고려 충렬왕",
-        "고려 충렬"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 18,
-          "choice": 3
         }
       ]
     },
@@ -4770,6 +3799,11 @@
         "고려 충렬"
       ],
       "sources": [
+        {
+          "round": 76,
+          "number": 18,
+          "choice": 3
+        },
         {
           "round": 77,
           "number": 12,
@@ -4797,8 +3831,8 @@
       ]
     },
     {
-      "id": "king-ba3be8bbc237",
-      "prompt": "재위 중 고려군이 원의 요청으로 일본 원정에 참여하였다.",
+      "id": "king-f9149f72385d",
+      "prompt": "재위 중 고려군이 일본 원정에 참여하였다.",
       "king": "충렬왕",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -4812,21 +3846,7 @@
           "round": 73,
           "number": 15,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-16b4d65ab33e",
-      "prompt": "재위 중 김방경이 이끄는 군대가 일본 원정에 참여하였다.",
-      "king": "충렬왕",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "충렬왕",
-        "충렬",
-        "고려 충렬왕",
-        "고려 충렬"
-      ],
-      "sources": [
+        },
         {
           "round": 78,
           "number": 16,
@@ -4966,8 +3986,8 @@
       ]
     },
     {
-      "id": "king-bea644261b9c",
-      "prompt": "고창 전투에서 견훤에게 승리하였다.",
+      "id": "king-d65c0181d071",
+      "prompt": "계백료서를 지어 관리의 규범을 제시하였다.",
       "king": "태조",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -4980,9 +4000,39 @@
       ],
       "sources": [
         {
+          "round": 70,
+          "number": 13,
+          "choice": 5
+        },
+        {
           "round": 71,
-          "number": 18,
+          "number": 12,
+          "choice": 5
+        },
+        {
+          "round": 72,
+          "number": 11,
+          "choice": 4
+        },
+        {
+          "round": 73,
+          "number": 11,
+          "choice": 5
+        },
+        {
+          "round": 75,
+          "number": 11,
+          "choice": 4
+        },
+        {
+          "round": 77,
+          "number": 10,
           "choice": 1
+        },
+        {
+          "round": 78,
+          "number": 11,
+          "choice": 5
         }
       ]
     },
@@ -5008,27 +4058,6 @@
         {
           "round": 79,
           "number": 20,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-113513daf681",
-      "prompt": "관리들을 훈계하기 위해 계백료서를 반포하였다.",
-      "king": "태조",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "태조",
-        "왕건",
-        "태조 왕건",
-        "고려 태조",
-        "고려 왕건",
-        "고려 태조 왕건"
-      ],
-      "sources": [
-        {
-          "round": 77,
-          "number": 10,
           "choice": 1
         }
       ]
@@ -5081,29 +4110,8 @@
       ]
     },
     {
-      "id": "king-3570e47b2ef7",
-      "prompt": "민생을 안정시키기 위해 흑창을 처음 설치하였다.",
-      "king": "태조",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "태조",
-        "왕건",
-        "태조 왕건",
-        "고려 태조",
-        "고려 왕건",
-        "고려 태조 왕건"
-      ],
-      "sources": [
-        {
-          "round": 79,
-          "number": 16,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-ae076c5f17f1",
-      "prompt": "백성에게 곡식을 빌려주는 흑창을 설치하였다.",
+      "id": "king-b9a4527d3db0",
+      "prompt": "백성을 구휼하기 위해 흑창을 설치하였다.",
       "king": "태조",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -5119,27 +4127,16 @@
           "round": 74,
           "number": 17,
           "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-2ebb900b8025",
-      "prompt": "빈민 구제를 위해 흑창을 설립하였다.",
-      "king": "태조",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "태조",
-        "왕건",
-        "태조 왕건",
-        "고려 태조",
-        "고려 왕건",
-        "고려 태조 왕건"
-      ],
-      "sources": [
+        },
         {
           "round": 76,
           "number": 18,
           "choice": 2
+        },
+        {
+          "round": 79,
+          "number": 16,
+          "choice": 5
         }
       ]
     },
@@ -5201,6 +4198,37 @@
       ]
     },
     {
+      "id": "king-c0973e043028",
+      "prompt": "재위 중 고창 전투에서 후백제군을 물리쳤다.",
+      "king": "태조",
+      "kingdom": "고려",
+      "acceptedAnswers": [
+        "태조",
+        "왕건",
+        "태조 왕건",
+        "고려 태조",
+        "고려 왕건",
+        "고려 태조 왕건"
+      ],
+      "sources": [
+        {
+          "round": 71,
+          "number": 18,
+          "choice": 1
+        },
+        {
+          "round": 76,
+          "number": 10,
+          "choice": 4
+        },
+        {
+          "round": 78,
+          "number": 10,
+          "choice": 4
+        }
+      ]
+    },
+    {
       "id": "king-2ac2287304a6",
       "prompt": "재위 중 공산 전투에서 신숭겸이 전사하였다.",
       "king": "태조",
@@ -5237,78 +4265,6 @@
       ]
     },
     {
-      "id": "king-04cb64ddce64",
-      "prompt": "재위 중 김선평, 권행 등이 고창 전투에서 활약하였다.",
-      "king": "태조",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "태조",
-        "왕건",
-        "태조 왕건",
-        "고려 태조",
-        "고려 왕건",
-        "고려 태조 왕건"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 10,
-          "choice": 4
-        },
-        {
-          "round": 78,
-          "number": 10,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-e020d74bece4",
-      "prompt": "정계와 계백료서를 지어 관리의 규범을 제시하였다.",
-      "king": "태조",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "태조",
-        "왕건",
-        "태조 왕건",
-        "고려 태조",
-        "고려 왕건",
-        "고려 태조 왕건"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 13,
-          "choice": 5
-        },
-        {
-          "round": 71,
-          "number": 12,
-          "choice": 5
-        },
-        {
-          "round": 72,
-          "number": 11,
-          "choice": 4
-        },
-        {
-          "round": 73,
-          "number": 11,
-          "choice": 5
-        },
-        {
-          "round": 75,
-          "number": 11,
-          "choice": 4
-        },
-        {
-          "round": 78,
-          "number": 11,
-          "choice": 5
-        }
-      ]
-    },
-    {
       "id": "king-3a541f2ca622",
       "prompt": "훈요 10조를 남겼다.",
       "king": "태조",
@@ -5330,47 +4286,8 @@
       ]
     },
     {
-      "id": "king-1e14d5a188b8",
-      "prompt": "강감찬의 건의를 받아들여 개경에 나성을 쌓게 하였다.",
-      "king": "현종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "현종",
-        "고려 현종"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 15,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-825c617e2cf5",
-      "prompt": "거란 침입을 극복하고자 초조대장경 조판을 시작하였다.",
-      "king": "현종",
-      "kingdom": "고려",
-      "acceptedAnswers": [
-        "현종",
-        "고려 현종"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 16,
-          "choice": 4
-        },
-        {
-          "round": 77,
-          "number": 11,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-5f6c70c15913",
-      "prompt": "거란의 침입에 대비하여 개경에 나성을 축조하였다.",
+      "id": "king-bd615cfb7b4b",
+      "prompt": "개경에 나성을 축조하였다.",
       "king": "현종",
       "kingdom": "고려",
       "acceptedAnswers": [
@@ -5382,6 +4299,11 @@
           "round": 70,
           "number": 13,
           "choice": 4
+        },
+        {
+          "round": 76,
+          "number": 15,
+          "choice": 3
         }
       ]
     },
@@ -5440,6 +4362,16 @@
       ],
       "sources": [
         {
+          "round": 70,
+          "number": 16,
+          "choice": 4
+        },
+        {
+          "round": 77,
+          "number": 11,
+          "choice": 4
+        },
+        {
           "round": 79,
           "number": 13,
           "choice": 1
@@ -5481,8 +4413,8 @@
       ]
     },
     {
-      "id": "king-f5c8be4f2dee",
-      "prompt": "5군영을 무위영과 장어영의 2영으로 통합하였다.",
+      "id": "king-0caed138fb72",
+      "prompt": "5군영을 무위영과 장어영의 2영으로 개편하였다.",
       "king": "고종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -5496,31 +4428,17 @@
           "round": 72,
           "number": 32,
           "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-fc97e70c52cc",
-      "prompt": "강화도 조약 체결 후 일본에 수신사를 파견하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
+        },
         {
-          "round": 70,
+          "round": 79,
           "number": 30,
           "choice": 2
         }
       ]
     },
     {
-      "id": "king-b74b166fd5eb",
-      "prompt": "강화도 조약을 체결하여 일본 측의 해안 측량권을 인정하였다.",
+      "id": "king-7382cfefba41",
+      "prompt": "갑오개혁을 추진하는 군국기무처를 설치하였다.",
       "king": "고종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -5531,15 +4449,25 @@
       ],
       "sources": [
         {
+          "round": 71,
+          "number": 35,
+          "choice": 1
+        },
+        {
+          "round": 76,
+          "number": 33,
+          "choice": 1
+        },
+        {
           "round": 78,
-          "number": 28,
-          "choice": 2
+          "number": 39,
+          "choice": 3
         }
       ]
     },
     {
-      "id": "king-25f3a605a4a4",
-      "prompt": "개혁 추진 기구로 교정청을 설치하였다.",
+      "id": "king-f6a722205ad7",
+      "prompt": "개혁을 추진하기 위해 교정청을 설치하였다.",
       "king": "고종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -5549,6 +4477,11 @@
         "조선 고종황제"
       ],
       "sources": [
+        {
+          "round": 72,
+          "number": 32,
+          "choice": 3
+        },
         {
           "round": 75,
           "number": 28,
@@ -5558,35 +4491,6 @@
           "round": 78,
           "number": 32,
           "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-ad5676366a3a",
-      "prompt": "개혁의 방향을 제시한 홍범 14조를 반포하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 74,
-          "number": 30,
-          "choice": 5
-        },
-        {
-          "round": 76,
-          "number": 33,
-          "choice": 5
-        },
-        {
-          "round": 78,
-          "number": 29,
-          "choice": 5
         }
       ]
     },
@@ -5675,6 +4579,16 @@
       ],
       "sources": [
         {
+          "round": 70,
+          "number": 39,
+          "choice": 2
+        },
+        {
+          "round": 71,
+          "number": 31,
+          "choice": 5
+        },
+        {
           "round": 72,
           "number": 32,
           "choice": 5
@@ -5682,63 +4596,6 @@
         {
           "round": 79,
           "number": 40,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-dd0466d391be",
-      "prompt": "교육의 기본 방향을 제시한 교육 입국 조서를 반포하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 71,
-          "number": 31,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-bca57ae0792c",
-      "prompt": "근대 교육 기관인 육영 공원을 설립하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 35,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-9ff3223ba1f0",
-      "prompt": "근대 교육의 중요성을 강조한 교육 입국 조서를 발표하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 39,
           "choice": 2
         }
       ]
@@ -5792,49 +4649,6 @@
       ]
     },
     {
-      "id": "king-e16ff014b272",
-      "prompt": "김기수를 수신사로 일본에 파견하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 28,
-          "choice": 4
-        },
-        {
-          "round": 76,
-          "number": 29,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-9dc51e6d6459",
-      "prompt": "김윤식을 영선사로 삼아 생도와 기술자를 청에 파견하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 35,
-          "choice": 1
-        }
-      ]
-    },
-    {
       "id": "king-b3badbb98c31",
       "prompt": "김윤식을 영선사로 청에 파견하였다.",
       "king": "고종",
@@ -5847,47 +4661,14 @@
       ],
       "sources": [
         {
+          "round": 75,
+          "number": 35,
+          "choice": 1
+        },
+        {
           "round": 76,
           "number": 35,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-eec3e75480b6",
-      "prompt": "동학 농민군과 전주 화약을 맺은 뒤 교정청을 설치하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 32,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-1b5688c77a29",
-      "prompt": "미국과 최혜국 대우를 최초로 규정한 조미 수호 통상 조약을 체결하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 29,
-          "choice": 1
         }
       ]
     },
@@ -5904,9 +4685,19 @@
       ],
       "sources": [
         {
+          "round": 72,
+          "number": 22,
+          "choice": 3
+        },
+        {
           "round": 73,
           "number": 35,
           "choice": 4
+        },
+        {
+          "round": 75,
+          "number": 36,
+          "choice": 2
         },
         {
           "round": 79,
@@ -5916,8 +4707,8 @@
       ]
     },
     {
-      "id": "king-2ecc56136134",
-      "prompt": "미국인 교사가 영어를 가르치는 육영 공원을 설립하였다.",
+      "id": "king-7f513ffd62de",
+      "prompt": "박문국에서 한성순보를 발행하였다.",
       "king": "고종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -5928,62 +4719,10 @@
       ],
       "sources": [
         {
-          "round": 75,
-          "number": 35,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-41f157a5b60c",
-      "prompt": "민영익·홍영식·서광범 등이 참여한 보빙사를 미국에 파견하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 22,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-838a178d8879",
-      "prompt": "민영익을 대표로 한 보빙사를 파견하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 36,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-aacfb5fefd76",
-      "prompt": "박문국을 두어 한성순보를 발행하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
+          "round": 71,
+          "number": 33,
+          "choice": 1
+        },
         {
           "round": 74,
           "number": 30,
@@ -6064,6 +4803,35 @@
       ]
     },
     {
+      "id": "king-79ccccbb4359",
+      "prompt": "육영 공원을 통해 근대 교육을 실시하였다.",
+      "king": "고종",
+      "kingdom": "조선",
+      "acceptedAnswers": [
+        "고종",
+        "고종황제",
+        "조선 고종",
+        "조선 고종황제"
+      ],
+      "sources": [
+        {
+          "round": 71,
+          "number": 38,
+          "choice": 1
+        },
+        {
+          "round": 72,
+          "number": 35,
+          "choice": 4
+        },
+        {
+          "round": 75,
+          "number": 35,
+          "choice": 4
+        }
+      ]
+    },
+    {
       "id": "king-c3580ac8cb1a",
       "prompt": "을미의병에 해산을 권고하는 조칙을 내렸다.",
       "king": "고종",
@@ -6079,6 +4847,103 @@
           "round": 70,
           "number": 32,
           "choice": 2
+        }
+      ]
+    },
+    {
+      "id": "king-7d91e7b759bb",
+      "prompt": "일본과 강화도 조약을 체결하였다.",
+      "king": "고종",
+      "kingdom": "조선",
+      "acceptedAnswers": [
+        "고종",
+        "고종황제",
+        "조선 고종",
+        "조선 고종황제"
+      ],
+      "sources": [
+        {
+          "round": 70,
+          "number": 29,
+          "choice": 5
+        },
+        {
+          "round": 73,
+          "number": 35,
+          "choice": 3
+        },
+        {
+          "round": 74,
+          "number": 28,
+          "choice": 3
+        },
+        {
+          "round": 76,
+          "number": 30,
+          "choice": 4
+        },
+        {
+          "round": 78,
+          "number": 28,
+          "choice": 2
+        }
+      ]
+    },
+    {
+      "id": "king-8533ce625524",
+      "prompt": "일본에 수신사를 파견하였다.",
+      "king": "고종",
+      "kingdom": "조선",
+      "acceptedAnswers": [
+        "고종",
+        "고종황제",
+        "조선 고종",
+        "조선 고종황제"
+      ],
+      "sources": [
+        {
+          "round": 70,
+          "number": 30,
+          "choice": 2
+        },
+        {
+          "round": 75,
+          "number": 28,
+          "choice": 4
+        },
+        {
+          "round": 76,
+          "number": 29,
+          "choice": 4
+        }
+      ]
+    },
+    {
+      "id": "king-61b383b07da8",
+      "prompt": "임오군란을 계기로 일본과 제물포 조약을 체결하였다.",
+      "king": "고종",
+      "kingdom": "조선",
+      "acceptedAnswers": [
+        "고종",
+        "고종황제",
+        "조선 고종",
+        "조선 고종황제"
+      ],
+      "sources": [
+        {
+          "round": 77,
+          "number": 31,
+          "choice": 2
+        },
+        {
+          "round": 78,
+          "number": 28,
+          "choice": 4
+        },
+        {
+          "round": 79,
+          "number": 29,
+          "choice": 1
         }
       ]
     },
@@ -6107,8 +4972,8 @@
       ]
     },
     {
-      "id": "king-61c4fe3a8fd7",
-      "prompt": "재위 중 갑신정변이 청군의 개입으로 3일 만에 실패하였다.",
+      "id": "king-b5e00b838d6d",
+      "prompt": "재위 중 갑신정변이 일어났다.",
       "king": "고종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -6122,6 +4987,11 @@
           "round": 73,
           "number": 29,
           "choice": 1
+        },
+        {
+          "round": 76,
+          "number": 35,
+          "choice": 2
         }
       ]
     },
@@ -6141,125 +5011,6 @@
           "round": 72,
           "number": 32,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-6dad33a08570",
-      "prompt": "재위 중 갑오개혁을 추진하는 군국기무처가 설치되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 71,
-          "number": 35,
-          "choice": 1
-        },
-        {
-          "round": 78,
-          "number": 39,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-75be5aad8fd7",
-      "prompt": "재위 중 강화도 연무당에서 일본과 강화도 조약을 체결하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 73,
-          "number": 35,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-f45d10dbf1c0",
-      "prompt": "재위 중 강화도 조약에 따라 부산, 원산, 인천이 개항되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 29,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-23f2b3111898",
-      "prompt": "재위 중 강화도 조약에 따라 부산항과 원산항이 개항되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 30,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-b36b2b0bd986",
-      "prompt": "재위 중 개혁을 추진하기 위해 군국기무처가 설치되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 33,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-2c4e2a4b6af9",
-      "prompt": "재위 중 거중 조정 조항을 포함한 조미 수호 통상 조약이 체결되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 30,
-          "choice": 2
         }
       ]
     },
@@ -6326,56 +5077,8 @@
       ]
     },
     {
-      "id": "king-8876c4aae8c9",
-      "prompt": "재위 중 구식 군인에 대한 차별 대우를 발단으로 임오군란이 일어났다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 30,
-          "choice": 5
-        },
-        {
-          "round": 73,
-          "number": 29,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-43d9f2895c05",
-      "prompt": "재위 중 군제를 개편하여 친위대와 진위대가 설치되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 71,
-          "number": 31,
-          "choice": 3
-        },
-        {
-          "round": 77,
-          "number": 30,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-9c488d5655d6",
-      "prompt": "재위 중 김옥균이 갑신정변을 일으켜 개화당 정부를 수립하였다.",
+      "id": "king-9eb546a930d0",
+      "prompt": "재위 중 김홍집이 조선책략을 들여왔다.",
       "king": "고종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -6388,44 +5091,11 @@
         {
           "round": 76,
           "number": 35,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-9d8d09d99ebb",
-      "prompt": "재위 중 김홍집이 가지고 온 조선책략이 조선에 유포되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
+          "choice": 1
+        },
         {
           "round": 77,
           "number": 29,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-1ebe766211eb",
-      "prompt": "재위 중 농민들이 조병갑의 탐학에 맞서 만석보를 파괴하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 33,
           "choice": 5
         }
       ]
@@ -6450,25 +5120,6 @@
         {
           "round": 79,
           "number": 27,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-2049a34ed874",
-      "prompt": "재위 중 동학 농민 운동의 남접과 북접 농민군이 논산에 집결하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 78,
-          "number": 32,
           "choice": 3
         }
       ]
@@ -6518,24 +5169,10 @@
           "round": 73,
           "number": 31,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-f8b3271fedf3",
-      "prompt": "재위 중 동학 농민군이 황룡 전투에서 홍계훈의 관군에 승리하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
+        },
         {
-          "round": 72,
-          "number": 33,
+          "round": 78,
+          "number": 32,
           "choice": 3
         }
       ]
@@ -6552,6 +5189,11 @@
         "조선 고종황제"
       ],
       "sources": [
+        {
+          "round": 72,
+          "number": 33,
+          "choice": 3
+        },
         {
           "round": 73,
           "number": 31,
@@ -6579,35 +5221,6 @@
       ]
     },
     {
-      "id": "king-d0de50ad680b",
-      "prompt": "재위 중 러시아의 남하를 견제하려는 영국이 거문도를 점령하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 28,
-          "choice": 4
-        },
-        {
-          "round": 74,
-          "number": 31,
-          "choice": 4
-        },
-        {
-          "round": 75,
-          "number": 50,
-          "choice": 5
-        }
-      ]
-    },
-    {
       "id": "king-6527e70c5fba",
       "prompt": "재위 중 미국 측이 운산 금광 채굴권을 차지하였다.",
       "king": "고종",
@@ -6627,8 +5240,8 @@
       ]
     },
     {
-      "id": "king-3aa7adaf04b7",
-      "prompt": "재위 중 미국이 제너럴 셔먼호 사건을 구실로 침입하였다.",
+      "id": "king-e729c5a461ea",
+      "prompt": "재위 중 미국이 침입하여 신미양요가 일어났다.",
       "king": "고종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -6638,6 +5251,11 @@
         "조선 고종황제"
       ],
       "sources": [
+        {
+          "round": 72,
+          "number": 31,
+          "choice": 4
+        },
         {
           "round": 78,
           "number": 29,
@@ -6647,44 +5265,6 @@
           "round": 79,
           "number": 28,
           "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-7e36a112cdee",
-      "prompt": "재위 중 박문국에서 한성순보를 발행하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 71,
-          "number": 33,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-b5dc44455264",
-      "prompt": "재위 중 방곡령 선포 조건을 명시한 조일 통상 장정이 체결되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 30,
-          "choice": 3
         }
       ]
     },
@@ -6714,12 +5294,17 @@
           "round": 78,
           "number": 29,
           "choice": 2
+        },
+        {
+          "round": 79,
+          "number": 28,
+          "choice": 5
         }
       ]
     },
     {
-      "id": "king-e3a2250fce4e",
-      "prompt": "재위 중 수신사 김홍집이 조선책략을 가져왔다.",
+      "id": "king-aec4690ab77b",
+      "prompt": "재위 중 영국이 거문도를 불법 점령하였다.",
       "king": "고종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -6730,43 +5315,10 @@
       ],
       "sources": [
         {
-          "round": 76,
-          "number": 35,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-ab2036a3ca71",
-      "prompt": "재위 중 어재연이 광성보 전투에서 전사하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 31,
+          "round": 70,
+          "number": 28,
           "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-7626df94ea78",
-      "prompt": "재위 중 영국 군인이 거문도를 불법으로 점거하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
+        },
         {
           "round": 71,
           "number": 29,
@@ -6781,6 +5333,16 @@
           "round": 73,
           "number": 35,
           "choice": 2
+        },
+        {
+          "round": 74,
+          "number": 31,
+          "choice": 4
+        },
+        {
+          "round": 75,
+          "number": 50,
+          "choice": 5
         },
         {
           "round": 76,
@@ -6824,25 +5386,6 @@
       ]
     },
     {
-      "id": "king-7b98e47489ce",
-      "prompt": "재위 중 외국 상인의 내지 통상권을 최초로 규정한 조청 상민 수륙 무역 장정이 체결되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 78,
-          "number": 28,
-          "choice": 5
-        }
-      ]
-    },
-    {
       "id": "king-20c736462611",
       "prompt": "재위 중 우금치에서 동학 농민군이 관군과 일본군에 맞서 싸웠다.",
       "king": "고종",
@@ -6862,44 +5405,6 @@
       ]
     },
     {
-      "id": "king-88af7e5919dd",
-      "prompt": "재위 중 운요호 사건을 계기로 강화도 조약이 체결되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 74,
-          "number": 28,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-e1bfed002194",
-      "prompt": "재위 중 운요호가 강화도와 영종도를 공격하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 77,
-          "number": 29,
-          "choice": 1
-        }
-      ]
-    },
-    {
       "id": "king-4d2035f1ed22",
       "prompt": "재위 중 유인석이 이끄는 의병 부대가 충주성을 점령하였다.",
       "king": "고종",
@@ -6915,25 +5420,6 @@
           "round": 74,
           "number": 32,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-87abaf6f62b1",
-      "prompt": "재위 중 육영 공원에서 외국인 교사를 초빙하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 71,
-          "number": 38,
-          "choice": 1
         }
       ]
     },
@@ -6976,25 +5462,6 @@
       ]
     },
     {
-      "id": "king-91e3435f7111",
-      "prompt": "재위 중 일본 공사관 경비병 주둔을 명시한 제물포 조약이 체결되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 78,
-          "number": 28,
-          "choice": 4
-        }
-      ]
-    },
-    {
       "id": "king-477c8ae5b042",
       "prompt": "재위 중 일본 군함 운요호가 영종도를 공격하였다.",
       "king": "고종",
@@ -7015,6 +5482,11 @@
           "round": 72,
           "number": 30,
           "choice": 4
+        },
+        {
+          "round": 77,
+          "number": 29,
+          "choice": 1
         }
       ]
     },
@@ -7057,8 +5529,8 @@
       ]
     },
     {
-      "id": "king-372b041b93f9",
-      "prompt": "재위 중 임오군란을 계기로 제물포 조약이 체결되었다.",
+      "id": "king-1bd395afc0f0",
+      "prompt": "재위 중 임오군란이 일어났다.",
       "king": "고종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -7069,48 +5541,15 @@
       ],
       "sources": [
         {
-          "round": 77,
-          "number": 31,
-          "choice": 2
+          "round": 70,
+          "number": 30,
+          "choice": 5
         },
         {
-          "round": 79,
+          "round": 73,
           "number": 29,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-e0ab9da564af",
-      "prompt": "재위 중 임오군란을 계기로 조청 상민 수륙 무역 장정이 체결되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 30,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-2b577c7571e8",
-      "prompt": "재위 중 임오군란이 일어나 흥선 대원군이 청에 납치되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
+          "choice": 5
+        },
         {
           "round": 78,
           "number": 29,
@@ -7138,8 +5577,8 @@
       ]
     },
     {
-      "id": "king-fad91885b58e",
-      "prompt": "재위 중 조미 수호 통상 조약이 체결되었다.",
+      "id": "king-3023fa50c97b",
+      "prompt": "재위 중 조병갑의 수탈에 맞서 고부 농민 봉기가 일어났다.",
       "king": "고종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -7151,85 +5590,13 @@
       "sources": [
         {
           "round": 72,
-          "number": 30,
-          "choice": 1
-        },
-        {
-          "round": 74,
-          "number": 28,
-          "choice": 4
-        },
-        {
-          "round": 78,
-          "number": 31,
+          "number": 33,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-e02fb687daac",
-      "prompt": "재위 중 조병갑의 폭정에 항거하여 고부 군민들이 관아를 습격하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
+        },
         {
           "round": 78,
           "number": 32,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-13107268a8a1",
-      "prompt": "재위 중 조일 통상 장정이 체결되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 73,
-          "number": 29,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-b47e4293644e",
-      "prompt": "재위 중 조청 상민 수륙 무역 장정을 체결하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 71,
-          "number": 29,
-          "choice": 4
-        },
-        {
-          "round": 73,
-          "number": 32,
-          "choice": 3
-        },
-        {
-          "round": 75,
-          "number": 30,
-          "choice": 4
         }
       ]
     },
@@ -7311,25 +5678,6 @@
       ]
     },
     {
-      "id": "king-7625130bdd30",
-      "prompt": "재위 중 청의 알선으로 조미 수호 통상 조약의 체결이 추진되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 77,
-          "number": 33,
-          "choice": 1
-        }
-      ]
-    },
-    {
       "id": "king-3c4e59490700",
       "prompt": "재위 중 청일 전쟁이 발발하였다.",
       "king": "고종",
@@ -7373,25 +5721,6 @@
       ]
     },
     {
-      "id": "king-a30d9a346e99",
-      "prompt": "재위 중 최혜국 대우를 최초로 규정한 조미 수호 통상 조약이 체결되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 73,
-          "number": 34,
-          "choice": 2
-        }
-      ]
-    },
-    {
       "id": "king-75e484551846",
       "prompt": "재위 중 평양 관민이 대동강에 침입한 제너럴 셔먼호를 불태웠다.",
       "king": "고종",
@@ -7406,25 +5735,6 @@
         {
           "round": 75,
           "number": 30,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-6c747311b139",
-      "prompt": "재위 중 프랑스군이 의궤를 비롯한 외규장각 도서를 약탈하였다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
-        {
-          "round": 79,
-          "number": 28,
           "choice": 5
         }
       ]
@@ -7468,8 +5778,8 @@
       ]
     },
     {
-      "id": "king-4086a2877e1c",
-      "prompt": "재위 중 함경도에서 곡물 유출을 막기 위한 방곡령이 선포되었다.",
+      "id": "king-63f41fbfed6b",
+      "prompt": "재위 중 함경도에서 방곡령이 선포되었다.",
       "king": "고종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -7483,21 +5793,7 @@
           "round": 71,
           "number": 39,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-296ac768e747",
-      "prompt": "재위 중 함경도와 황해도에서 방곡령이 선포되었다.",
-      "king": "고종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "조선 고종",
-        "조선 고종황제"
-      ],
-      "sources": [
+        },
         {
           "round": 75,
           "number": 40,
@@ -7544,8 +5840,8 @@
       ]
     },
     {
-      "id": "king-2452eea50bfa",
-      "prompt": "제2차 갑오개혁 과정에서 홍범 14조를 반포하였다.",
+      "id": "king-7cb832c2d365",
+      "prompt": "조미 수호 통상 조약을 체결하였다.",
       "king": "고종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -7556,14 +5852,39 @@
       ],
       "sources": [
         {
-          "round": 73,
+          "round": 70,
           "number": 29,
+          "choice": 1
+        },
+        {
+          "round": 72,
+          "number": 30,
+          "choice": 1
+        },
+        {
+          "round": 73,
+          "number": 34,
           "choice": 2
         },
         {
-          "round": 75,
+          "round": 74,
           "number": 28,
+          "choice": 4
+        },
+        {
+          "round": 76,
+          "number": 30,
           "choice": 2
+        },
+        {
+          "round": 77,
+          "number": 33,
+          "choice": 1
+        },
+        {
+          "round": 78,
+          "number": 31,
+          "choice": 5
         }
       ]
     },
@@ -7587,8 +5908,8 @@
       ]
     },
     {
-      "id": "king-c49bfda73d0a",
-      "prompt": "중앙군을 무위영, 장어영의 2영으로 개편하였다.",
+      "id": "king-7f70bddb9165",
+      "prompt": "조일 통상 장정을 체결하였다.",
       "king": "고종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -7599,9 +5920,53 @@
       ],
       "sources": [
         {
-          "round": 79,
+          "round": 73,
+          "number": 29,
+          "choice": 4
+        },
+        {
+          "round": 76,
           "number": 30,
-          "choice": 2
+          "choice": 3
+        }
+      ]
+    },
+    {
+      "id": "king-0c1e9eac7fe3",
+      "prompt": "조청 상민 수륙 무역 장정을 체결하였다.",
+      "king": "고종",
+      "kingdom": "조선",
+      "acceptedAnswers": [
+        "고종",
+        "고종황제",
+        "조선 고종",
+        "조선 고종황제"
+      ],
+      "sources": [
+        {
+          "round": 71,
+          "number": 29,
+          "choice": 4
+        },
+        {
+          "round": 73,
+          "number": 32,
+          "choice": 3
+        },
+        {
+          "round": 75,
+          "number": 30,
+          "choice": 4
+        },
+        {
+          "round": 76,
+          "number": 30,
+          "choice": 1
+        },
+        {
+          "round": 78,
+          "number": 28,
+          "choice": 5
         }
       ]
     },
@@ -7617,6 +5982,16 @@
         "조선 고종황제"
       ],
       "sources": [
+        {
+          "round": 71,
+          "number": 31,
+          "choice": 3
+        },
+        {
+          "round": 77,
+          "number": 30,
+          "choice": 3
+        },
         {
           "round": 78,
           "number": 36,
@@ -7661,9 +6036,71 @@
           "choice": 1
         },
         {
+          "round": 73,
+          "number": 29,
+          "choice": 2
+        },
+        {
+          "round": 74,
+          "number": 30,
+          "choice": 5
+        },
+        {
+          "round": 75,
+          "number": 28,
+          "choice": 2
+        },
+        {
+          "round": 76,
+          "number": 33,
+          "choice": 5
+        },
+        {
           "round": 77,
           "number": 31,
           "choice": 3
+        },
+        {
+          "round": 78,
+          "number": 29,
+          "choice": 5
+        }
+      ]
+    },
+    {
+      "id": "king-2addfe0bf850",
+      "prompt": "강홍립 부대를 파견하여 사르후 전투에 참전하게 하였다.",
+      "king": "광해군",
+      "kingdom": "조선",
+      "acceptedAnswers": [
+        "광해군",
+        "조선 광해군"
+      ],
+      "sources": [
+        {
+          "round": 72,
+          "number": 24,
+          "choice": 2
+        },
+        {
+          "round": 75,
+          "number": 23,
+          "choice": 4
+        },
+        {
+          "round": 76,
+          "number": 21,
+          "choice": 4
+        },
+        {
+          "round": 77,
+          "number": 22,
+          "choice": 1
+        },
+        {
+          "round": 79,
+          "number": 22,
+          "choice": 4
         }
       ]
     },
@@ -7681,23 +6118,6 @@
           "round": 75,
           "number": 24,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-9f9f6a41a017",
-      "prompt": "명을 돕기 위해 강홍립 부대를 파견하여 사르후 전투에 참전하게 하였다.",
-      "king": "광해군",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "광해군",
-        "조선 광해군"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 23,
-          "choice": 4
         }
       ]
     },
@@ -7720,38 +6140,6 @@
           "round": 73,
           "number": 23,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-fb7dda77b4d2",
-      "prompt": "재위 중 강홍립 부대가 사르후 전투에 참전하였다.",
-      "king": "광해군",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "광해군",
-        "조선 광해군"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 24,
-          "choice": 2
-        },
-        {
-          "round": 76,
-          "number": 21,
-          "choice": 4
-        },
-        {
-          "round": 77,
-          "number": 22,
-          "choice": 1
-        },
-        {
-          "round": 79,
-          "number": 22,
-          "choice": 4
         }
       ]
     },
@@ -7873,25 +6261,8 @@
       ]
     },
     {
-      "id": "king-21eb31106089",
-      "prompt": "재위 중 외척 간의 권력 다툼으로 윤임이 제거되었다.",
-      "king": "명종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "명종",
-        "조선 명종"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 20,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-38b09532f3dc",
-      "prompt": "재위 초 왕실 외척인 대윤과 소윤의 권력 다툼으로 을사사화가 일어났다.",
+      "id": "king-14879d24f320",
+      "prompt": "재위 중 외척 간의 권력 다툼으로 을사사화가 일어났다.",
       "king": "명종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -7903,23 +6274,16 @@
           "round": 71,
           "number": 21,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-c895e490a76b",
-      "prompt": "즉위 후 외척 간의 권력 다툼으로 을사사화가 일어나 윤임이 제거되었다.",
-      "king": "명종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "명종",
-        "조선 명종"
-      ],
-      "sources": [
+        },
         {
           "round": 75,
           "number": 22,
           "choice": 2
+        },
+        {
+          "round": 76,
+          "number": 20,
+          "choice": 3
         }
       ]
     },
@@ -7937,72 +6301,6 @@
           "round": 71,
           "number": 22,
           "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-3c6b5b96c7c9",
-      "prompt": "삼수병으로 구성된 훈련도감을 설치하였다.",
-      "king": "선조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "선조",
-        "조선 선조"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 21,
-          "choice": 1
-        },
-        {
-          "round": 71,
-          "number": 22,
-          "choice": 2
-        },
-        {
-          "round": 76,
-          "number": 16,
-          "choice": 3
-        },
-        {
-          "round": 78,
-          "number": 24,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-4da760ce67d4",
-      "prompt": "상비군으로 구성된 훈련도감을 설치하였다.",
-      "king": "선조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "선조",
-        "조선 선조"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 12,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-acf9700f7559",
-      "prompt": "재위 중 곽재우와 고경명 등이 임진왜란의 의병장으로 활약하였다.",
-      "king": "선조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "선조",
-        "조선 선조"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 27,
-          "choice": 5
         }
       ]
     },
@@ -8025,23 +6323,6 @@
           "round": 79,
           "number": 22,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-4b2ee7f4be83",
-      "prompt": "재위 중 기축옥사로 이발 등 동인 세력이 축출되었다.",
-      "king": "선조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "선조",
-        "조선 선조"
-      ],
-      "sources": [
-        {
-          "round": 74,
-          "number": 22,
-          "choice": 2
         }
       ]
     },
@@ -8107,23 +6388,6 @@
       ],
       "sources": [
         {
-          "round": 78,
-          "number": 50,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-939159f8e27e",
-      "prompt": "재위 중 신립이 탄금대에서 배수의 진을 치고 일본군과 싸웠다.",
-      "king": "선조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "선조",
-        "조선 선조"
-      ],
-      "sources": [
-        {
           "round": 70,
           "number": 18,
           "choice": 2
@@ -8137,29 +6401,17 @@
           "round": 75,
           "number": 9,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-8c4867020da4",
-      "prompt": "재위 중 이조 전랑 인사 문제 등을 둘러싸고 사림이 동인과 서인으로 나뉘었다.",
-      "king": "선조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "선조",
-        "조선 선조"
-      ],
-      "sources": [
+        },
         {
-          "round": 75,
-          "number": 19,
-          "choice": 3
+          "round": 78,
+          "number": 50,
+          "choice": 1
         }
       ]
     },
     {
-      "id": "king-367931d1b89b",
-      "prompt": "재위 중 이조 전랑 임명을 둘러싸고 김효원과 심의겸이 대립하였다.",
+      "id": "king-a21efdd3bb9b",
+      "prompt": "재위 중 이조 전랑 인사 문제를 둘러싸고 사림이 대립하였다.",
       "king": "선조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -8171,6 +6423,11 @@
           "round": 72,
           "number": 20,
           "choice": 5
+        },
+        {
+          "round": 75,
+          "number": 19,
+          "choice": 3
         }
       ]
     },
@@ -8188,12 +6445,17 @@
           "round": 72,
           "number": 34,
           "choice": 4
+        },
+        {
+          "round": 75,
+          "number": 27,
+          "choice": 5
         }
       ]
     },
     {
-      "id": "king-fc9e5b420a39",
-      "prompt": "재위 중 정문부가 길주에서 의병을 이끌었다.",
+      "id": "king-91b196b977d4",
+      "prompt": "재위 중 정문부가 함경도에서 의병을 이끌고 왜군과 싸웠다.",
       "king": "선조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -8205,19 +6467,7 @@
           "round": 71,
           "number": 22,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-a12c6df54caa",
-      "prompt": "재위 중 정문부가 북관대첩을 이끌었다.",
-      "king": "선조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "선조",
-        "조선 선조"
-      ],
-      "sources": [
+        },
         {
           "round": 76,
           "number": 21,
@@ -8226,30 +6476,8 @@
       ]
     },
     {
-      "id": "king-76bbda4f5605",
-      "prompt": "재위 중 정여립 모반 사건을 계기로 기축옥사가 발생하였다.",
-      "king": "선조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "선조",
-        "조선 선조"
-      ],
-      "sources": [
-        {
-          "round": 71,
-          "number": 24,
-          "choice": 5
-        },
-        {
-          "round": 78,
-          "number": 19,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-711f507fcbac",
-      "prompt": "재위 중 정여립 모반 사건을 계기로 동인이 기축옥사에서 탄압받았다.",
+      "id": "king-a5c79beb90c6",
+      "prompt": "재위 중 정여립 모반 사건을 계기로 기축옥사가 일어났다.",
       "king": "선조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -8261,6 +6489,21 @@
           "round": 70,
           "number": 20,
           "choice": 4
+        },
+        {
+          "round": 71,
+          "number": 24,
+          "choice": 5
+        },
+        {
+          "round": 74,
+          "number": 22,
+          "choice": 2
+        },
+        {
+          "round": 78,
+          "number": 19,
+          "choice": 5
         }
       ]
     },
@@ -8282,8 +6525,8 @@
       ]
     },
     {
-      "id": "king-055629f94062",
-      "prompt": "훈련도감을 포수, 살수, 사수의 삼수병으로 편제하였다.",
+      "id": "king-78d5faf1e549",
+      "prompt": "훈련도감을 설치하였다.",
       "king": "선조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -8292,26 +6535,34 @@
       ],
       "sources": [
         {
+          "round": 70,
+          "number": 21,
+          "choice": 1
+        },
+        {
+          "round": 71,
+          "number": 22,
+          "choice": 2
+        },
+        {
+          "round": 75,
+          "number": 12,
+          "choice": 2
+        },
+        {
+          "round": 76,
+          "number": 16,
+          "choice": 3
+        },
+        {
+          "round": 78,
+          "number": 24,
+          "choice": 3
+        },
+        {
           "round": 79,
           "number": 50,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-68a464e3f1fe",
-      "prompt": "경국대전을 완성하여 통치 체제를 정비하였다.",
-      "king": "성종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "성종",
-        "조선 성종"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 17,
-          "choice": 1
         }
       ]
     },
@@ -8325,6 +6576,11 @@
         "조선 성종"
       ],
       "sources": [
+        {
+          "round": 70,
+          "number": 17,
+          "choice": 1
+        },
         {
           "round": 71,
           "number": 19,
@@ -8370,8 +6626,8 @@
       ]
     },
     {
-      "id": "king-98e2817ec6ab",
-      "prompt": "음악 이론 등을 집대성한 악학궤범을 완성하였다.",
+      "id": "king-935afcd3cd14",
+      "prompt": "재위 중 악학궤범이 완성되었다.",
       "king": "성종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -8388,19 +6644,7 @@
           "round": 76,
           "number": 19,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-d94b7d1b1716",
-      "prompt": "재위 중 예악 질서의 확립을 위한 악학궤범이 완성되었다.",
-      "king": "성종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "성종",
-        "조선 성종"
-      ],
-      "sources": [
+        },
         {
           "round": 77,
           "number": 20,
@@ -8426,29 +6670,8 @@
       ]
     },
     {
-      "id": "king-c157bf0cf000",
-      "prompt": "간경도감을 설치하였다.",
-      "king": "세조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "세조",
-        "수양대군",
-        "이유",
-        "조선 세조",
-        "조선 수양대군",
-        "조선 이유"
-      ],
-      "sources": [
-        {
-          "round": 74,
-          "number": 20,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-99bd1b84e8af",
-      "prompt": "길주를 근거지로 일어난 이시애의 난을 진압하였다.",
+      "id": "king-8fbb9ee47d2e",
+      "prompt": "간경도감을 통해 불교 경전 간행을 추진하였다.",
       "king": "세조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -8462,8 +6685,13 @@
       "sources": [
         {
           "round": 70,
-          "number": 17,
-          "choice": 3
+          "number": 5,
+          "choice": 1
+        },
+        {
+          "round": 74,
+          "number": 20,
+          "choice": 1
         }
       ]
     },
@@ -8536,8 +6764,8 @@
       ]
     },
     {
-      "id": "king-0bf10535837a",
-      "prompt": "재위 중 간경도감에서 불교 경전이 간행되었다.",
+      "id": "king-f1d5db3999ef",
+      "prompt": "재위 중 길주를 근거지로 이시애의 난이 일어났다.",
       "king": "세조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -8551,8 +6779,13 @@
       "sources": [
         {
           "round": 70,
-          "number": 5,
-          "choice": 1
+          "number": 17,
+          "choice": 3
+        },
+        {
+          "round": 75,
+          "number": 27,
+          "choice": 3
         }
       ]
     },
@@ -8574,27 +6807,6 @@
           "round": 79,
           "number": 22,
           "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-474391412e93",
-      "prompt": "재위 중 이시애가 길주를 근거지로 난을 일으켰다.",
-      "king": "세조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "세조",
-        "수양대군",
-        "이유",
-        "조선 세조",
-        "조선 수양대군",
-        "조선 이유"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 27,
-          "choice": 3
         }
       ]
     },
@@ -8641,27 +6853,6 @@
       ]
     },
     {
-      "id": "king-3f91e1bc2de0",
-      "prompt": "토지 수조권 지급 대상을 현직 관리로 제한하였다.",
-      "king": "세조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "세조",
-        "수양대군",
-        "이유",
-        "조선 세조",
-        "조선 수양대군",
-        "조선 이유"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 23,
-          "choice": 3
-        }
-      ]
-    },
-    {
       "id": "king-10ebfd8aeeed",
       "prompt": "현직 관리에게만 수조권을 지급하는 직전법을 시행하였다.",
       "king": "세조",
@@ -8681,6 +6872,11 @@
           "choice": 5
         },
         {
+          "round": 76,
+          "number": 23,
+          "choice": 3
+        },
+        {
           "round": 77,
           "number": 20,
           "choice": 5
@@ -8688,8 +6884,8 @@
       ]
     },
     {
-      "id": "king-f372cde72ddc",
-      "prompt": "각지의 농법을 작물별로 정리한 농사직설을 편찬하게 하였다.",
+      "id": "king-810b1c74e7c4",
+      "prompt": "농사직설을 편찬하게 하였다.",
       "king": "세종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -8701,62 +6897,15 @@
         "조선 이도"
       ],
       "sources": [
+        {
+          "round": 73,
+          "number": 12,
+          "choice": 5
+        },
         {
           "round": 77,
           "number": 24,
           "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-07d4fd8b489d",
-      "prompt": "국산 약재와 치료 방법을 정리한 향약집성방을 간행하였다.",
-      "king": "세종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "세종",
-        "세종대왕",
-        "이도",
-        "조선 세종",
-        "조선 세종대왕",
-        "조선 이도"
-      ],
-      "sources": [
-        {
-          "round": 74,
-          "number": 15,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-d2760486185b",
-      "prompt": "김종서를 보내 두만강 일대에 6진을 개척하였다.",
-      "king": "세종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "세종",
-        "세종대왕",
-        "이도",
-        "조선 세종",
-        "조선 세종대왕",
-        "조선 이도"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 18,
-          "choice": 1
-        },
-        {
-          "round": 77,
-          "number": 22,
-          "choice": 2
-        },
-        {
-          "round": 78,
-          "number": 22,
-          "choice": 3
         }
       ]
     },
@@ -8782,8 +6931,8 @@
       ]
     },
     {
-      "id": "king-a10726b85716",
-      "prompt": "두만강 일대를 개척하여 6진을 설치하였다.",
+      "id": "king-00847dbb61d6",
+      "prompt": "두만강 일대에 6진을 개척하였다.",
       "king": "세종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -8796,9 +6945,24 @@
       ],
       "sources": [
         {
+          "round": 70,
+          "number": 18,
+          "choice": 1
+        },
+        {
           "round": 75,
           "number": 21,
           "choice": 2
+        },
+        {
+          "round": 77,
+          "number": 22,
+          "choice": 2
+        },
+        {
+          "round": 78,
+          "number": 22,
+          "choice": 3
         }
       ]
     },
@@ -8824,29 +6988,8 @@
       ]
     },
     {
-      "id": "king-823712e555db",
-      "prompt": "삼남 지방의 농법을 소개한 농사직설을 편찬·보급하였다.",
-      "king": "세종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "세종",
-        "세종대왕",
-        "이도",
-        "조선 세종",
-        "조선 세종대왕",
-        "조선 이도"
-      ],
-      "sources": [
-        {
-          "round": 73,
-          "number": 12,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-e4ca3c709a61",
-      "prompt": "쓰시마섬과 제한된 범위의 무역을 허용한 계해약조를 체결하였다.",
+      "id": "king-e7c08870c3df",
+      "prompt": "쓰시마 도주와 계해약조를 체결하였다.",
       "king": "세종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -8865,6 +7008,16 @@
         },
         {
           "round": 71,
+          "number": 23,
+          "choice": 1
+        },
+        {
+          "round": 75,
+          "number": 16,
+          "choice": 3
+        },
+        {
+          "round": 77,
           "number": 23,
           "choice": 1
         }
@@ -8892,29 +7045,8 @@
       ]
     },
     {
-      "id": "king-2498a9501241",
-      "prompt": "의약학의 발전을 위해 향약집성방을 편찬하게 하였다.",
-      "king": "세종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "세종",
-        "세종대왕",
-        "이도",
-        "조선 세종",
-        "조선 세종대왕",
-        "조선 이도"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 17,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-c3f97c243ea0",
-      "prompt": "이종무를 보내 왜구의 근거지인 쓰시마섬을 정벌하였다.",
+      "id": "king-713fb446dcea",
+      "prompt": "이종무를 보내 쓰시마섬을 정벌하였다.",
       "king": "세종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -8932,6 +7064,11 @@
           "choice": 4
         },
         {
+          "round": 72,
+          "number": 24,
+          "choice": 1
+        },
+        {
           "round": 77,
           "number": 22,
           "choice": 4
@@ -8940,27 +7077,6 @@
           "round": 78,
           "number": 22,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-82e71a50abac",
-      "prompt": "재위 중 계해약조를 체결하여 세견선의 입항을 허가하였다.",
-      "king": "세종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "세종",
-        "세종대왕",
-        "이도",
-        "조선 세종",
-        "조선 세종대왕",
-        "조선 이도"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 16,
-          "choice": 3
         }
       ]
     },
@@ -8986,48 +7102,6 @@
       ]
     },
     {
-      "id": "king-c8efb4caa65d",
-      "prompt": "재위 중 쓰시마 도주와 계해약조를 맺었다.",
-      "king": "세종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "세종",
-        "세종대왕",
-        "이도",
-        "조선 세종",
-        "조선 세종대왕",
-        "조선 이도"
-      ],
-      "sources": [
-        {
-          "round": 77,
-          "number": 23,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-1d6184bb92d2",
-      "prompt": "재위 중 이종무가 대마도를 정벌하였다.",
-      "king": "세종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "세종",
-        "세종대왕",
-        "이도",
-        "조선 세종",
-        "조선 세종대왕",
-        "조선 이도"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 24,
-          "choice": 1
-        }
-      ]
-    },
-    {
       "id": "king-a2ad0f5d65e0",
       "prompt": "재위 중 최윤덕이 이만주 부대를 정벌하였다.",
       "king": "세종",
@@ -9045,42 +7119,6 @@
           "round": 76,
           "number": 21,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-3448db2d2718",
-      "prompt": "전세를 풍흉에 따라 9등급으로 차등 과세하였다.",
-      "king": "세종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "세종",
-        "세종대왕",
-        "이도",
-        "조선 세종",
-        "조선 세종대왕",
-        "조선 이도"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 11,
-          "choice": 2
-        },
-        {
-          "round": 72,
-          "number": 25,
-          "choice": 3
-        },
-        {
-          "round": 73,
-          "number": 28,
-          "choice": 4
-        },
-        {
-          "round": 77,
-          "number": 8,
-          "choice": 5
         }
       ]
     },
@@ -9120,15 +7158,35 @@
       ],
       "sources": [
         {
+          "round": 70,
+          "number": 11,
+          "choice": 2
+        },
+        {
           "round": 71,
           "number": 23,
+          "choice": 5
+        },
+        {
+          "round": 72,
+          "number": 25,
+          "choice": 3
+        },
+        {
+          "round": 73,
+          "number": 28,
+          "choice": 4
+        },
+        {
+          "round": 77,
+          "number": 8,
           "choice": 5
         }
       ]
     },
     {
-      "id": "king-9290c7ee142e",
-      "prompt": "한양을 기준으로 역법을 정리한 칠정산 내편을 제작하였다.",
+      "id": "king-7c72f16c45d3",
+      "prompt": "한양을 기준으로 역법을 정리한 칠정산을 편찬하였다.",
       "king": "세종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -9144,23 +7202,12 @@
           "round": 72,
           "number": 28,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-ceddd842f3ad",
-      "prompt": "한양을 기준으로 한 역법서인 칠정산 내편을 간행하였다.",
-      "king": "세종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "세종",
-        "세종대왕",
-        "이도",
-        "조선 세종",
-        "조선 세종대왕",
-        "조선 이도"
-      ],
-      "sources": [
+        },
+        {
+          "round": 73,
+          "number": 21,
+          "choice": 3
+        },
         {
           "round": 79,
           "number": 19,
@@ -9169,8 +7216,8 @@
       ]
     },
     {
-      "id": "king-43e4c20e4e97",
-      "prompt": "한양을 기준으로 한 역법서인 칠정산을 간행하였다.",
+      "id": "king-c39ecc4ae0b9",
+      "prompt": "향약집성방을 편찬하게 하였다.",
       "king": "세종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -9183,15 +7230,20 @@
       ],
       "sources": [
         {
-          "round": 73,
-          "number": 21,
-          "choice": 3
+          "round": 74,
+          "number": 15,
+          "choice": 5
+        },
+        {
+          "round": 75,
+          "number": 17,
+          "choice": 1
         }
       ]
     },
     {
-      "id": "king-2deb1d89e6c4",
-      "prompt": "국왕의 호위와 수도 방어를 위해 금위영을 창설하였다.",
+      "id": "king-b6e7a033fd6d",
+      "prompt": "경신환국을 단행하여 남인을 축출하였다.",
       "king": "숙종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -9200,25 +7252,13 @@
       ],
       "sources": [
         {
-          "round": 77,
-          "number": 24,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-27da58fd5740",
-      "prompt": "백두산정계비를 세워 국경을 획정하였다.",
-      "king": "숙종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "숙종",
-        "조선 숙종"
-      ],
-      "sources": [
+          "round": 75,
+          "number": 19,
+          "choice": 5
+        },
         {
-          "round": 73,
-          "number": 22,
+          "round": 78,
+          "number": 19,
           "choice": 3
         }
       ]
@@ -9244,6 +7284,11 @@
           "choice": 1
         },
         {
+          "round": 73,
+          "number": 22,
+          "choice": 3
+        },
+        {
           "round": 76,
           "number": 25,
           "choice": 3
@@ -9261,8 +7306,8 @@
       ]
     },
     {
-      "id": "king-da62f271e827",
-      "prompt": "수도 방어를 위하여 금위영을 창설하였다.",
+      "id": "king-59f19534a26e",
+      "prompt": "수도 방어를 위해 금위영을 창설하였다.",
       "king": "숙종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -9284,23 +7329,11 @@
           "round": 75,
           "number": 24,
           "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-b9db172706bd",
-      "prompt": "인현 왕후를 폐위하고 남인이 권력을 차지하는 기사환국을 단행하였다.",
-      "king": "숙종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "숙종",
-        "조선 숙종"
-      ],
-      "sources": [
+        },
         {
-          "round": 70,
-          "number": 20,
-          "choice": 5
+          "round": 77,
+          "number": 24,
+          "choice": 3
         }
       ]
     },
@@ -9327,8 +7360,8 @@
       ]
     },
     {
-      "id": "king-5576984a4045",
-      "prompt": "재위 중 경신환국으로 허적과 윤휴 등 남인이 대거 축출되었다.",
+      "id": "king-d02e2bb06963",
+      "prompt": "재위 중 기사환국이 일어났다.",
       "king": "숙종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -9337,77 +7370,24 @@
       ],
       "sources": [
         {
-          "round": 75,
-          "number": 19,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-6a7aff93d80b",
-      "prompt": "재위 중 기사환국으로 송시열이 죽임을 당하였다.",
-      "king": "숙종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "숙종",
-        "조선 숙종"
-      ],
-      "sources": [
-        {
-          "round": 76,
+          "round": 70,
           "number": 20,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-4ced473e9aab",
-      "prompt": "재위 중 인현 왕후가 폐위되고 남인이 권력을 차지하였다.",
-      "king": "숙종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "숙종",
-        "조선 숙종"
-      ],
-      "sources": [
+          "choice": 5
+        },
         {
           "round": 74,
           "number": 22,
           "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-e39eb7ae3538",
-      "prompt": "재위 중 허적과 윤휴 등 남인이 대거 축출되었다.",
-      "king": "숙종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "숙종",
-        "조선 숙종"
-      ],
-      "sources": [
-        {
-          "round": 78,
-          "number": 19,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-2e5e716457c0",
-      "prompt": "재위 중 희빈 장씨 소생의 원자 책봉 문제로 기사환국이 발생하였다.",
-      "king": "숙종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "숙종",
-        "조선 숙종"
-      ],
-      "sources": [
+        },
         {
           "round": 75,
           "number": 22,
           "choice": 4
+        },
+        {
+          "round": 76,
+          "number": 20,
+          "choice": 2
         }
       ]
     },
@@ -9468,8 +7448,8 @@
       ]
     },
     {
-      "id": "king-0c022159a8fd",
-      "prompt": "재위 중 홍경래 등이 난을 일으켜 정주성을 점령하였다.",
+      "id": "king-931ce3fdc891",
+      "prompt": "재위 중 홍경래의 난이 일어났다.",
       "king": "순조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -9483,6 +7463,11 @@
           "choice": 2
         },
         {
+          "round": 72,
+          "number": 31,
+          "choice": 1
+        },
+        {
           "round": 75,
           "number": 27,
           "choice": 4
@@ -9491,39 +7476,10 @@
           "round": 77,
           "number": 28,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-a9da51ebb45c",
-      "prompt": "재위 중 홍경래, 우군칙 등이 봉기를 주도하였다.",
-      "king": "순조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "순조",
-        "조선 순조"
-      ],
-      "sources": [
+        },
         {
           "round": 79,
           "number": 27,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-7f7b66c4abc0",
-      "prompt": "재위 중 홍경래가 난을 일으켰다.",
-      "king": "순조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "순조",
-        "조선 순조"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 31,
           "choice": 1
         }
       ]
@@ -9542,19 +7498,7 @@
           "round": 72,
           "number": 31,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-05b1c32ac1a6",
-      "prompt": "재위 중 황사영이 외국 군대의 출병을 요청하는 백서를 작성하였다.",
-      "king": "순조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "순조",
-        "조선 순조"
-      ],
-      "sources": [
+        },
         {
           "round": 77,
           "number": 28,
@@ -9563,8 +7507,8 @@
       ]
     },
     {
-      "id": "king-3f2b2df64791",
-      "prompt": "김종직의 조의제문을 발단으로 무오사화를 일으켰다.",
+      "id": "king-ba2842b0ac78",
+      "prompt": "김종직의 조의제문을 발단으로 무오사화가 일어났다.",
       "king": "연산군",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -9578,43 +7522,14 @@
           "choice": 1
         },
         {
-          "round": 77,
-          "number": 20,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-862473ec25b8",
-      "prompt": "재위 중 조의제문이 발단이 되어 김일손 등이 피해를 입었다.",
-      "king": "연산군",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "연산군",
-        "조선 연산군"
-      ],
-      "sources": [
-        {
           "round": 76,
           "number": 20,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-2711aa131087",
-      "prompt": "재위 중 폐비 윤씨 사사 사건의 전말이 알려져 갑자사화로 김굉필 등이 처형되었다.",
-      "king": "연산군",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "연산군",
-        "조선 연산군"
-      ],
-      "sources": [
+        },
         {
-          "round": 75,
-          "number": 22,
-          "choice": 5
+          "round": 77,
+          "number": 20,
+          "choice": 1
         }
       ]
     },
@@ -9632,46 +7547,22 @@
           "round": 71,
           "number": 21,
           "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-2c157d49b0d2",
-      "prompt": "폐비 윤씨 사사 사건을 빌미로 신하들을 숙청하였다.",
-      "king": "연산군",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "연산군",
-        "조선 연산군"
-      ],
-      "sources": [
+        },
         {
           "round": 73,
           "number": 23,
+          "choice": 5
+        },
+        {
+          "round": 75,
+          "number": 22,
           "choice": 5
         }
       ]
     },
     {
-      "id": "king-b88bae5ac0d9",
-      "prompt": "균역법 실시로 줄어든 세입을 선무군관포로 보충하였다.",
-      "king": "영조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "영조",
-        "조선 영조"
-      ],
-      "sources": [
-        {
-          "round": 73,
-          "number": 28,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-f652ddeac5ad",
-      "prompt": "균역법으로 줄어든 군포 수입을 보충하기 위해 토지 소유자에게 결작을 부과하였다.",
+      "id": "king-2dacd5dc84e7",
+      "prompt": "균역법의 재정을 보충하기 위해 결작을 부과하였다.",
       "king": "영조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -9683,40 +7574,11 @@
           "round": 71,
           "number": 23,
           "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-ffc0e071c553",
-      "prompt": "균역법의 재정 보완을 위해 일부 상류층에게 선무군관포를 거두었다.",
-      "king": "영조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "영조",
-        "조선 영조"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 23,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-ecd4df1a8b12",
-      "prompt": "부족한 재정 보충을 위해 선무군관포를 징수하였다.",
-      "king": "영조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "영조",
-        "조선 영조"
-      ],
-      "sources": [
+        },
         {
           "round": 72,
           "number": 25,
-          "choice": 4
+          "choice": 2
         }
       ]
     },
@@ -9746,9 +7608,19 @@
           "choice": 5
         },
         {
+          "round": 75,
+          "number": 24,
+          "choice": 3
+        },
+        {
           "round": 77,
           "number": 24,
           "choice": 5
+        },
+        {
+          "round": 78,
+          "number": 24,
+          "choice": 4
         }
       ]
     },
@@ -9797,30 +7669,8 @@
       ]
     },
     {
-      "id": "king-fef008fd9711",
-      "prompt": "탕평 교서를 반포하고 탕평비를 건립하였다.",
-      "king": "영조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "영조",
-        "조선 영조"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 24,
-          "choice": 3
-        },
-        {
-          "round": 78,
-          "number": 24,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-13b5007890d8",
-      "prompt": "토지 1결당 쌀 2두의 결작을 부과하였다.",
+      "id": "king-9fd88bdef87f",
+      "prompt": "재정을 보충하기 위해 선무군관포를 징수하였다.",
       "king": "영조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -9831,6 +7681,16 @@
         {
           "round": 72,
           "number": 25,
+          "choice": 4
+        },
+        {
+          "round": 73,
+          "number": 28,
+          "choice": 2
+        },
+        {
+          "round": 76,
+          "number": 23,
           "choice": 2
         }
       ]
@@ -9885,42 +7745,8 @@
       ]
     },
     {
-      "id": "king-20a8d9212d6a",
-      "prompt": "반정으로 즉위하면서 북인 세력이 몰락하였다.",
-      "king": "인조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "인조",
-        "조선 인조"
-      ],
-      "sources": [
-        {
-          "round": 74,
-          "number": 22,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-d94aee80a361",
-      "prompt": "병자호란 때 남한산성으로 피란하여 항전하였다.",
-      "king": "인조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "인조",
-        "조선 인조"
-      ],
-      "sources": [
-        {
-          "round": 73,
-          "number": 24,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-997fcba48138",
-      "prompt": "병자호란 때 도성을 떠나 남한산성으로 피란하였다.",
+      "id": "king-1cac73713155",
+      "prompt": "병자호란 때 남한산성에서 항전하였다.",
       "king": "인조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -9932,12 +7758,22 @@
           "round": 70,
           "number": 21,
           "choice": 2
+        },
+        {
+          "round": 71,
+          "number": 22,
+          "choice": 5
+        },
+        {
+          "round": 73,
+          "number": 24,
+          "choice": 4
         }
       ]
     },
     {
-      "id": "king-12db157a7210",
-      "prompt": "이괄의 난으로 도성을 떠나 공주로 피란하였다.",
+      "id": "king-17a52ab02de3",
+      "prompt": "서인이 주도한 반정을 통해 즉위하였다.",
       "king": "인조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -9946,20 +7782,20 @@
       ],
       "sources": [
         {
-          "round": 73,
-          "number": 23,
+          "round": 74,
+          "number": 22,
           "choice": 1
         },
         {
-          "round": 79,
-          "number": 27,
+          "round": 75,
+          "number": 19,
           "choice": 4
         }
       ]
     },
     {
-      "id": "king-0692b49ae552",
-      "prompt": "재위 중 김준룡이 광교산 전투에서 승리하였다.",
+      "id": "king-4a4707b8e3e5",
+      "prompt": "재위 중 김준룡이 광교산에서 항전하였다.",
       "king": "인조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -9978,39 +7814,15 @@
           "choice": 2
         },
         {
-          "round": 78,
-          "number": 22,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-6a0019316db8",
-      "prompt": "재위 중 김준룡이 광교산 전투에서 항전하였다.",
-      "king": "인조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "인조",
-        "조선 인조"
-      ],
-      "sources": [
-        {
           "round": 76,
           "number": 21,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-8309ae0d59a5",
-      "prompt": "재위 중 김준룡이 근왕병을 이끌고 광교산에서 항전하였다.",
-      "king": "인조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "인조",
-        "조선 인조"
-      ],
-      "sources": [
+        },
+        {
+          "round": 78,
+          "number": 22,
+          "choice": 2
+        },
         {
           "round": 79,
           "number": 22,
@@ -10019,8 +7831,8 @@
       ]
     },
     {
-      "id": "king-035001ebba25",
-      "prompt": "재위 중 병자호란 때 김상헌 등이 남한산성에서 화의에 반대하여 항전을 주장하였다.",
+      "id": "king-a3aa34ab8614",
+      "prompt": "재위 중 이괄의 난이 일어났다.",
       "king": "인조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -10029,48 +7841,29 @@
       ],
       "sources": [
         {
-          "round": 71,
-          "number": 22,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-610ec37bab12",
-      "prompt": "재위 중 이괄의 반란 세력이 도성을 장악하였다.",
-      "king": "인조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "인조",
-        "조선 인조"
-      ],
-      "sources": [
+          "round": 73,
+          "number": 23,
+          "choice": 1
+        },
         {
           "round": 75,
           "number": 23,
           "choice": 3
         },
         {
-          "round": 78,
-          "number": 19,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-40b3473f1452",
-      "prompt": "재위 중 이괄이 영변을 근거지로 반란을 일으켰다.",
-      "king": "인조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "인조",
-        "조선 인조"
-      ],
-      "sources": [
-        {
           "round": 77,
           "number": 27,
           "choice": 1
+        },
+        {
+          "round": 78,
+          "number": 19,
+          "choice": 2
+        },
+        {
+          "round": 79,
+          "number": 27,
+          "choice": 4
         }
       ]
     },
@@ -10093,23 +7886,6 @@
           "round": 78,
           "number": 22,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-2ee3978549d6",
-      "prompt": "폐모살제를 구실로 서인이 주도한 반정을 통해 즉위하였다.",
-      "king": "인조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "인조",
-        "조선 인조"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 19,
-          "choice": 4
         }
       ]
     },
@@ -10148,8 +7924,8 @@
       ]
     },
     {
-      "id": "king-372df24fb6e9",
-      "prompt": "거중기 등을 활용하여 수원 화성을 축조하였다.",
+      "id": "king-981896d4a2bc",
+      "prompt": "거중기를 활용하여 수원 화성을 축조하였다.",
       "king": "정조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -10162,6 +7938,11 @@
         {
           "round": 70,
           "number": 24,
+          "choice": 2
+        },
+        {
+          "round": 77,
+          "number": 26,
           "choice": 2
         }
       ]
@@ -10213,6 +7994,11 @@
       ],
       "sources": [
         {
+          "round": 72,
+          "number": 28,
+          "choice": 4
+        },
+        {
           "round": 73,
           "number": 25,
           "choice": 3
@@ -10225,27 +8011,8 @@
       ]
     },
     {
-      "id": "king-7babb4df04f7",
-      "prompt": "규장각에 검서관을 두어 서얼 출신 학자들을 기용하였다.",
-      "king": "정조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "정조",
-        "이산",
-        "조선 정조",
-        "조선 이산"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 28,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-807bb5bd5621",
-      "prompt": "대전통편을 편찬하였다.",
+      "id": "king-1de820010537",
+      "prompt": "대전통편을 마련하였다.",
       "king": "정조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -10258,6 +8025,11 @@
         {
           "round": 71,
           "number": 32,
+          "choice": 3
+        },
+        {
+          "round": 79,
+          "number": 19,
           "choice": 3
         }
       ]
@@ -10312,8 +8084,8 @@
       ]
     },
     {
-      "id": "king-894f914efaa5",
-      "prompt": "시전 상인들의 반대 속에서 육의전을 제외한 시전의 금난전권을 폐지하였다.",
+      "id": "king-39e884a8bc73",
+      "prompt": "시전의 금난전권을 폐지하는 신해통공을 단행하였다.",
       "king": "정조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -10327,40 +8099,22 @@
           "round": 70,
           "number": 33,
           "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-83cb1ce9a51d",
-      "prompt": "시전 상인의 특권을 축소하는 신해통공을 단행하였다.",
-      "king": "정조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "정조",
-        "이산",
-        "조선 정조",
-        "조선 이산"
-      ],
-      "sources": [
+        },
+        {
+          "round": 71,
+          "number": 23,
+          "choice": 3
+        },
         {
           "round": 73,
           "number": 28,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-b345c3431e06",
-      "prompt": "신해통공을 단행하였다.",
-      "king": "정조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "정조",
-        "이산",
-        "조선 정조",
-        "조선 이산"
-      ],
-      "sources": [
+        },
+        {
+          "round": 75,
+          "number": 16,
+          "choice": 4
+        },
         {
           "round": 77,
           "number": 14,
@@ -10388,8 +8142,8 @@
       ]
     },
     {
-      "id": "king-a835b5c5fe1f",
-      "prompt": "육의전 외 시전의 금난전권을 폐지하는 신해통공을 단행하였다.",
+      "id": "king-e1ee2b3386de",
+      "prompt": "재위 중 무예도보통지가 편찬되었다.",
       "king": "정조",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -10400,29 +8154,10 @@
       ],
       "sources": [
         {
-          "round": 71,
-          "number": 23,
-          "choice": 3
+          "round": 76,
+          "number": 19,
+          "choice": 1
         },
-        {
-          "round": 75,
-          "number": 16,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-83a0bdc477cb",
-      "prompt": "재위 중 박제가가 규장각 검서관으로 무예도보통지 편찬에 참여하였다.",
-      "king": "정조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "정조",
-        "이산",
-        "조선 정조",
-        "조선 이산"
-      ],
-      "sources": [
         {
           "round": 77,
           "number": 26,
@@ -10455,82 +8190,8 @@
       ]
     },
     {
-      "id": "king-dc54187f2867",
-      "prompt": "재위 중 정약용이 기기도설을 참고하여 화성 축조에 쓸 거중기를 설계하였다.",
-      "king": "정조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "정조",
-        "이산",
-        "조선 정조",
-        "조선 이산"
-      ],
-      "sources": [
-        {
-          "round": 77,
-          "number": 26,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-110537c11782",
-      "prompt": "재위 중 훈련 교범인 무예도보통지가 간행되었다.",
-      "king": "정조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "정조",
-        "이산",
-        "조선 정조",
-        "조선 이산"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 19,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-2b55f330bc4f",
-      "prompt": "통치 체제 정비를 위해 대전통편을 반포하였다.",
-      "king": "정조",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "정조",
-        "이산",
-        "조선 정조",
-        "조선 이산"
-      ],
-      "sources": [
-        {
-          "round": 79,
-          "number": 19,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-85cec9db12c7",
-      "prompt": "국방 문제를 논의하기 위한 임시 기구로 비변사를 설치하였다.",
-      "king": "중종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "중종",
-        "조선 중종"
-      ],
-      "sources": [
-        {
-          "round": 74,
-          "number": 21,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-c32541398e98",
-      "prompt": "국방 문제를 논의하기 위해 비변사를 신설하였다.",
+      "id": "king-6d361734d54c",
+      "prompt": "국방 문제를 논의하기 위해 비변사를 설치하였다.",
       "king": "중종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -10541,6 +8202,43 @@
         {
           "round": 70,
           "number": 21,
+          "choice": 4
+        },
+        {
+          "round": 74,
+          "number": 21,
+          "choice": 5
+        }
+      ]
+    },
+    {
+      "id": "king-b6efbee03c4a",
+      "prompt": "반정 공신의 위훈 삭제를 주장한 조광조 등이 기묘사화로 제거되었다.",
+      "king": "중종",
+      "kingdom": "조선",
+      "acceptedAnswers": [
+        "중종",
+        "조선 중종"
+      ],
+      "sources": [
+        {
+          "round": 71,
+          "number": 21,
+          "choice": 5
+        },
+        {
+          "round": 73,
+          "number": 23,
+          "choice": 4
+        },
+        {
+          "round": 76,
+          "number": 20,
+          "choice": 4
+        },
+        {
+          "round": 78,
+          "number": 19,
           "choice": 4
         }
       ]
@@ -10558,33 +8256,6 @@
         {
           "round": 71,
           "number": 21,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-ac346227f1fd",
-      "prompt": "위훈 삭제를 주장한 조광조 일파를 제거하였다.",
-      "king": "중종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "중종",
-        "조선 중종"
-      ],
-      "sources": [
-        {
-          "round": 73,
-          "number": 23,
-          "choice": 4
-        },
-        {
-          "round": 76,
-          "number": 20,
-          "choice": 4
-        },
-        {
-          "round": 78,
-          "number": 19,
           "choice": 4
         }
       ]
@@ -10624,23 +8295,6 @@
       ]
     },
     {
-      "id": "king-e7fe4aeaf6ed",
-      "prompt": "재위 중 조광조 등이 반정 공신의 위훈 삭제를 주장하였다.",
-      "king": "중종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "중종",
-        "조선 중종"
-      ],
-      "sources": [
-        {
-          "round": 71,
-          "number": 21,
-          "choice": 5
-        }
-      ]
-    },
-    {
       "id": "king-079a1fe814b6",
       "prompt": "조광조를 비롯한 사림의 건의로 현량과를 실시하였다.",
       "king": "중종",
@@ -10658,25 +8312,8 @@
       ]
     },
     {
-      "id": "king-20ca8d010d11",
-      "prompt": "박규수의 건의로 삼정이정청을 설치하였다.",
-      "king": "철종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "철종",
-        "조선 철종"
-      ],
-      "sources": [
-        {
-          "round": 73,
-          "number": 27,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-02ea1a114f06",
-      "prompt": "삼정의 문란을 시정하고자 삼정이정청을 설치하였다.",
+      "id": "king-82e3b491aadc",
+      "prompt": "삼정의 폐단을 바로잡기 위해 삼정이정청을 설치하였다.",
       "king": "철종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -10695,47 +8332,28 @@
           "choice": 5
         },
         {
+          "round": 73,
+          "number": 27,
+          "choice": 5
+        },
+        {
           "round": 74,
           "number": 24,
           "choice": 4
         },
         {
+          "round": 76,
+          "number": 29,
+          "choice": 2
+        },
+        {
           "round": 77,
           "number": 28,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-c96191b60719",
-      "prompt": "임술 농민 봉기 이후 삼정의 폐단을 바로잡기 위해 삼정이정청을 설치하였다.",
-      "king": "철종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "철종",
-        "조선 철종"
-      ],
-      "sources": [
+        },
         {
           "round": 78,
           "number": 31,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-8bab4184bf96",
-      "prompt": "재위 중 삼정이정청이 설치되었다.",
-      "king": "철종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "철종",
-        "조선 철종"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 29,
           "choice": 2
         }
       ]
@@ -10916,27 +8534,8 @@
       ]
     },
     {
-      "id": "king-ad06cc8ebee7",
-      "prompt": "경성과 경원에 무역소를 두었다.",
-      "king": "태종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "태종",
-        "이방원",
-        "조선 태종",
-        "조선 이방원"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 5,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-02072dc89a8f",
-      "prompt": "경성과 경원에 여진과 교역하는 무역소를 설치하였다.",
+      "id": "king-0436974eb214",
+      "prompt": "경성과 경원에 무역소를 설치하였다.",
       "king": "태종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -10950,6 +8549,11 @@
           "round": 73,
           "number": 18,
           "choice": 2
+        },
+        {
+          "round": 76,
+          "number": 5,
+          "choice": 1
         }
       ]
     },
@@ -11035,32 +8639,8 @@
       ]
     },
     {
-      "id": "king-988c4c28fed6",
-      "prompt": "재위 중 주자소에서 계미자가 주조되었다.",
-      "king": "태종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "태종",
-        "이방원",
-        "조선 태종",
-        "조선 이방원"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 26,
-          "choice": 3
-        },
-        {
-          "round": 77,
-          "number": 15,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-418da830838e",
-      "prompt": "주자소를 두어 계미자를 주조하였다.",
+      "id": "king-05fb4a8e44cf",
+      "prompt": "주자소에서 계미자를 주조하였다.",
       "king": "태종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -11076,25 +8656,6 @@
           "choice": 2
         },
         {
-          "round": 79,
-          "number": 19,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-28c9b393df08",
-      "prompt": "주자소에서 계미자를 제작하게 하였다.",
-      "king": "태종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "태종",
-        "이방원",
-        "조선 태종",
-        "조선 이방원"
-      ],
-      "sources": [
-        {
           "round": 74,
           "number": 26,
           "choice": 2
@@ -11103,12 +8664,27 @@
           "round": 75,
           "number": 25,
           "choice": 3
+        },
+        {
+          "round": 76,
+          "number": 26,
+          "choice": 3
+        },
+        {
+          "round": 77,
+          "number": 15,
+          "choice": 5
+        },
+        {
+          "round": 79,
+          "number": 19,
+          "choice": 1
         }
       ]
     },
     {
-      "id": "king-6eda017e72d1",
-      "prompt": "재위 중 자의 대비의 복상 문제로 예송이 일어났다.",
+      "id": "king-7bcd6924422f",
+      "prompt": "재위 중 자의 대비의 복상 문제를 둘러싼 예송이 일어났다.",
       "king": "현종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -11116,6 +8692,11 @@
         "조선 현종"
       ],
       "sources": [
+        {
+          "round": 70,
+          "number": 20,
+          "choice": 2
+        },
         {
           "round": 75,
           "number": 22,
@@ -11129,80 +8710,34 @@
       ]
     },
     {
-      "id": "king-3dea58eac66e",
-      "prompt": "재위 초 효종 사망 후 자의 대비의 복상 기간을 둘러싼 기해 예송이 일어났다.",
-      "king": "현종",
+      "id": "king-13b212d6ac52",
+      "prompt": "북벌을 추진하였다.",
+      "king": "효종",
       "kingdom": "조선",
       "acceptedAnswers": [
-        "현종",
-        "조선 현종"
+        "효종",
+        "조선 효종"
       ],
       "sources": [
         {
           "round": 70,
-          "number": 20,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-40f1f4ee8b87",
-      "prompt": "나선 정벌에 조총 부대를 파견하였다.",
-      "king": "효종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "효종",
-        "조선 효종"
-      ],
-      "sources": [
-        {
-          "round": 73,
-          "number": 22,
-          "choice": 1
+          "number": 21,
+          "choice": 3
         },
-        {
-          "round": 74,
-          "number": 24,
-          "choice": 1
-        },
-        {
-          "round": 76,
-          "number": 25,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-3c67826b5b1e",
-      "prompt": "변급, 신류 등을 나선 정벌에 파견하였다.",
-      "king": "효종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "효종",
-        "조선 효종"
-      ],
-      "sources": [
         {
           "round": 71,
-          "number": 24,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-488ecf03ee77",
-      "prompt": "변급과 신류 등의 조총 부대를 보내 나선 정벌에 나섰다.",
-      "king": "효종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "효종",
-        "조선 효종"
-      ],
-      "sources": [
+          "number": 27,
+          "choice": 1
+        },
         {
-          "round": 70,
+          "round": 73,
           "number": 18,
-          "choice": 3
+          "choice": 4
+        },
+        {
+          "round": 77,
+          "number": 22,
+          "choice": 5
         }
       ]
     },
@@ -11244,23 +8779,6 @@
       ]
     },
     {
-      "id": "king-7c256f5846e8",
-      "prompt": "송시열, 이완 등을 중심으로 북벌을 추진하였다.",
-      "king": "효종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "효종",
-        "조선 효종"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 21,
-          "choice": 3
-        }
-      ]
-    },
-    {
       "id": "king-15f690488dcf",
       "prompt": "송시열에게서 명에 대한 의리를 내세운 기축봉사를 받았다.",
       "king": "효종",
@@ -11278,8 +8796,8 @@
       ]
     },
     {
-      "id": "king-dbf0ebfc95bd",
-      "prompt": "신류의 조총 부대를 파견하여 흑룡강에서 러시아군과 싸우게 하였다.",
+      "id": "king-3cc472427698",
+      "prompt": "조총 부대를 파견하여 나선 정벌을 실시하였다.",
       "king": "효종",
       "kingdom": "조선",
       "acceptedAnswers": [
@@ -11287,82 +8805,44 @@
         "조선 효종"
       ],
       "sources": [
+        {
+          "round": 70,
+          "number": 18,
+          "choice": 3
+        },
+        {
+          "round": 71,
+          "number": 24,
+          "choice": 2
+        },
+        {
+          "round": 72,
+          "number": 31,
+          "choice": 5
+        },
+        {
+          "round": 73,
+          "number": 22,
+          "choice": 1
+        },
+        {
+          "round": 74,
+          "number": 24,
+          "choice": 1
+        },
         {
           "round": 75,
           "number": 23,
           "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-5f60ce6b05be",
-      "prompt": "어영청을 중심으로 북벌을 추진하였다.",
-      "king": "효종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "효종",
-        "조선 효종"
-      ],
-      "sources": [
+        },
         {
-          "round": 71,
-          "number": 27,
+          "round": 76,
+          "number": 25,
           "choice": 1
         },
         {
-          "round": 73,
-          "number": 18,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-7768c910901e",
-      "prompt": "이완을 어영대장으로 임명하여 북벌을 준비하였다.",
-      "king": "효종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "효종",
-        "조선 효종"
-      ],
-      "sources": [
-        {
-          "round": 77,
-          "number": 22,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-53b1345beedf",
-      "prompt": "재위 중 신류가 조총 부대를 이끌고 흑룡강 일대에서 전투를 벌였다.",
-      "king": "효종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "효종",
-        "조선 효종"
-      ],
-      "sources": [
-        {
           "round": 79,
           "number": 23,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-7d4153613f11",
-      "prompt": "청의 요청으로 나선 정벌에 조총 부대를 파견하였다.",
-      "king": "효종",
-      "kingdom": "조선",
-      "acceptedAnswers": [
-        "효종",
-        "조선 효종"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 31,
           "choice": 5
         }
       ]
@@ -11394,53 +8874,6 @@
       ]
     },
     {
-      "id": "king-5102c17d0d1c",
-      "prompt": "양전 사업을 실시하고 토지 소유권 증서인 지계를 발급하였다.",
-      "king": "고종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "광무황제",
-        "대한제국 고종",
-        "대한제국 고종황제",
-        "대한제국 광무황제"
-      ],
-      "sources": [
-        {
-          "round": 71,
-          "number": 31,
-          "choice": 1
-        },
-        {
-          "round": 75,
-          "number": 40,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-6a416eadb2fe",
-      "prompt": "을사늑약의 부당함을 알리기 위해 헤이그 특사를 파견하였다.",
-      "king": "고종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "광무황제",
-        "대한제국 고종",
-        "대한제국 고종황제",
-        "대한제국 광무황제"
-      ],
-      "sources": [
-        {
-          "round": 74,
-          "number": 28,
-          "choice": 5
-        }
-      ]
-    },
-    {
       "id": "king-af639c3c9aa8",
       "prompt": "이범윤을 간도 관리사로 파견하였다.",
       "king": "고종",
@@ -11462,27 +8895,6 @@
       ]
     },
     {
-      "id": "king-50f585b7b700",
-      "prompt": "이상설 등을 특사로 헤이그에 파견하였다.",
-      "king": "고종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "광무황제",
-        "대한제국 고종",
-        "대한제국 고종황제",
-        "대한제국 광무황제"
-      ],
-      "sources": [
-        {
-          "round": 76,
-          "number": 35,
-          "choice": 5
-        }
-      ]
-    },
-    {
       "id": "king-3f5e30632d1d",
       "prompt": "재위 중 경부선 철도가 개통되었다.",
       "king": "고종",
@@ -11500,6 +8912,11 @@
           "round": 73,
           "number": 35,
           "choice": 5
+        },
+        {
+          "round": 79,
+          "number": 31,
+          "choice": 4
         }
       ]
     },
@@ -11572,29 +8989,8 @@
       ]
     },
     {
-      "id": "king-503f9b3e4bac",
-      "prompt": "재위 중 서울과 부산을 연결하는 경부선이 개통되었다.",
-      "king": "고종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "광무황제",
-        "대한제국 고종",
-        "대한제국 고종황제",
-        "대한제국 광무황제"
-      ],
-      "sources": [
-        {
-          "round": 79,
-          "number": 31,
-          "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-7577885fd3ff",
-      "prompt": "재위 중 외국인 재정 고문을 두도록 하는 제1차 한일 협약이 체결되었다.",
+      "id": "king-e670e84e7eac",
+      "prompt": "재위 중 을사늑약으로 통감부가 설치되었다.",
       "king": "고종",
       "kingdom": "대한제국",
       "acceptedAnswers": [
@@ -11609,34 +9005,8 @@
         {
           "round": 70,
           "number": 29,
-          "choice": 4
+          "choice": 2
         },
-        {
-          "round": 71,
-          "number": 35,
-          "choice": 5
-        },
-        {
-          "round": 76,
-          "number": 30,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-893ad6500967",
-      "prompt": "재위 중 을사늑약 강요로 통감부가 설치되었다.",
-      "king": "고종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "광무황제",
-        "대한제국 고종",
-        "대한제국 고종황제",
-        "대한제국 광무황제"
-      ],
-      "sources": [
         {
           "round": 73,
           "number": 34,
@@ -11645,48 +9015,6 @@
         {
           "round": 77,
           "number": 33,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-29926b0a933c",
-      "prompt": "재위 중 을사늑약에 항거하여 최익현이 태인에서 의병을 일으켰다.",
-      "king": "고종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "광무황제",
-        "대한제국 고종",
-        "대한제국 고종황제",
-        "대한제국 광무황제"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 31,
-          "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-6bada43d2d38",
-      "prompt": "재위 중 을사늑약으로 외교권을 빼앗기고 통감부가 설치되었다.",
-      "king": "고종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "광무황제",
-        "대한제국 고종",
-        "대한제국 고종황제",
-        "대한제국 광무황제"
-      ],
-      "sources": [
-        {
-          "round": 70,
-          "number": 29,
           "choice": 2
         }
       ]
@@ -11760,8 +9088,8 @@
       ]
     },
     {
-      "id": "king-7d7f7c190b84",
-      "prompt": "재위 중 제1차 한일 협약에 따라 스티븐스가 외교 고문으로 부임하였다.",
+      "id": "king-6a6ffc479f30",
+      "prompt": "재위 중 제1차 한일 협약이 체결되었다.",
       "king": "고종",
       "kingdom": "대한제국",
       "acceptedAnswers": [
@@ -11774,6 +9102,16 @@
       ],
       "sources": [
         {
+          "round": 70,
+          "number": 29,
+          "choice": 4
+        },
+        {
+          "round": 71,
+          "number": 35,
+          "choice": 5
+        },
+        {
           "round": 73,
           "number": 34,
           "choice": 5
@@ -11782,6 +9120,11 @@
           "round": 74,
           "number": 32,
           "choice": 3
+        },
+        {
+          "round": 76,
+          "number": 30,
+          "choice": 5
         },
         {
           "round": 77,
@@ -11813,33 +9156,17 @@
           "round": 74,
           "number": 32,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-6e8a09b00c19",
-      "prompt": "재위 중 한성 전기 회사가 운영하는 서울 전차가 개통되었다.",
-      "king": "고종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "광무황제",
-        "대한제국 고종",
-        "대한제국 고종황제",
-        "대한제국 광무황제"
-      ],
-      "sources": [
+        },
         {
           "round": 75,
-          "number": 35,
-          "choice": 5
+          "number": 31,
+          "choice": 3
         }
       ]
     },
     {
-      "id": "king-e9acf4a97d32",
-      "prompt": "재위 중 한성 전기 회사가 운영한 전차의 개통식이 열렸다.",
+      "id": "king-d419ece36931",
+      "prompt": "재위 중 한성 전기 회사의 서울 전차가 개통되었다.",
       "king": "고종",
       "kingdom": "대한제국",
       "acceptedAnswers": [
@@ -11855,6 +9182,11 @@
           "round": 70,
           "number": 39,
           "choice": 4
+        },
+        {
+          "round": 75,
+          "number": 35,
+          "choice": 5
         }
       ]
     },
@@ -11885,58 +9217,6 @@
       ]
     },
     {
-      "id": "king-684aadb9e465",
-      "prompt": "지계아문을 설치하여 지계를 발급하였다.",
-      "king": "고종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "광무황제",
-        "대한제국 고종",
-        "대한제국 고종황제",
-        "대한제국 광무황제"
-      ],
-      "sources": [
-        {
-          "round": 72,
-          "number": 35,
-          "choice": 5
-        },
-        {
-          "round": 74,
-          "number": 30,
-          "choice": 1
-        },
-        {
-          "round": 78,
-          "number": 37,
-          "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-8ab6dc7e293e",
-      "prompt": "지계아문을 통해 토지 소유권을 확인하고 지계를 발급하였다.",
-      "king": "고종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "광무황제",
-        "대한제국 고종",
-        "대한제국 고종황제",
-        "대한제국 광무황제"
-      ],
-      "sources": [
-        {
-          "round": 77,
-          "number": 45,
-          "choice": 5
-        }
-      ]
-    },
-    {
       "id": "king-9adc591a3466",
       "prompt": "청과 대등한 입장에서 한청 통상 조약을 맺었다.",
       "king": "고종",
@@ -11958,8 +9238,8 @@
       ]
     },
     {
-      "id": "king-e37d402d574f",
-      "prompt": "토지 소유권을 확인해 주는 지계를 발급하였다.",
+      "id": "king-4bd9af876412",
+      "prompt": "토지 소유권 증서인 지계를 발급하였다.",
       "king": "고종",
       "kingdom": "대한제국",
       "acceptedAnswers": [
@@ -11972,15 +9252,45 @@
       ],
       "sources": [
         {
+          "round": 71,
+          "number": 31,
+          "choice": 1
+        },
+        {
+          "round": 72,
+          "number": 35,
+          "choice": 5
+        },
+        {
+          "round": 74,
+          "number": 30,
+          "choice": 1
+        },
+        {
+          "round": 75,
+          "number": 40,
+          "choice": 1
+        },
+        {
           "round": 76,
           "number": 33,
           "choice": 4
+        },
+        {
+          "round": 77,
+          "number": 45,
+          "choice": 5
+        },
+        {
+          "round": 78,
+          "number": 37,
+          "choice": 1
         }
       ]
     },
     {
-      "id": "king-1a5a6d4bd31a",
-      "prompt": "퇴위 후 밀지를 내려 독립 의군부 결성을 지원하였다.",
+      "id": "king-395e51232801",
+      "prompt": "퇴위 후 밀지를 내려 독립 의군부 조직을 추진하였다.",
       "king": "고종",
       "kingdom": "대한제국",
       "acceptedAnswers": [
@@ -11996,23 +9306,7 @@
           "round": 73,
           "number": 45,
           "choice": 1
-        }
-      ]
-    },
-    {
-      "id": "king-db708af538ef",
-      "prompt": "퇴위 후 임병찬에게 밀지를 내려 독립 의군부 조직을 추진하였다.",
-      "king": "고종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "광무황제",
-        "대한제국 고종",
-        "대한제국 고종황제",
-        "대한제국 광무황제"
-      ],
-      "sources": [
+        },
         {
           "round": 75,
           "number": 31,
@@ -12047,50 +9341,8 @@
       ]
     },
     {
-      "id": "king-abd8889bad50",
-      "prompt": "헤이그 특사 파견 뒤 강제로 퇴위당하였다.",
-      "king": "고종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "광무황제",
-        "대한제국 고종",
-        "대한제국 고종황제",
-        "대한제국 광무황제"
-      ],
-      "sources": [
-        {
-          "round": 79,
-          "number": 32,
-          "choice": 2
-        }
-      ]
-    },
-    {
-      "id": "king-a8a88adb40ac",
-      "prompt": "헤이그에서 열린 만국 평화 회의에 이상설·이준·이위종을 특사로 파견하였다.",
-      "king": "고종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "고종",
-        "고종황제",
-        "광무황제",
-        "대한제국 고종",
-        "대한제국 고종황제",
-        "대한제국 광무황제"
-      ],
-      "sources": [
-        {
-          "round": 78,
-          "number": 35,
-          "choice": 5
-        }
-      ]
-    },
-    {
-      "id": "king-2354bbb77281",
-      "prompt": "헤이그에서 열린 만국 평화 회의에 특사를 파견하였다.",
+      "id": "king-e614314f81ee",
+      "prompt": "헤이그 만국 평화 회의에 특사를 파견하였다.",
       "king": "고종",
       "kingdom": "대한제국",
       "acceptedAnswers": [
@@ -12108,9 +9360,45 @@
           "choice": 4
         },
         {
+          "round": 74,
+          "number": 28,
+          "choice": 5
+        },
+        {
+          "round": 76,
+          "number": 35,
+          "choice": 5
+        },
+        {
           "round": 77,
           "number": 46,
           "choice": 4
+        },
+        {
+          "round": 78,
+          "number": 35,
+          "choice": 5
+        }
+      ]
+    },
+    {
+      "id": "king-abd8889bad50",
+      "prompt": "헤이그 특사 파견 뒤 강제로 퇴위당하였다.",
+      "king": "고종",
+      "kingdom": "대한제국",
+      "acceptedAnswers": [
+        "고종",
+        "고종황제",
+        "광무황제",
+        "대한제국 고종",
+        "대한제국 고종황제",
+        "대한제국 광무황제"
+      ],
+      "sources": [
+        {
+          "round": 79,
+          "number": 32,
+          "choice": 2
         }
       ]
     },
@@ -12153,26 +9441,10 @@
           "round": 74,
           "number": 32,
           "choice": 4
-        }
-      ]
-    },
-    {
-      "id": "king-a707c0085268",
-      "prompt": "재위 중 군대 해산을 규정한 한일 신협약의 비밀 각서가 마련되었다.",
-      "king": "순종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "순종",
-        "순종황제",
-        "융희황제",
-        "대한제국 순종",
-        "대한제국 순종황제",
-        "대한제국 융희황제"
-      ],
-      "sources": [
+        },
         {
-          "round": 77,
-          "number": 33,
+          "round": 75,
+          "number": 31,
           "choice": 5
         }
       ]
@@ -12213,6 +9485,11 @@
       ],
       "sources": [
         {
+          "round": 77,
+          "number": 33,
+          "choice": 5
+        },
+        {
           "round": 78,
           "number": 33,
           "choice": 2
@@ -12221,27 +9498,6 @@
           "round": 79,
           "number": 32,
           "choice": 3
-        }
-      ]
-    },
-    {
-      "id": "king-1ff47a8adede",
-      "prompt": "재위 중 이인영 등이 13도 창의군을 지휘하여 서울 진공 작전을 전개하였다.",
-      "king": "순종",
-      "kingdom": "대한제국",
-      "acceptedAnswers": [
-        "순종",
-        "순종황제",
-        "융희황제",
-        "대한제국 순종",
-        "대한제국 순종황제",
-        "대한제국 융희황제"
-      ],
-      "sources": [
-        {
-          "round": 75,
-          "number": 31,
-          "choice": 5
         }
       ]
     },

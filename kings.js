@@ -10,7 +10,7 @@
   let data, questions, state, composing = false;
   const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const normalize = value => value.normalize('NFKC').replace(/[\s\p{P}]/gu, '').toLowerCase();
-  const isResolved = response => ['correct', 'revealed'].includes(response?.status);
+  const isResolved = response => ['correct', 'wrong', 'revealed'].includes(response?.status);
   const emptyResponse = () => ({status: 'pending', missed: false, input: ''});
   const selectedSources = question => question.sources.filter(source => source.round >= state.filters.start && source.round <= state.filters.end);
   const eligible = filters => data.questions.filter(question => (filters.kingdom === 'all' || question.kingdom === filters.kingdom) && question.sources.some(source => source.round >= filters.start && source.round <= filters.end));
@@ -60,7 +60,7 @@
   }
   function feedbackHTML(question, response) {
     if (response.status === 'pending') return '';
-    if (response.status === 'wrong') return '<svg class="king-pen" viewBox="0 0 30 30" aria-hidden="true"><path d="M6 5 24 25M24 5 6 25"/></svg><span>다시 생각해 보세요.</span>';
+    if (response.status === 'wrong') return `<svg class="king-pen" viewBox="0 0 30 30" aria-hidden="true"><path d="M6 5 24 25M24 5 6 25"/></svg><span>정답 <strong>${escapeHTML(question.king)}</strong></span>`;
     if (response.status === 'correct') return `<svg class="king-pen" viewBox="0 0 30 30" aria-hidden="true"><path d="m3 16 7 9L26 4M4 17l6 7L25 5"/></svg><span><strong>${escapeHTML(question.king)}</strong></span>`;
     return `<span>정답은 <strong>${escapeHTML(question.king)}</strong> · 다시 풀 문제에 담았어요.</span>`;
   }
@@ -107,7 +107,6 @@
       if (!correct) response.missed = true;
       save();
       render(true);
-      if (!correct) document.querySelector('#king-answer').select();
     });
     document.querySelector('#reveal-king')?.addEventListener('click', () => {
       response.status = 'revealed';
@@ -138,7 +137,7 @@
   });
   async function init() {
     try {
-      const result = await fetch('assets/data/king-quiz.json?v=20261012-kings');
+      const result = await fetch('assets/data/king-quiz.json?v=20261012-kings-direct');
       if (!result.ok) throw new Error('Data unavailable');
       data = await result.json();
       if (!data || !Number.isInteger(data.version) || typeof data.revision !== 'string' || !data.revision || !Array.isArray(data.rounds) || !data.rounds.length || !data.rounds.every(Number.isInteger) || !Array.isArray(data.questions) || !data.questions.length || !data.questions.every(question => typeof question.id === 'string' && question.id && typeof question.prompt === 'string' && question.prompt && typeof question.king === 'string' && normalize(question.king) && typeof question.kingdom === 'string' && Array.isArray(question.acceptedAnswers) && question.acceptedAnswers.every(answer => typeof answer === 'string' && normalize(answer)) && Array.isArray(question.sources) && question.sources.length && question.sources.every(source => data.rounds.includes(source.round) && Number.isInteger(source.number) && source.number > 0 && Number.isInteger(source.choice) && source.choice > 0 && source.choice <= 5)) || new Set(data.questions.map(question => question.id)).size !== data.questions.length) throw new Error('Invalid data');
