@@ -31,10 +31,12 @@ jobs:
         run: python3 scripts/validate_study_guide.py
       - name: Validate all exam keywords
         run: python3 scripts/validate_keyword_guide.py
+      - name: Validate king quiz
+        run: python3 scripts/validate_king_quiz.py
       - name: Prepare static site
         run: |
           mkdir -p _site
-          cp index.html exam.html answers.html concepts.html keywords.html styles.css app.js .nojekyll _site/
+          cp index.html exam.html answers.html concepts.html keywords.html kings.html kings.js kings.css styles.css app.js .nojekyll _site/
           cp -R assets _site/assets
       - name: Configure Pages
         uses: actions/configure-pages@v5

@@ -123,3 +123,8 @@
 @media(max-width:800px){.concept-main{padding:30px}}
 @media(max-width:600px){.site-header{flex-wrap:wrap;height:auto;min-height:100px;padding-top:16px;padding-bottom:12px;gap:10px}.site-header nav{width:100%;justify-content:flex-end;gap:20px;font-size:11px}.site-header .nav-link{padding:3px 0}.concept-main{padding:26px 20px 44px}.concept-heading h1{font-size:27px}.concept-controls{padding-top:18px;gap:14px}.era-filters{gap:7px}.era-filters button{font-size:11px;padding:7px 10px}.concept-search input{max-width:none}.rounds-heading{gap:10px}}
 @media print{.concept-controls,.concept-count,.concept-references{display:none}.concept-main{padding:0}}
+
+/* Keep the expanded study navigation readable on narrow screens. */
+.site-header nav{flex-wrap:wrap;row-gap:4px}.site-header .nav-link{white-space:nowrap}
+@media(max-width:900px){.site-header{height:auto;min-height:100px;flex-wrap:wrap;padding-top:18px;padding-bottom:14px}.site-header nav{margin-left:auto}}
+@media(max-width:600px){.site-header nav{justify-content:space-between;gap:8px}.rounds-heading{flex-wrap:wrap}}

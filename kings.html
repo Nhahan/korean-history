@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#192f3a">
+  <meta name="description" content="70~79회 한국사 기출 선지로 왕 이름을 직접 쓰며 복습하세요.">
+  <title>왕 맞히기 · 한국사 기출연습</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=20261012-kings">
+  <link rel="stylesheet" href="kings.css?v=20261012-kings">
+  <script src="kings.js?v=20261012-kings" defer></script>
+</head>
+<body data-page="kings">
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header compact-header"><a class="brand" href="index.html"><span class="brand-seal" aria-hidden="true">史</span><span>한국사 기출연습<small>HISTORY, ONE QUESTION AT A TIME</small></span></a><nav aria-label="주 메뉴"><a class="nav-link" href="index.html">기출문제</a><a class="nav-link active" href="kings.html" aria-current="page">왕 맞히기</a><a class="nav-link" href="concepts.html">핵심 정리</a><a class="nav-link" href="keywords.html">기출 키워드</a><a class="nav-link" href="answers.html">정답표</a></nav></header>
+  <main id="main" class="kings-main">
+    <div class="kings-heading"><p class="eyebrow">기출 선지로 복습</p><h1>어느 왕일까요?</h1><p>단서를 읽고 왕 이름을 써 보세요.</p></div>
+    <form id="king-filters" class="king-filters" hidden>
+      <div class="king-range"><label for="round-start">시작 회차<select id="round-start" name="start"></select></label><span aria-hidden="true">—</span><label for="round-end">끝 회차<select id="round-end" name="end"></select></label></div>
+      <label for="kingdom-filter">나라<select id="kingdom-filter" name="kingdom"><option value="all">전체</option></select></label>
+      <button class="button button-primary" type="submit" id="apply-filters">시작</button>
+      <p id="filter-status" class="filter-status" role="status"></p>
+    </form>
+    <section id="king-stage" aria-label="왕 이름 퀴즈"><p class="loading-state" role="status">문제를 불러오고 있습니다.</p></section>
+    <p id="storage-note" class="storage-note" role="status"></p>
+  </main>
+</body>
+</html>
