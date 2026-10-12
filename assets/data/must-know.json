@@ -70,6 +70,21 @@
           "round": 70,
           "number": 1
         }
+      ],
+      "displayRows": [
+        {
+          "term": "구석기 생활",
+          "detail": "이동 생활 · 동굴 · 막집"
+        },
+        {
+          "term": "뗀석기",
+          "detail": "주먹도끼 · 찍개"
+        }
+      ],
+      "highlights": [
+        "이동 생활",
+        "뗀석기",
+        "주먹도끼"
       ]
     },
     {
@@ -103,6 +118,22 @@
           "round": 71,
           "number": 1
         }
+      ],
+      "displayRows": [
+        {
+          "term": "생활 변화",
+          "detail": "농경·목축 시작 · 강가·바닷가 움집 정착"
+        },
+        {
+          "term": "도구와 토기",
+          "detail": "간석기 · 빗살무늬 토기"
+        }
+      ],
+      "highlights": [
+        "농경·목축",
+        "움집",
+        "간석기",
+        "빗살무늬 토기"
       ]
     },
     {
@@ -148,6 +179,27 @@
           "round": 70,
           "number": 1
         }
+      ],
+      "displayRows": [
+        {
+          "term": "청동기 유물",
+          "detail": "비파형 동검 · 고인돌"
+        },
+        {
+          "term": "농경",
+          "detail": "벼농사 · 반달 돌칼로 수확"
+        },
+        {
+          "term": "사회 변화",
+          "detail": "사유 재산 · 계급 · 군장 등장"
+        }
+      ],
+      "highlights": [
+        "비파형 동검",
+        "고인돌",
+        "반달 돌칼",
+        "계급",
+        "군장"
       ]
     },
     {
@@ -193,6 +245,18 @@
           "round": 70,
           "number": 1
         }
+      ],
+      "displayRows": [
+        {
+          "term": "철기 시대 유물",
+          "detail": "철제 농기구·무기 · 세형 동검 · 명도전 · 반량전"
+        }
+      ],
+      "highlights": [
+        "철제 농기구",
+        "세형 동검",
+        "명도전",
+        "반량전"
       ]
     },
     {
@@ -237,6 +301,21 @@
           "round": 71,
           "number": 2
         }
+      ],
+      "displayRows": [
+        {
+          "term": "범금 8조",
+          "detail": "살인 → 사형 · 절도 → 노비"
+        },
+        {
+          "term": "위만조선",
+          "detail": "한·진 사이 중계 무역"
+        }
+      ],
+      "highlights": [
+        "범금 8조",
+        "위만조선",
+        "중계 무역"
       ]
     },
     {
@@ -285,6 +364,21 @@
           "round": 70,
           "number": 2
         }
+      ],
+      "displayRows": [
+        {
+          "term": "사출도",
+          "detail": "부여의 제가가 관할"
+        },
+        {
+          "term": "영고",
+          "detail": "부여의 12월 제천 행사"
+        }
+      ],
+      "highlights": [
+        "사출도",
+        "제가",
+        "영고"
       ]
     },
     {
@@ -320,6 +414,16 @@
           "round": 71,
           "number": 3
         }
+      ],
+      "displayRows": [
+        {
+          "term": "고구려",
+          "detail": "서옥제 · 10월 동맹"
+        }
+      ],
+      "highlights": [
+        "서옥제",
+        "동맹"
       ]
     },
     {
@@ -360,6 +464,23 @@
           "round": 70,
           "number": 48
         }
+      ],
+      "displayRows": [
+        {
+          "term": "고국천왕",
+          "detail": "진대법"
+        },
+        {
+          "term": "소수림왕",
+          "detail": "불교 수용 · 태학 · 율령"
+        }
+      ],
+      "highlights": [
+        "고국천왕",
+        "진대법",
+        "소수림왕",
+        "태학",
+        "율령"
       ]
     },
     {
@@ -392,6 +513,22 @@
           "round": 70,
           "number": 3
         }
+      ],
+      "displayRows": [
+        {
+          "term": "광개토 대왕",
+          "detail": "400년 왜 격퇴"
+        },
+        {
+          "term": "장수왕",
+          "detail": "427년 평양 천도"
+        }
+      ],
+      "highlights": [
+        "광개토 대왕",
+        "왜 격퇴",
+        "장수왕",
+        "평양 천도"
       ]
     },
     {
@@ -428,6 +565,22 @@
           "round": 70,
           "number": 4
         }
+      ],
+      "displayRows": [
+        {
+          "term": "살수 대첩",
+          "detail": "612년 · 영양왕 때"
+        },
+        {
+          "term": "안시성",
+          "detail": "645년 · 당 태종 침입 격퇴"
+        }
+      ],
+      "highlights": [
+        "살수 대첩",
+        "영양왕",
+        "안시성",
+        "당 태종"
       ]
     },
     {
@@ -464,6 +617,21 @@
           "round": 70,
           "number": 2
         }
+      ],
+      "displayRows": [
+        {
+          "term": "민며느리제",
+          "detail": "옥저의 혼인 풍습"
+        },
+        {
+          "term": "가족 공동 무덤",
+          "detail": "가족의 뼈를 모은 무덤"
+        }
+      ],
+      "highlights": [
+        "민며느리제",
+        "옥저",
+        "가족 공동 무덤"
       ]
     },
     {
@@ -508,6 +676,21 @@
           "round": 70,
           "number": 2
         }
+      ],
+      "displayRows": [
+        {
+          "term": "동예의 풍습",
+          "detail": "책화 · 족외혼"
+        },
+        {
+          "term": "무천",
+          "detail": "10월 제천 행사"
+        }
+      ],
+      "highlights": [
+        "책화",
+        "족외혼",
+        "무천"
       ]
     },
     {
@@ -547,6 +730,17 @@
           "round": 71,
           "number": 2
         }
+      ],
+      "displayRows": [
+        {
+          "term": "삼한",
+          "detail": "천군 · 소도 · 제정 분리"
+        }
+      ],
+      "highlights": [
+        "천군",
+        "소도",
+        "제정 분리"
       ]
     },
     {
@@ -566,6 +760,17 @@
           "round": 73,
           "number": 5
         }
+      ],
+      "displayRows": [
+        {
+          "term": "근초고왕",
+          "detail": "마한 정복 · 평양성 공격"
+        }
+      ],
+      "highlights": [
+        "근초고왕",
+        "마한",
+        "평양성"
       ]
     },
     {
@@ -601,6 +806,17 @@
           "round": 71,
           "number": 3
         }
+      ],
+      "displayRows": [
+        {
+          "term": "백제 무령왕",
+          "detail": "22담로에 왕족 파견"
+        }
+      ],
+      "highlights": [
+        "무령왕",
+        "22담로",
+        "왕족"
       ]
     },
     {
@@ -637,6 +853,23 @@
           "round": 72,
           "number": 4
         }
+      ],
+      "displayRows": [
+        {
+          "term": "문주왕",
+          "detail": "웅진 천도"
+        },
+        {
+          "term": "성왕",
+          "detail": "사비 천도 · 남부여 개칭"
+        }
+      ],
+      "highlights": [
+        "문주왕",
+        "웅진",
+        "성왕",
+        "사비",
+        "남부여"
       ]
     },
     {
@@ -700,6 +933,16 @@
           "round": 71,
           "number": 3
         }
+      ],
+      "displayRows": [
+        {
+          "term": "신라",
+          "detail": "골품제 · 화백 회의"
+        }
+      ],
+      "highlights": [
+        "골품제",
+        "화백 회의"
       ]
     },
     {
@@ -731,6 +974,18 @@
           "round": 71,
           "number": 6
         }
+      ],
+      "displayRows": [
+        {
+          "term": "지증왕",
+          "detail": "국호 신라 · 왕호 왕 · 우산국 복속"
+        }
+      ],
+      "highlights": [
+        "지증왕",
+        "국호 신라",
+        "왕호 왕",
+        "우산국"
       ]
     },
     {
@@ -773,6 +1028,24 @@
           "round": 71,
           "number": 6
         }
+      ],
+      "displayRows": [
+        {
+          "term": "법흥왕의 체제 정비",
+          "detail": "병부·상대등 설치 · 율령 반포 · 불교 공인"
+        },
+        {
+          "term": "금관가야 복속",
+          "detail": "532년 · 법흥왕"
+        }
+      ],
+      "highlights": [
+        "법흥왕",
+        "병부",
+        "상대등",
+        "율령",
+        "불교 공인",
+        "금관가야"
       ]
     },
     {
@@ -808,6 +1081,18 @@
           "round": 73,
           "number": 3
         }
+      ],
+      "displayRows": [
+        {
+          "term": "진흥왕",
+          "detail": "화랑도 · 한강 확보 · 대가야 병합"
+        }
+      ],
+      "highlights": [
+        "진흥왕",
+        "화랑도",
+        "한강",
+        "대가야"
       ]
     },
     {
@@ -833,6 +1118,26 @@
           "round": 78,
           "number": 12
         }
+      ],
+      "displayRows": [
+        {
+          "term": "가야 연맹",
+          "detail": "중앙 집권 없이 연맹 유지"
+        },
+        {
+          "term": "주도 세력",
+          "detail": "전기 금관가야 · 후기 대가야"
+        },
+        {
+          "term": "철 교역",
+          "detail": "낙랑·왜에 수출"
+        }
+      ],
+      "highlights": [
+        "금관가야",
+        "대가야",
+        "철",
+        "낙랑"
       ]
     },
     {
@@ -847,7 +1152,17 @@
       "id": "must-022",
       "conceptId": "unified-silla-022",
       "cue": "문무왕의 삼국 통일",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "문무왕",
+          "detail": "676년 당을 몰아내고 삼국 통일"
+        }
+      ],
+      "highlights": [
+        "문무왕",
+        "삼국 통일"
+      ]
     },
     {
       "era": "unified-silla",
@@ -904,6 +1219,27 @@
           "round": 70,
           "number": 9
         }
+      ],
+      "displayRows": [
+        {
+          "term": "신문왕의 왕권 강화",
+          "detail": "김흠돌의 난 진압"
+        },
+        {
+          "term": "교육·지방 제도",
+          "detail": "국학 · 9주 5소경"
+        },
+        {
+          "term": "토지 제도",
+          "detail": "관료전 지급 · 녹읍 폐지"
+        }
+      ],
+      "highlights": [
+        "김흠돌의 난",
+        "국학",
+        "9주 5소경",
+        "관료전",
+        "녹읍"
       ]
     },
     {
@@ -928,6 +1264,24 @@
           "round": 70,
           "number": 6
         }
+      ],
+      "displayRows": [
+        {
+          "term": "원효",
+          "detail": "일심·화쟁 · 무애가로 불교 대중화"
+        },
+        {
+          "term": "의상",
+          "detail": "화엄종 발전"
+        }
+      ],
+      "highlights": [
+        "원효",
+        "일심",
+        "화쟁",
+        "무애가",
+        "의상",
+        "화엄종"
       ]
     },
     {
@@ -947,6 +1301,17 @@
           "round": 73,
           "number": 14
         }
+      ],
+      "displayRows": [
+        {
+          "term": "신라 말",
+          "detail": "호족 성장 · 선종·풍수지리설 확산"
+        }
+      ],
+      "highlights": [
+        "호족",
+        "선종",
+        "풍수지리설"
       ]
     },
     {
@@ -999,6 +1364,21 @@
           "round": 70,
           "number": 9
         }
+      ],
+      "displayRows": [
+        {
+          "term": "김헌창의 난",
+          "detail": "822년 · 신라 하대"
+        },
+        {
+          "term": "원종·애노의 봉기",
+          "detail": "889년 · 사벌주(상주)"
+        }
+      ],
+      "highlights": [
+        "김헌창의 난",
+        "원종·애노의 봉기",
+        "사벌주"
       ]
     },
     {
@@ -1013,7 +1393,22 @@
       "id": "must-027",
       "conceptId": "balhae-027",
       "cue": "발해의 건국과 계승",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "발해 건국",
+          "detail": "대조영 · 고구려 계승"
+        },
+        {
+          "term": "구성",
+          "detail": "고구려 유민과 말갈"
+        }
+      ],
+      "highlights": [
+        "대조영",
+        "고구려 계승",
+        "말갈"
+      ]
     },
     {
       "era": "balhae",
@@ -1028,7 +1423,24 @@
       "id": "must-028",
       "conceptId": "balhae-028",
       "cue": "발해 무왕과 문왕",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "무왕",
+          "detail": "장문휴를 보내 당의 등주 공격"
+        },
+        {
+          "term": "문왕",
+          "detail": "당과 친선 · 상경 천도"
+        }
+      ],
+      "highlights": [
+        "무왕",
+        "장문휴",
+        "등주",
+        "문왕",
+        "상경"
+      ]
     },
     {
       "era": "balhae",
@@ -1042,7 +1454,17 @@
       "id": "must-029",
       "conceptId": "balhae-029",
       "cue": "발해 선왕의 전성기",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "발해 선왕",
+          "detail": "영토 확대 · 해동성국으로 성장"
+        }
+      ],
+      "highlights": [
+        "선왕",
+        "해동성국"
+      ]
     },
     {
       "era": "balhae",
@@ -1065,6 +1487,20 @@
           "round": 70,
           "number": 7
         }
+      ],
+      "displayRows": [
+        {
+          "term": "발해 중앙 제도",
+          "detail": "3성 6부"
+        },
+        {
+          "term": "지방 제도",
+          "detail": "5경 15부 62주"
+        }
+      ],
+      "highlights": [
+        "3성 6부",
+        "5경 15부 62주"
       ]
     },
     {
@@ -1080,7 +1516,26 @@
       "id": "must-031",
       "conceptId": "later-three-kingdoms-031",
       "cue": "견훤과 궁예의 건국",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "견훤",
+          "detail": "900년 완산주에서 후백제 건국"
+        },
+        {
+          "term": "궁예",
+          "detail": "후고구려 건국 · 국호를 마진·태봉으로 변경"
+        }
+      ],
+      "highlights": [
+        "견훤",
+        "완산주",
+        "후백제",
+        "궁예",
+        "후고구려",
+        "마진",
+        "태봉"
+      ]
     },
     {
       "era": "later-three-kingdoms",
@@ -1094,7 +1549,18 @@
       "id": "must-032",
       "conceptId": "later-three-kingdoms-032",
       "cue": "왕건의 고려 건국",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "왕건",
+          "detail": "918년 궁예를 몰아내고 고려 건국"
+        }
+      ],
+      "highlights": [
+        "왕건",
+        "궁예",
+        "고려"
+      ]
     },
     {
       "era": "later-three-kingdoms",
@@ -1108,7 +1574,21 @@
       "id": "must-033",
       "conceptId": "later-three-kingdoms-033",
       "cue": "고려의 후삼국 통일",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "935년",
+          "detail": "신라 항복"
+        },
+        {
+          "term": "936년",
+          "detail": "고려의 후삼국 통일"
+        }
+      ],
+      "highlights": [
+        "신라",
+        "후삼국 통일"
+      ]
     },
     {
       "era": "goryeo",
@@ -1144,6 +1624,24 @@
           "round": 72,
           "number": 9
         }
+      ],
+      "displayRows": [
+        {
+          "term": "태조의 연합·견제",
+          "detail": "혼인·사성으로 연합 · 사심관 설치 · 기인 견제"
+        },
+        {
+          "term": "훈요·북진 정책",
+          "detail": "훈요 10조 · 서경 중시 · 북진 정책"
+        }
+      ],
+      "highlights": [
+        "혼인·사성",
+        "사심관",
+        "기인",
+        "훈요 10조",
+        "서경",
+        "북진 정책"
       ]
     },
     {
@@ -1187,6 +1685,17 @@
           "round": 71,
           "number": 11
         }
+      ],
+      "displayRows": [
+        {
+          "term": "광종",
+          "detail": "노비안검법 · 과거제 도입(958년)"
+        }
+      ],
+      "highlights": [
+        "광종",
+        "노비안검법",
+        "과거제"
       ]
     },
     {
@@ -1238,6 +1747,18 @@
           "round": 70,
           "number": 13
         }
+      ],
+      "displayRows": [
+        {
+          "term": "성종",
+          "detail": "최승로 시무 28조 · 12목 지방관 · 국자감"
+        }
+      ],
+      "highlights": [
+        "성종",
+        "시무 28조",
+        "12목",
+        "국자감"
       ]
     },
     {
@@ -1252,7 +1773,21 @@
       "id": "must-037",
       "conceptId": "goryeo-037",
       "cue": "고려의 중앙·지방 조직",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "고려 중앙 조직",
+          "detail": "2성 6부"
+        },
+        {
+          "term": "지방 조직",
+          "detail": "5도 양계"
+        }
+      ],
+      "highlights": [
+        "2성 6부",
+        "5도 양계"
+      ]
     },
     {
       "era": "goryeo",
@@ -1283,6 +1818,17 @@
           "round": 74,
           "number": 11
         }
+      ],
+      "displayRows": [
+        {
+          "term": "전시과",
+          "detail": "경종 때 시작 · 전지·시지 지급"
+        }
+      ],
+      "highlights": [
+        "전시과",
+        "경종",
+        "전지·시지"
       ]
     },
     {
@@ -1298,7 +1844,23 @@
       "id": "must-039",
       "conceptId": "goryeo-039",
       "cue": "서희와 강감찬",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "서희",
+          "detail": "993년 담판으로 강동 6주 확보"
+        },
+        {
+          "term": "강감찬",
+          "detail": "1019년 귀주 대첩 승리"
+        }
+      ],
+      "highlights": [
+        "서희",
+        "강동 6주",
+        "강감찬",
+        "귀주 대첩"
+      ]
     },
     {
       "era": "goryeo",
@@ -1312,7 +1874,18 @@
       "id": "must-040",
       "conceptId": "goryeo-040",
       "cue": "윤관의 여진 정벌",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "윤관",
+          "detail": "별무반으로 여진 정벌 · 동북 9성 축조"
+        }
+      ],
+      "highlights": [
+        "윤관",
+        "별무반",
+        "동북 9성"
+      ]
     },
     {
       "era": "goryeo",
@@ -1326,7 +1899,22 @@
       "id": "must-041",
       "conceptId": "goryeo-041",
       "cue": "무신 정권",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "무신 정변",
+          "detail": "1170년"
+        },
+        {
+          "term": "최충헌",
+          "detail": "교정도감 장악"
+        }
+      ],
+      "highlights": [
+        "무신 정변",
+        "최충헌",
+        "교정도감"
+      ]
     },
     {
       "era": "goryeo",
@@ -1341,7 +1929,22 @@
       "id": "must-042",
       "conceptId": "goryeo-042",
       "cue": "몽골 침입과 항쟁",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "몽골 침입",
+          "detail": "강화 천도 · 팔만대장경 조성"
+        },
+        {
+          "term": "삼별초",
+          "detail": "강화·진도·제주에서 항쟁"
+        }
+      ],
+      "highlights": [
+        "강화 천도",
+        "팔만대장경",
+        "삼별초"
+      ]
     },
     {
       "era": "goryeo",
@@ -1369,6 +1972,24 @@
           "round": 73,
           "number": 17
         }
+      ],
+      "displayRows": [
+        {
+          "term": "공민왕의 개혁",
+          "detail": "기철 제거 · 이문소 폐지 · 쌍성총관부 수복"
+        },
+        {
+          "term": "신돈",
+          "detail": "공민왕 때 전민변정 사업"
+        }
+      ],
+      "highlights": [
+        "공민왕",
+        "기철",
+        "이문소",
+        "쌍성총관부",
+        "신돈",
+        "전민변정"
       ]
     },
     {
@@ -1404,6 +2025,24 @@
           "round": 73,
           "number": 16
         }
+      ],
+      "displayRows": [
+        {
+          "term": "삼국사기",
+          "detail": "김부식 · 기전체"
+        },
+        {
+          "term": "삼국유사",
+          "detail": "일연 · 불교와 민간 설화 · 단군 이야기"
+        }
+      ],
+      "highlights": [
+        "삼국사기",
+        "김부식",
+        "기전체",
+        "삼국유사",
+        "일연",
+        "단군"
       ]
     },
     {
@@ -1432,6 +2071,25 @@
           "round": 70,
           "number": 12
         }
+      ],
+      "displayRows": [
+        {
+          "term": "의천",
+          "detail": "천태종 · 교관겸수 주장"
+        },
+        {
+          "term": "지눌",
+          "detail": "정혜결사 · 정혜쌍수 · 돈오점수"
+        }
+      ],
+      "highlights": [
+        "의천",
+        "천태종",
+        "교관겸수",
+        "지눌",
+        "정혜결사",
+        "정혜쌍수",
+        "돈오점수"
       ]
     },
     {
@@ -1446,7 +2104,17 @@
       "id": "must-046",
       "conceptId": "goryeo-046",
       "cue": "고려 청자",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "고려 청자",
+          "detail": "상감 기법 발달"
+        }
+      ],
+      "highlights": [
+        "고려 청자",
+        "상감 기법"
+      ]
     },
     {
       "era": "goryeo",
@@ -1475,6 +2143,17 @@
           "round": 71,
           "number": 18
         }
+      ],
+      "displayRows": [
+        {
+          "term": "직지",
+          "detail": "고려 · 1377년 청주 흥덕사에서 간행한 금속활자본"
+        }
+      ],
+      "highlights": [
+        "직지",
+        "청주 흥덕사",
+        "금속활자본"
       ]
     },
     {
@@ -1514,6 +2193,16 @@
           "round": 71,
           "number": 10
         }
+      ],
+      "displayRows": [
+        {
+          "term": "벽란도",
+          "detail": "고려의 국제 무역항"
+        }
+      ],
+      "highlights": [
+        "벽란도",
+        "국제 무역항"
       ]
     },
     {
@@ -1555,6 +2244,23 @@
           "round": 70,
           "number": 14
         }
+      ],
+      "displayRows": [
+        {
+          "term": "묘청",
+          "detail": "인종 때 서경에서 반란 · 칭제 건원·금 정벌 주장"
+        },
+        {
+          "term": "김부식",
+          "detail": "묘청의 반란 진압"
+        }
+      ],
+      "highlights": [
+        "묘청",
+        "서경",
+        "칭제 건원",
+        "금 정벌",
+        "김부식"
       ]
     },
     {
@@ -1588,6 +2294,25 @@
           "round": 72,
           "number": 19
         }
+      ],
+      "displayRows": [
+        {
+          "term": "도병마사",
+          "detail": "국방 회의"
+        },
+        {
+          "term": "중추원",
+          "detail": "군사 기밀 · 왕명 출납"
+        },
+        {
+          "term": "삼사",
+          "detail": "재정 · 회계"
+        }
+      ],
+      "highlights": [
+        "도병마사",
+        "중추원",
+        "삼사"
       ]
     },
     {
@@ -1613,6 +2338,22 @@
           "round": 70,
           "number": 14
         }
+      ],
+      "displayRows": [
+        {
+          "term": "위화도 회군",
+          "detail": "1388년 · 이성계"
+        },
+        {
+          "term": "발생 배경",
+          "detail": "명의 철령위 설치에 반발한 요동 정벌 추진 중 발생"
+        }
+      ],
+      "highlights": [
+        "위화도 회군",
+        "이성계",
+        "철령위",
+        "요동 정벌"
       ]
     },
     {
@@ -1627,7 +2368,18 @@
       "id": "must-052",
       "conceptId": "joseon-052",
       "cue": "태조의 조선 건국",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "태조 이성계",
+          "detail": "1392년 조선 건국 · 한양 천도"
+        }
+      ],
+      "highlights": [
+        "이성계",
+        "조선",
+        "한양"
+      ]
     },
     {
       "era": "joseon",
@@ -1641,7 +2393,19 @@
       "id": "must-053",
       "conceptId": "joseon-053",
       "cue": "태종의 왕권 강화",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "태종",
+          "detail": "사병 혁파 · 6조 직계제 · 호패법 실시"
+        }
+      ],
+      "highlights": [
+        "태종",
+        "사병 혁파",
+        "6조 직계제",
+        "호패법"
+      ]
     },
     {
       "era": "joseon",
@@ -1661,6 +2425,27 @@
           "round": 71,
           "number": 19
         }
+      ],
+      "displayRows": [
+        {
+          "term": "세종의 문화·교육",
+          "detail": "훈민정음 반포(1446년) · 집현전 운영"
+        },
+        {
+          "term": "영토 개척",
+          "detail": "4군 6진"
+        },
+        {
+          "term": "기구 제작",
+          "detail": "측우기 · 자격루"
+        }
+      ],
+      "highlights": [
+        "훈민정음",
+        "집현전",
+        "4군 6진",
+        "측우기",
+        "자격루"
       ]
     },
     {
@@ -1688,6 +2473,16 @@
           "round": 70,
           "number": 17
         }
+      ],
+      "displayRows": [
+        {
+          "term": "경국대전 완성",
+          "detail": "1485년 · 성종"
+        }
+      ],
+      "highlights": [
+        "경국대전",
+        "성종"
       ]
     },
     {
@@ -1715,6 +2510,17 @@
           "round": 73,
           "number": 25
         }
+      ],
+      "displayRows": [
+        {
+          "term": "조선 3사",
+          "detail": "홍문관 · 사헌부 · 사간원"
+        }
+      ],
+      "highlights": [
+        "홍문관",
+        "사헌부",
+        "사간원"
       ]
     },
     {
@@ -1738,6 +2544,17 @@
           "round": 74,
           "number": 50
         }
+      ],
+      "displayRows": [
+        {
+          "term": "조광조",
+          "detail": "현량과 · 향약 보급 추진"
+        }
+      ],
+      "highlights": [
+        "조광조",
+        "현량과",
+        "향약"
       ]
     },
     {
@@ -1752,7 +2569,18 @@
       "id": "must-058",
       "conceptId": "joseon-058",
       "cue": "붕당의 형성",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "붕당 형성",
+          "detail": "선조 때 동인·서인으로 분화"
+        }
+      ],
+      "highlights": [
+        "선조",
+        "동인",
+        "서인"
+      ]
     },
     {
       "era": "joseon",
@@ -1766,7 +2594,17 @@
       "id": "must-059",
       "conceptId": "joseon-059",
       "cue": "숙종의 환국",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "숙종",
+          "detail": "환국으로 정국 주도"
+        }
+      ],
+      "highlights": [
+        "숙종",
+        "환국"
+      ]
     },
     {
       "era": "joseon",
@@ -1780,7 +2618,18 @@
       "id": "must-060",
       "conceptId": "joseon-060",
       "cue": "영조와 균역법",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "영조",
+          "detail": "탕평책 · 균역법(군포 2필 → 1필)"
+        }
+      ],
+      "highlights": [
+        "영조",
+        "탕평책",
+        "균역법"
+      ]
     },
     {
       "era": "joseon",
@@ -1815,6 +2664,18 @@
           "round": 70,
           "number": 24
         }
+      ],
+      "displayRows": [
+        {
+          "term": "정조",
+          "detail": "규장각·장용영 설치 · 수원 화성 축조"
+        }
+      ],
+      "highlights": [
+        "정조",
+        "규장각",
+        "장용영",
+        "수원 화성"
       ]
     },
     {
@@ -1829,7 +2690,19 @@
       "id": "must-062",
       "conceptId": "joseon-062",
       "cue": "임진왜란의 해전",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "임진왜란 해전",
+          "detail": "이순신의 한산도·명량·노량 승리"
+        }
+      ],
+      "highlights": [
+        "이순신",
+        "한산도",
+        "명량",
+        "노량"
+      ]
     },
     {
       "era": "joseon",
@@ -1843,7 +2716,17 @@
       "id": "must-063",
       "conceptId": "joseon-063",
       "cue": "광해군의 외교",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "광해군",
+          "detail": "명·후금 사이 중립 외교"
+        }
+      ],
+      "highlights": [
+        "광해군",
+        "중립 외교"
+      ]
     },
     {
       "era": "joseon",
@@ -1857,7 +2740,17 @@
       "id": "must-064",
       "conceptId": "joseon-064",
       "cue": "병자호란",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "병자호란",
+          "detail": "1636년 청 침략 · 삼전도 항복"
+        }
+      ],
+      "highlights": [
+        "병자호란",
+        "삼전도"
+      ]
     },
     {
       "era": "joseon",
@@ -1881,6 +2774,27 @@
           "round": 73,
           "number": 21
         }
+      ],
+      "displayRows": [
+        {
+          "term": "과전법",
+          "detail": "전·현직 관리 수조권"
+        },
+        {
+          "term": "직전법",
+          "detail": "현직 관리 수조권 · 세조 때 실시"
+        },
+        {
+          "term": "세조",
+          "detail": "집현전 폐지"
+        }
+      ],
+      "highlights": [
+        "과전법",
+        "전·현직",
+        "직전법",
+        "세조",
+        "집현전"
       ]
     },
     {
@@ -1926,6 +2840,17 @@
           "round": 71,
           "number": 26
         }
+      ],
+      "displayRows": [
+        {
+          "term": "대동법",
+          "detail": "광해군 때 경기도 시행 · 결수별 공납 · 공인 등장"
+        }
+      ],
+      "highlights": [
+        "광해군",
+        "결수별 공납",
+        "공인"
       ]
     },
     {
@@ -1940,7 +2865,23 @@
       "id": "must-067",
       "conceptId": "joseon-067",
       "cue": "조선 후기 농민 봉기",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "홍경래의 난",
+          "detail": "평안도 차별"
+        },
+        {
+          "term": "임술농민봉기",
+          "detail": "진주"
+        }
+      ],
+      "highlights": [
+        "홍경래의 난",
+        "평안도",
+        "임술농민봉기",
+        "진주"
+      ]
     },
     {
       "era": "joseon",
@@ -1959,6 +2900,22 @@
           "round": 73,
           "number": 20
         }
+      ],
+      "displayRows": [
+        {
+          "term": "이황",
+          "detail": "성학십도"
+        },
+        {
+          "term": "이이",
+          "detail": "성학집요"
+        }
+      ],
+      "highlights": [
+        "이황",
+        "성학십도",
+        "이이",
+        "성학집요"
       ]
     },
     {
@@ -1973,7 +2930,18 @@
       "id": "must-069",
       "conceptId": "joseon-069",
       "cue": "정약용",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "정약용",
+          "detail": "여전론(공동 경작) · 목민심서"
+        }
+      ],
+      "highlights": [
+        "여전론",
+        "공동 경작",
+        "목민심서"
+      ]
     },
     {
       "era": "joseon",
@@ -1996,6 +2964,23 @@
           "round": 76,
           "number": 24
         }
+      ],
+      "displayRows": [
+        {
+          "term": "박지원",
+          "detail": "열하일기"
+        },
+        {
+          "term": "박제가",
+          "detail": "북학의 · 소비 권장"
+        }
+      ],
+      "highlights": [
+        "박지원",
+        "열하일기",
+        "박제가",
+        "북학의",
+        "소비 권장"
       ]
     },
     {
@@ -2020,6 +3005,24 @@
           "round": 72,
           "number": 28
         }
+      ],
+      "displayRows": [
+        {
+          "term": "서원·군포",
+          "detail": "서원 철폐 · 호포제로 양반 군포 부과"
+        },
+        {
+          "term": "통치 기구·궁궐",
+          "detail": "비변사 폐지 · 삼군부 부활 · 경복궁 중건"
+        }
+      ],
+      "highlights": [
+        "서원 철폐",
+        "호포제",
+        "양반 군포",
+        "비변사 폐지",
+        "삼군부 부활",
+        "경복궁 중건"
       ]
     },
     {
@@ -2064,6 +3067,24 @@
           "round": 71,
           "number": 28
         }
+      ],
+      "displayRows": [
+        {
+          "term": "병인양요 (1866)",
+          "detail": "프랑스 침략 · 외규장각 약탈"
+        },
+        {
+          "term": "신미양요 (1871)",
+          "detail": "미국의 강화 침략 · 이후 척화비"
+        }
+      ],
+      "highlights": [
+        "병인양요",
+        "프랑스",
+        "외규장각",
+        "신미양요",
+        "미국",
+        "척화비"
       ]
     },
     {
@@ -2105,6 +3126,24 @@
           "round": 71,
           "number": 21
         }
+      ],
+      "displayRows": [
+        {
+          "term": "무오사화",
+          "detail": "연산군 · 조의제문"
+        },
+        {
+          "term": "기묘사화",
+          "detail": "중종 · 조광조 제거"
+        }
+      ],
+      "highlights": [
+        "무오사화",
+        "연산군",
+        "조의제문",
+        "기묘사화",
+        "중종",
+        "조광조"
       ]
     },
     {
@@ -2137,6 +3176,23 @@
           "round": 71,
           "number": 20
         }
+      ],
+      "displayRows": [
+        {
+          "term": "승정원",
+          "detail": "왕명 출납"
+        },
+        {
+          "term": "의금부",
+          "detail": "국왕 직속 사법 기관 · 반역죄 등 처리"
+        }
+      ],
+      "highlights": [
+        "승정원",
+        "왕명 출납",
+        "의금부",
+        "국왕 직속 사법",
+        "반역죄"
       ]
     },
     {
@@ -2177,6 +3233,23 @@
           "round": 70,
           "number": 21
         }
+      ],
+      "displayRows": [
+        {
+          "term": "설치",
+          "detail": "1593년 선조 · 임진왜란 때"
+        },
+        {
+          "term": "구성",
+          "detail": "포수 · 살수 · 사수"
+        }
+      ],
+      "highlights": [
+        "선조",
+        "임진왜란",
+        "포수",
+        "살수",
+        "사수"
       ]
     },
     {
@@ -2196,6 +3269,16 @@
           "round": 76,
           "number": 23
         }
+      ],
+      "displayRows": [
+        {
+          "term": "영정법",
+          "detail": "인조 때 · 전세액 고정"
+        }
+      ],
+      "highlights": [
+        "인조",
+        "전세액 고정"
       ]
     },
     {
@@ -2233,6 +3316,17 @@
           "round": 70,
           "number": 33
         }
+      ],
+      "displayRows": [
+        {
+          "term": "신해통공",
+          "detail": "1791년 정조 · 육의전 외 금난전권 폐지"
+        }
+      ],
+      "highlights": [
+        "정조",
+        "육의전 외",
+        "금난전권 폐지"
       ]
     },
     {
@@ -2247,7 +3341,18 @@
       "id": "must-078",
       "conceptId": "joseon-078",
       "cue": "조선 후기 농업 변화",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "모내기 확산",
+          "detail": "노동 절약 · 이모작 증가"
+        }
+      ],
+      "highlights": [
+        "모내기",
+        "노동 절약",
+        "이모작"
+      ]
     },
     {
       "era": "joseon",
@@ -2261,7 +3366,18 @@
       "id": "must-079",
       "conceptId": "joseon-079",
       "cue": "조선 후기 신분제 동요",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "신분제 동요",
+          "detail": "공명첩 · 납속 · 족보 매입"
+        }
+      ],
+      "highlights": [
+        "공명첩",
+        "납속",
+        "족보 매입"
+      ]
     },
     {
       "era": "joseon",
@@ -2275,7 +3391,17 @@
       "id": "must-080",
       "conceptId": "joseon-080",
       "cue": "세도 정치",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "세도 정치",
+          "detail": "왕실 외척의 권력 독점"
+        }
+      ],
+      "highlights": [
+        "왕실 외척",
+        "권력 독점"
+      ]
     },
     {
       "era": "joseon",
@@ -2307,6 +3433,23 @@
           "round": 70,
           "number": 19
         }
+      ],
+      "displayRows": [
+        {
+          "term": "백운동 서원",
+          "detail": "주세붕이 건립"
+        },
+        {
+          "term": "소수 서원",
+          "detail": "명종 때 사액"
+        }
+      ],
+      "highlights": [
+        "백운동 서원",
+        "주세붕",
+        "소수 서원",
+        "명종",
+        "사액"
       ]
     },
     {
@@ -2353,6 +3496,24 @@
           "round": 70,
           "number": 27
         }
+      ],
+      "displayRows": [
+        {
+          "term": "정선",
+          "detail": "금강전도 · 인왕제색도"
+        },
+        {
+          "term": "김정희",
+          "detail": "추사체 · 세한도"
+        }
+      ],
+      "highlights": [
+        "정선",
+        "금강전도",
+        "인왕제색도",
+        "김정희",
+        "추사체",
+        "세한도"
       ]
     },
     {
@@ -2389,6 +3550,22 @@
           "round": 70,
           "number": 27
         }
+      ],
+      "displayRows": [
+        {
+          "term": "김홍도",
+          "detail": "씨름"
+        },
+        {
+          "term": "신윤복",
+          "detail": "풍속화 월하정인"
+        }
+      ],
+      "highlights": [
+        "김홍도",
+        "씨름",
+        "신윤복",
+        "월하정인"
       ]
     },
     {
@@ -2417,6 +3594,17 @@
           "round": 70,
           "number": 29
         }
+      ],
+      "displayRows": [
+        {
+          "term": "강화도 조약 (1876)",
+          "detail": "세 항구 개항 · 치외법권 · 해안 측량권"
+        }
+      ],
+      "highlights": [
+        "세 항구 개항",
+        "치외법권",
+        "해안 측량권"
       ]
     },
     {
@@ -2436,6 +3624,16 @@
           "round": 76,
           "number": 30
         }
+      ],
+      "displayRows": [
+        {
+          "term": "조미 수호 통상 조약",
+          "detail": "거중 조정 · 최혜국 대우"
+        }
+      ],
+      "highlights": [
+        "거중 조정",
+        "최혜국 대우"
       ]
     },
     {
@@ -2459,6 +3657,16 @@
           "round": 71,
           "number": 32
         }
+      ],
+      "displayRows": [
+        {
+          "term": "개화 정책",
+          "detail": "통리기무아문 · 1881년 별기군"
+        }
+      ],
+      "highlights": [
+        "통리기무아문",
+        "별기군"
       ]
     },
     {
@@ -2490,6 +3698,16 @@
           "round": 70,
           "number": 30
         }
+      ],
+      "displayRows": [
+        {
+          "term": "임오군란",
+          "detail": "구식 군인 차별 · 제물포 조약"
+        }
+      ],
+      "highlights": [
+        "구식 군인 차별",
+        "제물포 조약"
       ]
     },
     {
@@ -2517,6 +3735,17 @@
           "round": 74,
           "number": 35
         }
+      ],
+      "displayRows": [
+        {
+          "term": "갑신정변 (1884)",
+          "detail": "김옥균 · 급진 개화파 · 청군에 실패"
+        }
+      ],
+      "highlights": [
+        "김옥균",
+        "급진 개화파",
+        "청군"
       ]
     },
     {
@@ -2541,6 +3770,24 @@
           "round": 74,
           "number": 31
         }
+      ],
+      "displayRows": [
+        {
+          "term": "동학 농민 운동",
+          "detail": "전봉준 · 전주 화약 · 집강소"
+        },
+        {
+          "term": "2차 봉기",
+          "detail": "항일 · 우금치 패배"
+        }
+      ],
+      "highlights": [
+        "전봉준",
+        "전주 화약",
+        "집강소",
+        "2차 봉기",
+        "항일",
+        "우금치"
       ]
     },
     {
@@ -2585,6 +3832,23 @@
           "round": 71,
           "number": 35
         }
+      ],
+      "displayRows": [
+        {
+          "term": "1차 개혁",
+          "detail": "군국기무처 · 신분제·과거제 폐지"
+        },
+        {
+          "term": "재정",
+          "detail": "은본위제 · 금납화 · 탁지아문 통일"
+        }
+      ],
+      "highlights": [
+        "군국기무처",
+        "신분제·과거제 폐지",
+        "은본위제",
+        "금납화",
+        "탁지아문"
       ]
     },
     {
@@ -2600,7 +3864,25 @@
       "id": "must-091",
       "conceptId": "opening-091",
       "cue": "을미개혁과 을미의병",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "을미개혁",
+          "detail": "단발령 · 태양력 · 종두법"
+        },
+        {
+          "term": "을미의병",
+          "detail": "을미사변·단발령에 저항"
+        }
+      ],
+      "highlights": [
+        "을미개혁",
+        "단발령",
+        "태양력",
+        "종두법",
+        "을미의병",
+        "을미사변"
+      ]
     },
     {
       "era": "empire",
@@ -2632,6 +3914,21 @@
           "round": 75,
           "number": 37
         }
+      ],
+      "displayRows": [
+        {
+          "term": "창립",
+          "detail": "1896년 · 서재필 등"
+        },
+        {
+          "term": "활동",
+          "detail": "만민 공동회 · 헌의 6조"
+        }
+      ],
+      "highlights": [
+        "서재필",
+        "만민 공동회",
+        "헌의 6조"
       ]
     },
     {
@@ -2669,6 +3966,28 @@
           "round": 71,
           "number": 31
         }
+      ],
+      "displayRows": [
+        {
+          "term": "대한제국 (1897)",
+          "detail": "고종 황제 즉위"
+        },
+        {
+          "term": "광무개혁",
+          "detail": "구본신참 · 양전 · 지계"
+        },
+        {
+          "term": "대한국 국제",
+          "detail": "황제권 강화"
+        }
+      ],
+      "highlights": [
+        "고종 황제 즉위",
+        "구본신참",
+        "양전",
+        "지계",
+        "대한국 국제",
+        "황제권 강화"
       ]
     },
     {
@@ -2683,7 +4002,17 @@
       "id": "must-094",
       "conceptId": "empire-094",
       "cue": "을사늑약",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "을사늑약 (1905)",
+          "detail": "외교권 박탈 · 통감부"
+        }
+      ],
+      "highlights": [
+        "외교권 박탈",
+        "통감부"
+      ]
     },
     {
       "era": "empire",
@@ -2707,6 +4036,23 @@
           "round": 77,
           "number": 33
         }
+      ],
+      "displayRows": [
+        {
+          "term": "1907년",
+          "detail": "헤이그 특사 · 고종 퇴위"
+        },
+        {
+          "term": "정미7조약",
+          "detail": "일본인 차관 · 군대 해산"
+        }
+      ],
+      "highlights": [
+        "헤이그 특사",
+        "고종 퇴위",
+        "정미7조약",
+        "일본인 차관",
+        "군대 해산"
       ]
     },
     {
@@ -2726,6 +4072,16 @@
           "round": 78,
           "number": 33
         }
+      ],
+      "displayRows": [
+        {
+          "term": "정미의병",
+          "detail": "해산 군인 합류로 전투력 강화"
+        }
+      ],
+      "highlights": [
+        "해산 군인",
+        "전투력 강화"
       ]
     },
     {
@@ -2740,7 +4096,17 @@
       "id": "must-097",
       "conceptId": "empire-097",
       "cue": "신민회",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "신민회 (1907)",
+          "detail": "공화정 지향 비밀 결사"
+        }
+      ],
+      "highlights": [
+        "공화정",
+        "비밀 결사"
+      ]
     },
     {
       "era": "empire",
@@ -2783,6 +4149,15 @@
           "round": 71,
           "number": 33
         }
+      ],
+      "displayRows": [
+        {
+          "term": "국채 보상 운동 (1907)",
+          "detail": "대한매일신보 지원"
+        }
+      ],
+      "highlights": [
+        "대한매일신보"
       ]
     },
     {
@@ -2810,6 +4185,16 @@
           "round": 71,
           "number": 37
         }
+      ],
+      "displayRows": [
+        {
+          "term": "안중근",
+          "detail": "하얼빈에서 이토 사살"
+        }
+      ],
+      "highlights": [
+        "하얼빈",
+        "이토"
       ]
     },
     {
@@ -2834,6 +4219,25 @@
           "round": 70,
           "number": 35
         }
+      ],
+      "displayRows": [
+        {
+          "term": "무단 통치",
+          "detail": "1910년대 · 헌병 경찰 · 태형"
+        },
+        {
+          "term": "문화 통치",
+          "detail": "3·1 운동 뒤 · 보통 경찰 · 경찰력 확대"
+        }
+      ],
+      "highlights": [
+        "무단 통치",
+        "헌병 경찰",
+        "태형",
+        "문화 통치",
+        "3·1 운동",
+        "보통 경찰",
+        "경찰력 확대"
       ]
     },
     {
@@ -2849,7 +4253,24 @@
       "id": "must-101",
       "conceptId": "colonial-101",
       "cue": "토지 조사와 산미 증식",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "토지 조사 사업",
+          "detail": "신고주의 · 토지 수탈"
+        },
+        {
+          "term": "산미 증식 계획",
+          "detail": "쌀의 일본 반출 확대"
+        }
+      ],
+      "highlights": [
+        "토지 조사 사업",
+        "신고주의",
+        "토지 수탈",
+        "산미 증식 계획",
+        "일본 반출"
+      ]
     },
     {
       "era": "colonial",
@@ -2863,7 +4284,19 @@
       "id": "must-102",
       "conceptId": "colonial-102",
       "cue": "황국 신민화",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "황국 신민화",
+          "detail": "신사 참배 · 창씨개명 · 징용 · 징병"
+        }
+      ],
+      "highlights": [
+        "신사 참배",
+        "창씨개명",
+        "징용",
+        "징병"
+      ]
     },
     {
       "era": "colonial",
@@ -2884,6 +4317,23 @@
           "round": 72,
           "number": 36
         }
+      ],
+      "displayRows": [
+        {
+          "term": "3·1 운동 (1919)",
+          "detail": "상하이 임시정부 수립으로 이어짐"
+        },
+        {
+          "term": "임시정부",
+          "detail": "민주 공화제 · 연통제·교통국으로 연락"
+        }
+      ],
+      "highlights": [
+        "3·1 운동",
+        "상하이",
+        "민주 공화제",
+        "연통제",
+        "교통국"
       ]
     },
     {
@@ -2924,6 +4374,22 @@
           "round": 73,
           "number": 44
         }
+      ],
+      "displayRows": [
+        {
+          "term": "물산 장려 운동",
+          "detail": "국산품 애용"
+        },
+        {
+          "term": "민립 대학 운동",
+          "detail": "모금으로 대학 설립"
+        }
+      ],
+      "highlights": [
+        "물산 장려 운동",
+        "국산품 애용",
+        "민립 대학 운동",
+        "모금"
       ]
     },
     {
@@ -2939,7 +4405,17 @@
       "id": "must-105",
       "conceptId": "colonial-105",
       "cue": "신간회",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "신간회",
+          "detail": "좌우 합작 · 1929년 광주 학생 항일 운동 지원"
+        }
+      ],
+      "highlights": [
+        "좌우 합작",
+        "광주 학생 항일 운동"
+      ]
     },
     {
       "era": "colonial",
@@ -2982,6 +4458,15 @@
           "round": 72,
           "number": 36
         }
+      ],
+      "displayRows": [
+        {
+          "term": "6·10 만세 운동",
+          "detail": "1926년 · 순종 인산일"
+        }
+      ],
+      "highlights": [
+        "순종 인산일"
       ]
     },
     {
@@ -3005,6 +4490,22 @@
           "round": 71,
           "number": 43
         }
+      ],
+      "displayRows": [
+        {
+          "term": "봉오동",
+          "detail": "홍범도"
+        },
+        {
+          "term": "청산리",
+          "detail": "김좌진 등 독립군"
+        }
+      ],
+      "highlights": [
+        "봉오동",
+        "홍범도",
+        "청산리",
+        "김좌진"
       ]
     },
     {
@@ -3045,6 +4546,24 @@
           "round": 71,
           "number": 43
         }
+      ],
+      "displayRows": [
+        {
+          "term": "한국 독립군",
+          "detail": "지청천 · 대전자령"
+        },
+        {
+          "term": "조선 혁명군",
+          "detail": "양세봉 · 영릉가"
+        }
+      ],
+      "highlights": [
+        "한국 독립군",
+        "지청천",
+        "대전자령",
+        "조선 혁명군",
+        "양세봉",
+        "영릉가"
       ]
     },
     {
@@ -3080,6 +4599,16 @@
           "round": 72,
           "number": 42
         }
+      ],
+      "displayRows": [
+        {
+          "term": "의열단",
+          "detail": "김원봉 · 조선 혁명 선언"
+        }
+      ],
+      "highlights": [
+        "김원봉",
+        "조선 혁명 선언"
       ]
     },
     {
@@ -3099,6 +4628,22 @@
           "round": 75,
           "number": 31
         }
+      ],
+      "displayRows": [
+        {
+          "term": "이봉창",
+          "detail": "도쿄 의거"
+        },
+        {
+          "term": "윤봉길",
+          "detail": "상하이 훙커우 의거"
+        }
+      ],
+      "highlights": [
+        "이봉창",
+        "도쿄",
+        "윤봉길",
+        "상하이 훙커우"
       ]
     },
     {
@@ -3131,6 +4676,24 @@
           "round": 71,
           "number": 43
         }
+      ],
+      "displayRows": [
+        {
+          "term": "조선 의용대",
+          "detail": "1938년 · 김원봉"
+        },
+        {
+          "term": "한국 광복군",
+          "detail": "1940년 충칭 · OSS 국내 진공 준비"
+        }
+      ],
+      "highlights": [
+        "조선 의용대",
+        "김원봉",
+        "한국 광복군",
+        "충칭",
+        "OSS",
+        "국내 진공"
       ]
     },
     {
@@ -3150,6 +4713,16 @@
           "round": 73,
           "number": 38
         }
+      ],
+      "displayRows": [
+        {
+          "term": "조선어학회",
+          "detail": "맞춤법 통일안 · 사전 편찬"
+        }
+      ],
+      "highlights": [
+        "맞춤법 통일안",
+        "사전 편찬"
       ]
     },
     {
@@ -3169,6 +4742,16 @@
           "round": 79,
           "number": 46
         }
+      ],
+      "displayRows": [
+        {
+          "term": "남북 협상",
+          "detail": "김구·김규식이 추진"
+        }
+      ],
+      "highlights": [
+        "김구",
+        "김규식"
       ]
     },
     {
@@ -3188,6 +4771,16 @@
           "round": 71,
           "number": 47
         }
+      ],
+      "displayRows": [
+        {
+          "term": "1948년",
+          "detail": "5·10 선거 · 제헌 국회 · 정부 수립"
+        }
+      ],
+      "highlights": [
+        "5·10 선거",
+        "제헌 국회"
       ]
     },
     {
@@ -3202,7 +4795,21 @@
       "id": "must-115",
       "conceptId": "contemporary-115",
       "cue": "6·25 전쟁",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "1950년",
+          "detail": "남침"
+        },
+        {
+          "term": "1953년",
+          "detail": "정전"
+        }
+      ],
+      "highlights": [
+        "남침",
+        "정전"
+      ]
     },
     {
       "era": "contemporary",
@@ -3234,6 +4841,23 @@
           "round": 70,
           "number": 44
         }
+      ],
+      "displayRows": [
+        {
+          "term": "발췌 개헌",
+          "detail": "1952년 · 대통령 직선제"
+        },
+        {
+          "term": "사사오입 개헌",
+          "detail": "초대 대통령 중임 제한 폐지"
+        }
+      ],
+      "highlights": [
+        "발췌 개헌",
+        "대통령 직선제",
+        "사사오입 개헌",
+        "초대 대통령",
+        "중임 제한 폐지"
       ]
     },
     {
@@ -3257,6 +4881,16 @@
           "round": 72,
           "number": 46
         }
+      ],
+      "displayRows": [
+        {
+          "term": "4·19 혁명",
+          "detail": "부정 선거 항의 · 내각 책임제"
+        }
+      ],
+      "highlights": [
+        "부정 선거",
+        "내각 책임제"
       ]
     },
     {
@@ -3271,7 +4905,16 @@
       "id": "must-118",
       "conceptId": "contemporary-118",
       "cue": "5·16 군사 정변",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "5·16 군사 정변",
+          "detail": "1961년 · 박정희 집권"
+        }
+      ],
+      "highlights": [
+        "박정희"
+      ]
     },
     {
       "era": "contemporary",
@@ -3295,6 +4938,29 @@
           "round": 73,
           "number": 47
         }
+      ],
+      "displayRows": [
+        {
+          "term": "유신 헌법 (1972)",
+          "detail": "간선제 · 긴급 조치권"
+        },
+        {
+          "term": "10·26",
+          "detail": "유신 붕괴"
+        },
+        {
+          "term": "12·12",
+          "detail": "신군부 군권 장악"
+        }
+      ],
+      "highlights": [
+        "유신 헌법",
+        "간선제",
+        "긴급 조치권",
+        "10·26",
+        "유신 붕괴",
+        "12·12",
+        "신군부"
       ]
     },
     {
@@ -3309,7 +4975,16 @@
       "id": "must-120",
       "conceptId": "contemporary-120",
       "cue": "5·18 민주화 운동",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "5·18 민주화 운동",
+          "detail": "1980년 · 광주 항쟁"
+        }
+      ],
+      "highlights": [
+        "광주 항쟁"
+      ]
     },
     {
       "era": "contemporary",
@@ -3336,6 +5011,16 @@
           "round": 71,
           "number": 49
         }
+      ],
+      "displayRows": [
+        {
+          "term": "6월 항쟁 (1987)",
+          "detail": "6·29 선언 · 5년 단임 직선제로 이어짐"
+        }
+      ],
+      "highlights": [
+        "6·29 선언",
+        "5년 단임 직선제"
       ]
     },
     {
@@ -3350,7 +5035,21 @@
       "id": "must-122",
       "conceptId": "contemporary-122",
       "cue": "경제 개발의 변화",
-      "references": []
+      "references": [],
+      "displayRows": [
+        {
+          "term": "1960년대",
+          "detail": "경공업"
+        },
+        {
+          "term": "1970년대",
+          "detail": "중화학"
+        }
+      ],
+      "highlights": [
+        "경공업",
+        "중화학"
+      ]
     },
     {
       "era": "contemporary",
@@ -3369,6 +5068,16 @@
           "round": 77,
           "number": 45
         }
+      ],
+      "displayRows": [
+        {
+          "term": "농지 개혁",
+          "detail": "유상 매수 · 유상 분배"
+        }
+      ],
+      "highlights": [
+        "유상 매수",
+        "유상 분배"
       ]
     },
     {
@@ -3401,6 +5110,24 @@
           "round": 72,
           "number": 45
         }
+      ],
+      "displayRows": [
+        {
+          "term": "7·4 공동 성명 (1972)",
+          "detail": "자주 · 평화 · 민족 대단결"
+        },
+        {
+          "term": "1991년",
+          "detail": "남북한 유엔 가입 · 남북 기본 합의서"
+        }
+      ],
+      "highlights": [
+        "7·4 공동 성명",
+        "자주",
+        "평화",
+        "민족 대단결",
+        "유엔 가입",
+        "남북 기본 합의서"
       ]
     },
     {
@@ -3425,6 +5152,22 @@
           "round": 70,
           "number": 43
         }
+      ],
+      "displayRows": [
+        {
+          "term": "6·15 선언",
+          "detail": "김대중 정부"
+        },
+        {
+          "term": "10·4 선언",
+          "detail": "노무현 정부"
+        }
+      ],
+      "highlights": [
+        "6·15 선언",
+        "김대중",
+        "10·4 선언",
+        "노무현"
       ]
     }
   ]

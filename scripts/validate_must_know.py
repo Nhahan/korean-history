@@ -27,6 +27,12 @@ for card in selection['cards']:
     assert card['era'] in eras
     assert card['label'] and card['cue'] and card['reason']
     assert 3 <= len(card['answer']) <= 90 and '\n' not in card['answer']
+    assert 1 <= len(card['displayRows']) <= 5
+    for row in card['displayRows']:
+        assert 1 <= len(row['term']) <= 24 and 1 <= len(row['detail']) <= 90
+    assert card['highlights'] and len(card['highlights']) == len(set(card['highlights']))
+    segments = [value for row in card['displayRows'] for value in row.values()]
+    assert all(word and any(word in segment for segment in segments) for word in card['highlights'])
     assert card['answer'] not in answers
     answers.add(card['answer'])
     supporting = []
