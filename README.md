@@ -19,6 +19,8 @@
 
 **[왕 맞히기](https://nhahan.github.io/korean-history/kings.html)**는 70~79회 전체 정답·오답 선지를 검토해 왕의 업적과 왕대가 분명한 사건을 주관식으로 바꾼 연습입니다. 시작·끝 회차를 선택하면 그 범위에 등장한 선지만 출제하며, 나라별로도 좁힐 수 있습니다. 같은 업적·사건은 표현이나 부가 설명이 달라도 한 문제로 묶고 선택한 범위의 기출 링크를 제공합니다. 왕 이름의 띄어쓰기와 등록된 다른 이름도 정답으로 인정합니다. 오답을 제출하면 정답이 즉시 표시되고 다음 문제로 넘어갈 수 있으며, 한 번에 맞힌 문제 수와 틀린 문제 복습을 제공합니다. 진행 상황은 현재 브라우저에 저장됩니다. 여러 왕에 걸친 설명이나 왕을 특정할 수 없는 선지는 제외 사유를 기록합니다.
 
+**[이것만은 꼭 외우자!](https://nhahan.github.io/korean-history/memorize.html)**는 70~79회 학습에서 먼저 기억할 40가지를 선별한 페이지입니다. 출제 횟수만으로 고르지 않고 시대를 판별하는 단서, 왕의 대표 정책, 혼동하기 쉬운 제도·사건의 차이를 우선했습니다. 검증된 핵심 정리의 58개 사실을 중복 없이 묶었으며 지엽적인 내용은 제외했습니다. 시대 필터, 답 가리기·개별 확인, 외운 내용 표시, 미암기 항목만 보기를 지원합니다. 체크 기록은 현재 브라우저에 저장됩니다. 카드의 기출·근거에서 관련 문항과 역사 자료를 확인할 수 있습니다.
+
 ## 자료 출처
 
 문제지와 정답은 [국사편찬위원회 한국사능력검정시험 공식 홈페이지](https://www.historyexam.go.kr)의 공개 기출자료를 사용합니다. 각 회차의 공식 자료 링크는 사이트와 `assets/data/exams.json`에 수록되어 있습니다. 별도 정답표에는 공식 정답을 제공합니다.
@@ -45,6 +47,7 @@ node scripts/validate_concepts.cjs
 python3 scripts/validate_study_guide.py
 python3 scripts/validate_keyword_guide.py
 python3 scripts/validate_king_quiz.py
+python3 scripts/validate_must_know.py
 ```
 
 검증 스크립트는 70~79회, 회차별 50문항과 100점 배점, 1–5 범위 정답, 중복 문항, 선택지의 전사·설명, 공식 HTTPS 출처, 500개 문제 이미지 존재 여부와 양의 정수 이미지 크기를 확인합니다. 전체 2,500개 보기 클릭 영역의 좌표와 크기가 이미지 범위 안에 있는지 확인하고, 보기별 한 줄 메모가 4–26자로 작성되었는지 검사합니다. 문항마다 4–50자의 짧은 문제 해설과 상세 해설 5개·핵심 해설·HTTPS 참고 자료가 있는지도 검사합니다. 추가 검증은 실제 앱의 형광펜 판별과 문장 통일 규칙, 원고·배포 자료의 일치를 확인합니다. 핵심 정리 검증은 22개 시대 분류, 선사 시대의 필수 생활·도구 개념, 중복 없는 한 줄 사실, 항목별 근거 자료와 기출 링크의 정확한 해설 대응을 확인합니다.
@@ -88,3 +91,5 @@ python3 scripts/validate_data.py
 선지별 학습 해설의 원본은 `assets/explanations/`에 회차·문항 범위별로 보관되어 있습니다. `merge_explanations.py`는 검토된 해설과 선지 전사를 공식 정답·배점을 보존한 채 합칩니다. 클릭 영역은 문항별 OCR과 이미지 검토 결과를 적용한 `build_choice_regions.py`에서 생성합니다.
 
 왕 맞히기의 2,500개 선지별 검토 원고는 `scripts/data/king-reviews.json`, 동일 업적의 문장 통일 규칙은 `scripts/data/king-prompt-aliases.json`입니다. `python3 scripts/build_king_quiz.py`로 `assets/data/king-quiz.json`을 생성합니다. 검증은 전체 선지 검토 여부, 기출 연결의 누락·중복, 원고와 배포 데이터의 재현성을 확인합니다.
+
+암기 카드 원고는 `assets/data/must-know.json`입니다. 각 카드의 `factIds`가 `study-guide.json`의 검증된 사실과 출처를 가리킵니다. `scripts/validate_must_know.py`는 40개 제한, 사실 중복, 시대 분류와 근거 연결을 검사합니다.
