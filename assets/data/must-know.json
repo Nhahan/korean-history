@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "title": "이것만은 꼭 외우자!",
   "rounds": [
     70,
@@ -13,52 +13,29 @@
     78,
     79
   ],
-  "minimumRounds": 6,
-  "basis": "70~79회에서 문제의 중심 주제로 6회 이상 출제된 내용만 골랐습니다.",
+  "basis": "시험에 나올 가능성이 높다고 판단한 개념과 구별 포인트를 골랐습니다.",
+  "selectionCriteria": [
+    "한국사 교사 입장에서 출제 가능성과 학습 우선순위를 주관적으로 판단한다.",
+    "왕의 대표 업적, 시대 판별 단서, 주요 제도·사건·단체의 차이를 우선한다.",
+    "출제 횟수나 카드 수로 제한하지 않으며 지엽적인 사실과 반복 설명은 제외한다."
+  ],
   "cards": [
     {
-      "label": "선사 유물로 생활 모습 구별",
-      "cue": "주먹도끼·빗살무늬 토기·비파형 동검이 나오면 시대와 생활을 짝짓기",
-      "answer": "구석기 뗀석기·동굴 / 신석기 빗살무늬·농경 시작 / 청동기 비파형 동검·고인돌·계급",
+      "era": "paleolithic",
+      "label": "구석기 생활과 도구",
+      "answer": "구석기: 이동 생활·동굴·막집. 뗀석기: 주먹도끼·찍개.",
       "factIds": [
         "core-a-paleolithic-2",
-        "core-a-paleolithic-3",
-        "ancient-neolithic-01",
-        "core-a-neolithic-7",
-        "core-a-bronze-11",
-        "ancient-bronze-09"
+        "core-a-paleolithic-3"
       ],
+      "keywordFactIds": [],
+      "reason": "이동 생활과 뗀석기로 신석기와 구별하는 대표 단서.",
+      "id": "must-001",
+      "conceptId": "paleolithic-001",
+      "cue": "구석기 생활과 도구",
       "references": [
         {
-          "round": 70,
-          "number": 1
-        },
-        {
-          "round": 71,
-          "number": 1
-        },
-        {
-          "round": 72,
-          "number": 1
-        },
-        {
-          "round": 73,
-          "number": 1
-        },
-        {
-          "round": 74,
-          "number": 1
-        },
-        {
-          "round": 75,
-          "number": 1
-        },
-        {
-          "round": 76,
-          "number": 1
-        },
-        {
-          "round": 77,
+          "round": 79,
           "number": 1
         },
         {
@@ -66,36 +43,500 @@
           "number": 1
         },
         {
-          "round": 79,
+          "round": 77,
           "number": 1
-        }
-      ],
-      "reason": "70~79회 모두 1번의 실제 질문이 선사 유물·유적을 단서로 해당 시대의 생활을 고르는 유형이다. 구석기 3회, 신석기 2회, 청동기 5회를 하나의 명확한 유물-생활 비교 개념으로 묶었다.",
-      "conceptId": "ancient-prehistoric-artifacts-life",
-      "id": "must-01",
-      "era": "paleolithic",
-      "keywordFactIds": []
-    },
-    {
-      "label": "부여·옥저·동예·삼한 풍습 구별",
-      "cue": "영고·무천·책화·소도 등의 고유 단서로 나라를 구별",
-      "answer": "부여 사출도·영고 / 옥저 민며느리제 / 동예 책화·무천·단궁·과하마·반어피 / 삼한 천군·소도",
-      "factIds": [
-        "ancient-buyeo-02",
-        "ancient-buyeo-07",
-        "ancient-okjeo-03",
-        "core-a-dongye-36",
-        "ancient-dongye-05",
-        "ancient-dongye-06",
-        "core-a-samhan-40"
-      ],
-      "references": [
+        },
+        {
+          "round": 76,
+          "number": 1
+        },
+        {
+          "round": 75,
+          "number": 1
+        },
+        {
+          "round": 73,
+          "number": 1
+        },
+        {
+          "round": 72,
+          "number": 1
+        },
+        {
+          "round": 71,
+          "number": 1
+        },
         {
           "round": 70,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "era": "neolithic",
+      "label": "신석기의 변화",
+      "answer": "농경·목축 시작, 강가·바닷가 움집 정착. 간석기·빗살무늬 토기.",
+      "factIds": [
+        "ancient-neolithic-01",
+        "ancient-neolithic-03",
+        "core-a-neolithic-7"
+      ],
+      "keywordFactIds": [],
+      "reason": "농경 시작과 정착·토기를 함께 구별해야 하는 선사 시대 기본 개념.",
+      "id": "must-002",
+      "conceptId": "neolithic-002",
+      "cue": "신석기의 변화",
+      "references": [
+        {
+          "round": 79,
+          "number": 1
+        },
+        {
+          "round": 74,
+          "number": 1
+        },
+        {
+          "round": 72,
+          "number": 1
+        },
+        {
+          "round": 71,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "era": "bronze",
+      "label": "청동기 대표 유물과 사회",
+      "answer": "비파형 동검·고인돌은 청동기. 벼농사·반달 돌칼로 수확. 사유 재산·계급·군장 등장.",
+      "factIds": [
+        "core-a-bronze-11",
+        "core-a-bronze-10",
+        "ancient-bronze-09"
+      ],
+      "keywordFactIds": [],
+      "reason": "유물과 계급 사회의 등장이 청동기를 판별하는 핵심 단서.",
+      "id": "must-003",
+      "conceptId": "bronze-003",
+      "cue": "청동기 대표 유물과 사회",
+      "references": [
+        {
+          "round": 79,
+          "number": 1
+        },
+        {
+          "round": 77,
+          "number": 1
+        },
+        {
+          "round": 75,
+          "number": 1
+        },
+        {
+          "round": 74,
+          "number": 1
+        },
+        {
+          "round": 73,
+          "number": 1
+        },
+        {
+          "round": 72,
+          "number": 1
+        },
+        {
+          "round": 70,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "era": "iron",
+      "label": "초기 철기 유물",
+      "answer": "철제 농기구·무기, 세형 동검·명도전·반량전은 철기 시대.",
+      "factIds": [
+        "core-a-iron-14",
+        "ancient-iron-03",
+        "ancient-iron-05"
+      ],
+      "keywordFactIds": [],
+      "reason": "청동기와 혼동하기 쉬운 세형 동검과 화폐를 구분.",
+      "id": "must-004",
+      "conceptId": "iron-004",
+      "cue": "초기 철기 유물",
+      "references": [
+        {
+          "round": 78,
+          "number": 1
+        },
+        {
+          "round": 77,
+          "number": 1
+        },
+        {
+          "round": 76,
+          "number": 1
+        },
+        {
+          "round": 74,
+          "number": 1
+        },
+        {
+          "round": 72,
+          "number": 1
+        },
+        {
+          "round": 71,
+          "number": 1
+        },
+        {
+          "round": 70,
+          "number": 1
+        }
+      ]
+    },
+    {
+      "era": "gojoseon",
+      "label": "고조선의 법과 위만조선",
+      "answer": "범금 8조: 살인 사형·절도 노비. 위만조선은 한·진 사이 중계 무역.",
+      "factIds": [
+        "core-a-gojoseon-19",
+        "ancient-gojoseon-07"
+      ],
+      "keywordFactIds": [],
+      "reason": "고조선 사회와 위만조선 경제를 식별하는 대표 단서.",
+      "id": "must-005",
+      "conceptId": "gojoseon-005",
+      "cue": "고조선의 법과 위만조선",
+      "references": [
+        {
+          "round": 79,
+          "number": 2
+        },
+        {
+          "round": 78,
+          "number": 5
+        },
+        {
+          "round": 77,
+          "number": 2
+        },
+        {
+          "round": 76,
+          "number": 2
+        },
+        {
+          "round": 74,
+          "number": 5
+        },
+        {
+          "round": 73,
+          "number": 4
+        },
+        {
+          "round": 71,
+          "number": 2
+        }
+      ]
+    },
+    {
+      "era": "buyeo",
+      "label": "부여의 정치와 제천 행사",
+      "answer": "사출도는 부여의 제가가 관할. 영고는 부여의 12월 제천 행사.",
+      "factIds": [
+        "ancient-buyeo-02",
+        "ancient-buyeo-07"
+      ],
+      "keywordFactIds": [],
+      "reason": "사출도와 영고를 다른 초기 국가의 제도·행사와 구별.",
+      "id": "must-006",
+      "conceptId": "buyeo-006",
+      "cue": "부여의 정치와 제천 행사",
+      "references": [
+        {
+          "round": 77,
+          "number": 2
+        },
+        {
+          "round": 77,
+          "number": 7
+        },
+        {
+          "round": 74,
+          "number": 2
+        },
+        {
+          "round": 73,
+          "number": 3
+        },
+        {
+          "round": 73,
+          "number": 4
+        },
+        {
+          "round": 72,
+          "number": 5
+        },
+        {
+          "round": 71,
+          "number": 2
+        },
+        {
+          "round": 70,
+          "number": 2
+        }
+      ]
+    },
+    {
+      "era": "goguryeo",
+      "label": "고구려의 혼인과 제천 행사",
+      "answer": "고구려: 서옥제·10월 동맹.",
+      "factIds": [
+        "core-a-goguryeo-25"
+      ],
+      "keywordFactIds": [],
+      "reason": "서옥제와 동맹은 초기 고구려를 식별하는 기본 단서.",
+      "id": "must-007",
+      "conceptId": "goguryeo-007",
+      "cue": "고구려의 혼인과 제천 행사",
+      "references": [
+        {
+          "round": 78,
+          "number": 6
+        },
+        {
+          "round": 76,
+          "number": 2
+        },
+        {
+          "round": 74,
+          "number": 2
+        },
+        {
+          "round": 72,
           "number": 2
         },
         {
           "round": 71,
+          "number": 3
+        }
+      ]
+    },
+    {
+      "era": "goguryeo",
+      "label": "고국천왕과 소수림왕",
+      "answer": "고국천왕: 진대법. 소수림왕: 불교 수용·태학·율령.",
+      "factIds": [
+        "ancient-goguryeo-13",
+        "core-a-goguryeo-27"
+      ],
+      "keywordFactIds": [],
+      "reason": "구휼 제도와 국가 체제 정비의 주체를 정확히 구별.",
+      "id": "must-008",
+      "conceptId": "goguryeo-008",
+      "cue": "고국천왕과 소수림왕",
+      "references": [
+        {
+          "round": 79,
+          "number": 7
+        },
+        {
+          "round": 78,
+          "number": 6
+        },
+        {
+          "round": 77,
+          "number": 3
+        },
+        {
+          "round": 72,
+          "number": 6
+        },
+        {
+          "round": 70,
+          "number": 4
+        },
+        {
+          "round": 70,
+          "number": 48
+        }
+      ]
+    },
+    {
+      "era": "goguryeo",
+      "label": "광개토 대왕과 장수왕",
+      "answer": "광개토 대왕: 400년 왜 격퇴. 장수왕: 427년 평양 천도.",
+      "factIds": [
+        "ancient-goguryeo-09",
+        "ancient-goguryeo-11"
+      ],
+      "keywordFactIds": [],
+      "reason": "고구려 전성기 두 왕의 대표 업적을 구분.",
+      "id": "must-009",
+      "conceptId": "goguryeo-009",
+      "cue": "광개토 대왕과 장수왕",
+      "references": [
+        {
+          "round": 78,
+          "number": 7
+        },
+        {
+          "round": 75,
+          "number": 7
+        },
+        {
+          "round": 72,
+          "number": 3
+        },
+        {
+          "round": 70,
+          "number": 3
+        }
+      ]
+    },
+    {
+      "era": "goguryeo",
+      "label": "수·당의 침입 격퇴",
+      "answer": "살수 대첩: 612년 영양왕 때. 안시성: 645년 당 태종 침입 격퇴.",
+      "factIds": [
+        "ancient-goguryeo-14",
+        "ancient-goguryeo-15"
+      ],
+      "keywordFactIds": [],
+      "reason": "고구려의 두 대표 대외 항쟁을 사건·시기로 구별.",
+      "id": "must-010",
+      "conceptId": "goguryeo-010",
+      "cue": "수·당의 침입 격퇴",
+      "references": [
+        {
+          "round": 78,
+          "number": 7
+        },
+        {
+          "round": 77,
+          "number": 6
+        },
+        {
+          "round": 75,
+          "number": 7
+        },
+        {
+          "round": 73,
+          "number": 2
+        },
+        {
+          "round": 70,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "era": "okjeo",
+      "label": "옥저의 혼인과 무덤",
+      "answer": "민며느리제는 옥저의 혼인 풍습. 가족의 뼈를 모은 가족 공동 무덤.",
+      "factIds": [
+        "ancient-okjeo-03",
+        "ancient-okjeo-04"
+      ],
+      "keywordFactIds": [],
+      "reason": "민며느리제와 가족 공동 무덤은 옥저의 대표 풍습.",
+      "id": "must-011",
+      "conceptId": "okjeo-011",
+      "cue": "옥저의 혼인과 무덤",
+      "references": [
+        {
+          "round": 78,
+          "number": 3
+        },
+        {
+          "round": 77,
+          "number": 2
+        },
+        {
+          "round": 74,
+          "number": 2
+        },
+        {
+          "round": 71,
+          "number": 2
+        },
+        {
+          "round": 70,
+          "number": 2
+        }
+      ]
+    },
+    {
+      "era": "dongye",
+      "label": "동예의 풍습과 제천 행사",
+      "answer": "동예: 책화·족외혼. 무천은 10월 제천 행사.",
+      "factIds": [
+        "core-a-dongye-36",
+        "ancient-dongye-05"
+      ],
+      "keywordFactIds": [],
+      "reason": "책화·족외혼·무천으로 동예와 옥저를 구별.",
+      "id": "must-012",
+      "conceptId": "dongye-012",
+      "cue": "동예의 풍습과 제천 행사",
+      "references": [
+        {
+          "round": 78,
+          "number": 3
+        },
+        {
+          "round": 78,
+          "number": 5
+        },
+        {
+          "round": 77,
+          "number": 3
+        },
+        {
+          "round": 76,
+          "number": 2
+        },
+        {
+          "round": 74,
+          "number": 2
+        },
+        {
+          "round": 71,
+          "number": 2
+        },
+        {
+          "round": 70,
+          "number": 2
+        }
+      ]
+    },
+    {
+      "era": "samhan",
+      "label": "삼한의 제정 분리",
+      "answer": "삼한: 천군·소도, 제정 분리.",
+      "factIds": [
+        "core-a-samhan-40"
+      ],
+      "keywordFactIds": [],
+      "reason": "천군과 소도는 삼한의 종교·정치 구조를 묻는 핵심 개념.",
+      "id": "must-013",
+      "conceptId": "samhan-013",
+      "cue": "삼한의 제정 분리",
+      "references": [
+        {
+          "round": 79,
+          "number": 2
+        },
+        {
+          "round": 78,
+          "number": 3
+        },
+        {
+          "round": 77,
+          "number": 3
+        },
+        {
+          "round": 76,
           "number": 2
         },
         {
@@ -103,448 +544,2888 @@
           "number": 4
         },
         {
-          "round": 77,
+          "round": 71,
+          "number": 2
+        }
+      ]
+    },
+    {
+      "era": "baekje",
+      "label": "근초고왕의 영토 확장",
+      "answer": "근초고왕: 마한 정복·평양성 공격.",
+      "factIds": [
+        "core-a-baekje-43"
+      ],
+      "keywordFactIds": [],
+      "reason": "백제 전성기의 영토 확장을 이끈 왕을 판별.",
+      "id": "must-014",
+      "conceptId": "baekje-014",
+      "cue": "근초고왕의 영토 확장",
+      "references": [
+        {
+          "round": 73,
+          "number": 5
+        }
+      ]
+    },
+    {
+      "era": "baekje",
+      "label": "무령왕의 지방 통치",
+      "answer": "22담로 왕족 파견은 백제 무령왕.",
+      "factIds": [
+        "ancient-baekje-05"
+      ],
+      "keywordFactIds": [],
+      "reason": "담로와 왕족 파견은 무령왕을 특정하는 핵심 제도.",
+      "id": "must-015",
+      "conceptId": "baekje-015",
+      "cue": "무령왕의 지방 통치",
+      "references": [
+        {
+          "round": 79,
           "number": 3
         },
         {
           "round": 78,
+          "number": 5
+        },
+        {
+          "round": 77,
+          "number": 5
+        },
+        {
+          "round": 74,
           "number": 3
         },
         {
-          "round": 79,
-          "number": 2
+          "round": 71,
+          "number": 3
         }
-      ],
-      "reason": "6개 회차에서 지문이 이 네 나라 중 하나 또는 둘을 제시하고 고유 풍습·제천 행사·사회 제도를 연결하게 한다. 고조선 문제와 다른 문제의 오답 보기에만 등장한 풍습은 세지 않았다.",
-      "conceptId": "ancient-early-states-customs",
-      "id": "must-02",
-      "era": "buyeo",
-      "keywordFactIds": []
+      ]
     },
     {
-      "label": "신라 하대의 반란과 순서",
-      "cue": "혜공왕 피살 이후의 왕위 다툼 또는 진성여왕의 정치가 나오면 반란 구별",
-      "answer": "혜공왕 피살 780 → 김헌창의 난 822 → 원종·애노의 사벌주 봉기 889",
-      "factIds": [],
-      "keywordFactIds": [
-        "keyword-fact-0196",
-        "keyword-fact-0158",
-        "keyword-fact-0183"
+      "era": "baekje",
+      "label": "백제의 웅진·사비 천도",
+      "answer": "문주왕: 웅진 천도. 성왕: 사비 천도·남부여 개칭.",
+      "factIds": [
+        "ancient-baekje-04",
+        "ancient-baekje-06"
       ],
+      "keywordFactIds": [],
+      "reason": "백제의 수도 이동과 왕의 연결은 순서·인물 문제의 기본.",
+      "id": "must-016",
+      "conceptId": "baekje-016",
+      "cue": "백제의 웅진·사비 천도",
       "references": [
         {
+          "round": 78,
+          "number": 4
+        },
+        {
+          "round": 77,
+          "number": 50
+        },
+        {
+          "round": 74,
+          "number": 4
+        },
+        {
+          "round": 73,
+          "number": 5
+        },
+        {
           "round": 72,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "era": "silla",
+      "label": "신라의 신분과 합의 제도",
+      "answer": "신라: 골품제·화백 회의.",
+      "factIds": [
+        "core-a-silla-50"
+      ],
+      "keywordFactIds": [],
+      "reason": "골품제와 화백 회의는 신라 사회·정치의 대표 제도.",
+      "id": "must-017",
+      "conceptId": "silla-017",
+      "cue": "신라의 신분과 합의 제도",
+      "references": [
+        {
+          "round": 79,
+          "number": 7
+        },
+        {
+          "round": 78,
+          "number": 6
+        },
+        {
+          "round": 77,
+          "number": 3
+        },
+        {
+          "round": 77,
+          "number": 14
+        },
+        {
+          "round": 76,
+          "number": 2
+        },
+        {
+          "round": 76,
+          "number": 8
+        },
+        {
+          "round": 75,
+          "number": 4
+        },
+        {
+          "round": 75,
           "number": 8
         },
         {
           "round": 73,
+          "number": 9
+        },
+        {
+          "round": 72,
+          "number": 2
+        },
+        {
+          "round": 72,
+          "number": 5
+        },
+        {
+          "round": 71,
+          "number": 3
+        }
+      ]
+    },
+    {
+      "era": "silla",
+      "label": "지증왕의 체제 정비",
+      "answer": "지증왕: 국호 신라·왕호 왕·우산국 복속.",
+      "factIds": [
+        "core-a-silla-51"
+      ],
+      "keywordFactIds": [],
+      "reason": "국호·왕호 정비와 우산국 복속의 주체를 연결.",
+      "id": "must-018",
+      "conceptId": "silla-018",
+      "cue": "지증왕의 체제 정비",
+      "references": [
+        {
+          "round": 78,
           "number": 7
+        },
+        {
+          "round": 75,
+          "number": 2
+        },
+        {
+          "round": 74,
+          "number": 6
+        },
+        {
+          "round": 71,
+          "number": 6
+        }
+      ]
+    },
+    {
+      "era": "silla",
+      "label": "법흥왕의 국가 체제",
+      "answer": "법흥왕: 병부·상대등 설치, 율령 반포·불교 공인. 532년 금관가야 복속.",
+      "factIds": [
+        "core-a-silla-52",
+        "ancient-silla-09"
+      ],
+      "keywordFactIds": [
+        "keyword-fact-0120"
+      ],
+      "reason": "병부·율령은 법흥왕을 판별하는 필수 단서이며, 가야 병합의 주체도 구별해야 함.",
+      "id": "must-019",
+      "conceptId": "silla-019",
+      "cue": "법흥왕의 국가 체제",
+      "references": [
+        {
+          "round": 78,
+          "number": 8
+        },
+        {
+          "round": 76,
+          "number": 6
         },
         {
           "round": 75,
           "number": 6
         },
         {
+          "round": 72,
+          "number": 48
+        },
+        {
+          "round": 71,
+          "number": 3
+        },
+        {
+          "round": 71,
+          "number": 6
+        }
+      ]
+    },
+    {
+      "era": "silla",
+      "label": "진흥왕의 영토 확장",
+      "answer": "진흥왕: 화랑도·한강 확보·대가야 병합.",
+      "factIds": [
+        "core-a-silla-54"
+      ],
+      "keywordFactIds": [],
+      "reason": "한강 확보와 대가야 병합은 신라 전성기의 핵심 연결.",
+      "id": "must-020",
+      "conceptId": "silla-020",
+      "cue": "진흥왕의 영토 확장",
+      "references": [
+        {
+          "round": 78,
+          "number": 7
+        },
+        {
           "round": 76,
+          "number": 6
+        },
+        {
+          "round": 75,
+          "number": 4
+        },
+        {
+          "round": 74,
+          "number": 4
+        },
+        {
+          "round": 73,
+          "number": 3
+        }
+      ]
+    },
+    {
+      "era": "gaya",
+      "label": "가야 연맹과 철 교역",
+      "answer": "가야는 중앙 집권 없이 연맹 유지. 전기 금관가야·후기 대가야 주도. 철을 낙랑·왜에 수출.",
+      "factIds": [
+        "ancient-gaya-01",
+        "ancient-gaya-03",
+        "ancient-gaya-09"
+      ],
+      "keywordFactIds": [],
+      "reason": "가야의 연맹 구조와 철 교역은 삼국과 구별하는 기본 특징.",
+      "id": "must-021",
+      "conceptId": "gaya-021",
+      "cue": "가야 연맹과 철 교역",
+      "references": [
+        {
+          "round": 79,
+          "number": 4
+        },
+        {
+          "round": 78,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "era": "unified-silla",
+      "label": "문무왕의 삼국 통일",
+      "answer": "문무왕은 676년 당을 몰아내고 삼국 통일.",
+      "factIds": [
+        "medieval-232"
+      ],
+      "keywordFactIds": [],
+      "reason": "삼국 통일을 완성한 왕과 나당 전쟁의 결과를 연결.",
+      "id": "must-022",
+      "conceptId": "unified-silla-022",
+      "cue": "문무왕의 삼국 통일",
+      "references": []
+    },
+    {
+      "era": "unified-silla",
+      "label": "신문왕의 왕권 강화",
+      "answer": "신문왕: 김흠돌의 난 진압·국학·9주 5소경·관료전 지급·녹읍 폐지.",
+      "factIds": [
+        "core-m-sinmun"
+      ],
+      "keywordFactIds": [
+        "keyword-fact-0159"
+      ],
+      "reason": "신문왕의 반란 진압과 제도 정비는 통일 신라 왕권 강화의 핵심 묶음.",
+      "id": "must-023",
+      "conceptId": "unified-silla-023",
+      "cue": "신문왕의 왕권 강화",
+      "references": [
+        {
+          "round": 78,
+          "number": 8
+        },
+        {
+          "round": 77,
+          "number": 8
+        },
+        {
+          "round": 76,
+          "number": 6
+        },
+        {
+          "round": 75,
+          "number": 6
+        },
+        {
+          "round": 74,
+          "number": 6
+        },
+        {
+          "round": 73,
+          "number": 7
+        },
+        {
+          "round": 72,
+          "number": 8
+        },
+        {
+          "round": 71,
+          "number": 6
+        },
+        {
+          "round": 71,
+          "number": 12
+        },
+        {
+          "round": 70,
           "number": 9
+        }
+      ]
+    },
+    {
+      "era": "unified-silla",
+      "label": "원효와 의상의 불교",
+      "answer": "원효: 일심·화쟁, 무애가로 불교 대중화. 의상: 화엄종 발전.",
+      "factIds": [
+        "core-m-wonhyo",
+        "medieval-018"
+      ],
+      "keywordFactIds": [],
+      "reason": "원효와 의상의 사상·활동은 서로 혼동하기 쉬운 기본 비교.",
+      "id": "must-024",
+      "conceptId": "unified-silla-024",
+      "cue": "원효와 의상의 불교",
+      "references": [
+        {
+          "round": 71,
+          "number": 4
+        },
+        {
+          "round": 70,
+          "number": 6
+        }
+      ]
+    },
+    {
+      "era": "unified-silla",
+      "label": "신라 말의 사회 변화",
+      "answer": "신라 말: 호족 성장·선종·풍수지리설 확산.",
+      "factIds": [
+        "core-m-late-silla"
+      ],
+      "keywordFactIds": [],
+      "reason": "후삼국으로 이어지는 신라 말 사회와 사상의 대표 변화.",
+      "id": "must-025",
+      "conceptId": "unified-silla-025",
+      "cue": "신라 말의 사회 변화",
+      "references": [
+        {
+          "round": 73,
+          "number": 14
+        }
+      ]
+    },
+    {
+      "era": "unified-silla",
+      "label": "신라 하대의 반란과 봉기",
+      "answer": "김헌창의 난: 822년 신라 하대. 원종·애노의 봉기: 889년 사벌주(상주).",
+      "factIds": [],
+      "keywordFactIds": [
+        "keyword-fact-0158",
+        "keyword-fact-0183"
+      ],
+      "reason": "신라 하대의 주요 사건과 선후 관계를 구별하기 위해 암기할 대표 반란·봉기.",
+      "id": "must-026",
+      "conceptId": "unified-silla-026",
+      "cue": "신라 하대의 반란과 봉기",
+      "references": [
+        {
+          "round": 79,
+          "number": 10
         },
         {
           "round": 78,
           "number": 8
         },
         {
-          "round": 79,
-          "number": 10
-        }
-      ],
-      "reason": "6개 회차에서 신라 하대의 시기 또는 정치 상황에 해당하는 반란을 직접 묻는다. 5회는 김헌창의 난, 1회는 원종·애노의 봉기가 정답의 핵심이다. 원성왕 즉위나 선종 문제는 합산하지 않았다.",
-      "conceptId": "ancient-late-silla-rebellions",
-      "id": "must-04",
-      "era": "unified-silla"
-    },
-    {
-      "label": "발해 왕의 업적과 통치 제도",
-      "cue": "발해의 왕·연호·수도 단서를 보고 관청·지방 제도·대외 활동 연결",
-      "answer": "무왕 등주 공격 / 3성6부·5경15부62주 / 대내상 정당성·주자감 교육·문적원 문서 / 인안 무왕·대흥 문왕",
-      "factIds": [
-        "medieval-029",
-        "core-m-balhae-government"
-      ],
-      "keywordFactIds": [
-        "keyword-fact-0203",
-        "keyword-fact-0206",
-        "keyword-fact-0209",
-        "keyword-fact-0217"
-      ],
-      "references": [
-        {
-          "round": 70,
-          "number": 7
-        },
-        {
-          "round": 71,
+          "round": 76,
           "number": 9
         },
         {
-          "round": 72,
-          "number": 7
-        },
-        {
-          "round": 73,
-          "number": 8
-        },
-        {
-          "round": 74,
-          "number": 7
+          "round": 75,
+          "number": 6
         },
         {
           "round": 75,
+          "number": 50
+        },
+        {
+          "round": 74,
+          "number": 10
+        },
+        {
+          "round": 73,
+          "number": 7
+        },
+        {
+          "round": 72,
           "number": 8
         },
         {
+          "round": 70,
+          "number": 9
+        }
+      ]
+    },
+    {
+      "era": "balhae",
+      "label": "발해의 건국과 계승",
+      "answer": "발해: 대조영 건국·고구려 계승·고구려 유민과 말갈.",
+      "factIds": [
+        "core-m-balhae-foundation"
+      ],
+      "keywordFactIds": [],
+      "reason": "발해의 건국 주체와 고구려 계승은 국가 정체성의 기본.",
+      "id": "must-027",
+      "conceptId": "balhae-027",
+      "cue": "발해의 건국과 계승",
+      "references": []
+    },
+    {
+      "era": "balhae",
+      "label": "발해 무왕과 문왕",
+      "answer": "무왕: 장문휴를 보내 당의 등주 공격. 문왕: 당과 친선·상경 천도.",
+      "factIds": [
+        "medieval-029",
+        "medieval-030"
+      ],
+      "keywordFactIds": [],
+      "reason": "대당 강경 정책과 친선 정책의 왕을 구별.",
+      "id": "must-028",
+      "conceptId": "balhae-028",
+      "cue": "발해 무왕과 문왕",
+      "references": []
+    },
+    {
+      "era": "balhae",
+      "label": "발해 선왕의 전성기",
+      "answer": "선왕 때 영토 확대·해동성국으로 성장.",
+      "factIds": [
+        "medieval-031"
+      ],
+      "keywordFactIds": [],
+      "reason": "해동성국이라는 대표 명칭을 선왕의 전성기와 연결.",
+      "id": "must-029",
+      "conceptId": "balhae-029",
+      "cue": "발해 선왕의 전성기",
+      "references": []
+    },
+    {
+      "era": "balhae",
+      "label": "발해의 통치 제도",
+      "answer": "발해: 중앙 3성 6부·지방 5경 15부 62주.",
+      "factIds": [
+        "core-m-balhae-government"
+      ],
+      "keywordFactIds": [],
+      "reason": "발해의 중앙·지방 제도를 통일 신라와 구별.",
+      "id": "must-030",
+      "conceptId": "balhae-030",
+      "cue": "발해의 통치 제도",
+      "references": [
+        {
           "round": 76,
           "number": 8
+        },
+        {
+          "round": 70,
+          "number": 7
+        }
+      ]
+    },
+    {
+      "era": "later-three-kingdoms",
+      "label": "견훤과 궁예의 건국",
+      "answer": "견훤: 900년 완산주에서 후백제 건국. 궁예: 후고구려 건국, 국호를 마진·태봉으로 변경.",
+      "factIds": [
+        "medieval-041",
+        "core-m-gungye"
+      ],
+      "keywordFactIds": [],
+      "reason": "후삼국의 건국자와 궁예 정권의 국호 변화를 구별.",
+      "id": "must-031",
+      "conceptId": "later-three-kingdoms-031",
+      "cue": "견훤과 궁예의 건국",
+      "references": []
+    },
+    {
+      "era": "later-three-kingdoms",
+      "label": "왕건의 고려 건국",
+      "answer": "왕건은 918년 궁예를 몰아내고 고려 건국.",
+      "factIds": [
+        "medieval-043"
+      ],
+      "keywordFactIds": [],
+      "reason": "후고구려에서 고려로 이어지는 정권 교체의 기본 사건.",
+      "id": "must-032",
+      "conceptId": "later-three-kingdoms-032",
+      "cue": "왕건의 고려 건국",
+      "references": []
+    },
+    {
+      "era": "later-three-kingdoms",
+      "label": "고려의 후삼국 통일",
+      "answer": "935년 신라 항복, 936년 고려의 후삼국 통일.",
+      "factIds": [
+        "core-m-late-unification"
+      ],
+      "keywordFactIds": [],
+      "reason": "신라의 항복과 후삼국 통일의 선후 관계를 구별.",
+      "id": "must-033",
+      "conceptId": "later-three-kingdoms-033",
+      "cue": "고려의 후삼국 통일",
+      "references": []
+    },
+    {
+      "era": "goryeo",
+      "label": "고려 태조의 정책",
+      "answer": "태조: 혼인·사성으로 연합, 사심관 설치·기인 견제. 태조: 훈요 10조·서경 중시·북진 정책.",
+      "factIds": [
+        "core-m-taejo",
+        "core-m-taejo-north"
+      ],
+      "keywordFactIds": [],
+      "reason": "고려 건국 직후 호족 포섭·견제의 대표 정책을 구별하는 기본 단서.",
+      "id": "must-034",
+      "conceptId": "goryeo-034",
+      "cue": "고려 태조의 정책",
+      "references": [
+        {
+          "round": 79,
+          "number": 7
         },
         {
           "round": 77,
           "number": 7
         },
         {
-          "round": 79,
-          "number": 7
-        }
-      ],
-      "reason": "9개 회차의 실제 질문이 발해의 왕대 사건 또는 중앙·지방·교육 제도와 연호를 확인한다. 78회 9번은 이불병좌상을 고르는 문화유산 문제이므로 이 개념의 횟수에서 제외했다.",
-      "conceptId": "ancient-balhae-rulers-institutions",
-      "id": "must-03",
-      "era": "balhae"
-    },
-    {
-      "label": "고려의 화폐·관영 상점·국제 무역",
-      "cue": "해동통보·관영 다점·서긍의 고려도경에서 경제 활동 연결하기",
-      "answer": "해동통보는 고려 숙종 때 발행, 서적점·다점은 고려 관영 상점, 벽란도는 고려의 국제 무역항.",
-      "factIds": [
-        "medieval-081"
-      ],
-      "keywordFactIds": [
-        "keyword-fact-0398",
-        "keyword-fact-0326"
-      ],
-      "references": [
-        {
-          "round": 71,
-          "number": 10
+          "round": 77,
+          "number": 9
         },
         {
           "round": 72,
-          "number": 16
+          "number": 7
         },
         {
-          "round": 73,
-          "number": 12
-        },
+          "round": 72,
+          "number": 9
+        }
+      ]
+    },
+    {
+      "era": "goryeo",
+      "label": "광종의 왕권 강화",
+      "answer": "광종: 노비안검법·과거제 도입(958년).",
+      "factIds": [
+        "core-m-gwangjong"
+      ],
+      "keywordFactIds": [],
+      "reason": "노비안검법과 과거제의 시행 왕은 기본 인물·정책 연결 문제의 핵심.",
+      "id": "must-035",
+      "conceptId": "goryeo-035",
+      "cue": "광종의 왕권 강화",
+      "references": [
         {
-          "round": 75,
-          "number": 16
-        },
-        {
-          "round": 76,
-          "number": 13
+          "round": 79,
+          "number": 14
         },
         {
           "round": 78,
-          "number": 12
-        }
-      ],
-      "reason": "6개 회차에서 고려의 상업·화폐·대외 무역을 지문과 정답으로 직접 연결한다. 71·75·78회는 경제 자료→벽란도, 76회는 교역 자료→해동통보, 72회는 고려도경→관영 상점, 73회는 고려 경제 자료→벽란도이다. 고려 사회·구휼·토지 제도 문제는 합산하지 않았다.",
-      "conceptId": "goryeo-commerce-currency",
-      "id": "must-06",
-      "era": "goryeo"
-    },
-    {
-      "label": "무신 정권의 성립과 최씨 집권 기구",
-      "cue": "1170년 정변·조위총의 반발에서 최충헌·최우·삼별초 연결하기",
-      "answer": "1170년 무신 정변. 최충헌=교정도감·봉사 10조, 최우=정방, 삼별초=최씨 정권의 군사 기반.",
-      "factIds": [
-        "core-m-military-government"
-      ],
-      "keywordFactIds": [
-        "keyword-fact-0306",
-        "keyword-fact-0369",
-        "keyword-fact-0316"
-      ],
-      "references": [
-        {
-          "round": 70,
-          "number": 14
+          "number": 11
         },
         {
-          "round": 71,
-          "number": 14
+          "round": 76,
+          "number": 18
         },
         {
-          "round": 72,
-          "number": 14
-        },
-        {
-          "round": 73,
+          "round": 75,
           "number": 15
         },
         {
           "round": 74,
-          "number": 14
+          "number": 50
         },
         {
-          "round": 76,
-          "number": 12
+          "round": 73,
+          "number": 11
+        },
+        {
+          "round": 71,
+          "number": 11
+        }
+      ]
+    },
+    {
+      "era": "goryeo",
+      "label": "성종의 통치 체제 정비",
+      "answer": "성종: 최승로 시무 28조·12목 지방관·국자감.",
+      "factIds": [
+        "core-m-seongjong"
+      ],
+      "keywordFactIds": [],
+      "reason": "시무 28조·12목·국자감으로 유교적 통치 체제를 정비한 왕을 식별.",
+      "id": "must-036",
+      "conceptId": "goryeo-036",
+      "cue": "성종의 통치 체제 정비",
+      "references": [
+        {
+          "round": 79,
+          "number": 13
+        },
+        {
+          "round": 78,
+          "number": 11
+        },
+        {
+          "round": 78,
+          "number": 18
         },
         {
           "round": 77,
-          "number": 16
+          "number": 17
+        },
+        {
+          "round": 75,
+          "number": 11
+        },
+        {
+          "round": 74,
+          "number": 11
+        },
+        {
+          "round": 73,
+          "number": 10
+        },
+        {
+          "round": 72,
+          "number": 11
+        },
+        {
+          "round": 70,
+          "number": 13
         }
-      ],
-      "reason": "7개 회차에서 무신 정권 자체의 성립·반발·권력 기구·최씨 집권자의 행적을 직접 묻는다. 70회는 무신 정변에 대한 조위총의 반발, 71회는 무신 집권기의 저항, 72·74회는 정권 관련 사건 순서, 73회는 삼별초의 정권 기반, 76·77회는 최우·최충헌의 집권 기구와 정책이다. 몽골 침입·원 간섭 문제를 더해 빈도를 늘리지 않았다.",
-      "conceptId": "military-regime-power",
-      "id": "must-07",
-      "era": "goryeo"
+      ]
     },
     {
-      "label": "조선 중앙 관서의 기능 구별",
-      "cue": "옥당·은대·금오 같은 별칭, 간쟁·규찰·왕명 출납으로 기관 찾기",
-      "answer": "3사=사헌부·사간원·홍문관, 승정원=왕명 출납, 의금부=왕명 사법, 집현전=세조 폐지, 비변사=대원군 폐지.",
+      "era": "goryeo",
+      "label": "고려의 중앙·지방 조직",
+      "answer": "고려: 중앙 2성 6부·지방 5도 양계.",
       "factIds": [
-        "medieval-142",
-        "medieval-127",
-        "core-m-daewongun-central"
+        "core-m-goryeo-government"
       ],
-      "keywordFactIds": [
-        "keyword-fact-0575",
-        "keyword-fact-0614"
+      "keywordFactIds": [],
+      "reason": "조선의 통치 조직과 혼동하기 쉬운 시대 구별의 기본.",
+      "id": "must-037",
+      "conceptId": "goryeo-037",
+      "cue": "고려의 중앙·지방 조직",
+      "references": []
+    },
+    {
+      "era": "goryeo",
+      "label": "전시과",
+      "answer": "전시과: 경종 때 시작, 전지·시지 지급.",
+      "factIds": [
+        "core-m-jeonsigwa"
       ],
+      "keywordFactIds": [],
+      "reason": "고려의 대표 토지 제도로 조선 과전법·직전법과 구별해야 함.",
+      "id": "must-038",
+      "conceptId": "goryeo-038",
+      "cue": "전시과",
       "references": [
         {
-          "round": 71,
+          "round": 79,
           "number": 20
+        },
+        {
+          "round": 77,
+          "number": 25
+        },
+        {
+          "round": 76,
+          "number": 23
+        },
+        {
+          "round": 74,
+          "number": 11
+        }
+      ]
+    },
+    {
+      "era": "goryeo",
+      "label": "서희와 강감찬",
+      "answer": "서희는 993년 담판으로 강동 6주 확보. 강감찬은 1019년 귀주 대첩에서 승리.",
+      "factIds": [
+        "medieval-085",
+        "medieval-086"
+      ],
+      "keywordFactIds": [],
+      "reason": "거란 대응에서 외교 담판과 귀주 대첩의 인물을 구별하는 핵심 비교.",
+      "id": "must-039",
+      "conceptId": "goryeo-039",
+      "cue": "서희와 강감찬",
+      "references": []
+    },
+    {
+      "era": "goryeo",
+      "label": "윤관의 여진 정벌",
+      "answer": "윤관: 별무반으로 여진 정벌·동북 9성 축조.",
+      "factIds": [
+        "core-m-yungwan"
+      ],
+      "keywordFactIds": [],
+      "reason": "별무반·동북 9성으로 여진 대응을 식별하는 대표 단서.",
+      "id": "must-040",
+      "conceptId": "goryeo-040",
+      "cue": "윤관의 여진 정벌",
+      "references": []
+    },
+    {
+      "era": "goryeo",
+      "label": "무신 정권",
+      "answer": "1170년 무신 정변, 최충헌은 교정도감 장악.",
+      "factIds": [
+        "core-m-military-government"
+      ],
+      "keywordFactIds": [],
+      "reason": "무신 정변과 최충헌의 권력 기구를 연결하는 기본 정치사 개념.",
+      "id": "must-041",
+      "conceptId": "goryeo-041",
+      "cue": "무신 정권",
+      "references": []
+    },
+    {
+      "era": "goryeo",
+      "label": "몽골 침입과 항쟁",
+      "answer": "몽골 침입: 강화 천도·팔만대장경 조성. 삼별초는 강화·진도·제주에서 항쟁.",
+      "factIds": [
+        "core-m-mongols",
+        "medieval-090"
+      ],
+      "keywordFactIds": [],
+      "reason": "강화 천도·팔만대장경·삼별초를 몽골 항쟁 맥락에서 연결.",
+      "id": "must-042",
+      "conceptId": "goryeo-042",
+      "cue": "몽골 침입과 항쟁",
+      "references": []
+    },
+    {
+      "era": "goryeo",
+      "label": "공민왕의 개혁",
+      "answer": "공민왕: 기철 제거·이문소 폐지·쌍성총관부 수복. 신돈의 전민변정 사업은 공민왕 때.",
+      "factIds": [
+        "core-m-gongmin-independence",
+        "medieval-106"
+      ],
+      "keywordFactIds": [],
+      "reason": "반원 정책과 신돈의 전민변정 사업은 공민왕 식별의 핵심.",
+      "id": "must-043",
+      "conceptId": "goryeo-043",
+      "cue": "공민왕의 개혁",
+      "references": [
+        {
+          "round": 78,
+          "number": 16
+        },
+        {
+          "round": 75,
+          "number": 11
+        },
+        {
+          "round": 73,
+          "number": 17
+        }
+      ]
+    },
+    {
+      "era": "goryeo",
+      "label": "삼국사기와 삼국유사",
+      "answer": "삼국사기: 김부식·기전체. 삼국유사: 일연·불교와 민간 설화·단군 이야기.",
+      "factIds": [
+        "core-m-samguksagi",
+        "medieval-115"
+      ],
+      "keywordFactIds": [
+        "keyword-fact-0314",
+        "keyword-fact-0315"
+      ],
+      "reason": "고려의 대표 역사서 두 권과 저자를 구별하는 필수 문화사 비교.",
+      "id": "must-044",
+      "conceptId": "goryeo-044",
+      "cue": "삼국사기와 삼국유사",
+      "references": [
+        {
+          "round": 79,
+          "number": 15
+        },
+        {
+          "round": 79,
+          "number": 18
+        },
+        {
+          "round": 78,
+          "number": 17
+        },
+        {
+          "round": 73,
+          "number": 16
+        }
+      ]
+    },
+    {
+      "era": "goryeo",
+      "label": "의천과 지눌",
+      "answer": "의천은 천태종·교관겸수 주장. 지눌: 정혜결사·정혜쌍수·돈오점수.",
+      "factIds": [
+        "medieval-109",
+        "core-m-jinul"
+      ],
+      "keywordFactIds": [],
+      "reason": "교관겸수와 정혜쌍수·돈오점수를 혼동하지 않기 위한 핵심 불교사 비교.",
+      "id": "must-045",
+      "conceptId": "goryeo-045",
+      "cue": "의천과 지눌",
+      "references": [
+        {
+          "round": 74,
+          "number": 16
+        },
+        {
+          "round": 71,
+          "number": 17
+        },
+        {
+          "round": 70,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "era": "goryeo",
+      "label": "고려 청자",
+      "answer": "고려 청자는 상감 기법이 발달.",
+      "factIds": [
+        "medieval-114"
+      ],
+      "keywordFactIds": [],
+      "reason": "상감 기법은 고려 공예를 식별하는 가장 기본적인 문화 단서.",
+      "id": "must-046",
+      "conceptId": "goryeo-046",
+      "cue": "고려 청자",
+      "references": []
+    },
+    {
+      "era": "goryeo",
+      "label": "직지",
+      "answer": "직지: 고려, 1377년 청주 흥덕사에서 간행한 금속활자본.",
+      "factIds": [
+        "medieval-119"
+      ],
+      "keywordFactIds": [
+        "keyword-fact-0381"
+      ],
+      "reason": "금속활자본과 시대를 연결하는 대표 인쇄 문화 단서.",
+      "id": "must-047",
+      "conceptId": "goryeo-047",
+      "cue": "직지",
+      "references": [
+        {
+          "round": 75,
+          "number": 17
+        },
+        {
+          "round": 73,
+          "number": 19
+        },
+        {
+          "round": 71,
+          "number": 18
+        }
+      ]
+    },
+    {
+      "era": "goryeo",
+      "label": "벽란도",
+      "answer": "벽란도는 고려의 국제 무역항.",
+      "factIds": [
+        "medieval-081"
+      ],
+      "keywordFactIds": [],
+      "reason": "고려의 개방적 국제 교역을 식별하는 가장 기본적인 항구명.",
+      "id": "must-048",
+      "conceptId": "goryeo-048",
+      "cue": "벽란도",
+      "references": [
+        {
+          "round": 79,
+          "number": 4
+        },
+        {
+          "round": 78,
+          "number": 12
+        },
+        {
+          "round": 75,
+          "number": 16
+        },
+        {
+          "round": 74,
+          "number": 27
+        },
+        {
+          "round": 73,
+          "number": 12
+        },
+        {
+          "round": 71,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "era": "goryeo",
+      "label": "묘청과 김부식",
+      "answer": "묘청: 인종 때 서경에서 반란·칭제 건원·금 정벌 주장. 진압은 김부식.",
+      "factIds": [],
+      "keywordFactIds": [
+        "keyword-fact-0290",
+        "keyword-fact-0291",
+        "keyword-fact-0292"
+      ],
+      "reason": "서경·칭제 건원·금 정벌 주장과 진압 인물을 연결해야 문벌 귀족 사회의 갈등을 식별할 수 있음.",
+      "id": "must-049",
+      "conceptId": "goryeo-049",
+      "cue": "묘청과 김부식",
+      "references": [
+        {
+          "round": 78,
+          "number": 18
+        },
+        {
+          "round": 77,
+          "number": 17
+        },
+        {
+          "round": 74,
+          "number": 12
+        },
+        {
+          "round": 72,
+          "number": 13
+        },
+        {
+          "round": 71,
+          "number": 18
+        },
+        {
+          "round": 70,
+          "number": 14
+        }
+      ]
+    },
+    {
+      "era": "goryeo",
+      "label": "고려의 주요 중앙 기구",
+      "answer": "도병마사: 국방 회의. 중추원: 군사 기밀·왕명 출납. 삼사: 재정·회계.",
+      "factIds": [],
+      "keywordFactIds": [
+        "keyword-fact-0279",
+        "keyword-fact-0377",
+        "keyword-fact-0321"
+      ],
+      "reason": "기관 이름만으로 시대와 기능을 판별하는 데 필요한 세 가지 기본 연결.",
+      "id": "must-050",
+      "conceptId": "goryeo-050",
+      "cue": "고려의 주요 중앙 기구",
+      "references": [
+        {
+          "round": 76,
+          "number": 8
+        },
+        {
+          "round": 74,
+          "number": 18
+        },
+        {
+          "round": 73,
+          "number": 9
         },
         {
           "round": 72,
           "number": 19
+        }
+      ]
+    },
+    {
+      "era": "goryeo",
+      "label": "위화도 회군",
+      "answer": "위화도 회군: 1388년 이성계. 명의 철령위 설치에 반발한 요동 정벌 추진 중 발생.",
+      "factIds": [
+        "medieval-107"
+      ],
+      "keywordFactIds": [
+        "keyword-fact-0385"
+      ],
+      "reason": "고려에서 조선으로 넘어가는 핵심 사건으로 원인과 인물의 연결을 반드시 기억.",
+      "id": "must-051",
+      "conceptId": "goryeo-051",
+      "cue": "위화도 회군",
+      "references": [
+        {
+          "round": 72,
+          "number": 12
         },
         {
-          "round": 75,
+          "round": 70,
+          "number": 14
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "태조의 조선 건국",
+      "answer": "태조 이성계: 1392년 조선 건국·한양 천도.",
+      "factIds": [
+        "core-m-joseon-foundation"
+      ],
+      "keywordFactIds": [],
+      "reason": "조선 건국 인물·시점·도읍의 기본 연결.",
+      "id": "must-052",
+      "conceptId": "joseon-052",
+      "cue": "태조의 조선 건국",
+      "references": []
+    },
+    {
+      "era": "joseon",
+      "label": "태종의 왕권 강화",
+      "answer": "태종: 사병 혁파·6조 직계제·호패법 실시.",
+      "factIds": [
+        "core-m-taejong"
+      ],
+      "keywordFactIds": [],
+      "reason": "사병 혁파·6조 직계제·호패법은 태종을 가려내는 핵심 정책.",
+      "id": "must-053",
+      "conceptId": "joseon-053",
+      "cue": "태종의 왕권 강화",
+      "references": []
+    },
+    {
+      "era": "joseon",
+      "label": "세종의 주요 업적",
+      "answer": "세종: 훈민정음 반포(1446년)·집현전 운영. 세종: 4군 6진 개척·측우기·자격루 제작.",
+      "factIds": [
+        "core-m-sejong-writing",
+        "core-m-sejong-science"
+      ],
+      "keywordFactIds": [],
+      "reason": "훈민정음·4군 6진·과학 기구는 세종을 식별하는 대표 단서.",
+      "id": "must-054",
+      "conceptId": "joseon-054",
+      "cue": "세종의 주요 업적",
+      "references": [
+        {
+          "round": 71,
+          "number": 19
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "성종과 경국대전",
+      "answer": "경국대전 완성은 1485년 성종.",
+      "factIds": [
+        "medieval-126"
+      ],
+      "keywordFactIds": [],
+      "reason": "조선의 기본 법전 완성과 성종의 연결은 통치 체제의 핵심.",
+      "id": "must-055",
+      "conceptId": "joseon-055",
+      "cue": "성종과 경국대전",
+      "references": [
+        {
+          "round": 72,
           "number": 20
+        },
+        {
+          "round": 71,
+          "number": 19
+        },
+        {
+          "round": 70,
+          "number": 17
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "조선의 3사",
+      "answer": "홍문관·사헌부·사간원은 조선 3사.",
+      "factIds": [
+        "medieval-142"
+      ],
+      "keywordFactIds": [],
+      "reason": "홍문관·사헌부·사간원 구성은 중앙 정치 기구의 기본.",
+      "id": "must-056",
+      "conceptId": "joseon-056",
+      "cue": "조선의 3사",
+      "references": [
+        {
+          "round": 77,
+          "number": 19
         },
         {
           "round": 76,
           "number": 22
         },
         {
+          "round": 73,
+          "number": 25
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "조광조의 개혁",
+      "answer": "조광조는 현량과·향약 보급 추진.",
+      "factIds": [
+        "medieval-148"
+      ],
+      "keywordFactIds": [],
+      "reason": "현량과·향약은 사림 개혁 인물을 식별하는 핵심 단서.",
+      "id": "must-057",
+      "conceptId": "joseon-057",
+      "cue": "조광조의 개혁",
+      "references": [
+        {
           "round": 77,
+          "number": 21
+        },
+        {
+          "round": 74,
+          "number": 50
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "붕당의 형성",
+      "answer": "붕당은 선조 때 동인·서인으로 분화.",
+      "factIds": [
+        "medieval-150"
+      ],
+      "keywordFactIds": [],
+      "reason": "선조 때 동인·서인 분화는 붕당 정치 전개의 출발점.",
+      "id": "must-058",
+      "conceptId": "joseon-058",
+      "cue": "붕당의 형성",
+      "references": []
+    },
+    {
+      "era": "joseon",
+      "label": "숙종의 환국",
+      "answer": "숙종은 환국으로 정국 주도.",
+      "factIds": [
+        "medieval-151"
+      ],
+      "keywordFactIds": [],
+      "reason": "환국은 숙종의 정치 운영을 구별하는 대표 개념.",
+      "id": "must-059",
+      "conceptId": "joseon-059",
+      "cue": "숙종의 환국",
+      "references": []
+    },
+    {
+      "era": "joseon",
+      "label": "영조와 균역법",
+      "answer": "영조: 탕평책·균역법(군포 2필→1필).",
+      "factIds": [
+        "core-m-yeongjo"
+      ],
+      "keywordFactIds": [],
+      "reason": "탕평책과 군포 감소를 영조에 연결하고 대동법과 구별.",
+      "id": "must-060",
+      "conceptId": "joseon-060",
+      "cue": "영조와 균역법",
+      "references": []
+    },
+    {
+      "era": "joseon",
+      "label": "정조의 주요 정책",
+      "answer": "정조: 규장각·장용영 설치·수원 화성 축조.",
+      "factIds": [
+        "core-m-jeongjo"
+      ],
+      "keywordFactIds": [],
+      "reason": "규장각·장용영·화성은 정조를 가려내는 핵심 연결.",
+      "id": "must-061",
+      "conceptId": "joseon-061",
+      "cue": "정조의 주요 정책",
+      "references": [
+        {
+          "round": 79,
+          "number": 23
+        },
+        {
+          "round": 73,
+          "number": 27
+        },
+        {
+          "round": 71,
+          "number": 24
+        },
+        {
+          "round": 70,
           "number": 19
         },
+        {
+          "round": 70,
+          "number": 24
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "임진왜란의 해전",
+      "answer": "임진왜란: 이순신의 한산도·명량·노량 승리.",
+      "factIds": [
+        "core-m-imjin"
+      ],
+      "keywordFactIds": [],
+      "reason": "이순신과 대표 해전은 임진왜란의 기본 인물·전투 연결.",
+      "id": "must-062",
+      "conceptId": "joseon-062",
+      "cue": "임진왜란의 해전",
+      "references": []
+    },
+    {
+      "era": "joseon",
+      "label": "광해군의 외교",
+      "answer": "광해군은 명·후금 사이 중립 외교.",
+      "factIds": [
+        "medieval-169"
+      ],
+      "keywordFactIds": [],
+      "reason": "명·후금 사이 중립 외교는 광해군의 대표 정책.",
+      "id": "must-063",
+      "conceptId": "joseon-063",
+      "cue": "광해군의 외교",
+      "references": []
+    },
+    {
+      "era": "joseon",
+      "label": "병자호란",
+      "answer": "병자호란은 1636년 청 침략·삼전도 항복.",
+      "factIds": [
+        "medieval-172"
+      ],
+      "keywordFactIds": [],
+      "reason": "청 침략과 삼전도 항복은 임진왜란과 구별할 핵심 전쟁 단서.",
+      "id": "must-064",
+      "conceptId": "joseon-064",
+      "cue": "병자호란",
+      "references": []
+    },
+    {
+      "era": "joseon",
+      "label": "과전법과 직전법",
+      "answer": "과전법: 전·현직, 직전법: 현직 관리 수조권. 세조는 직전법 실시·집현전 폐지.",
+      "factIds": [
+        "core-m-land-rights",
+        "medieval-127"
+      ],
+      "keywordFactIds": [],
+      "reason": "수조권 지급 대상과 세조의 직전법을 함께 구별하는 핵심 토지 제도 비교.",
+      "id": "must-065",
+      "conceptId": "joseon-065",
+      "cue": "과전법과 직전법",
+      "references": [
+        {
+          "round": 77,
+          "number": 20
+        },
+        {
+          "round": 73,
+          "number": 21
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "대동법과 공인",
+      "answer": "대동법: 광해군 때 경기도 시행·결수별 공납·공인 등장.",
+      "factIds": [
+        "core-m-daedong"
+      ],
+      "keywordFactIds": [
+        "keyword-fact-0477"
+      ],
+      "reason": "결수별 공납과 공인 등장은 조선의 대표 조세·상업 변화.",
+      "id": "must-066",
+      "conceptId": "joseon-066",
+      "cue": "대동법과 공인",
+      "references": [
+        {
+          "round": 78,
+          "number": 25
+        },
+        {
+          "round": 77,
+          "number": 25
+        },
+        {
+          "round": 76,
+          "number": 23
+        },
+        {
+          "round": 75,
+          "number": 24
+        },
+        {
+          "round": 75,
+          "number": 26
+        },
+        {
+          "round": 72,
+          "number": 25
+        },
+        {
+          "round": 71,
+          "number": 26
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "조선 후기 농민 봉기",
+      "answer": "홍경래의 난: 평안도 차별, 임술농민봉기: 진주.",
+      "factIds": [
+        "core-m-late-uprisings"
+      ],
+      "keywordFactIds": [],
+      "reason": "홍경래의 난과 임술농민봉기의 대표 지역·배경을 구별.",
+      "id": "must-067",
+      "conceptId": "joseon-067",
+      "cue": "조선 후기 농민 봉기",
+      "references": []
+    },
+    {
+      "era": "joseon",
+      "label": "이황과 이이",
+      "answer": "이황: 성학십도, 이이: 성학집요.",
+      "factIds": [
+        "core-m-neo-confucians"
+      ],
+      "keywordFactIds": [],
+      "reason": "성학십도와 성학집요의 저자 구별은 성리학 인물의 대표 비교.",
+      "id": "must-068",
+      "conceptId": "joseon-068",
+      "cue": "이황과 이이",
+      "references": [
+        {
+          "round": 73,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "정약용",
+      "answer": "정약용: 여전론(공동 경작)·목민심서.",
+      "factIds": [
+        "core-m-jeong-yakyong"
+      ],
+      "keywordFactIds": [],
+      "reason": "여전론·목민심서는 실학자 정약용의 핵심 식별 단서.",
+      "id": "must-069",
+      "conceptId": "joseon-069",
+      "cue": "정약용",
+      "references": []
+    },
+    {
+      "era": "joseon",
+      "label": "박지원과 박제가",
+      "answer": "박지원: 열하일기, 박제가: 북학의·소비 권장.",
+      "factIds": [
+        "core-m-bukhak-scholars"
+      ],
+      "keywordFactIds": [],
+      "reason": "열하일기와 북학의 저자·소비 권장 주장을 구별하는 북학파 핵심 비교.",
+      "id": "must-070",
+      "conceptId": "joseon-070",
+      "cue": "박지원과 박제가",
+      "references": [
+        {
+          "round": 79,
+          "number": 25
+        },
+        {
+          "round": 76,
+          "number": 24
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "흥선 대원군의 개혁",
+      "answer": "대원군: 서원 철폐·호포제로 양반 군포 부과. 대원군: 비변사 폐지·삼군부 부활·경복궁 중건.",
+      "factIds": [
+        "core-m-daewongun-policy",
+        "core-m-daewongun-central"
+      ],
+      "keywordFactIds": [],
+      "reason": "호포제·서원 철폐·통치 기구 개편은 대원군 정책 식별의 핵심.",
+      "id": "must-071",
+      "conceptId": "joseon-071",
+      "cue": "흥선 대원군의 개혁",
+      "references": [
+        {
+          "round": 72,
+          "number": 25
+        },
+        {
+          "round": 72,
+          "number": 28
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "병인양요와 신미양요",
+      "answer": "병인양요(1866): 프랑스 침략·외규장각 약탈. 신미양요(1871): 미국의 강화 침략·이후 척화비.",
+      "factIds": [
+        "core-m-french-invasion",
+        "core-m-american-invasion"
+      ],
+      "keywordFactIds": [],
+      "reason": "프랑스·미국과 외규장각·척화비를 혼동하지 않기 위한 필수 비교.",
+      "id": "must-072",
+      "conceptId": "joseon-072",
+      "cue": "병인양요와 신미양요",
+      "references": [
+        {
+          "round": 78,
+          "number": 23
+        },
+        {
+          "round": 78,
+          "number": 29
+        },
+        {
+          "round": 77,
+          "number": 31
+        },
+        {
+          "round": 74,
+          "number": 31
+        },
+        {
+          "round": 74,
+          "number": 35
+        },
+        {
+          "round": 73,
+          "number": 19
+        },
+        {
+          "round": 71,
+          "number": 28
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "무오사화와 기묘사화",
+      "answer": "무오사화: 연산군·조의제문. 기묘사화: 중종·조광조 제거.",
+      "factIds": [],
+      "keywordFactIds": [
+        "keyword-fact-0507",
+        "keyword-fact-0508",
+        "keyword-fact-0451"
+      ],
+      "reason": "대표 사화를 왕·발단·피해 인물로 구분하는 기본 정치사 비교.",
+      "id": "must-073",
+      "conceptId": "joseon-073",
+      "cue": "무오사화와 기묘사화",
+      "references": [
+        {
+          "round": 78,
+          "number": 19
+        },
+        {
+          "round": 77,
+          "number": 20
+        },
+        {
+          "round": 76,
+          "number": 20
+        },
+        {
+          "round": 73,
+          "number": 23
+        },
+        {
+          "round": 72,
+          "number": 21
+        },
+        {
+          "round": 71,
+          "number": 21
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "승정원과 의금부",
+      "answer": "왕명 출납은 승정원의 업무. 의금부는 국왕 직속 사법 기관, 반역죄 등 처리.",
+      "factIds": [],
+      "keywordFactIds": [
+        "keyword-fact-0575",
+        "keyword-fact-0614"
+      ],
+      "reason": "왕명 출납과 국왕 직속 사법 기능을 담당하는 조선 기관은 필수 식별 대상.",
+      "id": "must-074",
+      "conceptId": "joseon-074",
+      "cue": "승정원과 의금부",
+      "references": [
         {
           "round": 78,
           "number": 20
         },
         {
-          "round": 79,
-          "number": 24
-        }
-      ],
-      "reason": "7개 회차의 실제 주제가 특정 중앙 관서의 식별·기능·폐지이다. 서로 다른 왕의 업적 문제를 합친 것이 아니라 같은 기관 식별 문항 유형을 묶었다. 70회 태종 문제는 정답에 사간원이 있어도 왕 식별이 중심이므로 제외했다.",
-      "conceptId": "joseon-central-offices",
-      "id": "must-05",
-      "era": "joseon"
-    },
-    {
-      "label": "일제의 전시 동원·황국 신민화",
-      "cue": "전시 동원과 황국 신민화 정책의 대표 모습",
-      "answer": "신사 참배·창씨개명으로 황국 신민화, 징용·징병으로 전쟁에 동원.",
-      "factIds": [
-        "core-d-colonial-34"
-      ],
-      "references": [
-        {
-          "round": 70,
-          "number": 40
-        },
-        {
-          "round": 71,
-          "number": 44
-        },
-        {
-          "round": 72,
-          "number": 41
-        },
-        {
-          "round": 73,
-          "number": 45
-        },
-        {
-          "round": 74,
-          "number": 43
-        },
-        {
-          "round": 75,
-          "number": 44
+          "round": 77,
+          "number": 19
         },
         {
           "round": 76,
-          "number": 42
-        },
-        {
-          "round": 77,
-          "number": 44
-        },
-        {
-          "round": 78,
-          "number": 40
-        },
-        {
-          "round": 79,
-          "number": 43
-        }
-      ],
-      "reason": "10개 회차 모두 전시 동원·민족 말살 통치가 문제의 시대 판별 대상이다. 국민학교 교육, 국가 총동원법, 황국 신민 서사, 애국반, 전쟁 말기 강제 동원 자료를 묻는 문제만 집계했다. 일제강점기 일반 생활상 문제는 제외했다.",
-      "conceptId": "wartime-mobilization",
-      "id": "must-08",
-      "era": "colonial",
-      "keywordFactIds": []
-    },
-    {
-      "label": "1910년대 무단 통치·토지 조사 사업",
-      "cue": "1910년대의 통치 방식과 토지 정책",
-      "answer": "헌병 경찰·태형의 무단 통치, 신고주의에 따른 토지 조사 사업.",
-      "factIds": [
-        "modern-071",
-        "modern-074"
-      ],
-      "references": [
-        {
-          "round": 70,
-          "number": 36
+          "number": 22
         },
         {
           "round": 71,
-          "number": 38
+          "number": 20
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "훈련도감",
+      "answer": "훈련도감: 1593년 선조, 임진왜란 때 설치. 훈련도감은 포수·살수·사수.",
+      "factIds": [],
+      "keywordFactIds": [
+        "keyword-fact-0705",
+        "keyword-fact-0706"
+      ],
+      "reason": "임진왜란 중 설치한 군사 기구와 삼수병 구성은 조선 군제의 핵심 단서.",
+      "id": "must-075",
+      "conceptId": "joseon-075",
+      "cue": "훈련도감",
+      "references": [
+        {
+          "round": 79,
+          "number": 50
         },
         {
-          "round": 73,
-          "number": 37
+          "round": 78,
+          "number": 24
+        },
+        {
+          "round": 76,
+          "number": 16
         },
         {
           "round": 75,
+          "number": 12
+        },
+        {
+          "round": 71,
+          "number": 22
+        },
+        {
+          "round": 70,
+          "number": 21
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "영정법",
+      "answer": "전세액 고정은 인조 때 영정법.",
+      "factIds": [],
+      "keywordFactIds": [
+        "keyword-fact-0598"
+      ],
+      "reason": "전세의 영정법·공납의 대동법·군역의 균역법을 혼동하지 않기 위한 필수 조세 개념.",
+      "id": "must-076",
+      "conceptId": "joseon-076",
+      "cue": "영정법",
+      "references": [
+        {
+          "round": 76,
+          "number": 23
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "신해통공",
+      "answer": "신해통공: 1791년 정조, 육의전 외 금난전권 폐지.",
+      "factIds": [
+        "medieval-162"
+      ],
+      "keywordFactIds": [
+        "keyword-fact-0586"
+      ],
+      "reason": "정조의 상업 정책에서 금난전권 폐지와 육의전 예외는 모두 중요.",
+      "id": "must-077",
+      "conceptId": "joseon-077",
+      "cue": "신해통공",
+      "references": [
+        {
+          "round": 77,
+          "number": 14
+        },
+        {
+          "round": 75,
+          "number": 16
+        },
+        {
+          "round": 73,
+          "number": 28
+        },
+        {
+          "round": 71,
+          "number": 23
+        },
+        {
+          "round": 70,
+          "number": 33
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "조선 후기 농업 변화",
+      "answer": "모내기 확산으로 노동 절약·이모작 증가.",
+      "factIds": [
+        "medieval-183"
+      ],
+      "keywordFactIds": [],
+      "reason": "모내기 확산의 노동 절약·이모작 효과는 후기 경제 변화를 읽는 기본 단서.",
+      "id": "must-078",
+      "conceptId": "joseon-078",
+      "cue": "조선 후기 농업 변화",
+      "references": []
+    },
+    {
+      "era": "joseon",
+      "label": "조선 후기 신분제 동요",
+      "answer": "공명첩·납속·족보 매입으로 신분제 동요.",
+      "factIds": [
+        "medieval-187"
+      ],
+      "keywordFactIds": [],
+      "reason": "공명첩·납속·족보 매입은 신분제 동요를 직접 판별할 수 있는 대표 단서.",
+      "id": "must-079",
+      "conceptId": "joseon-079",
+      "cue": "조선 후기 신분제 동요",
+      "references": []
+    },
+    {
+      "era": "joseon",
+      "label": "세도 정치",
+      "answer": "세도 정치는 왕실 외척의 권력 독점.",
+      "factIds": [
+        "medieval-152"
+      ],
+      "keywordFactIds": [],
+      "reason": "왕실 외척의 권력 독점은 조선 후기 정치 운영을 구별하는 필수 개념.",
+      "id": "must-080",
+      "conceptId": "joseon-080",
+      "cue": "세도 정치",
+      "references": []
+    },
+    {
+      "era": "joseon",
+      "label": "백운동 서원과 소수 서원",
+      "answer": "백운동 서원 건립은 주세붕. 소수 서원 사액은 명종 때.",
+      "factIds": [],
+      "keywordFactIds": [
+        "keyword-fact-0514",
+        "keyword-fact-0562"
+      ],
+      "reason": "서원의 건립 인물과 사액 시점을 구별하는 대표 교육사 단서.",
+      "id": "must-081",
+      "conceptId": "joseon-081",
+      "cue": "백운동 서원과 소수 서원",
+      "references": [
+        {
+          "round": 78,
+          "number": 21
+        },
+        {
+          "round": 74,
+          "number": 23
+        },
+        {
+          "round": 73,
+          "number": 20
+        },
+        {
+          "round": 70,
+          "number": 19
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "정선과 김정희",
+      "answer": "정선: 금강전도·인왕제색도. 김정희: 추사체·세한도.",
+      "factIds": [],
+      "keywordFactIds": [
+        "keyword-fact-0637",
+        "keyword-fact-0638",
+        "keyword-fact-0463",
+        "keyword-fact-0561"
+      ],
+      "reason": "대표 회화·서체를 작가와 연결하는 문화사 식별 문제의 기본.",
+      "id": "must-082",
+      "conceptId": "joseon-082",
+      "cue": "정선과 김정희",
+      "references": [
+        {
+          "round": 78,
+          "number": 26
+        },
+        {
+          "round": 77,
+          "number": 26
+        },
+        {
+          "round": 77,
+          "number": 27
+        },
+        {
+          "round": 73,
+          "number": 26
+        },
+        {
+          "round": 72,
+          "number": 23
+        },
+        {
+          "round": 72,
+          "number": 26
+        },
+        {
+          "round": 70,
+          "number": 27
+        }
+      ]
+    },
+    {
+      "era": "joseon",
+      "label": "김홍도와 신윤복",
+      "answer": "김홍도가 그린 씨름. 월하정인은 신윤복의 풍속화.",
+      "factIds": [],
+      "keywordFactIds": [
+        "keyword-fact-0465",
+        "keyword-fact-0609"
+      ],
+      "reason": "대표 풍속화 두 작품과 작가는 반드시 구별할 최소 회화 단서.",
+      "id": "must-083",
+      "conceptId": "joseon-083",
+      "cue": "김홍도와 신윤복",
+      "references": [
+        {
+          "round": 78,
+          "number": 26
+        },
+        {
+          "round": 76,
+          "number": 27
+        },
+        {
+          "round": 73,
+          "number": 26
+        },
+        {
+          "round": 72,
+          "number": 23
+        },
+        {
+          "round": 70,
+          "number": 27
+        }
+      ]
+    },
+    {
+      "era": "opening",
+      "label": "강화도 조약",
+      "answer": "1876년 세 항구 개항·치외법권·해안 측량권.",
+      "factIds": [
+        "modern-001",
+        "modern-002"
+      ],
+      "keywordFactIds": [],
+      "reason": "개항의 출발점과 불평등 조항을 묶어 다른 조약과 구별한다.",
+      "id": "must-084",
+      "conceptId": "opening-084",
+      "cue": "강화도 조약",
+      "references": [
+        {
+          "round": 76,
+          "number": 30
+        },
+        {
+          "round": 73,
+          "number": 35
+        },
+        {
+          "round": 70,
+          "number": 29
+        }
+      ]
+    },
+    {
+      "era": "opening",
+      "label": "조미 수호 통상 조약",
+      "answer": "조미 수호 통상 조약: 거중 조정·최혜국 대우.",
+      "factIds": [
+        "core-d-opening-03"
+      ],
+      "keywordFactIds": [],
+      "reason": "거중 조정과 최혜국 대우는 조약 식별의 대표 단서다.",
+      "id": "must-085",
+      "conceptId": "opening-085",
+      "cue": "조미 수호 통상 조약",
+      "references": [
+        {
+          "round": 76,
+          "number": 30
+        }
+      ]
+    },
+    {
+      "era": "opening",
+      "label": "개화 정책",
+      "answer": "개화 정책: 통리기무아문·1881년 별기군.",
+      "factIds": [
+        "core-d-opening-05"
+      ],
+      "keywordFactIds": [],
+      "reason": "개항 뒤 개화 기구와 신식 군대를 식별하는 기본 연결이다.",
+      "id": "must-086",
+      "conceptId": "opening-086",
+      "cue": "개화 정책",
+      "references": [
+        {
+          "round": 72,
+          "number": 35
+        },
+        {
+          "round": 71,
+          "number": 32
+        }
+      ]
+    },
+    {
+      "era": "opening",
+      "label": "임오군란",
+      "answer": "임오군란: 구식 군인 차별·제물포 조약.",
+      "factIds": [
+        "core-d-opening-06"
+      ],
+      "keywordFactIds": [],
+      "reason": "구식 군인 차별이라는 원인과 제물포 조약이라는 결과를 연결한다.",
+      "id": "must-087",
+      "conceptId": "opening-087",
+      "cue": "임오군란",
+      "references": [
+        {
+          "round": 79,
+          "number": 29
+        },
+        {
+          "round": 77,
+          "number": 31
+        },
+        {
+          "round": 73,
+          "number": 29
+        },
+        {
+          "round": 70,
+          "number": 30
+        }
+      ]
+    },
+    {
+      "era": "opening",
+      "label": "갑신정변",
+      "answer": "갑신정변: 1884년 김옥균·급진 개화파, 청군에 실패.",
+      "factIds": [
+        "core-d-opening-07"
+      ],
+      "keywordFactIds": [],
+      "reason": "급진 개화파의 개혁 시도와 청군 개입을 구별하는 기본 사건이다.",
+      "id": "must-088",
+      "conceptId": "opening-088",
+      "cue": "갑신정변",
+      "references": [
+        {
+          "round": 77,
+          "number": 31
+        },
+        {
+          "round": 76,
+          "number": 35
+        },
+        {
+          "round": 74,
+          "number": 35
+        }
+      ]
+    },
+    {
+      "era": "opening",
+      "label": "동학 농민 운동",
+      "answer": "전봉준·전주 화약·집강소 / 2차 봉기: 항일·우금치 패배.",
+      "factIds": [
+        "core-d-opening-09",
+        "core-d-opening-10"
+      ],
+      "keywordFactIds": [],
+      "reason": "전주 화약 이후 개혁과 2차 항일 봉기를 구별해야 한다.",
+      "id": "must-089",
+      "conceptId": "opening-089",
+      "cue": "동학 농민 운동",
+      "references": [
+        {
+          "round": 76,
+          "number": 31
+        },
+        {
+          "round": 74,
+          "number": 31
+        }
+      ]
+    },
+    {
+      "era": "opening",
+      "label": "갑오개혁",
+      "answer": "1차: 군국기무처·신분제·과거제 폐지 / 재정: 은본위제·금납화·탁지아문 통일.",
+      "factIds": [
+        "core-d-opening-11",
+        "core-d-opening-12"
+      ],
+      "keywordFactIds": [],
+      "reason": "개혁 기구와 신분·재정 제도 변화는 갑오개혁의 핵심 판별 단서다.",
+      "id": "must-090",
+      "conceptId": "opening-090",
+      "cue": "갑오개혁",
+      "references": [
+        {
+          "round": 78,
+          "number": 39
+        },
+        {
+          "round": 77,
+          "number": 30
+        },
+        {
+          "round": 76,
+          "number": 33
+        },
+        {
+          "round": 72,
+          "number": 32
+        },
+        {
+          "round": 72,
+          "number": 35
+        },
+        {
+          "round": 71,
+          "number": 31
+        },
+        {
+          "round": 71,
+          "number": 35
+        }
+      ]
+    },
+    {
+      "era": "opening",
+      "label": "을미개혁과 을미의병",
+      "answer": "을미개혁: 단발령·태양력·종두법 / 을미의병: 을미사변·단발령에 저항.",
+      "factIds": [
+        "core-d-opening-14",
+        "modern-031"
+      ],
+      "keywordFactIds": [],
+      "reason": "단발령이라는 공통 단서에서 개혁 내용과 의병 배경을 구분한다.",
+      "id": "must-091",
+      "conceptId": "opening-091",
+      "cue": "을미개혁과 을미의병",
+      "references": []
+    },
+    {
+      "era": "empire",
+      "label": "독립협회",
+      "answer": "1896년 서재필 등이 창립·만민 공동회·헌의 6조.",
+      "factIds": [
+        "modern-040",
+        "core-d-empire-20"
+      ],
+      "keywordFactIds": [],
+      "reason": "서재필과 민권 활동을 연결하여 황제권 강화 정책과 구별한다.",
+      "id": "must-092",
+      "conceptId": "empire-092",
+      "cue": "독립협회",
+      "references": [
+        {
+          "round": 79,
+          "number": 36
+        },
+        {
+          "round": 77,
           "number": 34
         },
         {
           "round": 76,
-          "number": 36
-        },
-        {
-          "round": 77,
-          "number": 37
-        },
-        {
-          "round": 78,
-          "number": 36
-        }
-      ],
-      "reason": "7개 회차에서 헌병 경찰·태형 또는 토지 조사 사업 자료로 1910년대를 식별하는 것이 직접 출제되었다. 같은 시대를 판별하는 통치·토지 정책 문항을 함께 묶었으며 다른 시대 문제의 오답 선지는 집계하지 않았다.",
-      "conceptId": "military-rule-1910",
-      "id": "must-09",
-      "era": "colonial",
-      "keywordFactIds": []
-    },
-    {
-      "label": "유신 헌법·반유신 운동",
-      "cue": "유신 체제의 헌법상 특징과 붕괴 계기",
-      "answer": "유신 헌법: 간선제·긴급 조치권 / 김영삼 제명→부마 항쟁 / 10·26→유신 붕괴",
-      "factIds": [
-        "core-d-contemporary-61",
-        "core-d-contemporary-62"
-      ],
-      "references": [
-        {
-          "round": 70,
-          "number": 45
-        },
-        {
-          "round": 71,
-          "number": 49
-        },
-        {
-          "round": 72,
-          "number": 45
-        },
-        {
-          "round": 73,
-          "number": 49
-        },
-        {
-          "round": 74,
-          "number": 47
+          "number": 32
         },
         {
           "round": 75,
-          "number": 47
-        },
-        {
-          "round": 76,
-          "number": 47
-        },
-        {
-          "round": 77,
-          "number": 48
+          "number": 37
         }
-      ],
-      "reason": "유신 헌법 자체의 내용·시기 판별 4회(70·72·73·76)와 반유신 저항의 전개 4회(71·74·75·77)를 투명하게 합친 8개 회차다. 반유신 문항은 부마 민주 항쟁, 3·1 민주 구국 선언, YH 사건 등 같은 체제에 대한 저항을 중심으로 묻는다. 박정희 정부의 경제 정책, 전두환 정부, 6월 항쟁은 포함하지 않았다.",
-      "conceptId": "yushin-system",
-      "id": "must-10",
-      "era": "contemporary",
-      "keywordFactIds": [
-        "keyword-fact-1196",
-        "keyword-fact-1198"
       ]
     },
     {
-      "label": "1948년 정부 수립·남북 협상",
-      "cue": "정부 수립 과정과 남북 협상 추진 인물",
-      "answer": "1948년 5·10 선거→제헌 국회→정부 수립. 김구·김규식은 남북 협상 추진.",
+      "era": "empire",
+      "label": "대한제국과 광무개혁",
+      "answer": "1897년 고종 황제 즉위 / 광무개혁: 구본신참·양전·지계 / 대한국 국제: 황제권 강화.",
       "factIds": [
-        "core-d-contemporary-55",
-        "modern-141"
+        "modern-041",
+        "core-d-empire-18",
+        "modern-044"
       ],
+      "keywordFactIds": [],
+      "reason": "황제국 수립과 개혁의 방향·토지 제도를 연결하는 기본 개념이다.",
+      "id": "must-093",
+      "conceptId": "empire-093",
+      "cue": "대한제국과 광무개혁",
       "references": [
         {
-          "round": 70,
-          "number": 42
-        },
-        {
-          "round": 71,
-          "number": 47
-        },
-        {
-          "round": 73,
-          "number": 47
+          "round": 76,
+          "number": 33
         },
         {
           "round": 75,
-          "number": 45
+          "number": 40
         },
+        {
+          "round": 74,
+          "number": 30
+        },
+        {
+          "round": 72,
+          "number": 35
+        },
+        {
+          "round": 71,
+          "number": 31
+        }
+      ]
+    },
+    {
+      "era": "empire",
+      "label": "을사늑약",
+      "answer": "을사늑약: 1905년 외교권 박탈·통감부.",
+      "factIds": [
+        "core-d-empire-22"
+      ],
+      "keywordFactIds": [],
+      "reason": "국권 침탈 과정에서 외교권 박탈과 통감부를 식별하는 중심 사건이다.",
+      "id": "must-094",
+      "conceptId": "empire-094",
+      "cue": "을사늑약",
+      "references": []
+    },
+    {
+      "era": "empire",
+      "label": "1907년 국권 침탈",
+      "answer": "1907년 헤이그 특사·고종 퇴위 / 정미7조약: 일본인 차관·군대 해산.",
+      "factIds": [
+        "core-d-empire-23",
+        "core-d-empire-24"
+      ],
+      "keywordFactIds": [],
+      "reason": "고종 퇴위와 군대 해산의 시점을 연결하여 을사늑약과 구별한다.",
+      "id": "must-095",
+      "conceptId": "empire-095",
+      "cue": "1907년 국권 침탈",
+      "references": [
+        {
+          "round": 79,
+          "number": 32
+        },
+        {
+          "round": 77,
+          "number": 33
+        }
+      ]
+    },
+    {
+      "era": "empire",
+      "label": "정미의병",
+      "answer": "정미의병: 해산 군인 합류로 전투력 강화.",
+      "factIds": [
+        "modern-060"
+      ],
+      "keywordFactIds": [],
+      "reason": "군대 해산이 항일 의병의 전투력 강화로 이어진 관계가 핵심이다.",
+      "id": "must-096",
+      "conceptId": "empire-096",
+      "cue": "정미의병",
+      "references": [
+        {
+          "round": 78,
+          "number": 33
+        }
+      ]
+    },
+    {
+      "era": "empire",
+      "label": "신민회",
+      "answer": "신민회: 1907년 공화정 지향 비밀 결사.",
+      "factIds": [
+        "modern-064"
+      ],
+      "keywordFactIds": [],
+      "reason": "공화정을 지향한 비밀 결사라는 성격이 다른 계몽 단체와 구별된다.",
+      "id": "must-097",
+      "conceptId": "empire-097",
+      "cue": "신민회",
+      "references": []
+    },
+    {
+      "era": "empire",
+      "label": "국채 보상 운동",
+      "answer": "국채 보상 운동: 1907년·대한매일신보 지원.",
+      "factIds": [
+        "core-d-empire-27"
+      ],
+      "keywordFactIds": [],
+      "reason": "국권 회복을 위한 경제 운동과 지원 언론을 함께 식별한다.",
+      "id": "must-098",
+      "conceptId": "empire-098",
+      "cue": "국채 보상 운동",
+      "references": [
+        {
+          "round": 79,
+          "number": 35
+        },
+        {
+          "round": 78,
+          "number": 34
+        },
+        {
+          "round": 77,
+          "number": 44
+        },
+        {
+          "round": 76,
+          "number": 39
+        },
+        {
+          "round": 75,
+          "number": 35
+        },
+        {
+          "round": 73,
+          "number": 33
+        },
+        {
+          "round": 71,
+          "number": 33
+        }
+      ]
+    },
+    {
+      "era": "empire",
+      "label": "안중근 의거",
+      "answer": "안중근은 하얼빈에서 이토를 사살.",
+      "factIds": [
+        "modern-066"
+      ],
+      "keywordFactIds": [],
+      "reason": "항일 의거의 인물·대상·장소를 식별하는 기본 대응 관계다.",
+      "id": "must-099",
+      "conceptId": "empire-099",
+      "cue": "안중근 의거",
+      "references": [
+        {
+          "round": 77,
+          "number": 42
+        },
+        {
+          "round": 75,
+          "number": 33
+        },
+        {
+          "round": 71,
+          "number": 37
+        }
+      ]
+    },
+    {
+      "era": "colonial",
+      "label": "무단 통치와 문화 통치",
+      "answer": "1910년대 무단 통치: 헌병 경찰·태형 / 3·1 운동 뒤 문화 통치: 보통 경찰·경찰력 확대.",
+      "factIds": [
+        "modern-071",
+        "core-d-colonial-31"
+      ],
+      "keywordFactIds": [],
+      "reason": "3·1 운동을 경계로 통치 방식의 변화와 경찰력 확대를 구별한다.",
+      "id": "must-100",
+      "conceptId": "colonial-100",
+      "cue": "무단 통치와 문화 통치",
+      "references": [
+        {
+          "round": 73,
+          "number": 40
+        },
+        {
+          "round": 70,
+          "number": 35
+        }
+      ]
+    },
+    {
+      "era": "colonial",
+      "label": "토지 조사와 산미 증식",
+      "answer": "토지 조사 사업: 신고주의·토지 수탈 / 산미 증식 계획: 쌀의 일본 반출 확대.",
+      "factIds": [
+        "modern-074",
+        "modern-076"
+      ],
+      "keywordFactIds": [],
+      "reason": "식민지 토지 정책과 쌀 반출 정책을 혼동하지 않도록 대비한다.",
+      "id": "must-101",
+      "conceptId": "colonial-101",
+      "cue": "토지 조사와 산미 증식",
+      "references": []
+    },
+    {
+      "era": "colonial",
+      "label": "황국 신민화",
+      "answer": "황국 신민화: 신사 참배·창씨개명·징용·징병.",
+      "factIds": [
+        "core-d-colonial-34"
+      ],
+      "keywordFactIds": [],
+      "reason": "일제 말 민족 말살과 인력 동원을 식별하는 대표 단서를 묶는다.",
+      "id": "must-102",
+      "conceptId": "colonial-102",
+      "cue": "황국 신민화",
+      "references": []
+    },
+    {
+      "era": "colonial",
+      "label": "3·1 운동과 임시정부",
+      "answer": "1919년 3·1 운동 → 상하이 임시정부 수립·민주 공화제 / 연통제·교통국으로 연락.",
+      "factIds": [
+        "core-d-colonial-35",
+        "core-d-colonial-36",
+        "modern-093"
+      ],
+      "keywordFactIds": [],
+      "reason": "운동의 결과와 정부의 성격·연락망은 독립운동사의 기본 연결이다.",
+      "id": "must-103",
+      "conceptId": "colonial-103",
+      "cue": "3·1 운동과 임시정부",
+      "references": [
+        {
+          "round": 72,
+          "number": 36
+        }
+      ]
+    },
+    {
+      "era": "colonial",
+      "label": "실력 양성 운동",
+      "answer": "물산 장려 운동: 국산품 애용 / 민립 대학 운동: 모금으로 대학 설립.",
+      "factIds": [
+        "modern-097",
+        "modern-098"
+      ],
+      "keywordFactIds": [],
+      "reason": "국산품 소비 운동과 대학 설립 모금 운동의 목적을 구별한다.",
+      "id": "must-104",
+      "conceptId": "colonial-104",
+      "cue": "실력 양성 운동",
+      "references": [
+        {
+          "round": 79,
+          "number": 35
+        },
+        {
+          "round": 77,
+          "number": 39
+        },
+        {
+          "round": 76,
+          "number": 37
+        },
+        {
+          "round": 74,
+          "number": 43
+        },
+        {
+          "round": 73,
+          "number": 33
+        },
+        {
+          "round": 73,
+          "number": 44
+        }
+      ]
+    },
+    {
+      "era": "colonial",
+      "label": "신간회",
+      "answer": "좌우 합작·1929년 광주 학생 항일 운동 지원.",
+      "factIds": [
+        "core-d-colonial-40",
+        "modern-103"
+      ],
+      "keywordFactIds": [],
+      "reason": "좌우 합작 단체의 성격과 광주 학생 운동 지원을 연결한다.",
+      "id": "must-105",
+      "conceptId": "colonial-105",
+      "cue": "신간회",
+      "references": []
+    },
+    {
+      "era": "colonial",
+      "label": "6·10 만세 운동",
+      "answer": "6·10 만세 운동은 1926년 순종 인산일.",
+      "factIds": [
+        "modern-099"
+      ],
+      "keywordFactIds": [],
+      "reason": "순종 인산일이라는 발생 계기를 3·1 운동·광주 학생 운동과 구별한다.",
+      "id": "must-106",
+      "conceptId": "colonial-106",
+      "cue": "6·10 만세 운동",
+      "references": [
+        {
+          "round": 79,
+          "number": 39
+        },
+        {
+          "round": 77,
+          "number": 38
+        },
+        {
+          "round": 76,
+          "number": 39
+        },
+        {
+          "round": 75,
+          "number": 36
+        },
+        {
+          "round": 74,
+          "number": 36
+        },
+        {
+          "round": 73,
+          "number": 40
+        },
+        {
+          "round": 72,
+          "number": 36
+        }
+      ]
+    },
+    {
+      "era": "colonial",
+      "label": "봉오동과 청산리",
+      "answer": "봉오동은 홍범도, 청산리는 김좌진 등 독립군.",
+      "factIds": [
+        "core-d-colonial-43"
+      ],
+      "keywordFactIds": [],
+      "reason": "대표 독립군 전투와 지휘관을 정확히 대응해야 한다.",
+      "id": "must-107",
+      "conceptId": "colonial-107",
+      "cue": "봉오동과 청산리",
+      "references": [
+        {
+          "round": 79,
+          "number": 44
+        },
+        {
+          "round": 71,
+          "number": 43
+        }
+      ]
+    },
+    {
+      "era": "colonial",
+      "label": "한국 독립군과 조선 혁명군",
+      "answer": "한국 독립군: 지청천·대전자령 / 조선 혁명군: 양세봉·영릉가.",
+      "factIds": [
+        "modern-113",
+        "modern-114"
+      ],
+      "keywordFactIds": [],
+      "reason": "1930년대 두 독립군의 지휘관과 대표 전투를 구별한다.",
+      "id": "must-108",
+      "conceptId": "colonial-108",
+      "cue": "한국 독립군과 조선 혁명군",
+      "references": [
+        {
+          "round": 78,
+          "number": 42
+        },
+        {
+          "round": 75,
+          "number": 37
+        },
+        {
+          "round": 75,
+          "number": 43
+        },
+        {
+          "round": 74,
+          "number": 42
+        },
+        {
+          "round": 72,
+          "number": 37
+        },
+        {
+          "round": 71,
+          "number": 43
+        }
+      ]
+    },
+    {
+      "era": "colonial",
+      "label": "의열단",
+      "answer": "의열단: 김원봉·조선 혁명 선언.",
+      "factIds": [
+        "core-d-colonial-46"
+      ],
+      "keywordFactIds": [],
+      "reason": "김원봉과 조선 혁명 선언은 의열단을 구별하는 대표 단서다.",
+      "id": "must-109",
+      "conceptId": "colonial-109",
+      "cue": "의열단",
+      "references": [
+        {
+          "round": 77,
+          "number": 36
+        },
+        {
+          "round": 76,
+          "number": 38
+        },
+        {
+          "round": 75,
+          "number": 37
+        },
+        {
+          "round": 73,
+          "number": 42
+        },
+        {
+          "round": 72,
+          "number": 42
+        }
+      ]
+    },
+    {
+      "era": "colonial",
+      "label": "이봉창과 윤봉길",
+      "answer": "이봉창은 도쿄, 윤봉길은 상하이 훙커우 의거.",
+      "factIds": [
+        "core-d-colonial-47"
+      ],
+      "keywordFactIds": [],
+      "reason": "두 의거의 인물과 장소는 자주 혼동하는 필수 대응 관계다.",
+      "id": "must-110",
+      "conceptId": "colonial-110",
+      "cue": "이봉창과 윤봉길",
+      "references": [
+        {
+          "round": 75,
+          "number": 31
+        }
+      ]
+    },
+    {
+      "era": "colonial",
+      "label": "조선 의용대와 한국 광복군",
+      "answer": "조선 의용대: 1938년 김원봉 / 한국 광복군: 1940년 충칭·OSS 국내 진공 준비.",
+      "factIds": [
+        "modern-187",
+        "core-d-colonial-48"
+      ],
+      "keywordFactIds": [],
+      "reason": "무장 단체의 조직 시점·인물·활동을 구별한다.",
+      "id": "must-111",
+      "conceptId": "colonial-111",
+      "cue": "조선 의용대와 한국 광복군",
+      "references": [
+        {
+          "round": 75,
+          "number": 43
+        },
+        {
+          "round": 74,
+          "number": 42
+        },
+        {
+          "round": 72,
+          "number": 37
+        },
+        {
+          "round": 71,
+          "number": 43
+        }
+      ]
+    },
+    {
+      "era": "colonial",
+      "label": "조선어학회",
+      "answer": "조선어학회: 맞춤법 통일안·사전 편찬.",
+      "factIds": [
+        "modern-128"
+      ],
+      "keywordFactIds": [],
+      "reason": "민족 문화 수호 운동에서 맞춤법과 사전 편찬의 주체를 식별한다.",
+      "id": "must-112",
+      "conceptId": "colonial-112",
+      "cue": "조선어학회",
+      "references": [
+        {
+          "round": 73,
+          "number": 38
+        }
+      ]
+    },
+    {
+      "era": "contemporary",
+      "label": "남북 협상",
+      "answer": "김구·김규식이 남북 협상 추진.",
+      "factIds": [
+        "modern-141"
+      ],
+      "keywordFactIds": [],
+      "reason": "정부 수립 과정에서 남북 협상을 추진한 인물을 구별한다.",
+      "id": "must-113",
+      "conceptId": "contemporary-113",
+      "cue": "남북 협상",
+      "references": [
+        {
+          "round": 79,
+          "number": 46
+        }
+      ]
+    },
+    {
+      "era": "contemporary",
+      "label": "대한민국 정부 수립",
+      "answer": "1948년: 5·10 선거·제헌 국회·정부 수립.",
+      "factIds": [
+        "core-d-contemporary-55"
+      ],
+      "keywordFactIds": [],
+      "reason": "1948년 선거에서 제헌 국회와 정부 수립으로 이어지는 순서가 기본이다.",
+      "id": "must-114",
+      "conceptId": "contemporary-114",
+      "cue": "대한민국 정부 수립",
+      "references": [
+        {
+          "round": 71,
+          "number": 47
+        }
+      ]
+    },
+    {
+      "era": "contemporary",
+      "label": "6·25 전쟁",
+      "answer": "6·25 전쟁: 1950년 남침·1953년 정전.",
+      "factIds": [
+        "core-d-contemporary-56"
+      ],
+      "keywordFactIds": [],
+      "reason": "전쟁 발발과 정전 시점은 현대사 사건 순서의 기준점이다.",
+      "id": "must-115",
+      "conceptId": "contemporary-115",
+      "cue": "6·25 전쟁",
+      "references": []
+    },
+    {
+      "era": "contemporary",
+      "label": "이승만 정부의 개헌",
+      "answer": "발췌 개헌: 1952년 대통령 직선제 / 사사오입 개헌: 초대 대통령 중임 제한 폐지.",
+      "factIds": [
+        "modern-150",
+        "modern-151"
+      ],
+      "keywordFactIds": [],
+      "reason": "발췌 개헌과 사사오입 개헌의 내용을 구별해야 한다.",
+      "id": "must-116",
+      "conceptId": "contemporary-116",
+      "cue": "이승만 정부의 개헌",
+      "references": [
         {
           "round": 78,
           "number": 44
         },
         {
+          "round": 74,
+          "number": 45
+        },
+        {
+          "round": 71,
+          "number": 46
+        },
+        {
+          "round": 70,
+          "number": 44
+        }
+      ]
+    },
+    {
+      "era": "contemporary",
+      "label": "4·19 혁명",
+      "answer": "4·19 혁명: 부정 선거 항의·내각 책임제.",
+      "factIds": [
+        "core-d-contemporary-59"
+      ],
+      "keywordFactIds": [],
+      "reason": "부정 선거 항의와 혁명 이후 내각 책임제 전환을 연결한다.",
+      "id": "must-117",
+      "conceptId": "contemporary-117",
+      "cue": "4·19 혁명",
+      "references": [
+        {
           "round": 79,
+          "number": 48
+        },
+        {
+          "round": 72,
           "number": 46
         }
-      ],
-      "reason": "1948년 정부 수립 과정과 이에 맞물린 남북 협상을 직접 묻는 6개 회차다. 70은 협상 시기, 71·78은 5·10 선거, 73은 제헌 헌법, 75는 단독 정부 반대 성명 이후 선거, 79는 김구의 남북 협상 활동이 정답이다. 제주 4·3, 건국 준비 위원회, 일반 인물 소개의 단순 언급은 제외했다.",
-      "conceptId": "republic-foundation-1948",
-      "id": "must-11",
+      ]
+    },
+    {
       "era": "contemporary",
-      "keywordFactIds": []
+      "label": "5·16 군사 정변",
+      "answer": "5·16 군사 정변: 1961년 박정희 집권.",
+      "factIds": [
+        "modern-154"
+      ],
+      "keywordFactIds": [],
+      "reason": "4·19 혁명 이후 박정희 집권으로 이어지는 현대사 순서의 기준점이다.",
+      "id": "must-118",
+      "conceptId": "contemporary-118",
+      "cue": "5·16 군사 정변",
+      "references": []
+    },
+    {
+      "era": "contemporary",
+      "label": "유신 체제",
+      "answer": "1972년 유신 헌법: 간선제·긴급 조치권 / 10·26: 유신 붕괴 / 12·12: 신군부 군권 장악.",
+      "factIds": [
+        "core-d-contemporary-61",
+        "core-d-contemporary-62"
+      ],
+      "keywordFactIds": [],
+      "reason": "유신의 권력 구조와 붕괴 뒤 신군부 등장을 연결하는 핵심 개념이다.",
+      "id": "must-119",
+      "conceptId": "contemporary-119",
+      "cue": "유신 체제",
+      "references": [
+        {
+          "round": 79,
+          "number": 48
+        },
+        {
+          "round": 73,
+          "number": 47
+        }
+      ]
+    },
+    {
+      "era": "contemporary",
+      "label": "5·18 민주화 운동",
+      "answer": "5·18 민주화 운동: 1980년 광주 항쟁.",
+      "factIds": [
+        "modern-162"
+      ],
+      "keywordFactIds": [],
+      "reason": "1980년 광주 항쟁을 다른 민주화 운동과 구별하는 기본 기준이다.",
+      "id": "must-120",
+      "conceptId": "contemporary-120",
+      "cue": "5·18 민주화 운동",
+      "references": []
+    },
+    {
+      "era": "contemporary",
+      "label": "6월 민주 항쟁",
+      "answer": "1987년 6월 항쟁 → 6·29 선언·5년 단임 직선제.",
+      "factIds": [
+        "core-d-contemporary-64"
+      ],
+      "keywordFactIds": [],
+      "reason": "항쟁에서 6·29 선언과 현행 대통령 선거 제도로 이어지는 결과가 핵심이다.",
+      "id": "must-121",
+      "conceptId": "contemporary-121",
+      "cue": "6월 민주 항쟁",
+      "references": [
+        {
+          "round": 73,
+          "number": 47
+        },
+        {
+          "round": 73,
+          "number": 48
+        },
+        {
+          "round": 71,
+          "number": 49
+        }
+      ]
+    },
+    {
+      "era": "contemporary",
+      "label": "경제 개발의 변화",
+      "answer": "경제 개발: 1960년대 경공업·1970년대 중화학.",
+      "factIds": [
+        "core-d-contemporary-65"
+      ],
+      "keywordFactIds": [],
+      "reason": "1960년대와 1970년대 산업 정책의 차이를 구별한다.",
+      "id": "must-122",
+      "conceptId": "contemporary-122",
+      "cue": "경제 개발의 변화",
+      "references": []
+    },
+    {
+      "era": "contemporary",
+      "label": "농지 개혁",
+      "answer": "농지 개혁: 유상 매수·유상 분배.",
+      "factIds": [
+        "modern-190"
+      ],
+      "keywordFactIds": [],
+      "reason": "유상 매수·유상 분배는 광복 이후 토지 개혁을 식별하는 핵심 원칙이다.",
+      "id": "must-123",
+      "conceptId": "contemporary-123",
+      "cue": "농지 개혁",
+      "references": [
+        {
+          "round": 77,
+          "number": 45
+        }
+      ]
+    },
+    {
+      "era": "contemporary",
+      "label": "7·4 성명과 남북 기본 합의서",
+      "answer": "1972년 7·4 공동 성명: 자주·평화·민족 대단결 / 1991년: 남북한 유엔 가입·남북 기본 합의서.",
+      "factIds": [
+        "core-d-contemporary-69",
+        "core-d-contemporary-70"
+      ],
+      "keywordFactIds": [],
+      "reason": "1972년과 1991년의 남북 관계 성과를 구별하는 기준점이다.",
+      "id": "must-124",
+      "conceptId": "contemporary-124",
+      "cue": "7·4 성명과 남북 기본 합의서",
+      "references": [
+        {
+          "round": 79,
+          "number": 49
+        },
+        {
+          "round": 76,
+          "number": 49
+        },
+        {
+          "round": 73,
+          "number": 50
+        },
+        {
+          "round": 72,
+          "number": 45
+        }
+      ]
+    },
+    {
+      "era": "contemporary",
+      "label": "6·15 선언과 10·4 선언",
+      "answer": "6·15 선언: 김대중 정부 / 10·4 선언: 노무현 정부.",
+      "factIds": [
+        "modern-180",
+        "modern-182"
+      ],
+      "keywordFactIds": [],
+      "reason": "두 남북 공동 선언을 해당 정부와 정확히 대응한다.",
+      "id": "must-125",
+      "conceptId": "contemporary-125",
+      "cue": "6·15 선언과 10·4 선언",
+      "references": [
+        {
+          "round": 71,
+          "number": 50
+        },
+        {
+          "round": 70,
+          "number": 43
+        }
+      ]
     }
   ]
 }
