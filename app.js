@@ -67,6 +67,28 @@
   }
   const key = (round, practiceMode) => `${storagePrefix}${round}:${practiceMode}`;
   const resultKey = round => `${storagePrefix}${round}:result`;
+  const examLabel = () => currentExam.era ? `${currentExam.label} 시대별 문제` : `제${currentExam.id}회 심화`;
+  const practiceLabel = (practiceMode = mode) => practiceMode === 'exam' ? (currentExam.era ? '다 풀고 채점' : '실전 시험') : '바로 채점';
+  const practiceURL = (pageName, practiceMode = mode) => `${pageName}.html?${currentExam.era ? `era=${encodeURIComponent(currentExam.era)}` : `round=${currentExam.id}`}&mode=${practiceMode}`;
+  const totalPoints = () => currentExam.questions.reduce((sum, question) => sum + Number(question.points), 0);
+  const questionLabel = question => `${question.number}번${question.sourceRound ? `<span class="era-source-label">${question.sourceRound}회 ${question.sourceNumber}번</span>` : ''}`;
+  async function loadEraExam(eraId) {
+    const response = await fetch('assets/data/era-questions.json?v=20261013-era-practice');
+    if (!response.ok) throw new Error('시대별 문제 자료를 가져오지 못했습니다.');
+    const data = await response.json();
+    const group = data.groups.find(item => item.id === eraId);
+    if (!group) throw new Error('해당 시대를 찾을 수 없습니다. 시대별 문제에서 다시 선택해 주세요.');
+    const questions = data.questions.filter(item => item.group === eraId)
+      .sort((a, b) => a.round - b.round || a.number - b.number)
+      .map((item, index) => {
+        const exam = exams.find(source => source.id === item.round);
+        const question = exam?.questions.find(source => source.number === item.number);
+        if (!question) throw new Error('시대별 문제의 원본 자료를 찾을 수 없습니다.');
+        return { ...question, number: index + 1, sourceRound: exam.id, sourceNumber: question.number, sourcePaper: exam.source?.paper };
+      });
+    if (!questions.length) throw new Error('이 시대에 등록된 문제가 없습니다.');
+    return { id: `era:v${data.version}:${eraId}`, era: eraId, label: group.label, questions };
+  }
   const getStored = name => {
     try { return JSON.parse(localStorage.getItem(name)); }
     catch { return null; }
@@ -130,7 +152,7 @@
       if (!exams.length || exams.some(exam => !Array.isArray(exam.questions) || !exam.questions.length)) throw new Error('기출문제 자료가 비어 있습니다.');
       prepareFrequentConcepts();
       const requestedRound = params.get('round');
-      currentExam = requestedRound === null ? exams[0] : exams.find(exam => exam.id === Number(requestedRound));
+      currentExam = params.has('era') ? await loadEraExam(params.get('era')) : requestedRound === null ? exams[0] : exams.find(exam => exam.id === Number(requestedRound));
       if (!currentExam) throw new Error('해당 회차를 찾을 수 없습니다. 회차 선택 페이지에서 다시 선택해 주세요.');
       if (page === 'home') renderHome();
       else if (page === 'exam') initExam();
@@ -293,7 +315,7 @@
     return `<div class="source-slice" style="aspect-ratio:${question.imageWidth * crop.w} / ${question.imageHeight * crop.h}"><img class="question-image source-slice-image" src="${escapeHTML(question.image)}" alt="${escapeHTML(alt)}" loading="lazy" decoding="async" style="width:${100 / crop.w}%;left:${-crop.x / crop.w * 100}%;top:${-crop.y / crop.h * 100}%">${button}</div>`;
   }
   function imageHTML(question, overlay = false, reveal = false) {
-    const image = `<img class="question-image" src="${escapeHTML(question.image)}" alt="${escapeHTML(question.text || `제${currentExam.id}회 심화 ${question.number}번 원문 문제와 다섯 개 보기`)}" loading="lazy" decoding="async">`;
+    const image = `<img class="question-image" src="${escapeHTML(question.image)}" alt="${escapeHTML(question.text || `${examLabel()} ${question.number}번 원문 문제와 다섯 개 보기`)}" loading="lazy" decoding="async">`;
     const regions = question.choiceRegions;
     if (!Array.isArray(regions) || regions.length !== 5) return image;
     const valid = regions.every(region => ['x', 'y', 'w', 'h'].every(axis => Number.isFinite(region[axis])) && region.w > 0 && region.h > 0);
@@ -329,14 +351,15 @@
     return `<div class="question-source${reveal ? ' revealed' : ''}">${stem}${keyNote}<div class="source-choice-body"${overlay ? ` role="radiogroup" aria-label="${question.number}번 문제 답 선택"` : ''}>${choices}</div></div>`;
   }
   function questionHTML(question) {
-    return `<section class="question" id="q-${question.number}" aria-labelledby="question-title-${question.number}"><div class="question-head"><h2 id="question-title-${question.number}">${question.number}번 <small>[${question.points}점]</small></h2><button class="bookmark-button" data-bookmark="${question.number}" aria-pressed="false" aria-label="${question.number}번 문제 다시 볼 문제로 표시"><span aria-hidden="true">☆</span> 다시 보기</button></div>${imageHTML(question, true)}<span class="visually-hidden" id="feedback-${question.number}" role="status" aria-live="polite"></span></section>`;
+    return `<section class="question" id="q-${question.number}" aria-labelledby="question-title-${question.number}"><div class="question-head"><h2 id="question-title-${question.number}">${questionLabel(question)} <small>[${question.points}점]</small></h2><button class="bookmark-button" data-bookmark="${question.number}" aria-pressed="false" aria-label="${question.number}번 문제 다시 볼 문제로 표시"><span aria-hidden="true">☆</span> 다시 보기</button></div>${imageHTML(question, true)}<span class="visually-hidden" id="feedback-${question.number}" role="status" aria-live="polite"></span></section>`;
   }
   function initExam() {
+    document.body.classList.toggle('era-practice', Boolean(currentExam.era));
     state = normalizeState(getStored(key(currentExam.id, mode)));
-    document.title = `제${currentExam.id}회 심화 · ${mode === 'exam' ? '실전 시험' : '바로 채점'} · 한국사 기출연습`;
-    document.querySelector('#header-answer-link').href = `answers.html?round=${currentExam.id}&mode=${mode}`;
+    document.title = `${examLabel()} · ${practiceLabel()} · 한국사 기출연습`;
+    document.querySelector('#header-answer-link').href = `${practiceURL('answers')}`;
     document.querySelector('#header-answer-link').hidden = mode === 'instant';
-    main.innerHTML = `<div class="exam-breadcrumb"><a href="index.html">기출문제</a><span aria-hidden="true">/</span><span>제${currentExam.id}회 심화</span></div><div id="exam-result"></div><div class="exam-layout"><div class="exam-paper-column"><article class="exam-sheet"><div class="sheet-heading"><p class="sheet-overline">제${currentExam.id}회 · 심화</p><h1>한국사능력검정시험</h1><div class="sheet-subtitle"><span>심화 문제지</span><span aria-hidden="true">│</span><span>${questionCount(currentExam)}문항 · 100점</span></div></div><div class="sheet-information"><span>시험일 ${escapeHTML(dateLabel(currentExam.date))}</span><span class="mode-tag">${mode === 'exam' ? '실전 시험 모드' : '바로 채점 모드'}</span><span>시험 시간 ${currentExam.duration || 80}분</span></div>${mode === 'exam' ? '<p class="exam-help">모든 문제를 푼 뒤 답안 제출을 누르세요. 정답과 점수는 제출 후에 공개됩니다. 제한 시간이 끝나면 자동으로 제출됩니다.</p>' : ''}<div class="mobile-status"><span id="mobile-progress"></span>${mode === 'exam' ? '<span id="mobile-timer" class="mobile-time"></span>' : ''}<button class="mobile-omr-link" id="jump-omr">답안지 ↑</button></div><div id="questions">${currentExam.questions.map(questionHTML).join('')}</div><div class="sheet-end"><p>— 제${currentExam.id}회 심화 문제 끝 —</p>${mode === 'exam' ? '<button class="button button-primary" id="end-submit">답안 제출하고 점수 보기</button>' : ''}</div></article></div><aside class="exam-sidebar" aria-label="답안지와 풀이 현황"><div class="control-panel" id="omr-panel"><div class="panel-head"><strong>나의 답안지</strong><span class="mode-small">${mode === 'exam' ? '실전 시험' : '바로 채점'}</span></div>${mode === 'exam' ? '<div class="timer-area"><span class="timer-caption">남은 시험 시간</span><div class="timer-value" id="timer" role="timer" aria-live="off">80:00</div></div>' : ''}<div class="progress-line"><span>풀이 진행</span><strong id="progress-text"></strong></div><div class="progress-track" role="progressbar" aria-label="풀이 진행률" aria-valuemin="0" aria-valuemax="${questionCount(currentExam)}" aria-valuenow="0"><div class="progress-fill"></div></div><div class="omr-grid">${currentExam.questions.map(q => `<button class="omr-button" data-jump="${q.number}" aria-label="${q.number}번 문제로 이동">${q.number}</button>`).join('')}</div><div class="omr-legend"><span><i class="legend-dot"></i>선택한 답</span><span><i class="legend-dot empty"></i>미선택</span><span><i class="legend-dot flag"></i>다시 보기</span></div><div class="panel-actions">${mode === 'exam' ? '<button class="button button-primary panel-submit" id="submit-exam">답안 제출</button>' : ''}<div class="panel-tools">${mode === 'exam' ? `<a class="text-button" href="answers.html?round=${currentExam.id}&mode=${mode}">정답표</a>` : ''}<button class="text-button" id="reset-exam">처음부터</button></div></div><p class="save-note"><span class="save-dot" aria-hidden="true"></span><span id="save-message">현재 브라우저에 자동 저장됨</span></p></div><p class="sidebar-note">문항 번호를 누르면 해당 문제로 이동합니다.<br>별표를 눌러 다시 볼 문제를 표시하세요.<br><a href="${escapeHTML(currentExam.source?.paper || 'https://www.historyexam.go.kr')}" target="_blank" rel="noopener noreferrer">원본 문제지 보기 ↗</a></p></aside></div>`;
+    main.innerHTML = `<div class="exam-breadcrumb"><a href="${currentExam.era ? 'eras.html' : 'index.html'}">${currentExam.era ? '시대별 문제' : '기출문제'}</a><span aria-hidden="true">/</span><span>${escapeHTML(examLabel())}</span></div><div id="exam-result"></div><div class="exam-layout"><div class="exam-paper-column"><article class="exam-sheet"><div class="sheet-heading"><p class="sheet-overline">${escapeHTML(examLabel())}</p><h1>${currentExam.era ? escapeHTML(currentExam.label) : '한국사능력검정시험'}</h1><div class="sheet-subtitle"><span>심화 문제지</span><span aria-hidden="true">│</span><span>${questionCount(currentExam)}문항 · ${totalPoints()}점</span></div></div><div class="sheet-information">${currentExam.era ? '<span>70~79회 기출문제 모음</span>' : `<span>시험일 ${escapeHTML(dateLabel(currentExam.date))}</span>`}<span class="mode-tag">${practiceLabel()} 모드</span>${currentExam.era ? '<span>시간 제한 없음</span>' : `<span>시험 시간 ${currentExam.duration || 80}분</span>`}</div>${mode === 'exam' ? '<p class="exam-help">모든 문제를 푼 뒤 답안 제출을 누르세요. 정답과 점수는 제출 후에 공개됩니다. ' + (currentExam.era ? '시간 제한 없이 풀 수 있습니다.' : '제한 시간이 끝나면 자동으로 제출됩니다.') + '</p>' : ''}<div class="mobile-status"><span id="mobile-progress"></span>${mode === 'exam' && !currentExam.era ? '<span id="mobile-timer" class="mobile-time"></span>' : ''}<button class="mobile-omr-link" id="jump-omr">답안지 ↑</button></div><div id="questions">${currentExam.questions.map(questionHTML).join('')}</div><div class="sheet-end"><p>— ${escapeHTML(examLabel())} 문제 끝 —</p>${mode === 'exam' ? '<button class="button button-primary" id="end-submit">답안 제출하고 점수 보기</button>' : ''}</div></article></div><aside class="exam-sidebar" aria-label="답안지와 풀이 현황"><div class="control-panel" id="omr-panel"><div class="panel-head"><strong>나의 답안지</strong><span class="mode-small">${practiceLabel()}</span></div>${mode === 'exam' && !currentExam.era ? '<div class="timer-area"><span class="timer-caption">남은 시험 시간</span><div class="timer-value" id="timer" role="timer" aria-live="off">80:00</div></div>' : ''}<div class="progress-line"><span>풀이 진행</span><strong id="progress-text"></strong></div><div class="progress-track" role="progressbar" aria-label="풀이 진행률" aria-valuemin="0" aria-valuemax="${questionCount(currentExam)}" aria-valuenow="0"><div class="progress-fill"></div></div><div class="omr-grid">${currentExam.questions.map(q => `<button class="omr-button" data-jump="${q.number}" aria-label="${q.number}번 문제로 이동">${q.number}</button>`).join('')}</div><div class="omr-legend"><span><i class="legend-dot"></i>선택한 답</span><span><i class="legend-dot empty"></i>미선택</span><span><i class="legend-dot flag"></i>다시 보기</span></div><div class="panel-actions">${mode === 'exam' ? '<button class="button button-primary panel-submit" id="submit-exam">답안 제출</button>' : ''}<div class="panel-tools">${mode === 'exam' ? `<a class="text-button" href="${practiceURL('answers')}">정답표</a>` : ''}<button class="text-button" id="reset-exam">처음부터</button></div></div><p class="save-note"><span class="save-dot" aria-hidden="true"></span><span id="save-message">현재 브라우저에 자동 저장됨</span></p></div><p class="sidebar-note">문항 번호를 누르면 해당 문제로 이동합니다.<br>별표를 눌러 다시 볼 문제를 표시하세요.${currentExam.era ? '' : `<br><a href="${escapeHTML(currentExam.source?.paper || 'https://www.historyexam.go.kr')}" target="_blank" rel="noopener noreferrer">원본 문제지 보기 ↗</a>`}</p></aside></div>`;
     document.querySelectorAll('.image-choice').forEach(button => {
       button.addEventListener('click', () => selectAnswer(Number(button.dataset.question), Number(button.dataset.choice)));
       button.addEventListener('keydown', event => {
@@ -376,7 +399,7 @@
     updateProgress();
     saveState();
     if (state.submitted) showResult();
-    if (mode === 'exam') {
+    if (mode === 'exam' && !currentExam.era) {
       updateTimer();
       if (!state.submitted) timerId = setInterval(updateTimer, 1000);
     }
@@ -452,7 +475,7 @@
     }
   }
   function updateTimer() {
-    if (mode !== 'exam') return;
+    if (mode !== 'exam' || currentExam.era) return;
     const end = state.startedAt + (currentExam.duration || 80) * 60000;
     const remaining = state.submitted ? Math.max(0, end - (state.submittedAt || Date.now())) : Math.max(0, end - Date.now());
     const seconds = Math.ceil(remaining / 1000);
@@ -483,11 +506,11 @@
   async function requestSubmit() {
     if (state.submitted) {
       if (mode === 'instant') requestReset();
-      else location.href = `answers.html?round=${currentExam.id}&mode=${mode}`;
+      else location.href = `${practiceURL('answers')}`;
       return;
     }
     const unanswered = questionCount(currentExam) - selectedCount(currentExam, state);
-    const confirmed = await confirmAction('답안을 제출할까요?', `${unanswered ? `아직 선택하지 않은 ${unanswered}문항은 0점으로 처리됩니다.\n` : `${questionCount(currentExam)}문항의 답을 모두 선택했습니다.\n`}제출하면 최종 점수와 등급을 확인할 수 있어요.${mode === 'instant' ? ' 제출 후에도 선지를 클릭하며 복습할 수 있습니다.' : ' 다시 풀려면 처음부터 시작하세요.'}`, '제출하고 채점하기');
+    const confirmed = await confirmAction('답안을 제출할까요?', `${unanswered ? `아직 선택하지 않은 ${unanswered}문항은 0점으로 처리됩니다.\n` : `${questionCount(currentExam)}문항의 답을 모두 선택했습니다.\n`}제출하면 ${currentExam.era ? '점수와 맞힌 문항 수를' : '최종 점수와 등급을'} 확인할 수 있어요.${mode === 'instant' ? ' 제출 후에도 선지를 클릭하며 복습할 수 있습니다.' : ' 다시 풀려면 처음부터 시작하세요.'}`, '제출하고 채점하기');
     if (confirmed && !state.submitted) submitExam(false);
   }
   function submitExam(timedOut) {
@@ -510,14 +533,14 @@
   }
   function resultHTML(progress, withReset) {
     const { score, correct, answered } = calculateScore(currentExam, progress);
-    return `<section class="result-banner" aria-labelledby="result-heading"><div><span class="result-label">제${currentExam.id}회 심화 · ${progress.mode === 'exam' ? '실전 시험' : '바로 채점'} 결과</span><h2 id="result-heading">${score >= 60 ? `${gradeLabel(score)} 기준을 달성했어요.` : '다음 도전을 준비해 보세요.'}</h2><p>${questionCount(currentExam)}문항 중 ${correct}문항 정답${answered < questionCount(currentExam) ? ` · ${questionCount(currentExam) - answered}문항 미선택` : ''}${progress.timedOut ? ' · 시간 종료로 자동 제출' : ''}</p>${withReset ? `<div class="result-actions">${mode === 'exam' ? `<a class="button button-secondary" href="answers.html?round=${currentExam.id}&mode=${mode}">정답표와 내 답안 보기 →</a>` : ''}<button class="button button-ghost" id="result-reset">다시 풀기</button></div>` : ''}</div><div class="result-score">${score}<small>/ 100</small></div></section>`;
+    return `<section class="result-banner" aria-labelledby="result-heading"><div><span class="result-label">${escapeHTML(examLabel())} · ${practiceLabel(progress.mode)} 결과</span><h2 id="result-heading">${currentExam.era ? `총 ${questionCount(currentExam)}문항 중 ${correct}문항을 맞혔어요.` : score >= 60 ? `${gradeLabel(score)} 기준을 달성했어요.` : '다음 도전을 준비해 보세요.'}</h2><p>${questionCount(currentExam)}문항 중 ${correct}문항 정답${answered < questionCount(currentExam) ? ` · ${questionCount(currentExam) - answered}문항 미선택` : ''}${progress.timedOut ? ' · 시간 종료로 자동 제출' : ''}</p>${withReset ? `<div class="result-actions">${mode === 'exam' ? `<a class="button button-secondary" href="${practiceURL('answers')}">정답표와 내 답안 보기 →</a>` : ''}<button class="button button-ghost" id="result-reset">다시 풀기</button></div>` : ''}</div><div class="result-score">${score}<small>/ ${totalPoints()}</small></div></section>`;
   }
   function showResult() {
     document.querySelector('#exam-result').innerHTML = resultHTML(state, true);
     document.querySelector('#result-reset').addEventListener('click', requestReset);
   }
   async function requestReset() {
-    if (!await confirmAction('처음부터 다시 풀까요?', `제${currentExam.id}회 ${mode === 'exam' ? '실전 시험' : '바로 채점'}의 선택한 답, 다시 보기 표시, 점수가 초기화됩니다.${mode === 'exam' ? '\n시험 시간도 80분부터 다시 시작합니다.' : ''}`, '초기화하고 다시 풀기')) return;
+    if (!await confirmAction('처음부터 다시 풀까요?', `${examLabel()} ${practiceLabel()}의 선택한 답, 다시 보기 표시, 점수가 초기화됩니다.${mode === 'exam' && !currentExam.era ? '\n시험 시간도 80분부터 다시 시작합니다.' : ''}`, '초기화하고 다시 풀기')) return;
     clearInterval(timerId);
     removeStored(key(currentExam.id, mode));
     if (getStored(resultKey(currentExam.id))?.mode === mode) removeStored(resultKey(currentExam.id));
@@ -530,7 +553,10 @@
       const wrap = image.closest('.question-source') || image.closest('.question-image-wrap');
       const fallback = document.createElement('div');
       fallback.className = 'image-missing';
-      fallback.innerHTML = `문제 이미지를 불러오지 못했습니다.<br><a class="question-source-link" href="${escapeHTML(currentExam.source?.paper || 'https://www.historyexam.go.kr')}" target="_blank" rel="noopener noreferrer">원본 문제지에서 확인하기 ↗</a>`;
+      const section = image.closest('.question, .answer-row');
+      const number = Number(section?.id.replace(/^(q|answer)-/, ''));
+      const question = currentExam.questions.find(item => item.number === number);
+      fallback.innerHTML = `문제 이미지를 불러오지 못했습니다.<br><a class="question-source-link" href="${escapeHTML(question?.sourcePaper || currentExam.source?.paper || 'https://www.historyexam.go.kr')}" target="_blank" rel="noopener noreferrer">원본 문제지에서 확인하기 ↗</a>`;
       (wrap || image).replaceWith(fallback);
     }, { once: true }));
   }
@@ -550,10 +576,11 @@
     return alternatives[0] || null;
   }
   function renderAnswers() {
-    document.title = `제${currentExam.id}회 심화 정답표 · 한국사 기출연습`;
+    document.body.classList.toggle('era-practice', Boolean(currentExam.era));
+    document.title = `${examLabel()} 정답표 · 한국사 기출연습`;
     const result = submittedResult();
-    main.innerHTML = `<div class="answers-heading"><div><p class="eyebrow">OFFICIAL ANSWER SHEET</p><h1>제${currentExam.id}회 심화 정답표</h1><p>${escapeHTML(dateLabel(currentExam.date))} 시행 · 공식 정답과 나의 답안을 함께 확인하세요.</p></div><div class="answers-heading-actions"><button class="button button-ghost" id="print-answers">정답표 인쇄</button> <a class="button button-primary" href="exam.html?round=${currentExam.id}&mode=${result?.mode || mode}">문제 풀기 →</a></div></div><div class="answers-toolbar"><label class="round-select-label" for="answer-round">회차 선택<select id="answer-round">${exams.map(exam => `<option value="${exam.id}"${exam.id === currentExam.id ? ' selected' : ''}>제${exam.id}회 심화</option>`).join('')}</select></label><div class="answer-filter" aria-label="정답표 필터"><button class="filter-button" id="filter-all" aria-pressed="true">전체 문항</button><button class="filter-button" id="filter-wrong" aria-pressed="false"${!result ? ' disabled' : ''}>오답·미선택${result ? ` ${questionCount(currentExam) - calculateScore(currentExam,result).correct}` : ''}</button></div></div>${result ? resultHTML(result, false) : '<p class="no-result-note">아직 제출한 답안이 없습니다. 공식 정답을 먼저 확인하거나, 문제를 풀고 제출하면 나의 답안과 점수가 함께 표시됩니다.</p>'}<section aria-label="공식 정답 한눈에 보기" class="answer-summary">${Array.from({ length: Math.ceil(questionCount(currentExam) / 10) }, (_, group) => { const questions = currentExam.questions.slice(group * 10, group * 10 + 10); return `<div class="answer-mini-group"><h2>${questions[0].number}–${questions.at(-1).number}번</h2><div class="answer-mini-rows">${questions.map(q => `<a class="answer-mini-row${result && Number(result.selections?.[q.number]) !== Number(q.answer) ? ' wrong' : ''}" href="#answer-${q.number}" data-open-answer="${q.number}" aria-label="${q.number}번 공식 정답 ${q.answer}번, 문제 펼치기"><span>${String(q.number).padStart(2,'0')}</span><strong>${symbols[q.answer]}</strong></a>`).join('')}</div></div>`; }).join('')}</section><h2 class="answer-section-heading">문항별 정답 확인</h2><div id="answer-list" class="answer-list">${currentExam.questions.map(q => answerRowHTML(q, result)).join('')}</div><p class="answer-source"><span>공식 정답 기준 · 문항을 누르면 원문 문제를 볼 수 있습니다.</span><span class="source-links">${currentExam.source?.paper ? `<a href="${escapeHTML(currentExam.source.paper)}" target="_blank" rel="noopener noreferrer">원본 문제지 ↗</a>` : ''}${currentExam.source?.answers ? `<a href="${escapeHTML(currentExam.source.answers)}" target="_blank" rel="noopener noreferrer">공식 정답표 ↗</a>` : ''}</span></p>`;
-    document.querySelector('#answer-round').addEventListener('change', event => { location.href = `answers.html?round=${event.target.value}`; });
+    main.innerHTML = `<div class="answers-heading"><div><p class="eyebrow">OFFICIAL ANSWER SHEET</p><h1>${escapeHTML(examLabel())} 정답표</h1><p>${currentExam.era ? '70~79회 기출문제 ·' : `${escapeHTML(dateLabel(currentExam.date))} 시행 ·`} 공식 정답과 나의 답안을 함께 확인하세요.</p></div><div class="answers-heading-actions"><button class="button button-ghost" id="print-answers">정답표 인쇄</button> <a class="button button-primary" href="${practiceURL('exam', result?.mode || mode)}">문제 풀기 →</a></div></div><div class="answers-toolbar">${currentExam.era ? '<a class="text-button" href="eras.html">시대별 문제 선택 →</a>' : `<label class="round-select-label" for="answer-round">회차 선택<select id="answer-round">${exams.map(exam => `<option value="${exam.id}"${exam.id === currentExam.id ? ' selected' : ''}>제${exam.id}회 심화</option>`).join('')}</select></label>`}<div class="answer-filter" aria-label="정답표 필터"><button class="filter-button" id="filter-all" aria-pressed="true">전체 문항</button><button class="filter-button" id="filter-wrong" aria-pressed="false"${!result ? ' disabled' : ''}>오답·미선택${result ? ` ${questionCount(currentExam) - calculateScore(currentExam,result).correct}` : ''}</button></div></div>${result ? resultHTML(result, false) : '<p class="no-result-note">아직 제출한 답안이 없습니다. 공식 정답을 먼저 확인하거나, 문제를 풀고 제출하면 나의 답안과 점수가 함께 표시됩니다.</p>'}<section aria-label="공식 정답 한눈에 보기" class="answer-summary">${Array.from({ length: Math.ceil(questionCount(currentExam) / 10) }, (_, group) => { const questions = currentExam.questions.slice(group * 10, group * 10 + 10); return `<div class="answer-mini-group"><h2>${questions[0].number}–${questions.at(-1).number}번</h2><div class="answer-mini-rows">${questions.map(q => `<a class="answer-mini-row${result && Number(result.selections?.[q.number]) !== Number(q.answer) ? ' wrong' : ''}" href="#answer-${q.number}" data-open-answer="${q.number}" aria-label="${q.number}번 공식 정답 ${q.answer}번, 문제 펼치기"><span>${String(q.number).padStart(2,'0')}</span><strong>${symbols[q.answer]}</strong></a>`).join('')}</div></div>`; }).join('')}</section><h2 class="answer-section-heading">문항별 정답 확인</h2><div id="answer-list" class="answer-list">${currentExam.questions.map(q => answerRowHTML(q, result)).join('')}</div><p class="answer-source"><span>공식 정답 기준 · 문항을 누르면 원문 문제를 볼 수 있습니다.</span><span class="source-links">${currentExam.source?.paper ? `<a href="${escapeHTML(currentExam.source.paper)}" target="_blank" rel="noopener noreferrer">원본 문제지 ↗</a>` : ''}${currentExam.source?.answers ? `<a href="${escapeHTML(currentExam.source.answers)}" target="_blank" rel="noopener noreferrer">공식 정답표 ↗</a>` : ''}</span></p>`;
+    document.querySelector('#answer-round')?.addEventListener('change', event => { location.href = `answers.html?round=${event.target.value}`; });
     document.querySelector('#print-answers').addEventListener('click', () => window.print());
     document.querySelector('#filter-all').addEventListener('click', () => filterAnswers(false, result));
     document.querySelector('#filter-wrong').addEventListener('click', () => filterAnswers(true, result));
@@ -571,7 +598,7 @@
   function answerRowHTML(question, result) {
     const selected = Number(result?.selections?.[question.number]);
     const correct = selected === Number(question.answer);
-    return `<details class="answer-row" id="answer-${question.number}" data-answer-number="${question.number}"><summary><span class="answer-question-number">${question.number}번<small>${question.points}점</small></span><span><span class="answer-item-label">공식 정답</span><strong class="answer-choice-number">${symbols[question.answer]}</strong></span><span><span class="answer-item-label">내가 선택한 답</span><span class="answer-choice-number">${selected ? symbols[selected] : '—'}</span></span><span class="answer-status${result ? correct ? ' correct' : ' wrong' : ''}">${!result ? '답안 없음' : correct ? '정답' : selected ? '오답' : '미선택'}</span></summary><div class="answer-detail">${imageHTML(question, false, true)}<p class="answer-detail-note"><span>공식 정답 <strong>${symbols[question.answer]}</strong></span><span>배점 ${question.points}점</span>${result ? `<span>내 점수 ${correct ? question.points : 0}점</span>` : ''}</p></div></details>`;
+    return `<details class="answer-row" id="answer-${question.number}" data-answer-number="${question.number}"><summary><span class="answer-question-number">${questionLabel(question)}<small>${question.points}점</small></span><span><span class="answer-item-label">공식 정답</span><strong class="answer-choice-number">${symbols[question.answer]}</strong></span><span><span class="answer-item-label">내가 선택한 답</span><span class="answer-choice-number">${selected ? symbols[selected] : '—'}</span></span><span class="answer-status${result ? correct ? ' correct' : ' wrong' : ''}">${!result ? '답안 없음' : correct ? '정답' : selected ? '오답' : '미선택'}</span></summary><div class="answer-detail">${imageHTML(question, false, true)}<p class="answer-detail-note"><span>공식 정답 <strong>${symbols[question.answer]}</strong></span><span>배점 ${question.points}점</span>${result ? `<span>내 점수 ${correct ? question.points : 0}점</span>` : ''}</p></div></details>`;
   }
   function filterAnswers(wrongOnly, result) {
     document.querySelector('#filter-all').setAttribute('aria-pressed', String(!wrongOnly));

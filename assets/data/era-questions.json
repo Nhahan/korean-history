@@ -1,0 +1,3058 @@
+{
+  "version": 1,
+  "basis": "문제의 지문·자료·질문이 다루는 중심 시대를 직접 검토해 분류. 오답 선지의 시대나 정답 선지의 시대만으로 분류하지 않음.",
+  "groups": [
+    {
+      "id": "prehistory",
+      "label": "선사 시대",
+      "description": "구석기 · 신석기 · 청동기 · 철기"
+    },
+    {
+      "id": "early-states",
+      "label": "고조선·여러 나라",
+      "description": "고조선 · 부여 · 초기 고구려 · 옥저 · 동예 · 삼한"
+    },
+    {
+      "id": "three-kingdoms",
+      "label": "삼국·가야",
+      "description": "고구려 · 백제 · 신라 · 가야"
+    },
+    {
+      "id": "north-south",
+      "label": "통일신라·발해·후삼국",
+      "description": "통일신라 · 발해 · 후삼국의 전개"
+    },
+    {
+      "id": "goryeo",
+      "label": "고려",
+      "description": "고려의 정치 · 경제 · 사회 · 문화"
+    },
+    {
+      "id": "joseon",
+      "label": "조선",
+      "description": "조선 건국부터 흥선 대원군 · 양요까지"
+    },
+    {
+      "id": "opening",
+      "label": "개항기·대한제국",
+      "description": "1876년 개항부터 대한제국 · 국권 피탈까지"
+    },
+    {
+      "id": "colonial",
+      "label": "일제강점기",
+      "description": "일제 통치 · 항일 운동 · 독립운동"
+    },
+    {
+      "id": "contemporary",
+      "label": "현대",
+      "description": "광복 이후 정부 수립 · 민주화 · 남북 관계"
+    },
+    {
+      "id": "cross-era",
+      "label": "시대 통합",
+      "description": "여러 시대 비교 · 지역사 · 시대를 특정하지 않은 문화유산"
+    }
+  ],
+  "questions": [
+    {
+      "round": 70,
+      "number": 1,
+      "group": "prehistory",
+      "reason": "비파형 동검·계급 발생은 청동기 시대의 특징."
+    },
+    {
+      "round": 70,
+      "number": 2,
+      "group": "early-states",
+      "reason": "단궁·과하마·반어피는 동예의 특산물."
+    },
+    {
+      "round": 70,
+      "number": 3,
+      "group": "three-kingdoms",
+      "reason": "한성 함락·개로왕 죽음은 475년, 동성왕의 동맹 강화 이전."
+    },
+    {
+      "round": 70,
+      "number": 4,
+      "group": "three-kingdoms",
+      "reason": "태학 설치·율령 반포는 소수림왕의 정책."
+    },
+    {
+      "round": 70,
+      "number": 5,
+      "group": "three-kingdoms",
+      "reason": "고구려 사신도·백제 산수무늬 벽돌의 도교 사상"
+    },
+    {
+      "round": 70,
+      "number": 6,
+      "group": "north-south",
+      "reason": "원효의 일심·화쟁 사상과 불교 대중화"
+    },
+    {
+      "round": 70,
+      "number": 7,
+      "group": "north-south",
+      "reason": "대조영이 고구려 유민을 이끌고 세운 나라는 발해."
+    },
+    {
+      "round": 70,
+      "number": 8,
+      "group": "north-south",
+      "reason": "진성여왕에게 시무 10여 조를 올린 학자는 최치원."
+    },
+    {
+      "round": 70,
+      "number": 9,
+      "group": "north-south",
+      "reason": "김경신 즉위는 785년, 혜공왕 피살과 청해진 설치 사이 (라)."
+    },
+    {
+      "round": 70,
+      "number": 10,
+      "group": "goryeo",
+      "reason": "견훤 귀순·일리천 전투 사이 경순왕 항복: 고려의 통일 과정"
+    },
+    {
+      "round": 70,
+      "number": 11,
+      "group": "goryeo",
+      "reason": "다인철소·명학소는 고려의 특수 행정 구역인 소."
+    },
+    {
+      "round": 70,
+      "number": 12,
+      "group": "goryeo",
+      "reason": "권수정혜결사문·정혜쌍수는 지눌의 사상."
+    },
+    {
+      "round": 70,
+      "number": 13,
+      "group": "goryeo",
+      "reason": "헌종을 대신해 즉위하고 주전도감을 설치한 왕은 숙종."
+    },
+    {
+      "round": 70,
+      "number": 14,
+      "group": "goryeo",
+      "reason": "정중부 등이 의종을 폐위한 사건은 1170년 무신 정변."
+    },
+    {
+      "round": 70,
+      "number": 15,
+      "group": "goryeo",
+      "reason": "(가) 강화 천도(1232)~(나) 진도 삼별초 진압(1271)."
+    },
+    {
+      "round": 70,
+      "number": 16,
+      "group": "goryeo",
+      "reason": "응방·겁령구·공녀 선발은 원 간섭기의 모습."
+    },
+    {
+      "round": 70,
+      "number": 17,
+      "group": "joseon",
+      "reason": "두 차례 왕자의 난을 거쳐 즉위한 왕은 태종."
+    },
+    {
+      "round": 70,
+      "number": 18,
+      "group": "joseon",
+      "reason": "세종 때 함길도에서 활약하고 계유정난 때 살해된 김종서."
+    },
+    {
+      "round": 70,
+      "number": 19,
+      "group": "joseon",
+      "reason": "예문관 기능을 홍문관으로 이관한 왕은 성종."
+    },
+    {
+      "round": 70,
+      "number": 20,
+      "group": "joseon",
+      "reason": "소격서 폐지·현량과는 중종 때 조광조의 개혁."
+    },
+    {
+      "round": 70,
+      "number": 21,
+      "group": "joseon",
+      "reason": "오희문의 쇄미록은 임진왜란기의 생활을 기록한 일기."
+    },
+    {
+      "round": 70,
+      "number": 22,
+      "group": "cross-era",
+      "reason": "법주사·부석사·봉정사·해인사·선암사의 여러 시대 문화유산 비교"
+    },
+    {
+      "round": 70,
+      "number": 23,
+      "group": "joseon",
+      "reason": "토지 결 수에 따른 공물 쌀 납부는 대동법, 선혜청·공인은 ㄱ·ㄷ."
+    },
+    {
+      "round": 70,
+      "number": 24,
+      "group": "joseon",
+      "reason": "이덕무·박제가 등을 규장각 검서관에 등용한 왕은 정조."
+    },
+    {
+      "round": 70,
+      "number": 25,
+      "group": "joseon",
+      "reason": "송상·만상 무역은 조선 후기, 송 상인 벽란도 무역은 고려."
+    },
+    {
+      "round": 70,
+      "number": 26,
+      "group": "joseon",
+      "reason": "열하일기·상공업 진흥·청 문물 수용 주장은 박지원."
+    },
+    {
+      "round": 70,
+      "number": 27,
+      "group": "joseon",
+      "reason": "단원·행려풍속도병은 김홍도의 단서."
+    },
+    {
+      "round": 70,
+      "number": 28,
+      "group": "joseon",
+      "reason": "(가) 병인양요(1866)와 (나) 신미양요(1871) 사이."
+    },
+    {
+      "round": 70,
+      "number": 29,
+      "group": "opening",
+      "reason": "1883년 보빙사 파견의 계기는 조미 수호 통상 조약."
+    },
+    {
+      "round": 70,
+      "number": 30,
+      "group": "opening",
+      "reason": "우정총국 축하연·급진 개화파의 3일 정변은 갑신정변."
+    },
+    {
+      "round": 70,
+      "number": 31,
+      "group": "opening",
+      "reason": "돈덕전·중명전이 있고 고종이 옮겨 간 경운궁은 덕수궁."
+    },
+    {
+      "round": 70,
+      "number": 32,
+      "group": "opening",
+      "reason": "고종 강제 퇴위·군대 해산에 항거한 의병은 정미의병."
+    },
+    {
+      "round": 70,
+      "number": 33,
+      "group": "opening",
+      "reason": "경인선 전 구간 개통식은 1900년의 일."
+    },
+    {
+      "round": 70,
+      "number": 34,
+      "group": "colonial",
+      "reason": "신흥 무관 학교와 한인 이주민 정착 지역은 서간도."
+    },
+    {
+      "round": 70,
+      "number": 35,
+      "group": "colonial",
+      "reason": "고종 인산일을 계기로 전개된 만세 운동은 3·1 운동."
+    },
+    {
+      "round": 70,
+      "number": 36,
+      "group": "colonial",
+      "reason": "토지 조사 사업(1910~1918)은 1910년대 무단 통치기."
+    },
+    {
+      "round": 70,
+      "number": 37,
+      "group": "colonial",
+      "reason": "대종교 간부 체포·독립운동과 중광단 활동"
+    },
+    {
+      "round": 70,
+      "number": 38,
+      "group": "colonial",
+      "reason": "(가) 간도 참변(1920)→(나) 자유시 참변(1921)→(다) 미쓰야 협정(1925)."
+    },
+    {
+      "round": 70,
+      "number": 39,
+      "group": "colonial",
+      "reason": "나운규의 아리랑 개봉은 1926년, 카프 결성 이후."
+    },
+    {
+      "round": 70,
+      "number": 40,
+      "group": "colonial",
+      "reason": "중일 전쟁 이후 국민학교 교육은 전시 체제의 모습."
+    },
+    {
+      "round": 70,
+      "number": 41,
+      "group": "colonial",
+      "reason": "대동단결 선언·임시정부 건국 강령 초안 작성자는 조소앙."
+    },
+    {
+      "round": 70,
+      "number": 42,
+      "group": "contemporary",
+      "reason": "김구·김규식이 메논에게 남북 협력을 요청한 때는 1948년 (마)."
+    },
+    {
+      "round": 70,
+      "number": 43,
+      "group": "contemporary",
+      "reason": "유엔 동시 가입·남북 기본 합의서는 노태우 정부 때."
+    },
+    {
+      "round": 70,
+      "number": 44,
+      "group": "contemporary",
+      "reason": "한미 상호 방위 조약 서명(1953년 10월) 이후의 사건."
+    },
+    {
+      "round": 70,
+      "number": 45,
+      "group": "contemporary",
+      "reason": "(가) 6년 임기 유신 헌법, (나) 7년 단임 1980년 헌법."
+    },
+    {
+      "round": 70,
+      "number": 46,
+      "group": "contemporary",
+      "reason": "금융 실명제·IMF 지원 요청은 김영삼 정부 때."
+    },
+    {
+      "round": 70,
+      "number": 47,
+      "group": "contemporary",
+      "reason": "호주제 폐지 민법 개정은 2005년 노무현 정부 때."
+    },
+    {
+      "round": 70,
+      "number": 48,
+      "group": "cross-era",
+      "reason": "진대법·의창·제위보·환곡·사창제의 시대별 구휼 제도 비교"
+    },
+    {
+      "round": 70,
+      "number": 49,
+      "group": "contemporary",
+      "reason": "2002년 한일 월드컵은 김대중 정부 때 개최."
+    },
+    {
+      "round": 70,
+      "number": 50,
+      "group": "cross-era",
+      "reason": "대구·광주의 지역사: 국채 보상·학생 항일·민주화 운동"
+    },
+    {
+      "round": 71,
+      "number": 1,
+      "group": "prehistory",
+      "reason": "뗀석기·전곡리 주먹도끼는 구석기 시대의 단서."
+    },
+    {
+      "round": 71,
+      "number": 2,
+      "group": "early-states",
+      "reason": "절도 12배 배상·소 발굽 점복은 부여의 풍속."
+    },
+    {
+      "round": 71,
+      "number": 3,
+      "group": "three-kingdoms",
+      "reason": "수로왕 건국 전승·김해 교류 유물은 금관가야의 단서."
+    },
+    {
+      "round": 71,
+      "number": 4,
+      "group": "three-kingdoms",
+      "reason": "진평왕의 요청으로 수에 보낼 걸사표를 쓴 승려는 원광."
+    },
+    {
+      "round": 71,
+      "number": 5,
+      "group": "three-kingdoms",
+      "reason": "(다) 평양성 공격(371)→(나) 불교 수용(384)→(가) 사비 천도(538)."
+    },
+    {
+      "round": 71,
+      "number": 6,
+      "group": "three-kingdoms",
+      "reason": "신라 국호 확정·왕호 사용·순장 금지는 지증왕의 정책."
+    },
+    {
+      "round": 71,
+      "number": 7,
+      "group": "north-south",
+      "reason": "불국사 서쪽 무영탑·다라니경 발견은 석가탑의 단서."
+    },
+    {
+      "round": 71,
+      "number": 8,
+      "group": "three-kingdoms",
+      "reason": "668년 고구려 멸망 이후 부흥 운동"
+    },
+    {
+      "round": 71,
+      "number": 9,
+      "group": "north-south",
+      "reason": "등주 공격은 732년, 무왕 즉위와 문왕 상경 천도 사이 (나)."
+    },
+    {
+      "round": 71,
+      "number": 10,
+      "group": "goryeo",
+      "reason": "해동통보 주조·지급은 고려 숙종 때의 화폐 정책."
+    },
+    {
+      "round": 71,
+      "number": 11,
+      "group": "goryeo",
+      "reason": "(가) 역분전(940)과 (나) 개정 전시과(998) 사이."
+    },
+    {
+      "round": 71,
+      "number": 12,
+      "group": "north-south",
+      "reason": "양길을 물리치고 왕건에게 나주 점령 보고를 받은 궁예."
+    },
+    {
+      "round": 71,
+      "number": 13,
+      "group": "goryeo",
+      "reason": "문헌공도 등 사학 발달에 대응한 고려의 국자감 지원."
+    },
+    {
+      "round": 71,
+      "number": 14,
+      "group": "goryeo",
+      "reason": "이의방·이고의 다툼·조위총의 난·정방은 무신 집권기."
+    },
+    {
+      "round": 71,
+      "number": 15,
+      "group": "goryeo",
+      "reason": "귀주성·죽주성에서 고려가 맞서 싸운 적은 몽골군."
+    },
+    {
+      "round": 71,
+      "number": 16,
+      "group": "goryeo",
+      "reason": "고려 문화유산을 고르는 문제: 타 시대 오답은 분류 근거에서 제외"
+    },
+    {
+      "round": 71,
+      "number": 17,
+      "group": "goryeo",
+      "reason": "고려 후기 역옹패설을 저술한 학자는 이제현."
+    },
+    {
+      "round": 71,
+      "number": 18,
+      "group": "cross-era",
+      "reason": "안동 지역사: 공민왕 피란·하회마을·도산서원 등"
+    },
+    {
+      "round": 71,
+      "number": 19,
+      "group": "joseon",
+      "reason": "계룡산·무악 등을 살펴 새 수도를 정하려는 왕은 태조."
+    },
+    {
+      "round": 71,
+      "number": 20,
+      "group": "joseon",
+      "reason": "비국·주사로 불린 변방 국방 논의 기구는 비변사."
+    },
+    {
+      "round": 71,
+      "number": 21,
+      "group": "joseon",
+      "reason": "대윤·소윤 대립으로 윤임 등이 탄압받은 사건은 을사사화."
+    },
+    {
+      "round": 71,
+      "number": 22,
+      "group": "joseon",
+      "reason": "(가) 이괄의 난(1624)과 (나) 병자호란 뒤 세자 억류 사이."
+    },
+    {
+      "round": 71,
+      "number": 23,
+      "group": "joseon",
+      "reason": "채제공의 금난전권 남용·물가 상승 지적은 신해통공 배경."
+    },
+    {
+      "round": 71,
+      "number": 24,
+      "group": "joseon",
+      "reason": "목극등이 백두산정계비를 세운 때는 1712년 숙종 때."
+    },
+    {
+      "round": 71,
+      "number": 25,
+      "group": "joseon",
+      "reason": "추사체 창안·제주 유배 중 세한도 제작은 김정희의 활동."
+    },
+    {
+      "round": 71,
+      "number": 26,
+      "group": "joseon",
+      "reason": "공노비 해방은 1801년, 염포 왜관은 1512년 폐쇄."
+    },
+    {
+      "round": 71,
+      "number": 27,
+      "group": "joseon",
+      "reason": "순조·헌종·철종 때 외척이 권력을 잡은 시기는 세도 정치기."
+    },
+    {
+      "round": 71,
+      "number": 28,
+      "group": "joseon",
+      "reason": "어재연이 광성보에서 미군에 항전한 사건은 신미양요."
+    },
+    {
+      "round": 71,
+      "number": 29,
+      "group": "opening",
+      "reason": "(가) 조일 조규 부록(1876)과 (나) 조영 조약(1883) 사이."
+    },
+    {
+      "round": 71,
+      "number": 30,
+      "group": "cross-era",
+      "reason": "시대 단서 없이 궁중 가면무·오방색 복장 등 처용무의 무형문화유산 특징을 질문"
+    },
+    {
+      "round": 71,
+      "number": 31,
+      "group": "opening",
+      "reason": "명성황후 시해 뒤 태양력·건양 연호 채택은 을미개혁."
+    },
+    {
+      "round": 71,
+      "number": 32,
+      "group": "opening",
+      "reason": "1880년 개화 정책 총괄·영선사 파견 기구는 통리기무아문."
+    },
+    {
+      "round": 71,
+      "number": 33,
+      "group": "opening",
+      "reason": "배설·양기탁이 발행에 참여한 신문은 대한매일신보."
+    },
+    {
+      "round": 71,
+      "number": 34,
+      "group": "opening",
+      "reason": "독립문 건립 추진·안경수 회장은 독립협회의 단서."
+    },
+    {
+      "round": 71,
+      "number": 35,
+      "group": "opening",
+      "reason": "메가타의 화폐 정리 사업은 제1차 한일 협약의 고문 파견과 연결."
+    },
+    {
+      "round": 71,
+      "number": 36,
+      "group": "colonial",
+      "reason": "1937년 연해주 한인 강제 이주와 권업회 민족 운동"
+    },
+    {
+      "round": 71,
+      "number": 37,
+      "group": "opening",
+      "reason": "뤼순 감옥에서 동양평화론을 집필한 인물은 안중근."
+    },
+    {
+      "round": 71,
+      "number": 38,
+      "group": "colonial",
+      "reason": "조선 태형령 시행은 1910년대 무단 통치기."
+    },
+    {
+      "round": 71,
+      "number": 39,
+      "group": "colonial",
+      "reason": "회사령 폐지(1920)와 농촌 진흥 운동(1932) 사이."
+    },
+    {
+      "round": 71,
+      "number": 40,
+      "group": "colonial",
+      "reason": "민립 대학 준비회는 1922년, 3·1 운동과 경성제대 개교 사이 (다)."
+    },
+    {
+      "round": 71,
+      "number": 41,
+      "group": "colonial",
+      "reason": "문평 석유 공장 노동자 구타로 시작된 원산 총파업(1929) 이후."
+    },
+    {
+      "round": 71,
+      "number": 42,
+      "group": "colonial",
+      "reason": "본문 보고서의 범위가 일제강점기 일상생활"
+    },
+    {
+      "round": 71,
+      "number": 43,
+      "group": "colonial",
+      "reason": "충칭 창설·지청천 총사령관은 한국광복군의 단서."
+    },
+    {
+      "round": 71,
+      "number": 44,
+      "group": "colonial",
+      "reason": "중일 전쟁·창씨개명 등 일제 전시 동원 체제"
+    },
+    {
+      "round": 71,
+      "number": 45,
+      "group": "cross-era",
+      "reason": "공주 지역사: 석장리·백제 웅진·우금치 전투"
+    },
+    {
+      "round": 71,
+      "number": 46,
+      "group": "contemporary",
+      "reason": "부산 유엔 기념 공원의 전몰장병은 6·25 전쟁과 관련."
+    },
+    {
+      "round": 71,
+      "number": 47,
+      "group": "contemporary",
+      "reason": "유엔 감시 아래 첫 총선거는 1948년 5·10 총선거."
+    },
+    {
+      "round": 71,
+      "number": 48,
+      "group": "contemporary",
+      "reason": "1988년 서울 올림픽은 노태우 정부 때 개최."
+    },
+    {
+      "round": 71,
+      "number": 49,
+      "group": "contemporary",
+      "reason": "YH 사건·김영삼 제명 뒤 부산·마산 시위는 부마 민주 항쟁."
+    },
+    {
+      "round": 71,
+      "number": 50,
+      "group": "contemporary",
+      "reason": "노벨 평화상·첫 남북 정상 회담·햇볕 정책은 김대중 정부."
+    },
+    {
+      "round": 72,
+      "number": 1,
+      "group": "prehistory",
+      "reason": "민무늬 토기·반달 돌칼·계급 발생→청동기 시대"
+    },
+    {
+      "round": 72,
+      "number": 2,
+      "group": "early-states",
+      "reason": "범금 8조·진국과의 중계 무역→고조선"
+    },
+    {
+      "round": 72,
+      "number": 3,
+      "group": "three-kingdoms",
+      "reason": "(가)371년→평양 천도 427년→(나)550년"
+    },
+    {
+      "round": 72,
+      "number": 4,
+      "group": "three-kingdoms",
+      "reason": "(가)한성·(나)공주·(다)부여, 왕궁리 탑은 익산"
+    },
+    {
+      "round": 72,
+      "number": 5,
+      "group": "three-kingdoms",
+      "reason": "쌍영총·안악 3호분 개마 무사 벽화→고구려"
+    },
+    {
+      "round": 72,
+      "number": 6,
+      "group": "north-south",
+      "reason": "촌락 문서·서시·남시→통일 신라"
+    },
+    {
+      "round": 72,
+      "number": 7,
+      "group": "north-south",
+      "reason": "정혜 공주 무덤·황상 칭호→발해"
+    },
+    {
+      "round": 72,
+      "number": 8,
+      "group": "north-south",
+      "reason": "진성여왕 재위기→889년 원종·애노 봉기"
+    },
+    {
+      "round": 72,
+      "number": 9,
+      "group": "north-south",
+      "reason": "경애왕 죽음·공산 전투에서 왕건 격파→견훤"
+    },
+    {
+      "round": 72,
+      "number": 10,
+      "group": "cross-era",
+      "reason": "삼국의 분황사 탑과 통일신라 감은사지 탑·철감선사탑 직접 비교"
+    },
+    {
+      "round": 72,
+      "number": 11,
+      "group": "goryeo",
+      "reason": "12목·의창 정비·국자감 설치→고려 성종"
+    },
+    {
+      "round": 72,
+      "number": 12,
+      "group": "goryeo",
+      "reason": "현종 피란·초조대장경 조판→거란 침입"
+    },
+    {
+      "round": 72,
+      "number": 13,
+      "group": "goryeo",
+      "reason": "삼국사기 편찬 총괄→김부식"
+    },
+    {
+      "round": 72,
+      "number": 14,
+      "group": "goryeo",
+      "reason": "(나)조위총의 난→(다)정방 설치→(가)개경 환도"
+    },
+    {
+      "round": 72,
+      "number": 15,
+      "group": "goryeo",
+      "reason": "충렬왕부터 원 공주와 혼인→원 간섭기"
+    },
+    {
+      "round": 72,
+      "number": 16,
+      "group": "goryeo",
+      "reason": "서긍의 고려 방문 기록인 고려도경→고려"
+    },
+    {
+      "round": 72,
+      "number": 17,
+      "group": "goryeo",
+      "reason": "개성 경천사지 십층석탑→고려 후기 석탑"
+    },
+    {
+      "round": 72,
+      "number": 18,
+      "group": "joseon",
+      "reason": "왕비 동생 민무구·민무질 숙청→태종"
+    },
+    {
+      "round": 72,
+      "number": 19,
+      "group": "joseon",
+      "reason": "세종 설치·최만리가 부제학 역임→집현전"
+    },
+    {
+      "round": 72,
+      "number": 20,
+      "group": "joseon",
+      "reason": "악학궤범 편찬을 명한 왕→성종"
+    },
+    {
+      "round": 72,
+      "number": 21,
+      "group": "joseon",
+      "reason": "대윤·소윤 충돌→1545년 을사사화, (라)"
+    },
+    {
+      "round": 72,
+      "number": 22,
+      "group": "joseon",
+      "reason": "1748년 조선통신사 사행; 현대 유네스코 등재는 소개 장치"
+    },
+    {
+      "round": 72,
+      "number": 23,
+      "group": "joseon",
+      "reason": "바위에 기대어 물을 보는 인물→강희안의 고사관수도"
+    },
+    {
+      "round": 72,
+      "number": 24,
+      "group": "joseon",
+      "reason": "삼전도 항복으로 끝난 전란→병자호란"
+    },
+    {
+      "round": 72,
+      "number": 25,
+      "group": "joseon",
+      "reason": "선혜청·방납 폐단 해소·쌀로 공납→대동법"
+    },
+    {
+      "round": 72,
+      "number": 26,
+      "group": "joseon",
+      "reason": "기축봉사·원자 책봉 반대·제주 유배→송시열"
+    },
+    {
+      "round": 72,
+      "number": 27,
+      "group": "joseon",
+      "reason": "도고의 시장 독점→조선 후기, 건원중보는 고려"
+    },
+    {
+      "round": 72,
+      "number": 28,
+      "group": "joseon",
+      "reason": "무예도보통지 편찬·장용영 육성→정조"
+    },
+    {
+      "round": 72,
+      "number": 29,
+      "group": "opening",
+      "reason": "본문에 개항기 신문이라고 명시: 한성순보·독립신문 등"
+    },
+    {
+      "round": 72,
+      "number": 30,
+      "group": "opening",
+      "reason": "(가)1876년→조미 조약 1882년→(나)1883년"
+    },
+    {
+      "round": 72,
+      "number": 31,
+      "group": "joseon",
+      "reason": "1866년 제너럴 셔먼호 사건과 1871년 신미양요"
+    },
+    {
+      "round": 72,
+      "number": 32,
+      "group": "opening",
+      "reason": "제2차 갑오개혁→1895년 2월 교육 조서→단발령"
+    },
+    {
+      "round": 72,
+      "number": 33,
+      "group": "opening",
+      "reason": "황룡 전투→농민군이 관군 격파 후 전주 진격"
+    },
+    {
+      "round": 72,
+      "number": 34,
+      "group": "opening",
+      "reason": "고종 강제 퇴위·군대 해산→1907년 정미의병"
+    },
+    {
+      "round": 72,
+      "number": 35,
+      "group": "opening",
+      "reason": "고종 황제 즉위·구본신참→광무개혁"
+    },
+    {
+      "round": 72,
+      "number": 36,
+      "group": "colonial",
+      "reason": "1920년 3월의 1주년 기념→1919년 3·1 운동"
+    },
+    {
+      "round": 72,
+      "number": 37,
+      "group": "colonial",
+      "reason": "청산리 전투의 김좌진·이범석 부대→북로 군정서"
+    },
+    {
+      "round": 72,
+      "number": 38,
+      "group": "colonial",
+      "reason": "신한촌·1937년 한인 강제 이주→(나)연해주"
+    },
+    {
+      "round": 72,
+      "number": 39,
+      "group": "colonial",
+      "reason": "영화 먼동이 틀 때 감독→상록수 작가 심훈"
+    },
+    {
+      "round": 72,
+      "number": 40,
+      "group": "colonial",
+      "reason": "백화점·토막집 공존→식민지 도시의 빈부 격차"
+    },
+    {
+      "round": 72,
+      "number": 41,
+      "group": "colonial",
+      "reason": "중일 전쟁·국가 총동원법→1930년대 말 전시 체제"
+    },
+    {
+      "round": 72,
+      "number": 42,
+      "group": "colonial",
+      "reason": "신채호 연보의 독립운동·역사학 활동이 중심; 신민회부터 식민지기까지"
+    },
+    {
+      "round": 72,
+      "number": 43,
+      "group": "contemporary",
+      "reason": "단독 선거 반대 봉기·제주도민 희생→제주 4·3 사건"
+    },
+    {
+      "round": 72,
+      "number": 44,
+      "group": "contemporary",
+      "reason": "우남·4·19로 하야→이승만, 경부 고속도로는 박정희"
+    },
+    {
+      "round": 72,
+      "number": 45,
+      "group": "contemporary",
+      "reason": "1975년 국민 투표·긴급 조치 제9호→유신헌법"
+    },
+    {
+      "round": 72,
+      "number": 46,
+      "group": "contemporary",
+      "reason": "호헌 철폐·직선제 요구 평화 대행진→6월 민주 항쟁"
+    },
+    {
+      "round": 72,
+      "number": 47,
+      "group": "cross-era",
+      "reason": "통일신라 관료전·고려 전시과와 과전법·조선 직전법 순서 비교"
+    },
+    {
+      "round": 72,
+      "number": 48,
+      "group": "cross-era",
+      "reason": "신문왕과 세조의 정책을 함께 비교"
+    },
+    {
+      "round": 72,
+      "number": 49,
+      "group": "contemporary",
+      "reason": "야간 통금 해제·교복·두발 자율화→전두환 정부"
+    },
+    {
+      "round": 72,
+      "number": 50,
+      "group": "cross-era",
+      "reason": "창녕 지역 식별: 가야 고분군·진흥왕 척경비·통일신라 석탑"
+    },
+    {
+      "round": 73,
+      "number": 1,
+      "group": "prehistory",
+      "reason": "비파형 동검·송국리형 토기·계급→청동기 시대"
+    },
+    {
+      "round": 73,
+      "number": 2,
+      "group": "three-kingdoms",
+      "reason": "연개소문 정변과 고구려 부흥 운동 사이의 나당 동맹"
+    },
+    {
+      "round": 73,
+      "number": 3,
+      "group": "three-kingdoms",
+      "reason": "이진아시·고령 중심 건국→대가야"
+    },
+    {
+      "round": 73,
+      "number": 4,
+      "group": "early-states",
+      "reason": "(가)삼로·가족 공동 목곽→옥저, (나)신지·읍차→삼한"
+    },
+    {
+      "round": 73,
+      "number": 5,
+      "group": "three-kingdoms",
+      "reason": "고흥에게 서기 편찬을 명한 왕→근초고왕"
+    },
+    {
+      "round": 73,
+      "number": 6,
+      "group": "three-kingdoms",
+      "reason": "영락 연호→광개토 대왕, 시호 유물은 호우명 그릇"
+    },
+    {
+      "round": 73,
+      "number": 7,
+      "group": "north-south",
+      "reason": "혜공왕 피살 이후 진골 왕위 다툼→신라 하대"
+    },
+    {
+      "round": 73,
+      "number": 8,
+      "group": "north-south",
+      "reason": "상경 용천부·이불병좌상→발해, 6좌평은 백제"
+    },
+    {
+      "round": 73,
+      "number": 9,
+      "group": "three-kingdoms",
+      "reason": "국선·설원랑·풍월도→신라 화랑도"
+    },
+    {
+      "round": 73,
+      "number": 10,
+      "group": "north-south",
+      "reason": "태봉 건국·정개 연호→궁예"
+    },
+    {
+      "round": 73,
+      "number": 11,
+      "group": "goryeo",
+      "reason": "고창 전투에서 견훤 격파→태조 왕건"
+    },
+    {
+      "round": 73,
+      "number": 12,
+      "group": "goryeo",
+      "reason": "호부·삼사·안찰사의 조세 감면 절차→고려"
+    },
+    {
+      "round": 73,
+      "number": 13,
+      "group": "goryeo",
+      "reason": "이자겸 딸과 혼인·삼국사기 편찬 지시→인종"
+    },
+    {
+      "round": 73,
+      "number": 14,
+      "group": "goryeo",
+      "reason": "명학소의 망이·망소이 봉기→소 주민의 수탈·차별"
+    },
+    {
+      "round": 73,
+      "number": 15,
+      "group": "goryeo",
+      "reason": "개경 환도 반대·강화도→진도→제주도 항쟁→삼별초"
+    },
+    {
+      "round": 73,
+      "number": 16,
+      "group": "goryeo",
+      "reason": "고려 이승휴의 제왕운기 식별; 수록된 고조선은 책 내용"
+    },
+    {
+      "round": 73,
+      "number": 17,
+      "group": "goryeo",
+      "reason": "기철 숙청·쌍성총관부 수복→공민왕"
+    },
+    {
+      "round": 73,
+      "number": 18,
+      "group": "goryeo",
+      "reason": "최무선이 화포로 격파한 진포 대첩의 상대→왜구"
+    },
+    {
+      "round": 73,
+      "number": 19,
+      "group": "cross-era",
+      "reason": "직지(고려)·조선왕조실록·의궤·동의보감·일성록 직접 비교"
+    },
+    {
+      "round": 73,
+      "number": 20,
+      "group": "joseon",
+      "reason": "조선경국전·재상 중심 정치→정도전"
+    },
+    {
+      "round": 73,
+      "number": 21,
+      "group": "joseon",
+      "reason": "석보상절 편찬 지시·월인천강지곡 저술→세종"
+    },
+    {
+      "round": 73,
+      "number": 22,
+      "group": "joseon",
+      "reason": "임진왜란 원군·대보단 황제 제사→명"
+    },
+    {
+      "round": 73,
+      "number": 23,
+      "group": "joseon",
+      "reason": "조의제문을 구실로 무오사화 발생→연산군"
+    },
+    {
+      "round": 73,
+      "number": 24,
+      "group": "joseon",
+      "reason": "강화산성·북한산성·한양도성·남한산성·수원 화성과 조선 전쟁"
+    },
+    {
+      "round": 73,
+      "number": 25,
+      "group": "joseon",
+      "reason": "서울의 지방 출신 고관이 고향 향리 감찰→경재소"
+    },
+    {
+      "round": 73,
+      "number": 26,
+      "group": "joseon",
+      "reason": "겸재·삼부연 폭포 진경산수화→정선"
+    },
+    {
+      "round": 73,
+      "number": 27,
+      "group": "joseon",
+      "reason": "강화 도령·임술 농민 봉기 때 재위→철종"
+    },
+    {
+      "round": 73,
+      "number": 28,
+      "group": "joseon",
+      "reason": "선무군관에게 베 1필 징수→균역법 세입 보충"
+    },
+    {
+      "round": 73,
+      "number": 29,
+      "group": "opening",
+      "reason": "김옥균·홍영식이 연회 계기로 정권 장악→갑신정변"
+    },
+    {
+      "round": 73,
+      "number": 30,
+      "group": "joseon",
+      "reason": "면천·구향과 신향의 향전 등 조선 후기 사회"
+    },
+    {
+      "round": 73,
+      "number": 31,
+      "group": "opening",
+      "reason": "(가)고부 봉기→황룡촌 승리→(나)전주성 점령"
+    },
+    {
+      "round": 73,
+      "number": 32,
+      "group": "opening",
+      "reason": "청 상인의 한성 진출·내지 통상→조청 상민 수륙 무역 장정"
+    },
+    {
+      "round": 73,
+      "number": 33,
+      "group": "opening",
+      "reason": "일본에 진 빚을 갚으려 의연금 모금→국채 보상 운동"
+    },
+    {
+      "round": 73,
+      "number": 34,
+      "group": "opening",
+      "reason": "외교권 박탈·공사관 기능 상실→1905년 을사늑약"
+    },
+    {
+      "round": 73,
+      "number": 35,
+      "group": "opening",
+      "reason": "전차 개통 1899년→경부선 개통 1905년"
+    },
+    {
+      "round": 73,
+      "number": 36,
+      "group": "colonial",
+      "reason": "신흥 강습소·신흥 무관 학교의 소재지→서간도"
+    },
+    {
+      "round": 73,
+      "number": 37,
+      "group": "colonial",
+      "reason": "교원의 칼 착용·헌병 경찰→1910년대 무단 통치"
+    },
+    {
+      "round": 73,
+      "number": 38,
+      "group": "colonial",
+      "reason": "5월 1일 어린이의 날·소년 운동→천도교 소년회"
+    },
+    {
+      "round": 73,
+      "number": 39,
+      "group": "colonial",
+      "reason": "대공황 이후 농촌 진흥 운동·남면북양→1930년대"
+    },
+    {
+      "round": 73,
+      "number": 40,
+      "group": "colonial",
+      "reason": "1929년 광주 한·일 학생 충돌→광주 학생 항일 운동"
+    },
+    {
+      "round": 73,
+      "number": 41,
+      "group": "colonial",
+      "reason": "본문 주제가 일제강점기 대중문화; 1971년 노래는 시대 밖 오답"
+    },
+    {
+      "round": 73,
+      "number": 42,
+      "group": "colonial",
+      "reason": "김구가 상하이에서 일본 요인 제거 위해 조직→한인 애국단"
+    },
+    {
+      "round": 73,
+      "number": 43,
+      "group": "colonial",
+      "reason": "1938년 우한에서 김원봉이 창설→조선의용대"
+    },
+    {
+      "round": 73,
+      "number": 44,
+      "group": "colonial",
+      "reason": "조선인이 만든 물건의 생산·소비 장려→물산 장려 운동"
+    },
+    {
+      "round": 73,
+      "number": 45,
+      "group": "colonial",
+      "reason": "본토 방어 시설·강제 동원→전쟁 말기, 1944년 근로령"
+    },
+    {
+      "round": 73,
+      "number": 46,
+      "group": "contemporary",
+      "reason": "1946년 좌우 합작→외상 회의와 5·10 선거 사이 (나)"
+    },
+    {
+      "round": 73,
+      "number": 47,
+      "group": "contemporary",
+      "reason": "민주 공화국·국민 주권 규정→1948년 제헌 헌법"
+    },
+    {
+      "round": 73,
+      "number": 48,
+      "group": "contemporary",
+      "reason": "공수부대 진압·발포에 맞선 광주 시민→5·18 민주화 운동."
+    },
+    {
+      "round": 73,
+      "number": 49,
+      "group": "contemporary",
+      "reason": "통일 주체 국민 회의의 대통령 선출→박정희 유신 체제"
+    },
+    {
+      "round": 73,
+      "number": 50,
+      "group": "contemporary",
+      "reason": "(가)2007년→평창 공동 입장 2018년 2월→(나)4월"
+    },
+    {
+      "round": 74,
+      "number": 1,
+      "group": "prehistory",
+      "reason": "빗살무늬 토기·갈돌·갈판은 신석기 유물."
+    },
+    {
+      "round": 74,
+      "number": 2,
+      "group": "early-states",
+      "reason": "단군왕검이 세운 최초의 국가는 고조선."
+    },
+    {
+      "round": 74,
+      "number": 3,
+      "group": "three-kingdoms",
+      "reason": "계단식 돌무덤인 장군총은 고구려 무덤."
+    },
+    {
+      "round": 74,
+      "number": 4,
+      "group": "three-kingdoms",
+      "reason": "(가)554년→대가야 멸망 562년→(나)642년."
+    },
+    {
+      "round": 74,
+      "number": 5,
+      "group": "three-kingdoms",
+      "reason": "능산리·송산리 고분군은 백제 유적."
+    },
+    {
+      "round": 74,
+      "number": 6,
+      "group": "north-south",
+      "reason": "삼국 통일·대왕암 수중릉의 주인공은 문무왕."
+    },
+    {
+      "round": 74,
+      "number": 7,
+      "group": "north-south",
+      "reason": "담비 가죽·인삼 교역, 서역 교류는 발해."
+    },
+    {
+      "round": 74,
+      "number": 8,
+      "group": "north-south",
+      "reason": "가지산문 등 9산문을 형성한 종파는 선종."
+    },
+    {
+      "round": 74,
+      "number": 9,
+      "group": "north-south",
+      "reason": "무령군 소장 출신으로 청해진을 설치한 장보고."
+    },
+    {
+      "round": 74,
+      "number": 10,
+      "group": "goryeo",
+      "reason": "935년 경순왕의 고려 항복과 왕건의 후삼국 통일 과정."
+    },
+    {
+      "round": 74,
+      "number": 11,
+      "group": "goryeo",
+      "reason": "노비안검법·제위보를 시행한 왕은 광종."
+    },
+    {
+      "round": 74,
+      "number": 12,
+      "group": "goryeo",
+      "reason": "(가)942년→서희 담판 993년→(나)1011년."
+    },
+    {
+      "round": 74,
+      "number": 13,
+      "group": "goryeo",
+      "reason": "상감 청자는 고려, 기마인물형 뿔잔은 삼국 시대."
+    },
+    {
+      "round": 74,
+      "number": 14,
+      "group": "goryeo",
+      "reason": "(가)1173년→(나)1196년→(다)1270년."
+    },
+    {
+      "round": 74,
+      "number": 15,
+      "group": "goryeo",
+      "reason": "7재 설치·무학재 폐지는 고려 전기 교육."
+    },
+    {
+      "round": 74,
+      "number": 16,
+      "group": "goryeo",
+      "reason": "보조국사·정혜결사의 주인공은 지눌."
+    },
+    {
+      "round": 74,
+      "number": 17,
+      "group": "goryeo",
+      "reason": "권문세족·공녀·변발·호복은 원 간섭기 단서."
+    },
+    {
+      "round": 74,
+      "number": 18,
+      "group": "goryeo",
+      "reason": "중추원은 군사 기밀·왕명 출납, 도병마사는 국방 회의(ㄴ·ㄹ)."
+    },
+    {
+      "round": 74,
+      "number": 19,
+      "group": "joseon",
+      "reason": "왕·왕비 신주를 모시고 환안제를 지낸 종묘 정전."
+    },
+    {
+      "round": 74,
+      "number": 20,
+      "group": "joseon",
+      "reason": "이시애의 난 평정·적개공신 책봉은 세조."
+    },
+    {
+      "round": 74,
+      "number": 21,
+      "group": "joseon",
+      "reason": "강화 결렬 뒤 일본이 재침한 전쟁은 정유재란."
+    },
+    {
+      "round": 74,
+      "number": 22,
+      "group": "joseon",
+      "reason": "갑인예송 1674년→기사환국 1689년→신임사화 1722년."
+    },
+    {
+      "round": 74,
+      "number": 23,
+      "group": "joseon",
+      "reason": "성학십도 저술·도산서원 배향 인물은 이황."
+    },
+    {
+      "round": 74,
+      "number": 24,
+      "group": "joseon",
+      "reason": "규장각·장용영으로 왕권을 강화한 왕은 정조."
+    },
+    {
+      "round": 74,
+      "number": 25,
+      "group": "joseon",
+      "reason": "1801년 순조 때 천주교 탄압은 신유박해."
+    },
+    {
+      "round": 74,
+      "number": 26,
+      "group": "joseon",
+      "reason": "탈춤 유행은 조선 후기, 계미자는 조선 전기."
+    },
+    {
+      "round": 74,
+      "number": 27,
+      "group": "joseon",
+      "reason": "이현·칠패 시장과 난전 확대는 조선 후기."
+    },
+    {
+      "round": 74,
+      "number": 28,
+      "group": "opening",
+      "reason": "1882년 관세 부과권을 인정한 조미 수호 통상 조약."
+    },
+    {
+      "round": 74,
+      "number": 29,
+      "group": "opening",
+      "reason": "(다) 김홍집은 일본 수신사로, 보빙사에는 불참."
+    },
+    {
+      "round": 74,
+      "number": 30,
+      "group": "opening",
+      "reason": "고종 황제 즉위·구본신참은 광무개혁 단서."
+    },
+    {
+      "round": 74,
+      "number": 31,
+      "group": "opening",
+      "reason": "전봉준·조병갑·사발통문은 동학 농민 운동."
+    },
+    {
+      "round": 74,
+      "number": 32,
+      "group": "opening",
+      "reason": "1907년 군대 해산 뒤 13도 창의군의 서울 진공."
+    },
+    {
+      "round": 74,
+      "number": 33,
+      "group": "colonial",
+      "reason": "1903년 하와이 이민 이후 1910년 국권 피탈을 겪은 한인 사회의 민족 운동."
+    },
+    {
+      "round": 74,
+      "number": 34,
+      "group": "opening",
+      "reason": "경부선 개통은 1905년, 대한매일신보 창간은 1904년."
+    },
+    {
+      "round": 74,
+      "number": 35,
+      "group": "opening",
+      "reason": "용암포 사건(1903)은 아관파천과 러일 전쟁 사이."
+    },
+    {
+      "round": 74,
+      "number": 36,
+      "group": "colonial",
+      "reason": "탑골 공원 독립 선언·만세 시위는 3·1 운동."
+    },
+    {
+      "round": 74,
+      "number": 37,
+      "group": "colonial",
+      "reason": "연통제를 운영한 단체는 대한민국 임시정부."
+    },
+    {
+      "round": 74,
+      "number": 38,
+      "group": "colonial",
+      "reason": "김원봉 조직·박재혁의 부산 경찰서 의거는 의열단."
+    },
+    {
+      "round": 74,
+      "number": 39,
+      "group": "colonial",
+      "reason": "조선사회경제사·보편적 발전 법칙 주장은 백남운."
+    },
+    {
+      "round": 74,
+      "number": 40,
+      "group": "colonial",
+      "reason": "지문이 명시한 일제 강점기 배경 드라마; 새마을 운동은 시대 불일치 보기."
+    },
+    {
+      "round": 74,
+      "number": 41,
+      "group": "colonial",
+      "reason": "과제 주제가 명시적으로 일제 강점기 국외 동포의 삶과 시련."
+    },
+    {
+      "round": 74,
+      "number": 42,
+      "group": "colonial",
+      "reason": "지청천 지휘·대전자령 전투 승리는 한국 독립군."
+    },
+    {
+      "round": 74,
+      "number": 43,
+      "group": "colonial",
+      "reason": "국가 총동원법·조선어 학회 사건은 민족 말살 통치기."
+    },
+    {
+      "round": 74,
+      "number": 44,
+      "group": "contemporary",
+      "reason": "제주도의 단독 선거 반대와 희생은 제주 4·3 사건."
+    },
+    {
+      "round": 74,
+      "number": 45,
+      "group": "contemporary",
+      "reason": "부산 임시 수도·피란 학교는 6·25 전쟁 단서."
+    },
+    {
+      "round": 74,
+      "number": 46,
+      "group": "contemporary",
+      "reason": "2·28 민주 운동·3·15 의거는 4·19 혁명으로 연결."
+    },
+    {
+      "round": 74,
+      "number": 47,
+      "group": "contemporary",
+      "reason": "3·1 민주 구국 선언 1976년→YH 농성 1979년."
+    },
+    {
+      "round": 74,
+      "number": 48,
+      "group": "contemporary",
+      "reason": "2001년 IMF 구제 금융 전액 상환은 김대중 정부."
+    },
+    {
+      "round": 74,
+      "number": 49,
+      "group": "contemporary",
+      "reason": "참여 정부·평화번영정책은 노무현 정부."
+    },
+    {
+      "round": 74,
+      "number": 50,
+      "group": "cross-era",
+      "reason": "지문 전체가 신라 독서삼품과·고려 과거·조선 문과·개항기 선거조례 비교."
+    },
+    {
+      "round": 75,
+      "number": 1,
+      "group": "prehistory",
+      "reason": "송국리형 토기·비파형 동검·계급 발생은 청동기."
+    },
+    {
+      "round": 75,
+      "number": 2,
+      "group": "early-states",
+      "reason": "(가)준왕 때→위만 집권→(나)한 무제의 공격."
+    },
+    {
+      "round": 75,
+      "number": 3,
+      "group": "three-kingdoms",
+      "reason": "지문 금관총·황남대총의 신라 문화유산을 찾는 문제."
+    },
+    {
+      "round": 75,
+      "number": 4,
+      "group": "three-kingdoms",
+      "reason": "고령·지산동 고분군은 대가야 유적."
+    },
+    {
+      "round": 75,
+      "number": 5,
+      "group": "three-kingdoms",
+      "reason": "대대로·욕살·처려근지라는 고구려 중앙·지방 관제를 가진 국가의 경제."
+    },
+    {
+      "round": 75,
+      "number": 6,
+      "group": "north-south",
+      "reason": "780년 혜공왕 사망 이후는 신라 하대."
+    },
+    {
+      "round": 75,
+      "number": 7,
+      "group": "three-kingdoms",
+      "reason": "천리장성 축조 시작 631년→연개소문 정변 642년."
+    },
+    {
+      "round": 75,
+      "number": 8,
+      "group": "north-south",
+      "reason": "대조영·인안·대흥·건흥은 발해의 왕·연호."
+    },
+    {
+      "round": 75,
+      "number": 9,
+      "group": "three-kingdoms",
+      "reason": "(가) 부소산성·정림사지가 있는 부여는 백제의 사비."
+    },
+    {
+      "round": 75,
+      "number": 10,
+      "group": "north-south",
+      "reason": "927년 견훤의 경주 침입과 930년 고창 전투 사이 후삼국 항쟁."
+    },
+    {
+      "round": 75,
+      "number": 11,
+      "group": "goryeo",
+      "reason": "12목 설치·경학박사·의학박사 파견은 고려 성종."
+    },
+    {
+      "round": 75,
+      "number": 12,
+      "group": "goryeo",
+      "reason": "삼별초가 진도에서 항쟁한 상대는 몽골."
+    },
+    {
+      "round": 75,
+      "number": 13,
+      "group": "goryeo",
+      "reason": "문헌공·해동공자로 불린 인물은 최충."
+    },
+    {
+      "round": 75,
+      "number": 14,
+      "group": "goryeo",
+      "reason": "서경·대화궁→묘청의 난(1135), 1126~1170년 사이 (다)."
+    },
+    {
+      "round": 75,
+      "number": 15,
+      "group": "goryeo",
+      "reason": "홍건적 침입 1361년→위화도 회군 1388년."
+    },
+    {
+      "round": 75,
+      "number": 16,
+      "group": "goryeo",
+      "reason": "소의 공납·해동통보 주조는 고려의 경제 모습."
+    },
+    {
+      "round": 75,
+      "number": 17,
+      "group": "goryeo",
+      "reason": "수시력·화통도감·상감 청자는 고려의 과학 기술."
+    },
+    {
+      "round": 75,
+      "number": 18,
+      "group": "goryeo",
+      "reason": "관촉사 미륵보살 입상·경천사지 십층석탑은 고려."
+    },
+    {
+      "round": 75,
+      "number": 19,
+      "group": "joseon",
+      "reason": "이방석의 세자 책봉에 반발해 제1차 왕자의 난 발생."
+    },
+    {
+      "round": 75,
+      "number": 20,
+      "group": "joseon",
+      "reason": "백관 규찰·탄핵을 맡고 감찰을 둔 기구는 사헌부."
+    },
+    {
+      "round": 75,
+      "number": 21,
+      "group": "joseon",
+      "reason": "시전 부락 정벌·경성·경원 무역소는 여진 정책."
+    },
+    {
+      "round": 75,
+      "number": 22,
+      "group": "joseon",
+      "reason": "(가)1545년→을사사화 1545년→(나)1547년."
+    },
+    {
+      "round": 75,
+      "number": 23,
+      "group": "joseon",
+      "reason": "남한산성 항전·삼학사 순절은 병자호란 단서."
+    },
+    {
+      "round": 75,
+      "number": 24,
+      "group": "joseon",
+      "reason": "이인좌의 난 평정·감란록 편찬 명령은 영조."
+    },
+    {
+      "round": 75,
+      "number": 25,
+      "group": "joseon",
+      "reason": "장용영이 존재한 정조 말~순조 초는 조선 후기."
+    },
+    {
+      "round": 75,
+      "number": 26,
+      "group": "joseon",
+      "reason": "화성부·고구마 재배는 조선 후기, 염포 왜관은 전기."
+    },
+    {
+      "round": 75,
+      "number": 27,
+      "group": "joseon",
+      "reason": "김조순의 사위·안동 김씨 세도 정치의 시작은 순조."
+    },
+    {
+      "round": 75,
+      "number": 28,
+      "group": "opening",
+      "reason": "김옥균 등 급진 개화파가 일으킨 사건은 갑신정변."
+    },
+    {
+      "round": 75,
+      "number": 29,
+      "group": "opening",
+      "reason": "지문이 1894년 농민군 합세와 1898년 최시형 재판으로 동학을 제시."
+    },
+    {
+      "round": 75,
+      "number": 30,
+      "group": "opening",
+      "reason": "포츠머스 조약으로 끝난 전쟁은 러일 전쟁."
+    },
+    {
+      "round": 75,
+      "number": 31,
+      "group": "opening",
+      "reason": "면암집·왜양일체론·강화도 조약 반대는 최익현."
+    },
+    {
+      "round": 75,
+      "number": 32,
+      "group": "opening",
+      "reason": "㉡ 보안회는 일본의 황무지 개간권 요구를 저지."
+    },
+    {
+      "round": 75,
+      "number": 33,
+      "group": "opening",
+      "reason": "하얼빈 의거·뤼순 재판·동양 평화론은 안중근."
+    },
+    {
+      "round": 75,
+      "number": 34,
+      "group": "colonial",
+      "reason": "헌병 경찰·조선인 태형은 1910년대 무단 통치."
+    },
+    {
+      "round": 75,
+      "number": 35,
+      "group": "colonial",
+      "reason": "1923년 관동 대지진이 재작년이면 기사 시점은 1925년."
+    },
+    {
+      "round": 75,
+      "number": 36,
+      "group": "colonial",
+      "reason": "파리 강화 회의 무렵의 대규모 독립운동은 3·1 운동."
+    },
+    {
+      "round": 75,
+      "number": 37,
+      "group": "colonial",
+      "reason": "1915년 대구에서 박상진 등이 조직한 대한 광복회."
+    },
+    {
+      "round": 75,
+      "number": 38,
+      "group": "cross-era",
+      "reason": "1898년 중추원·1899년 대한국 국제·1917년 대동단결·1948년 헌법 순서."
+    },
+    {
+      "round": 75,
+      "number": 39,
+      "group": "opening",
+      "reason": "1905년 멕시코 이민·국권 회복 노력과 1910년 숭무 학교 민족 운동."
+    },
+    {
+      "round": 75,
+      "number": 40,
+      "group": "colonial",
+      "reason": "문재철·소작인회 타협→암태도 쟁의, 이후 1927년 농민 총동맹."
+    },
+    {
+      "round": 75,
+      "number": 41,
+      "group": "colonial",
+      "reason": "한글 맞춤법 통일안·한글날 날짜 조정은 조선어 학회."
+    },
+    {
+      "round": 75,
+      "number": 42,
+      "group": "colonial",
+      "reason": "별건곤의 모던 걸·모던 보이는 일제 강점기 문화."
+    },
+    {
+      "round": 75,
+      "number": 43,
+      "group": "colonial",
+      "reason": "1940년 충칭 창설·지청천 총사령은 한국 광복군."
+    },
+    {
+      "round": 75,
+      "number": 44,
+      "group": "colonial",
+      "reason": "중일 전쟁·금속류 공출은 1937년 이후 전시 체제."
+    },
+    {
+      "round": 75,
+      "number": 45,
+      "group": "contemporary",
+      "reason": "김구 성명 1948년 2월→5·10 총선거 1948년 5월."
+    },
+    {
+      "round": 75,
+      "number": 46,
+      "group": "contemporary",
+      "reason": "부산 정치 파동·1952년 발췌 개헌은 이승만 정부."
+    },
+    {
+      "round": 75,
+      "number": 47,
+      "group": "contemporary",
+      "reason": "동일방직 사건 1978년·YH 농성 1979년은 유신 체제."
+    },
+    {
+      "round": 75,
+      "number": 48,
+      "group": "contemporary",
+      "reason": "이한열 피격·호헌 철폐 요구는 6월 민주 항쟁."
+    },
+    {
+      "round": 75,
+      "number": 49,
+      "group": "contemporary",
+      "reason": "문민정부·하나회 청산은 김영삼 정부."
+    },
+    {
+      "round": 75,
+      "number": 50,
+      "group": "cross-era",
+      "reason": "제주 4·3 기념관과 일제 알뜨르 비행장으로 지역을 찾아 김만덕까지 탐구."
+    },
+    {
+      "round": 76,
+      "number": 1,
+      "group": "prehistory",
+      "reason": "전곡리 주먹도끼·찍개는 구석기 뗀석기."
+    },
+    {
+      "round": 76,
+      "number": 2,
+      "group": "early-states",
+      "reason": "계루부·상가·대로·패자와 서옥제로 초기 고구려 제도·풍속 식별."
+    },
+    {
+      "round": 76,
+      "number": 3,
+      "group": "three-kingdoms",
+      "reason": "(나) 371→(가) 475→(다) 554년."
+    },
+    {
+      "round": 76,
+      "number": 4,
+      "group": "three-kingdoms",
+      "reason": "능산리 금동 대향로는 백제 유물."
+    },
+    {
+      "round": 76,
+      "number": 5,
+      "group": "north-south",
+      "reason": "서원경 네 촌락의 기록은 통일 신라 촌락 문서."
+    },
+    {
+      "round": 76,
+      "number": 6,
+      "group": "north-south",
+      "reason": "국학·9주·9서당 정비는 신문왕."
+    },
+    {
+      "round": 76,
+      "number": 7,
+      "group": "north-south",
+      "reason": "부석사 창건·화엄 사상 전파는 의상."
+    },
+    {
+      "round": 76,
+      "number": 8,
+      "group": "north-south",
+      "reason": "신라와 자리 순서를 다툰 대봉예는 발해 왕자."
+    },
+    {
+      "round": 76,
+      "number": 9,
+      "group": "north-south",
+      "reason": "(가)는 혜공왕 시해(780)~원종·애노의 난(889)."
+    },
+    {
+      "round": 76,
+      "number": 10,
+      "group": "goryeo",
+      "reason": "935년 견훤이 고려 왕건에게 귀순한 뒤 후삼국 통일 과정."
+    },
+    {
+      "round": 76,
+      "number": 11,
+      "group": "goryeo",
+      "reason": "청연각·보문각·양현고 설치는 예종."
+    },
+    {
+      "round": 76,
+      "number": 12,
+      "group": "goryeo",
+      "reason": "야별초를 좌·우별초로 나눈 인물은 최우."
+    },
+    {
+      "round": 76,
+      "number": 13,
+      "group": "goryeo",
+      "reason": "송·일본·아라비아 상인과 교역한 나라는 고려."
+    },
+    {
+      "round": 76,
+      "number": 14,
+      "group": "goryeo",
+      "reason": "(나) 945→(다) 1009→(가) 1126년."
+    },
+    {
+      "round": 76,
+      "number": 15,
+      "group": "goryeo",
+      "reason": "만월대·현릉·만부교는 개경의 유적."
+    },
+    {
+      "round": 76,
+      "number": 16,
+      "group": "goryeo",
+      "reason": "1253년 김윤후가 충주성에서 막은 적은 몽골군."
+    },
+    {
+      "round": 76,
+      "number": 17,
+      "group": "goryeo",
+      "reason": "동식물 형태를 본뜬 고려 청자는 상형 청자."
+    },
+    {
+      "round": 76,
+      "number": 18,
+      "group": "goryeo",
+      "reason": "원 황녀와 혼인·변발한 충렬왕 때는 원 간섭기."
+    },
+    {
+      "round": 76,
+      "number": 19,
+      "group": "joseon",
+      "reason": "박연에게 편경 제작·아악 정비를 맡긴 왕은 세종."
+    },
+    {
+      "round": 76,
+      "number": 20,
+      "group": "joseon",
+      "reason": "갑자사화를 일으키고 중종반정으로 폐위된 연산군."
+    },
+    {
+      "round": 76,
+      "number": 21,
+      "group": "joseon",
+      "reason": "권율·황진의 이치 전투는 1592년 임진왜란."
+    },
+    {
+      "round": 76,
+      "number": 22,
+      "group": "joseon",
+      "reason": "옥당·궁중 도서 관리·왕의 자문은 홍문관."
+    },
+    {
+      "round": 76,
+      "number": 23,
+      "group": "joseon",
+      "reason": "방납 폐단 개선·김육의 확대 추진은 대동법."
+    },
+    {
+      "round": 76,
+      "number": 24,
+      "group": "joseon",
+      "reason": "곽우록·영업전 설정·한전론은 이익."
+    },
+    {
+      "round": 76,
+      "number": 25,
+      "group": "joseon",
+      "reason": "준천사 설치·신문고 복구는 영조."
+    },
+    {
+      "round": 76,
+      "number": 26,
+      "group": "joseon",
+      "reason": "신유박해는 1801년, 계미자 주조는 1403년."
+    },
+    {
+      "round": 76,
+      "number": 27,
+      "group": "joseon",
+      "reason": "혜원은 신윤복, 달밤의 남녀를 그린 작품은 월하정인."
+    },
+    {
+      "round": 76,
+      "number": 28,
+      "group": "opening",
+      "reason": "1876년 강화도 조약 반대 왜양일체론 상소."
+    },
+    {
+      "round": 76,
+      "number": 29,
+      "group": "joseon",
+      "reason": "1865~1868년 경복궁 중건 중 1866년 병인양요."
+    },
+    {
+      "round": 76,
+      "number": 30,
+      "group": "opening",
+      "reason": "청 상인의 한성·양화진 상업 허용은 조청 무역 장정."
+    },
+    {
+      "round": 76,
+      "number": 31,
+      "group": "opening",
+      "reason": "전봉준 공초·사발통문은 동학 농민 운동 자료."
+    },
+    {
+      "round": 76,
+      "number": 32,
+      "group": "opening",
+      "reason": "독립관 공개 토론회·이상재 참여는 독립협회."
+    },
+    {
+      "round": 76,
+      "number": 33,
+      "group": "opening",
+      "reason": "구본신참·원수부·무관학교 설치는 광무개혁."
+    },
+    {
+      "round": 76,
+      "number": 34,
+      "group": "opening",
+      "reason": "개항 이후 배재학당·광혜원·한성 전기 회사·원각사의 근대 문물; 아리랑은 오답."
+    },
+    {
+      "round": 76,
+      "number": 35,
+      "group": "opening",
+      "reason": "외교권 강탈·통감부 설치는 1905년 을사늑약."
+    },
+    {
+      "round": 76,
+      "number": 36,
+      "group": "colonial",
+      "reason": "조선 태형령·헌병 경찰은 1910년대 무단 통치."
+    },
+    {
+      "round": 76,
+      "number": 37,
+      "group": "colonial",
+      "reason": "6년 수업은 제2차 조선 교육령, 민립 대학 기성회는 이듬해 창립."
+    },
+    {
+      "round": 76,
+      "number": 38,
+      "group": "colonial",
+      "reason": "김원봉·윤세주가 1919년 지린에서 조직한 의열단."
+    },
+    {
+      "round": 76,
+      "number": 39,
+      "group": "colonial",
+      "reason": "조만식·국산품 애용 구호는 물산 장려 운동."
+    },
+    {
+      "round": 76,
+      "number": 40,
+      "group": "colonial",
+      "reason": "1927년 여성의 단결·지위 향상 단체는 근우회."
+    },
+    {
+      "round": 76,
+      "number": 41,
+      "group": "colonial",
+      "reason": "한국광복군 창설은 임시정부, 경학사는 1911년 조직."
+    },
+    {
+      "round": 76,
+      "number": 42,
+      "group": "colonial",
+      "reason": "중일 전쟁은 1937년, 여자 정신 근로령은 이후."
+    },
+    {
+      "round": 76,
+      "number": 43,
+      "group": "colonial",
+      "reason": "강좌 자체가 일제강점기 문화·일상 주제; 새마을 운동은 불일치 보기."
+    },
+    {
+      "round": 76,
+      "number": 44,
+      "group": "contemporary",
+      "reason": "해방 직후 여운형이 조직한 치안·건국 준비 단체는 건준."
+    },
+    {
+      "round": 76,
+      "number": 45,
+      "group": "contemporary",
+      "reason": "제주·단독 선거 반대·순이 삼촌은 제주 4·3 사건."
+    },
+    {
+      "round": 76,
+      "number": 46,
+      "group": "cross-era",
+      "reason": "내포 답사 경로 남연군 묘·윤봉길 생가·고려 수덕사·백제 임존성·추사 고택."
+    },
+    {
+      "round": 76,
+      "number": 47,
+      "group": "contemporary",
+      "reason": "(가) 1954→(나) 1972→(다) 1987년."
+    },
+    {
+      "round": 76,
+      "number": 48,
+      "group": "contemporary",
+      "reason": "경부 고속 국도 준공·개발 제한 구역 설정은 박정희 때."
+    },
+    {
+      "round": 76,
+      "number": 49,
+      "group": "contemporary",
+      "reason": "북방 정책·7·7 선언은 노태우 정부."
+    },
+    {
+      "round": 76,
+      "number": 50,
+      "group": "cross-era",
+      "reason": "고구려·신라·발해·고려·대한제국 군주의 독자 연호를 통시적으로 비교."
+    },
+    {
+      "round": 77,
+      "number": 1,
+      "group": "prehistory",
+      "reason": "민무늬 토기·반달 돌칼·계급 발생은 청동기 시대."
+    },
+    {
+      "round": 77,
+      "number": 2,
+      "group": "early-states",
+      "reason": "우거왕과 한 무제의 전쟁은 위만조선 멸망 과정."
+    },
+    {
+      "round": 77,
+      "number": 3,
+      "group": "early-states",
+      "reason": "단궁·과하마·반어피·무천은 동예."
+    },
+    {
+      "round": 77,
+      "number": 4,
+      "group": "three-kingdoms",
+      "reason": "천마총·금령총이 있는 경주는 신라의 수도."
+    },
+    {
+      "round": 77,
+      "number": 5,
+      "group": "three-kingdoms",
+      "reason": "백가의 난 진압·왕과 왕비의 지석은 무령왕."
+    },
+    {
+      "round": 77,
+      "number": 6,
+      "group": "three-kingdoms",
+      "reason": "660년 백제 공격~676년 기벌포 전투 사이의 삼국 통일 전쟁"
+    },
+    {
+      "round": 77,
+      "number": 7,
+      "group": "north-south",
+      "reason": "5경 15부·신라와 교류한 나라는 발해."
+    },
+    {
+      "round": 77,
+      "number": 8,
+      "group": "three-kingdoms",
+      "reason": "국내성·돌무지무덤·영락 연호는 고구려."
+    },
+    {
+      "round": 77,
+      "number": 9,
+      "group": "north-south",
+      "reason": "왕건의 나주 수비·철원 천도를 지시한 인물은 궁예."
+    },
+    {
+      "round": 77,
+      "number": 10,
+      "group": "north-south",
+      "reason": "청해진 폐지는 851년, 선종이 퍼진 신라 말."
+    },
+    {
+      "round": 77,
+      "number": 11,
+      "group": "goryeo",
+      "reason": "귀주 대첩의 상대·태평 연호는 거란의 요."
+    },
+    {
+      "round": 77,
+      "number": 12,
+      "group": "cross-era",
+      "reason": "통일 신라·조선·일제 강점기를 잇는 생태·환경 다큐의 시대순 구성"
+    },
+    {
+      "round": 77,
+      "number": 13,
+      "group": "goryeo",
+      "reason": "단산오옥명 먹·서긍을 제시한 고려 문화유산 판별"
+    },
+    {
+      "round": 77,
+      "number": 14,
+      "group": "goryeo",
+      "reason": "통천관·독자 연호 준풍은 고려의 황제국 표방."
+    },
+    {
+      "round": 77,
+      "number": 15,
+      "group": "goryeo",
+      "reason": "주자서를 들여온 안향은 고려 충렬왕 때 활동."
+    },
+    {
+      "round": 77,
+      "number": 16,
+      "group": "goryeo",
+      "reason": "이의민 제거·교정별감으로 집권한 인물은 최충헌."
+    },
+    {
+      "round": 77,
+      "number": 17,
+      "group": "goryeo",
+      "reason": "삼국사기 편찬 (가)는 김부식, 삼국유사 (나)는 일연."
+    },
+    {
+      "round": 77,
+      "number": 18,
+      "group": "goryeo",
+      "reason": "위화도 회군은 1388년, (마) 1351~1392년."
+    },
+    {
+      "round": 77,
+      "number": 19,
+      "group": "joseon",
+      "reason": "문하부 낭사에서 분리·대사간의 간쟁은 사간원."
+    },
+    {
+      "round": 77,
+      "number": 20,
+      "group": "joseon",
+      "reason": "불경 번역·간행을 위한 간경도감 설치는 세조."
+    },
+    {
+      "round": 77,
+      "number": 21,
+      "group": "joseon",
+      "reason": "병산 서원·훈련도감 설치 건의는 유성룡."
+    },
+    {
+      "round": 77,
+      "number": 22,
+      "group": "joseon",
+      "reason": "남한산성 항전은 병자호란, 효종의 북벌 준비는 이후."
+    },
+    {
+      "round": 77,
+      "number": 23,
+      "group": "joseon",
+      "reason": "초량 왜관은 1678년, 계해약조는 1443년."
+    },
+    {
+      "round": 77,
+      "number": 24,
+      "group": "joseon",
+      "reason": "경신·기사·갑술환국은 숙종 때 정치 변동."
+    },
+    {
+      "round": 77,
+      "number": 25,
+      "group": "joseon",
+      "reason": "도고의 독점 매매는 조선 후기 상업의 모습."
+    },
+    {
+      "round": 77,
+      "number": 26,
+      "group": "joseon",
+      "reason": "북학의·청 문물 수용·상공업 진흥 주장은 박제가."
+    },
+    {
+      "round": 77,
+      "number": 27,
+      "group": "cross-era",
+      "reason": "충주 고구려비·중앙탑·탄금대·임충민공 충렬사를 잇는 지역사 답사"
+    },
+    {
+      "round": 77,
+      "number": 28,
+      "group": "joseon",
+      "reason": "박규수의 진주 안핵사 파견은 1862년 임술농민봉기."
+    },
+    {
+      "round": 77,
+      "number": 29,
+      "group": "joseon",
+      "reason": "양헌수의 정족산성 프랑스군 격퇴는 병인양요."
+    },
+    {
+      "round": 77,
+      "number": 30,
+      "group": "opening",
+      "reason": "단발령·태양력·건양 연호는 1895년 을미개혁."
+    },
+    {
+      "round": 77,
+      "number": 31,
+      "group": "opening",
+      "reason": "민겸호 피살·청군 진압은 1882년 임오군란."
+    },
+    {
+      "round": 77,
+      "number": 32,
+      "group": "colonial",
+      "reason": "포와유람기·호놀룰루로 하와이를 식별하고 현지 민족 운동을 질문"
+    },
+    {
+      "round": 77,
+      "number": 33,
+      "group": "opening",
+      "reason": "중명전 강제 체결·민영환 자결은 을사늑약."
+    },
+    {
+      "round": 77,
+      "number": 34,
+      "group": "opening",
+      "reason": "안창호·양기탁의 비밀 조직·태극 서관은 신민회."
+    },
+    {
+      "round": 77,
+      "number": 35,
+      "group": "opening",
+      "reason": "헐버트의 교사 활동·사민필지는 육영공원."
+    },
+    {
+      "round": 77,
+      "number": 36,
+      "group": "colonial",
+      "reason": "나석주가 활동한 단체는 김원봉 등이 결성한 의열단."
+    },
+    {
+      "round": 77,
+      "number": 37,
+      "group": "colonial",
+      "reason": "임시 토지 조사국의 토지 조사 사업은 1910~1918년."
+    },
+    {
+      "round": 77,
+      "number": 38,
+      "group": "colonial",
+      "reason": "민족 단일당 운동·1931년 해소는 신간회."
+    },
+    {
+      "round": 77,
+      "number": 39,
+      "group": "colonial",
+      "reason": "대공황 이후 남부 면화 재배 확대는 1930년대."
+    },
+    {
+      "round": 77,
+      "number": 40,
+      "group": "colonial",
+      "reason": "1926년 윤심덕 사의 찬미를 중심으로 일제 강점기 가요 판별"
+    },
+    {
+      "round": 77,
+      "number": 41,
+      "group": "colonial",
+      "reason": "국민부 산하·양세봉·영릉가 전투는 조선 혁명군."
+    },
+    {
+      "round": 77,
+      "number": 42,
+      "group": "colonial",
+      "reason": "대동단결 선언·삼균주의 제창은 조소앙."
+    },
+    {
+      "round": 77,
+      "number": 43,
+      "group": "colonial",
+      "reason": "가갸날은 일제강점기인 1926년에 제정."
+    },
+    {
+      "round": 77,
+      "number": 44,
+      "group": "colonial",
+      "reason": "국가 총동원법·학도 동원은 1930년대 말 이후."
+    },
+    {
+      "round": 77,
+      "number": 45,
+      "group": "contemporary",
+      "reason": "농민의 상환 부담·지주의 지가 증권은 농지 개혁."
+    },
+    {
+      "round": 77,
+      "number": 46,
+      "group": "contemporary",
+      "reason": "미소 공동 위원회·좌우 합작·해방 정국을 이끈 여운형 추도문"
+    },
+    {
+      "round": 77,
+      "number": 47,
+      "group": "contemporary",
+      "reason": "수출 100억 달러·행정 수도 건설 계획은 박정희 때."
+    },
+    {
+      "round": 77,
+      "number": 48,
+      "group": "contemporary",
+      "reason": "김영삼 제명 뒤 1979년 10월 부마 민주 항쟁 발생."
+    },
+    {
+      "round": 77,
+      "number": 49,
+      "group": "contemporary",
+      "reason": "보도 지침으로 기사 제목·사진·배치 통제는 전두환 때."
+    },
+    {
+      "round": 77,
+      "number": 50,
+      "group": "cross-era",
+      "reason": "고구려·백제·고려·조선 왕들의 천도 사례를 함께 비교"
+    },
+    {
+      "round": 78,
+      "number": 1,
+      "group": "prehistory",
+      "reason": "농경 시작·빗살무늬 토기 → 신석기"
+    },
+    {
+      "round": 78,
+      "number": 2,
+      "group": "early-states",
+      "reason": "진개 침입(가) → 위만 확장(다) → 한과 전쟁(나)"
+    },
+    {
+      "round": 78,
+      "number": 3,
+      "group": "early-states",
+      "reason": "5월 제사·천군 → (가) 삼한, 영고 → (나) 부여"
+    },
+    {
+      "round": 78,
+      "number": 4,
+      "group": "three-kingdoms",
+      "reason": "관산성 전투에서 전사한 백제 왕 → 성왕"
+    },
+    {
+      "round": 78,
+      "number": 5,
+      "group": "three-kingdoms",
+      "reason": "쌍영총·순도를 통한 불교 수용 → 고구려"
+    },
+    {
+      "round": 78,
+      "number": 6,
+      "group": "three-kingdoms",
+      "reason": "마지막 수도 부여·쌍북리 목간 → 백제"
+    },
+    {
+      "round": 78,
+      "number": 7,
+      "group": "three-kingdoms",
+      "reason": "대야성 함락(642) 이후 → 황산벌 전투(660)"
+    },
+    {
+      "round": 78,
+      "number": 8,
+      "group": "north-south",
+      "reason": "혜공왕 피살(780) 이후 → 신라 하대"
+    },
+    {
+      "round": 78,
+      "number": 9,
+      "group": "north-south",
+      "reason": "보력·건흥 연호 → 발해"
+    },
+    {
+      "round": 78,
+      "number": 10,
+      "group": "goryeo",
+      "reason": "왕건이 신숭겸을 잃은 927년 공산 전투와 고려의 후삼국 통일 과정"
+    },
+    {
+      "round": 78,
+      "number": 11,
+      "group": "goryeo",
+      "reason": "쌍기의 건의로 과거제 시행 → 광종"
+    },
+    {
+      "round": 78,
+      "number": 12,
+      "group": "goryeo",
+      "reason": "해동통보·관영 다점과 주점 → 고려"
+    },
+    {
+      "round": 78,
+      "number": 13,
+      "group": "goryeo",
+      "reason": "숙종 때 임간·윤관이 패한 상대 → 여진"
+    },
+    {
+      "round": 78,
+      "number": 14,
+      "group": "goryeo",
+      "reason": "1377년 흥덕사에서 간행한 직지 → 고려"
+    },
+    {
+      "round": 78,
+      "number": 15,
+      "group": "goryeo",
+      "reason": "5도·양계·향·부곡·소 → 고려"
+    },
+    {
+      "round": 78,
+      "number": 16,
+      "group": "goryeo",
+      "reason": "기철·권겸·노책 제거 → 공민왕의 반원 정책"
+    },
+    {
+      "round": 78,
+      "number": 17,
+      "group": "goryeo",
+      "reason": "대각국사·천태종·교장 간행 → 의천"
+    },
+    {
+      "round": 78,
+      "number": 18,
+      "group": "goryeo",
+      "reason": "왕실 혼인(가) 이자겸, 서경 천도(나) 묘청"
+    },
+    {
+      "round": 78,
+      "number": 19,
+      "group": "joseon",
+      "reason": "금성대군·사육신이 복위시키려 한 왕 → 단종"
+    },
+    {
+      "round": 78,
+      "number": 20,
+      "group": "joseon",
+      "reason": "조옥·금오·금오계첩 → 의금부"
+    },
+    {
+      "round": 78,
+      "number": 21,
+      "group": "joseon",
+      "reason": "일본에 다녀와 해동제국기 편찬 → 신숙주"
+    },
+    {
+      "round": 78,
+      "number": 22,
+      "group": "joseon",
+      "reason": "김시민의 진주 대첩 → 임진왜란"
+    },
+    {
+      "round": 78,
+      "number": 23,
+      "group": "joseon",
+      "reason": "나선 정벌(1654): (가) 인조반정~경신환국"
+    },
+    {
+      "round": 78,
+      "number": 24,
+      "group": "joseon",
+      "reason": "사도세자 묘를 수원 현륭원으로 이전 → 정조"
+    },
+    {
+      "round": 78,
+      "number": 25,
+      "group": "joseon",
+      "reason": "상평통보·전황을 제시한 조선 후기 경제 모습 판별"
+    },
+    {
+      "round": 78,
+      "number": 26,
+      "group": "joseon",
+      "reason": "불이선란도·제주 유배·추사체 → 김정희"
+    },
+    {
+      "round": 78,
+      "number": 27,
+      "group": "joseon",
+      "reason": "구향·신향의 향촌 지배권 다툼 → 조선 후기"
+    },
+    {
+      "round": 78,
+      "number": 28,
+      "group": "opening",
+      "reason": "운요호 사건 뒤 1876년 체결 → 강화도 조약"
+    },
+    {
+      "round": 78,
+      "number": 29,
+      "group": "opening",
+      "reason": "우정총국 축하연·김옥균 → 갑신정변"
+    },
+    {
+      "round": 78,
+      "number": 30,
+      "group": "opening",
+      "reason": "원산 학사: 주민 기금·관리 지원 → 관민 설립"
+    },
+    {
+      "round": 78,
+      "number": 31,
+      "group": "opening",
+      "reason": "1905년 구 백동화 교환 → 화폐 정리 사업"
+    },
+    {
+      "round": 78,
+      "number": 32,
+      "group": "opening",
+      "reason": "경복궁 점령·청일 전쟁 뒤 → 동학 농민군 재봉기"
+    },
+    {
+      "round": 78,
+      "number": 33,
+      "group": "opening",
+      "reason": "이인영·허위의 서울 진공 추진 → 13도 창의군"
+    },
+    {
+      "round": 78,
+      "number": 34,
+      "group": "opening",
+      "reason": "베델·양기탁이 1904년 창간 → 대한매일신보"
+    },
+    {
+      "round": 78,
+      "number": 35,
+      "group": "colonial",
+      "reason": "공립 협회·흥사단·대한인 국민회 등 안창호의 미주 독립운동"
+    },
+    {
+      "round": 78,
+      "number": 36,
+      "group": "colonial",
+      "reason": "토지 조사 사업 → 1910년대 무단 통치"
+    },
+    {
+      "round": 78,
+      "number": 37,
+      "group": "colonial",
+      "reason": "암태도 소작 쟁의(1923~1924) 이후의 농민 운동"
+    },
+    {
+      "round": 78,
+      "number": 38,
+      "group": "colonial",
+      "reason": "순종 국장일의 만세 시위 → 6·10 만세 운동"
+    },
+    {
+      "round": 78,
+      "number": 39,
+      "group": "colonial",
+      "reason": "백정에 대한 사회적 차별 철폐 → 형평 운동"
+    },
+    {
+      "round": 78,
+      "number": 40,
+      "group": "colonial",
+      "reason": "1938년 국가 총동원법 이후 → 전시 동원 체제"
+    },
+    {
+      "round": 78,
+      "number": 41,
+      "group": "colonial",
+      "reason": "조선어학회의 전신 → 조선어연구회"
+    },
+    {
+      "round": 78,
+      "number": 42,
+      "group": "colonial",
+      "reason": "김원봉이 1938년 우한에서 창설 → 조선의용대"
+    },
+    {
+      "round": 78,
+      "number": 43,
+      "group": "colonial",
+      "reason": "일제 강점기의 대중문화 변화에 해당하지 않는 사례 판별"
+    },
+    {
+      "round": 78,
+      "number": 44,
+      "group": "contemporary",
+      "reason": "유엔 감시 아래 최초 보통선거 → 5·10 총선거"
+    },
+    {
+      "round": 78,
+      "number": 45,
+      "group": "contemporary",
+      "reason": "장사 상륙 작전 → 1950년 6·25 전쟁"
+    },
+    {
+      "round": 78,
+      "number": 46,
+      "group": "contemporary",
+      "reason": "3·15 부정 선거·김주열 → 4·19 혁명"
+    },
+    {
+      "round": 78,
+      "number": 47,
+      "group": "contemporary",
+      "reason": "경부 고속 도로 개통(1970) → 박정희 정부"
+    },
+    {
+      "round": 78,
+      "number": 48,
+      "group": "contemporary",
+      "reason": "올림픽·정부 이양을 이유로 개헌 거부 → 4·13 호헌"
+    },
+    {
+      "round": 78,
+      "number": 49,
+      "group": "contemporary",
+      "reason": "햇볕 정책·2002년 월드컵 → 김대중 정부"
+    },
+    {
+      "round": 78,
+      "number": 50,
+      "group": "cross-era",
+      "reason": "범어사·임진왜란 동래성·초량 왜관·백산 상회를 잇는 부산 지역사"
+    },
+    {
+      "round": 79,
+      "number": 1,
+      "group": "prehistory",
+      "reason": "뗀석기·주먹도끼 → 구석기"
+    },
+    {
+      "round": 79,
+      "number": 2,
+      "group": "early-states",
+      "reason": "영고(가) 부여, 책화·족외혼(나) 동예"
+    },
+    {
+      "round": 79,
+      "number": 3,
+      "group": "three-kingdoms",
+      "reason": "삼근왕 사망(479) 이후 → 무령왕의 22담로"
+    },
+    {
+      "round": 79,
+      "number": 4,
+      "group": "three-kingdoms",
+      "reason": "김수로왕·김해 대성동 고분군 → 금관가야"
+    },
+    {
+      "round": 79,
+      "number": 5,
+      "group": "three-kingdoms",
+      "reason": "태종 무열왕 때 당 국서를 해석하여 이름을 받은 신라 강수"
+    },
+    {
+      "round": 79,
+      "number": 6,
+      "group": "three-kingdoms",
+      "reason": "소정방의 백제 정벌 기록 → 정림사지 오층석탑"
+    },
+    {
+      "round": 79,
+      "number": 7,
+      "group": "north-south",
+      "reason": "상경 용천부 등 5경 → 발해"
+    },
+    {
+      "round": 79,
+      "number": 8,
+      "group": "north-south",
+      "reason": "신문왕 때 682년 설치한 교육 기관 → 국학"
+    },
+    {
+      "round": 79,
+      "number": 9,
+      "group": "north-south",
+      "reason": "양길의 부하·철원 도읍·태봉 건국 → 궁예"
+    },
+    {
+      "round": 79,
+      "number": 10,
+      "group": "north-south",
+      "reason": "혜공왕 사망(가)~장보고 혼인 논의(나): 김헌창의 난"
+    },
+    {
+      "round": 79,
+      "number": 11,
+      "group": "goryeo",
+      "reason": "1377년 흥덕사에서 간행한 직지 → 고려"
+    },
+    {
+      "round": 79,
+      "number": 12,
+      "group": "goryeo",
+      "reason": "해동통보·삼한통보 주조 → 고려"
+    },
+    {
+      "round": 79,
+      "number": 13,
+      "group": "goryeo",
+      "reason": "강조의 정변으로 즉위·나주 피난 → 현종"
+    },
+    {
+      "round": 79,
+      "number": 14,
+      "group": "goryeo",
+      "reason": "이자겸의 난(가)~무신 정변(나): 묘청의 난"
+    },
+    {
+      "round": 79,
+      "number": 15,
+      "group": "goryeo",
+      "reason": "일연 편찬·왕력·기이·흥법을 단서로 고려 역사서 삼국유사 식별"
+    },
+    {
+      "round": 79,
+      "number": 16,
+      "group": "goryeo",
+      "reason": "원 황제의 매를 관리하는 응방 → 원 간섭기"
+    },
+    {
+      "round": 79,
+      "number": 17,
+      "group": "goryeo",
+      "reason": "회군(1388): (라) 쌍성총관부 탈환~과전법"
+    },
+    {
+      "round": 79,
+      "number": 18,
+      "group": "goryeo",
+      "reason": "이곡의 아들·호는 목은 → 이색"
+    },
+    {
+      "round": 79,
+      "number": 19,
+      "group": "joseon",
+      "reason": "사가독서·삼강행실도 편찬 추진 → 세종"
+    },
+    {
+      "round": 79,
+      "number": 20,
+      "group": "joseon",
+      "reason": "직전 수조권자의 과다 징수 해결 → 관수관급제"
+    },
+    {
+      "round": 79,
+      "number": 21,
+      "group": "joseon",
+      "reason": "전기수의 춘향전·상평통보 → 조선 후기"
+    },
+    {
+      "round": 79,
+      "number": 22,
+      "group": "joseon",
+      "reason": "임진왜란 종결(가)~정묘호란(나): 사르후 참전"
+    },
+    {
+      "round": 79,
+      "number": 23,
+      "group": "joseon",
+      "reason": "균역법·청계천 준천 → 영조"
+    },
+    {
+      "round": 79,
+      "number": 24,
+      "group": "joseon",
+      "reason": "승지가 왕명 전달 문서 발급 → 승정원"
+    },
+    {
+      "round": 79,
+      "number": 25,
+      "group": "joseon",
+      "reason": "을병연행록·담헌서 저술 → 홍대용"
+    },
+    {
+      "round": 79,
+      "number": 26,
+      "group": "joseon",
+      "reason": "외교 사절의 통역 담당 → 역관"
+    },
+    {
+      "round": 79,
+      "number": 27,
+      "group": "joseon",
+      "reason": "서북 차별·정주성 진압 → 홍경래의 난"
+    },
+    {
+      "round": 79,
+      "number": 28,
+      "group": "opening",
+      "reason": "병인박해 20년 뒤인 1886년 조불 수호 통상 조약과 프랑스 수교"
+    },
+    {
+      "round": 79,
+      "number": 29,
+      "group": "opening",
+      "reason": "구식 군인 봉기·일본 공사관 습격 → 임오군란"
+    },
+    {
+      "round": 79,
+      "number": 30,
+      "group": "opening",
+      "reason": "영선사 파견·개화 정책 총괄 → 통리기무아문"
+    },
+    {
+      "round": 79,
+      "number": 31,
+      "group": "opening",
+      "reason": "갑오개혁~건양 연호 제정·태양력 시행 사이→1895년."
+    },
+    {
+      "round": 79,
+      "number": 32,
+      "group": "opening",
+      "reason": "일본군의 군사상 요지 점령 허용 → 한일의정서"
+    },
+    {
+      "round": 79,
+      "number": 33,
+      "group": "opening",
+      "reason": "을미의병(1895~1896): (라) 을미사변~을사늑약"
+    },
+    {
+      "round": 79,
+      "number": 34,
+      "group": "opening",
+      "reason": "원수부 관제 반포(1899) 이후의 모습"
+    },
+    {
+      "round": 79,
+      "number": 35,
+      "group": "opening",
+      "reason": "금연·모금으로 차관 1,300만 원 상환 → 국채 보상 운동"
+    },
+    {
+      "round": 79,
+      "number": 36,
+      "group": "colonial",
+      "reason": "박상진·1915년 대구·군자금 모집 → 대한광복회"
+    },
+    {
+      "round": 79,
+      "number": 37,
+      "group": "colonial",
+      "reason": "아리랑 개봉(1926) → 1920년대 문화"
+    },
+    {
+      "round": 79,
+      "number": 38,
+      "group": "colonial",
+      "reason": "노동·농민 총동맹으로 분리 → 조선노농총동맹"
+    },
+    {
+      "round": 79,
+      "number": 39,
+      "group": "colonial",
+      "reason": "1929년 나주역 충돌 → 광주 학생 항일 운동"
+    },
+    {
+      "round": 79,
+      "number": 40,
+      "group": "colonial",
+      "reason": "일장기 말소 사건(1936) 이후 → 국민학교(1941)"
+    },
+    {
+      "round": 79,
+      "number": 41,
+      "group": "colonial",
+      "reason": "잡지 어린이·어린이 인격 존중 → 방정환"
+    },
+    {
+      "round": 79,
+      "number": 42,
+      "group": "colonial",
+      "reason": "최현배·정인승·조선어 사전 편찬 → 조선어학회"
+    },
+    {
+      "round": 79,
+      "number": 43,
+      "group": "colonial",
+      "reason": "황국 신민 서사·금속 공출 → 전시 동원 체제"
+    },
+    {
+      "round": 79,
+      "number": 44,
+      "group": "colonial",
+      "reason": "임시 정부 산하·OSS와 국내 진공 준비 → 한국광복군"
+    },
+    {
+      "round": 79,
+      "number": 45,
+      "group": "contemporary",
+      "reason": "단독 선거 반대·북촌 너븐숭이 희생 → 제주 4·3"
+    },
+    {
+      "round": 79,
+      "number": 46,
+      "group": "colonial",
+      "reason": "한인 애국단 조직·충칭 임시 정부 주석 활동으로 김구 식별"
+    },
+    {
+      "round": 79,
+      "number": 47,
+      "group": "contemporary",
+      "reason": "서독 광부 파견(1963) → 박정희 정부"
+    },
+    {
+      "round": 79,
+      "number": 48,
+      "group": "contemporary",
+      "reason": "이한열 피격·호헌 철폐 요구 → 6월 민주 항쟁"
+    },
+    {
+      "round": 79,
+      "number": 49,
+      "group": "contemporary",
+      "reason": "1991년 한반도 비핵화 선언 연설 → 노태우"
+    },
+    {
+      "round": 79,
+      "number": 50,
+      "group": "cross-era",
+      "reason": "통일 신라·고려·조선 군사 제도를 비교하며 2군 6위·훈련도감 질문"
+    }
+  ]
+}
