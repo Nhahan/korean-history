@@ -37,10 +37,12 @@ jobs:
         run: python3 scripts/validate_must_know.py
       - name: Validate era question groups
         run: python3 scripts/validate_era_questions.py
+      - name: Validate lecture review
+        run: python3 scripts/validate_final_review.py
       - name: Prepare static site
         run: |
           mkdir -p _site
-          cp eras.html eras.js eras.css index.html exam.html answers.html concepts.html keywords.html kings.html kings.js kings.css memorize.html memorize.js memorize.css styles.css app.js .nojekyll _site/
+          cp final-review.html final-review.js final-review.css eras.html eras.js eras.css index.html exam.html answers.html concepts.html keywords.html kings.html kings.js kings.css memorize.html memorize.js memorize.css styles.css app.js .nojekyll _site/
           cp -R assets _site/assets
       - name: Configure Pages
         uses: actions/configure-pages@v5

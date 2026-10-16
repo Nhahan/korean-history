@@ -134,3 +134,5 @@
 .era-practice .omr-grid{max-height:300px;overflow:auto;overscroll-behavior:contain}.era-practice .answer-question-number .era-source-label{display:block;margin:3px 0;font-size:11px!important;line-height:1.5}.era-practice .answer-row summary{grid-template-columns:125px 1fr 1fr 95px 24px}@media(max-width:600px){.era-practice .answer-row summary{grid-template-columns:75px 1fr 1fr 60px 15px}.era-practice .question-head h2{font-size:18px}}
 
 @media(max-width:600px){.site-header nav{flex-wrap:nowrap;justify-content:flex-start;gap:14px;overflow-x:auto;max-width:100%;scrollbar-width:thin;padding-bottom:3px}.site-header nav>a{flex:none;white-space:nowrap}}
+
+.review-home-link{background:#f7efd5;border-color:#e0d2a7}.review-home-link strong,.review-home-link>span:last-child{color:#6b5425}.review-home-link:hover{background:#f2e7c3}

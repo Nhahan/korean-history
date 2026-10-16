@@ -1,0 +1,5207 @@
+{
+  "version": 1,
+  "source": {
+    "author": "공부돼지",
+    "title": "한능검 심화 80회(10.17시험) 대비 전전전야제",
+    "url": "https://www.youtube.com/watch?v=L-hgLH4_7YI",
+    "basis": "사용자가 제공한 전체 강의 스크립트"
+  },
+  "eras": [
+    {
+      "id": "prehistory",
+      "label": "선사시대"
+    },
+    {
+      "id": "early-states",
+      "label": "고조선·여러 나라"
+    },
+    {
+      "id": "three-kingdoms",
+      "label": "삼국·가야"
+    },
+    {
+      "id": "north-south",
+      "label": "통일신라·발해·후삼국"
+    },
+    {
+      "id": "goryeo",
+      "label": "고려"
+    },
+    {
+      "id": "joseon",
+      "label": "조선"
+    },
+    {
+      "id": "opening",
+      "label": "개항기·대한제국"
+    },
+    {
+      "id": "colonial",
+      "label": "일제강점기"
+    },
+    {
+      "id": "contemporary",
+      "label": "현대"
+    },
+    {
+      "id": "cross-era",
+      "label": "지역·문화유산"
+    }
+  ],
+  "cards": [
+    {
+      "id": "lecture-a-01",
+      "era": "prehistory",
+      "title": "구석기와 신석기",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "구석기",
+          "detail": "이동 생활·동굴과 막집 · 뗀석기인 주먹도끼·슴베찌르개"
+        },
+        {
+          "term": "신석기",
+          "detail": "농경 시작·정착 생활 · 빗살무늬 토기·옷을 만드는 가락바퀴"
+        }
+      ],
+      "highlights": [
+        "뗀석기",
+        "주먹도끼",
+        "슴베찌르개",
+        "빗살무늬 토기",
+        "가락바퀴"
+      ],
+      "sourceCue": "구석기 신석기 청동기가 번갈아가면서 나와요"
+    },
+    {
+      "id": "lecture-a-02",
+      "era": "prehistory",
+      "title": "청동기: 농업과 계급",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "농업",
+          "detail": "벼농사 발달 · 곡식 수확에 반달 돌칼 사용"
+        },
+        {
+          "term": "지배층",
+          "detail": "계급 발생 · 비파형 동검·고인돌"
+        }
+      ],
+      "highlights": [
+        "벼농사",
+        "반달 돌칼",
+        "비파형 동검",
+        "고인돌"
+      ],
+      "sourceCue": "이번에는 순서상 청동기가 나올 차례입니다"
+    },
+    {
+      "id": "lecture-a-03",
+      "era": "early-states",
+      "title": "고조선의 변화",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "단군조선",
+          "detail": "연나라 장수 진개의 공격으로 서쪽 영토 상실"
+        },
+        {
+          "term": "위만조선",
+          "detail": "진번·임둔 복속 · 우거왕 때 한의 공격으로 멸망"
+        },
+        {
+          "term": "제도",
+          "detail": "범금 8조 · 상·대부·장군 등의 관직"
+        }
+      ],
+      "highlights": [
+        "진개",
+        "진번·임둔",
+        "우거왕",
+        "범금 8조"
+      ],
+      "sourceCue": "이번에는 다시 고조선이 나올 것 같습니다"
+    },
+    {
+      "id": "lecture-a-04",
+      "era": "early-states",
+      "title": "부여와 초기 고구려",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "부여",
+          "detail": "영고 · 사출도"
+        },
+        {
+          "term": "고구려",
+          "detail": "동맹 · 서옥제 · 제가 회의"
+        }
+      ],
+      "highlights": [
+        "영고",
+        "사출도",
+        "동맹",
+        "서옥제",
+        "제가 회의"
+      ],
+      "sourceCue": "부여에서 제일 중요한 건 사출도입니다"
+    },
+    {
+      "id": "lecture-a-05",
+      "era": "early-states",
+      "title": "옥저·동예·삼한",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "옥저",
+          "detail": "민며느리제 · 가족 공동 무덤"
+        },
+        {
+          "term": "동예",
+          "detail": "무천·책화 · 단궁·과하마·반어피"
+        },
+        {
+          "term": "삼한",
+          "detail": "5월·10월 제천 행사 · 천군이 소도를 관할하는 제정 분리"
+        }
+      ],
+      "highlights": [
+        "민며느리제",
+        "가족 공동 무덤",
+        "무천",
+        "책화",
+        "단궁·과하마·반어피",
+        "천군",
+        "소도"
+      ],
+      "sourceCue": "옥조가 안 나온지 좀 오래돼서"
+    },
+    {
+      "id": "lecture-a-06",
+      "era": "three-kingdoms",
+      "title": "소수림왕: 고구려의 기반",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "소수림왕",
+          "detail": "율령 반포 · 태학 설립 · 불교 수용"
+        }
+      ],
+      "highlights": [
+        "율령",
+        "태학",
+        "불교 수용"
+      ],
+      "sourceCue": "이번에는 고구려 신라와 관련한"
+    },
+    {
+      "id": "lecture-a-07",
+      "era": "three-kingdoms",
+      "title": "광개토 대왕과 장수왕",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "광개토 대왕",
+          "detail": "만주 진출·영락 연호 · 신라에 침입한 왜 격퇴"
+        },
+        {
+          "term": "호우명 그릇",
+          "detail": "경주 출토 · 고구려와 신라의 관계를 보여 줌"
+        },
+        {
+          "term": "장수왕",
+          "detail": "광개토 대왕릉비 건립 · 평양 천도 · 한성 함락·개로왕 전사"
+        }
+      ],
+      "highlights": [
+        "영락",
+        "호우명 그릇",
+        "평양 천도",
+        "개로왕"
+      ],
+      "sourceCue": "장수왕은 백제를 공격했다라는 내용"
+    },
+    {
+      "id": "lecture-a-08",
+      "era": "three-kingdoms",
+      "title": "고구려와 수·당의 전쟁",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "영양왕",
+          "detail": "이문진의 신집 5권 편찬(600) · 을지문덕의 살수 대첩(612)"
+        },
+        {
+          "term": "연개소문",
+          "detail": "천리장성 축조 감독 → 정변으로 영류왕 제거(642)"
+        },
+        {
+          "term": "대당 항쟁",
+          "detail": "안시성 전투에서 당 태종의 침입 격퇴(645)"
+        }
+      ],
+      "highlights": [
+        "신집",
+        "살수 대첩",
+        "천리장성",
+        "연개소문",
+        "안시성 전투"
+      ],
+      "sourceCue": "고구려 말의 상황도 이번에"
+    },
+    {
+      "id": "lecture-a-09",
+      "era": "three-kingdoms",
+      "title": "고구려를 찾는 생활·제도 단서",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "지방관·구휼",
+          "detail": "욕살·처려근지 · 빈민에게 곡식을 빌려주는 진대법"
+        },
+        {
+          "term": "생활·교육",
+          "detail": "부경은 곡식 창고 · 태학·경당"
+        },
+        {
+          "term": "불상",
+          "detail": "연가 7년명 금동 여래 입상"
+        }
+      ],
+      "highlights": [
+        "욕살",
+        "처려근지",
+        "진대법",
+        "부경",
+        "경당",
+        "연가 7년명"
+      ],
+      "sourceCue": "고구려 사회 파트가 고구려를 물어볼 때"
+    },
+    {
+      "id": "lecture-a-10",
+      "era": "three-kingdoms",
+      "title": "백제 한성 시대: 근초고왕",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "근초고왕",
+          "detail": "평양성 공격으로 고구려 고국원왕 전사 · 고흥의 서기 편찬"
+        },
+        {
+          "term": "칠지도",
+          "detail": "백제와 왜의 교류를 보여 주는 유물"
+        },
+        {
+          "term": "이후 흐름",
+          "detail": "침류왕 때 불교 수용 · 장수왕의 공격으로 한성 함락"
+        }
+      ],
+      "highlights": [
+        "근초고왕",
+        "고국원왕",
+        "고흥",
+        "서기",
+        "칠지도",
+        "침류왕"
+      ],
+      "sourceCue": "한성시대 대표 왕이자 백제 최고 전성기"
+    },
+    {
+      "id": "lecture-a-11",
+      "era": "three-kingdoms",
+      "title": "백제 웅진 시대: 문주왕·무령왕",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "문주왕",
+          "detail": "한성 함락 뒤 웅진(공주)으로 천도"
+        },
+        {
+          "term": "무령왕",
+          "detail": "지방에 22담로 설치 · 왕족 파견"
+        },
+        {
+          "term": "무령왕릉",
+          "detail": "중국 남조의 영향을 받은 벽돌무덤"
+        }
+      ],
+      "highlights": [
+        "웅진",
+        "22담로",
+        "벽돌무덤"
+      ],
+      "sourceCue": "무령왕은 지방에 22"
+    },
+    {
+      "id": "lecture-a-12",
+      "era": "three-kingdoms",
+      "title": "백제 성왕의 순서",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "사비 천도",
+          "detail": "수도를 사비(부여)로 옮기고 국호를 남부여로 바꿈"
+        },
+        {
+          "term": "한강 쟁탈",
+          "detail": "신라와 연합해 한강 회복 → 진흥왕이 한강 하류까지 차지"
+        },
+        {
+          "term": "관산성 전투",
+          "detail": "신라를 공격하다 성왕 전사(554)"
+        }
+      ],
+      "highlights": [
+        "사비",
+        "남부여",
+        "한강",
+        "관산성 전투"
+      ],
+      "sourceCue": "성황 시대가 또 어렵게 순서 문제로",
+      "sequence": [
+        "사비 천도(538)",
+        "나제 연합으로 한강 회복(551)",
+        "신라의 한강 하류 차지(553)",
+        "관산성 전투(554)"
+      ]
+    },
+    {
+      "id": "lecture-a-13",
+      "era": "three-kingdoms",
+      "title": "백제 말: 무왕과 의자왕",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "무왕",
+          "detail": "익산 미륵사 창건 · 미륵사지 석탑"
+        },
+        {
+          "term": "의자왕",
+          "detail": "신라 대야성 함락(642)"
+        },
+        {
+          "term": "백제 멸망",
+          "detail": "계백의 황산벌 전투 패배 → 나당 연합군에 멸망(660)"
+        }
+      ],
+      "highlights": [
+        "미륵사",
+        "대야성",
+        "황산벌 전투",
+        "계백"
+      ],
+      "sourceCue": "무왕이 만든 미륵사도 유명해요"
+    },
+    {
+      "id": "lecture-a-14",
+      "era": "three-kingdoms",
+      "title": "백제 사회와 문화재",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "정치",
+          "detail": "정사암 회의 · 좌평 · 왕족의 성은 부여씨"
+        },
+        {
+          "term": "도교 문화",
+          "detail": "백제 금동 대향로 · 산수무늬 벽돌"
+        },
+        {
+          "term": "부여 출토",
+          "detail": "정림사지 5층 석탑 · 곡식 대여를 기록한 좌관대식기 목간"
+        }
+      ],
+      "highlights": [
+        "정사암",
+        "좌평",
+        "금동 대향로",
+        "산수무늬 벽돌",
+        "정림사지 5층 석탑",
+        "좌관대식기"
+      ],
+      "sourceCue": "백제의 사회상은이 세 가지 단어"
+    },
+    {
+      "id": "lecture-a-15",
+      "era": "three-kingdoms",
+      "title": "지증왕과 법흥왕",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "지증왕",
+          "detail": "국호 신라·왕 칭호 확정 · 동시전 설치 · 우산국 복속"
+        },
+        {
+          "term": "법흥왕",
+          "detail": "병부·상대등 설치 · 율령 반포·불교 공인 · 건원 연호"
+        },
+        {
+          "term": "가야 병합",
+          "detail": "법흥왕 때 금관가야 복속(532)"
+        }
+      ],
+      "highlights": [
+        "동시전",
+        "우산국",
+        "병부",
+        "상대등",
+        "건원",
+        "금관가야"
+      ],
+      "sourceCue": "이번에는 고구려 신라와 관련한"
+    },
+    {
+      "id": "lecture-a-16",
+      "era": "three-kingdoms",
+      "title": "진흥왕: 신라의 팽창",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "영토",
+          "detail": "한강 유역 차지 · 관산성 전투 승리 · 대가야 병합(562)"
+        },
+        {
+          "term": "제도·역사서",
+          "detail": "화랑도를 국가 조직으로 개편 · 거칠부의 국사 편찬"
+        },
+        {
+          "term": "비석 구별",
+          "detail": "순수비 4기: 북한산·창녕·황초령·마운령 · 단양 적성비는 별개"
+        }
+      ],
+      "highlights": [
+        "한강",
+        "대가야",
+        "화랑도",
+        "거칠부",
+        "순수비",
+        "단양 적성비"
+      ],
+      "sourceCue": "화랑을 국가적인 조직으로 개편했다"
+    },
+    {
+      "id": "lecture-a-17",
+      "era": "three-kingdoms",
+      "title": "원광과 선덕 여왕",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "원광",
+          "detail": "수에 보낼 걸사표 작성 · 화랑의 세속 5계"
+        },
+        {
+          "term": "선덕 여왕의 정치",
+          "detail": "비담·염종의 난"
+        },
+        {
+          "term": "선덕 여왕의 문화",
+          "detail": "분황사 모전석탑·첨성대 · 자장의 건의로 황룡사 9층 목탑 건립"
+        }
+      ],
+      "highlights": [
+        "걸사표",
+        "세속 5계",
+        "비담·염종",
+        "분황사 모전석탑",
+        "황룡사 9층 목탑"
+      ],
+      "sourceCue": "선덕여왕은 정치에서는 딱 하나"
+    },
+    {
+      "id": "lecture-a-18",
+      "era": "three-kingdoms",
+      "title": "삼국 통일의 큰 순서",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "나당 동맹",
+          "detail": "김춘추가 당과 동맹 체결(648)"
+        },
+        {
+          "term": "멸망 당시 신라 왕",
+          "detail": "백제 멸망은 무열왕 · 고구려 멸망은 문무왕"
+        },
+        {
+          "term": "나당 전쟁",
+          "detail": "매소성·기벌포 전투 승리로 당군 축출"
+        }
+      ],
+      "highlights": [
+        "나당 동맹",
+        "무열왕",
+        "문무왕",
+        "매소성",
+        "기벌포"
+      ],
+      "sourceCue": "삼국통일 순서 문제 나오지 않을까",
+      "sequence": [
+        "나당 동맹(648)",
+        "백제 멸망(660)",
+        "고구려 멸망(668)",
+        "매소성(675)",
+        "기벌포(676)"
+      ]
+    },
+    {
+      "id": "lecture-a-19",
+      "era": "three-kingdoms",
+      "title": "백제·고구려 부흥 운동",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "백제 부흥 운동",
+          "detail": "복신·도침·흑치상지"
+        },
+        {
+          "term": "고구려 부흥 운동",
+          "detail": "검모잠·안승·고연무"
+        },
+        {
+          "term": "보덕국",
+          "detail": "문무왕이 안승을 보덕국왕으로 책봉"
+        }
+      ],
+      "highlights": [
+        "복신·도침·흑치상지",
+        "검모잠·안승·고연무",
+        "보덕국왕"
+      ],
+      "sourceCue": "안승을 보덕국 왕으로 임명했다"
+    },
+    {
+      "id": "lecture-a-20",
+      "era": "three-kingdoms",
+      "title": "신라와 가야의 구별",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "신라 제도",
+          "detail": "골품제·화랑도 · 만장일치의 화백 회의"
+        },
+        {
+          "term": "신라 유물",
+          "detail": "임신서기석 · 금관·천마도"
+        },
+        {
+          "term": "가야",
+          "detail": "김수로의 금관가야 · 철 생산·왜와 교역 · 철제 갑옷"
+        },
+        {
+          "term": "가야의 중심",
+          "detail": "김해의 금관가야 · 고령의 대가야"
+        }
+      ],
+      "highlights": [
+        "골품제",
+        "화백 회의",
+        "임신서기석",
+        "천마도",
+        "김해",
+        "고령"
+      ],
+      "sourceCue": "골품 화랑 화백회의 보이면 신라"
+    },
+    {
+      "id": "lecture-a-21",
+      "era": "three-kingdoms",
+      "title": "삼국 전성기 순서",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "4세기 백제",
+          "detail": "근초고왕: 고구려 평양성 공격"
+        },
+        {
+          "term": "5세기 고구려",
+          "detail": "광개토 대왕·장수왕: 영토 확장·한강 유역 장악"
+        },
+        {
+          "term": "6세기 신라",
+          "detail": "지증왕·법흥왕·진흥왕: 체제 정비·한강 유역 차지"
+        }
+      ],
+      "highlights": [
+        "근초고왕",
+        "광개토 대왕",
+        "장수왕",
+        "진흥왕"
+      ],
+      "sourceCue": "삼국 시대 순서 한번 정리해 보면",
+      "sequence": [
+        "백제(4세기)",
+        "고구려(5세기)",
+        "신라(6세기)"
+      ]
+    },
+    {
+      "id": "lecture-a-22",
+      "era": "north-south",
+      "title": "문무왕: 통일 완성",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "문무왕",
+          "detail": "무열왕 김춘추의 아들 김법민 · 고구려 멸망·나당 전쟁 승리"
+        },
+        {
+          "term": "외사정",
+          "detail": "지방관을 감찰하도록 파견"
+        }
+      ],
+      "highlights": [
+        "김법민",
+        "나당 전쟁",
+        "외사정"
+      ],
+      "sourceCue": "문무왕이 안 나온지 좀 돼서"
+    },
+    {
+      "id": "lecture-a-23",
+      "era": "north-south",
+      "title": "신문왕: 왕권과 체제 정비",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "왕권 강화",
+          "detail": "김흠돌의 난 진압 · 관료전 지급·녹읍 폐지"
+        },
+        {
+          "term": "행정·군사",
+          "detail": "9주 5소경 · 9서당 10정 정비"
+        },
+        {
+          "term": "교육·문화",
+          "detail": "국학 설치 · 감은사지 3층 석탑·만파식적"
+        }
+      ],
+      "highlights": [
+        "김흠돌",
+        "관료전",
+        "녹읍 폐지",
+        "9주 5소경",
+        "9서당 10정",
+        "국학",
+        "만파식적"
+      ],
+      "sourceCue": "통일칠라에서 제일 중요한 왕 신문왕"
+    },
+    {
+      "id": "lecture-a-24",
+      "era": "north-south",
+      "title": "성덕왕과 원성왕",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "성덕왕",
+          "detail": "백성에게 정전 지급 · 누각 설치"
+        },
+        {
+          "term": "원성왕",
+          "detail": "독서삼품과로 관리 선발 추진"
+        },
+        {
+          "term": "성덕 대왕 신종",
+          "detail": "통일신라의 범종 · 성덕왕을 기리며 혜공왕 때 완성"
+        }
+      ],
+      "highlights": [
+        "정전",
+        "누각",
+        "독서삼품과",
+        "성덕 대왕 신종"
+      ],
+      "sourceCue": "독서 상품가를 시행한 원성왕"
+    },
+    {
+      "id": "lecture-a-25",
+      "era": "north-south",
+      "title": "신라 하대의 왕위 다툼",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "혜공왕",
+          "detail": "780년 피살 · 하대의 왕위 쟁탈 본격화"
+        },
+        {
+          "term": "김헌창의 난",
+          "detail": "헌덕왕 때 웅천주에서 반란(822)"
+        },
+        {
+          "term": "장보고",
+          "detail": "왕위 계승에 관여하다 피살"
+        }
+      ],
+      "highlights": [
+        "혜공왕",
+        "김헌창의 난",
+        "헌덕왕",
+        "장보고"
+      ],
+      "sourceCue": "해공항 피살 그리고 김원창의 반란",
+      "sequence": [
+        "혜공왕 피살(780)",
+        "김헌창의 난(822)",
+        "장보고 피살"
+      ]
+    },
+    {
+      "id": "lecture-a-26",
+      "era": "north-south",
+      "title": "진성 여왕: 신라 말의 혼란",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "원종·애노의 난",
+          "detail": "사벌주에서 농민 봉기(889)"
+        },
+        {
+          "term": "최치원",
+          "detail": "시무 10여 조 건의"
+        },
+        {
+          "term": "향가집",
+          "detail": "삼대목 편찬"
+        }
+      ],
+      "highlights": [
+        "원종·애노",
+        "사벌주",
+        "시무 10여 조",
+        "삼대목"
+      ],
+      "sourceCue": "원종과 에노의 반란 나오면"
+    },
+    {
+      "id": "lecture-a-27",
+      "era": "north-south",
+      "title": "장보고와 통일신라의 무역",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "장보고",
+          "detail": "완도에 청해진 설치 · 당에 법화원 건립"
+        },
+        {
+          "term": "무역 거점",
+          "detail": "울산·당항성·영암"
+        },
+        {
+          "term": "중앙 행정",
+          "detail": "집사부를 비롯한 14부"
+        }
+      ],
+      "highlights": [
+        "청해진",
+        "법화원",
+        "당항성",
+        "집사부",
+        "14부"
+      ],
+      "sourceCue": "장보고는 청해진을 설치해서"
+    },
+    {
+      "id": "lecture-a-28",
+      "era": "north-south",
+      "title": "원효와 의상",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "원효",
+          "detail": "일심 사상·일체유심조 · 아미타 신앙으로 불교 대중화"
+        },
+        {
+          "term": "의상",
+          "detail": "화엄 사상 · 부석사 창건"
+        }
+      ],
+      "highlights": [
+        "일심 사상",
+        "일체유심조",
+        "아미타 신앙",
+        "화엄 사상",
+        "부석사"
+      ],
+      "sourceCue": "스님이 나온다면 거의 원요 아니면 의상"
+    },
+    {
+      "id": "lecture-a-29",
+      "era": "north-south",
+      "title": "선종과 통일신라 불교 유산",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "선종",
+          "detail": "참선·수행 중시 · 구산선문 형성 · 승탑 발달"
+        },
+        {
+          "term": "불국사·석굴암",
+          "detail": "통일신라의 대표 불교 유산"
+        },
+        {
+          "term": "석가탑",
+          "detail": "불국사 3층 석탑에서 무구정광대다라니경 발견"
+        }
+      ],
+      "highlights": [
+        "참선",
+        "구산선문",
+        "승탑",
+        "석가탑",
+        "무구정광대다라니경"
+      ],
+      "sourceCue": "통행해실라 말에는 선종 불교가 유행"
+    },
+    {
+      "id": "lecture-a-30",
+      "era": "north-south",
+      "title": "발해의 왕",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "대조영",
+          "detail": "발해 건국"
+        },
+        {
+          "term": "무왕",
+          "detail": "장문휴를 보내 당의 등주 공격 · 인안 연호"
+        },
+        {
+          "term": "문왕",
+          "detail": "상경 천도 · 대흥 연호"
+        },
+        {
+          "term": "선왕",
+          "detail": "해동성국 · 5경 15부 62주 정비"
+        }
+      ],
+      "highlights": [
+        "대조영",
+        "장문휴",
+        "등주",
+        "인안",
+        "대흥",
+        "해동성국",
+        "5경 15부 62주"
+      ],
+      "sourceCue": "발에는 대조형이 세웠죠"
+    },
+    {
+      "id": "lecture-a-31",
+      "era": "north-south",
+      "title": "발해를 찾는 핵심 기관·물산",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "주자감",
+          "detail": "교육 기관"
+        },
+        {
+          "term": "문적원",
+          "detail": "서적 관리·문서 작성"
+        },
+        {
+          "term": "솔빈부",
+          "detail": "말이 특산물"
+        },
+        {
+          "term": "교역로",
+          "detail": "거란도·신라도·일본도 등으로 교류"
+        }
+      ],
+      "highlights": [
+        "주자감",
+        "문적원",
+        "솔빈부",
+        "거란도",
+        "신라도",
+        "일본도"
+      ],
+      "sourceCue": "현광팬되어 있는 거 꼭 외워 주세요"
+    },
+    {
+      "id": "lecture-a-32",
+      "era": "north-south",
+      "title": "발해 문화와 고구려 계승",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "정혜공주 묘",
+          "detail": "모줄임 천장 구조 · 돌사자 출토"
+        },
+        {
+          "term": "고구려 계승",
+          "detail": "온돌·돌방무덤"
+        },
+        {
+          "term": "불교 유산",
+          "detail": "이불 병좌상 · 영광탑·석등"
+        }
+      ],
+      "highlights": [
+        "정혜공주 묘",
+        "모줄임 천장",
+        "온돌",
+        "이불 병좌상",
+        "영광탑"
+      ],
+      "sourceCue": "발레는 고구려를 개승한 나라"
+    },
+    {
+      "id": "lecture-a-33",
+      "era": "north-south",
+      "title": "후백제 견훤과 후고구려 궁예",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "견훤",
+          "detail": "완산주(전주)에 후백제 건국 · 후당·오월과 외교"
+        },
+        {
+          "term": "궁예",
+          "detail": "광평성 설치 · 송악에서 철원으로 천도"
+        },
+        {
+          "term": "국호 변화",
+          "detail": "후고구려 → 마진 → 태봉"
+        }
+      ],
+      "highlights": [
+        "견훤",
+        "완산주",
+        "오월",
+        "궁예",
+        "광평성",
+        "마진",
+        "태봉"
+      ],
+      "sourceCue": "궁해는 광평성이라는 정치기구"
+    },
+    {
+      "id": "lecture-a-34",
+      "era": "north-south",
+      "title": "고려 건국과 후삼국 통일",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "왕건",
+          "detail": "궁예를 몰아내고 고려 건국(918)"
+        },
+        {
+          "term": "공산 전투",
+          "detail": "왕건 패배 · 신숭겸 전사(927)"
+        },
+        {
+          "term": "고창 전투",
+          "detail": "왕건 승리(930)"
+        },
+        {
+          "term": "마지막 단계",
+          "detail": "견훤 귀순·경순왕 항복(935) → 일리천 전투로 후백제 멸망(936)"
+        }
+      ],
+      "highlights": [
+        "신숭겸",
+        "고창 전투",
+        "경순왕",
+        "일리천 전투"
+      ],
+      "sourceCue": "공고신 1 2번에 나올 거 같으니까",
+      "sequence": [
+        "공산 전투(927)",
+        "고창 전투(930)",
+        "신라 항복(935)",
+        "일리천 전투(936)"
+      ]
+    },
+    {
+      "id": "lecture-a-35",
+      "era": "north-south",
+      "title": "후삼국 통일 과정의 인물",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "견훤과 신검",
+          "detail": "아들 신검이 견훤을 금산사에 가둠 → 견훤이 왕건에게 귀순"
+        },
+        {
+          "term": "경순왕 김부",
+          "detail": "신라 항복 뒤 경주의 사심관으로 임명"
+        }
+      ],
+      "highlights": [
+        "신검",
+        "금산사",
+        "김부",
+        "사심관"
+      ],
+      "sourceCue": "김부를 경주 지역에 사심관으로 임명"
+    },
+    {
+      "id": "lecture-m-goryeo-flow",
+      "era": "goryeo",
+      "title": "고려의 흐름과 침입 세력",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "고려 초기",
+          "detail": "거란 침입"
+        },
+        {
+          "term": "문벌 귀족",
+          "detail": "여진과 대립"
+        },
+        {
+          "term": "무신 집권",
+          "detail": "몽골 침입"
+        },
+        {
+          "term": "원 간섭기",
+          "detail": "권문세족 성장"
+        },
+        {
+          "term": "고려 말",
+          "detail": "공민왕의 개혁·홍건적과 왜구 침입"
+        }
+      ],
+      "highlights": [
+        "고려 초기",
+        "문벌 귀족",
+        "무신 집권",
+        "원 간섭기",
+        "고려 말"
+      ],
+      "sourceCue": "고려는 이렇게 다섯 개 시기"
+    },
+    {
+      "id": "lecture-m-taejo",
+      "era": "goryeo",
+      "title": "태조 왕건",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "훈요 10조",
+          "detail": "후대 왕에게 남긴 통치 지침"
+        },
+        {
+          "term": "정계·계백료서",
+          "detail": "신하에게 내린 지침"
+        },
+        {
+          "term": "역분전",
+          "detail": "공신에게 지급한 토지"
+        },
+        {
+          "term": "흑창",
+          "detail": "빈민 구제 기구"
+        }
+      ],
+      "highlights": [
+        "훈요 10조",
+        "정계·계백료서",
+        "역분전",
+        "흑창"
+      ],
+      "sourceCue": "왕건이 안 나온지 좀 오래됐기"
+    },
+    {
+      "id": "lecture-m-gwangjong",
+      "era": "goryeo",
+      "title": "광종",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "노비안검법",
+          "detail": "억울하게 노비가 된 사람을 양인으로 회복"
+        },
+        {
+          "term": "과거제",
+          "detail": "쌍기의 건의로 실시"
+        },
+        {
+          "term": "광덕·준풍",
+          "detail": "독자적인 연호 사용"
+        }
+      ],
+      "highlights": [
+        "노비안검법",
+        "과거제",
+        "광덕·준풍"
+      ],
+      "sourceCue": "쌍기의 권위로 과거제를"
+    },
+    {
+      "id": "lecture-m-seongjong-goryeo",
+      "era": "goryeo",
+      "title": "고려 성종",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "시무 28조",
+          "detail": "최승로의 건의 수용"
+        },
+        {
+          "term": "12목",
+          "detail": "지방관 파견"
+        },
+        {
+          "term": "국자감",
+          "detail": "유학 교육 기관 설치"
+        },
+        {
+          "term": "의창",
+          "detail": "태조의 흑창을 개편"
+        }
+      ],
+      "highlights": [
+        "시무 28조",
+        "12목",
+        "국자감",
+        "의창"
+      ],
+      "sourceCue": "시험에 12이 나오면 성종"
+    },
+    {
+      "id": "lecture-m-khitan",
+      "era": "goryeo",
+      "title": "거란의 세 차례 침입",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "1차",
+          "detail": "성종 때 서희의 외교 담판 → 강동 6주 확보"
+        },
+        {
+          "term": "2차",
+          "detail": "강조의 정변을 구실로 침입·양규 활약·현종의 나주 피란"
+        },
+        {
+          "term": "3차",
+          "detail": "강감찬의 귀주 대첩"
+        },
+        {
+          "term": "초조대장경",
+          "detail": "현종 때 거란을 물리치길 기원하며 조판 시작"
+        }
+      ],
+      "highlights": [
+        "서희",
+        "강동 6주",
+        "양규",
+        "귀주 대첩",
+        "초조대장경"
+      ],
+      "sourceCue": "거란의 세차례 침입"
+    },
+    {
+      "id": "lecture-m-sukjong-goryeo",
+      "era": "goryeo",
+      "title": "고려 숙종과 예종의 여진 대응",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "숙종",
+          "detail": "별무반 편성·은병과 해동통보 발행"
+        },
+        {
+          "term": "별무반",
+          "detail": "신기군·신보군·항마군"
+        },
+        {
+          "term": "예종",
+          "detail": "윤관의 동북 9성 축조와 반환"
+        }
+      ],
+      "highlights": [
+        "별무반",
+        "신기군",
+        "신보군",
+        "항마군",
+        "동북 9성"
+      ],
+      "sourceCue": "동북 구성을 개척했다, 반환했다"
+    },
+    {
+      "id": "lecture-m-yejong",
+      "era": "goryeo",
+      "title": "예종의 교육 진흥",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "양현고",
+          "detail": "국학의 장학 재단"
+        },
+        {
+          "term": "7재",
+          "detail": "국학의 전문 강좌"
+        },
+        {
+          "term": "청연각·보문각",
+          "detail": "학문 연구 기관"
+        },
+        {
+          "term": "최충의 9재학당",
+          "detail": "사학 발달 → 예종은 관학 진흥 추진"
+        }
+      ],
+      "highlights": [
+        "양현고",
+        "7재",
+        "청연각·보문각",
+        "최충의 9재학당"
+      ],
+      "sourceCue": "예종도 단독 문제로 이번에"
+    },
+    {
+      "id": "lecture-m-injong",
+      "era": "goryeo",
+      "title": "인종 때 두 사건",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "이자겸의 난",
+          "detail": "외척 이자겸의 권력 장악에 맞선 갈등"
+        },
+        {
+          "term": "묘청의 서경 천도 운동",
+          "detail": "금 정벌·서경 천도 주장, 김부식이 진압"
+        }
+      ],
+      "highlights": [
+        "이자겸의 난",
+        "묘청의 서경 천도 운동"
+      ],
+      "sourceCue": "이자겸의 난이 먼저",
+      "sequence": [
+        "이자겸의 난(1126)",
+        "묘청의 서경 천도 운동(1135)"
+      ]
+    },
+    {
+      "id": "lecture-m-military-flow",
+      "era": "goryeo",
+      "title": "무신 정권의 흐름",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "무신 정변",
+          "detail": "1170년 보현원에서 이의방·정중부 등이 정변"
+        },
+        {
+          "term": "초기 집권자",
+          "detail": "이의방 → 정중부 → 경대승 → 이의민"
+        },
+        {
+          "term": "최씨 집권",
+          "detail": "최충헌 → 최우"
+        },
+        {
+          "term": "정권의 끝",
+          "detail": "임연·임유무 이후 개경 환도"
+        }
+      ],
+      "highlights": [
+        "무신 정변",
+        "최충헌",
+        "최우",
+        "개경 환도"
+      ],
+      "sourceCue": "무신 정권은 크게 다섯 개 시기"
+    },
+    {
+      "id": "lecture-m-choe",
+      "era": "goryeo",
+      "title": "최충헌과 최우 구별",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "최충헌",
+          "detail": "교정도감 설치·봉사 10조 제시"
+        },
+        {
+          "term": "최우",
+          "detail": "정방 설치·야별초 조직·강화 천도"
+        }
+      ],
+      "highlights": [
+        "교정도감",
+        "봉사 10조",
+        "정방",
+        "야별초",
+        "강화 천도"
+      ],
+      "sourceCue": "최충원하면 교정도감을"
+    },
+    {
+      "id": "lecture-m-military-revolts",
+      "era": "goryeo",
+      "title": "무신 집권기의 봉기",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "김보당·조위총",
+          "detail": "무신 정권에 반대"
+        },
+        {
+          "term": "망이·망소이",
+          "detail": "공주 명학소에서 봉기"
+        },
+        {
+          "term": "김사미·효심",
+          "detail": "농민 봉기"
+        },
+        {
+          "term": "만적",
+          "detail": "최충헌의 사노비·신분 해방 주장"
+        }
+      ],
+      "highlights": [
+        "김보당·조위총",
+        "망이·망소이",
+        "김사미·효심",
+        "만적"
+      ],
+      "sourceCue": "무신직권기 때는 사회가 혼란스러우니까"
+    },
+    {
+      "id": "lecture-m-mongols",
+      "era": "goryeo",
+      "title": "몽골 침입과 항쟁",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "김윤후",
+          "detail": "처인성·충주성에서 항전"
+        },
+        {
+          "term": "박서",
+          "detail": "귀주성에서 항전"
+        },
+        {
+          "term": "문화재 피해",
+          "detail": "초조대장경·황룡사 9층 목탑 소실"
+        },
+        {
+          "term": "팔만대장경",
+          "detail": "몽골 격퇴를 기원하며 다시 조판"
+        },
+        {
+          "term": "삼별초",
+          "detail": "개경 환도에 반대하며 끝까지 항전"
+        }
+      ],
+      "highlights": [
+        "김윤후",
+        "박서",
+        "문화재 피해",
+        "팔만대장경",
+        "삼별초"
+      ],
+      "sourceCue": "마지막까지 싸운 조직이 삼별초",
+      "sequence": [
+        "강화도",
+        "진도",
+        "제주도"
+      ]
+    },
+    {
+      "id": "lecture-m-yuan",
+      "era": "goryeo",
+      "title": "원 간섭기의 단서",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "정동행성",
+          "detail": "처음에는 일본 원정을 위해 설치"
+        },
+        {
+          "term": "응방",
+          "detail": "매를 길러 원에 보냄"
+        },
+        {
+          "term": "공녀·몽골풍",
+          "detail": "여성 차출·몽골식 풍습 유행"
+        },
+        {
+          "term": "권문세족",
+          "detail": "원과 결탁한 지배 세력"
+        },
+        {
+          "term": "정치도감",
+          "detail": "원 간섭기에 설치된 개혁 기구"
+        }
+      ],
+      "highlights": [
+        "정동행성",
+        "응방",
+        "공녀·몽골풍",
+        "권문세족",
+        "정치도감"
+      ],
+      "sourceCue": "요즘 정말 잘 나오는 키워드가 응방"
+    },
+    {
+      "id": "lecture-m-gongmin",
+      "era": "goryeo",
+      "title": "공민왕의 반원 개혁",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "기철 일당",
+          "detail": "친원 세력 숙청"
+        },
+        {
+          "term": "쌍성총관부",
+          "detail": "공격하여 영토 수복"
+        },
+        {
+          "term": "정동행성 이문소",
+          "detail": "원 간섭 기구 폐지"
+        },
+        {
+          "term": "전민변정도감",
+          "detail": "신돈 등용·토지와 노비 문제 개혁"
+        }
+      ],
+      "highlights": [
+        "기철 일당",
+        "쌍성총관부",
+        "정동행성 이문소",
+        "전민변정도감"
+      ],
+      "sourceCue": "공민왕은 먼저 대표 권문세족"
+    },
+    {
+      "id": "lecture-m-pirates",
+      "era": "goryeo",
+      "title": "고려 말 왜구 격퇴",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "최영",
+          "detail": "홍산 대첩"
+        },
+        {
+          "term": "이성계",
+          "detail": "황산 대첩"
+        },
+        {
+          "term": "최무선",
+          "detail": "화포 제작·진포 대첩"
+        },
+        {
+          "term": "박위",
+          "detail": "쓰시마섬 정벌"
+        }
+      ],
+      "highlights": [
+        "최영",
+        "이성계",
+        "최무선",
+        "박위"
+      ],
+      "sourceCue": "홍산, 황산, 화포제작"
+    },
+    {
+      "id": "lecture-m-goryeo-end",
+      "era": "goryeo",
+      "title": "고려 말에서 조선 건국까지",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "명나라",
+          "detail": "철령 이북 영토 요구"
+        },
+        {
+          "term": "최영",
+          "detail": "요동 정벌 추진"
+        },
+        {
+          "term": "이성계",
+          "detail": "위화도 회군으로 권력 장악"
+        }
+      ],
+      "highlights": [
+        "요동 정벌",
+        "위화도 회군"
+      ],
+      "sourceCue": "위화도에서 회분",
+      "sequence": [
+        "위화도 회군(1388)",
+        "과전법(1391)",
+        "조선 건국(1392)"
+      ]
+    },
+    {
+      "id": "lecture-m-goryeo-economy",
+      "era": "goryeo",
+      "title": "고려 경제의 단서",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "벽란도",
+          "detail": "국제 무역항"
+        },
+        {
+          "term": "경시서",
+          "detail": "시장 감독"
+        },
+        {
+          "term": "관영 상점",
+          "detail": "서적점·다점 등 국가 운영 상점"
+        },
+        {
+          "term": "향·부곡·소",
+          "detail": "특수 행정 구역"
+        },
+        {
+          "term": "우경·깊이갈이",
+          "detail": "소를 이용한 깊이갈이가 일반화"
+        }
+      ],
+      "highlights": [
+        "벽란도",
+        "경시서",
+        "관영 상점",
+        "향·부곡·소",
+        "우경·깊이갈이"
+      ],
+      "sourceCue": "병란도가 고려입니다"
+    },
+    {
+      "id": "lecture-m-currency-land",
+      "era": "goryeo",
+      "title": "고려 화폐와 토지",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "성종",
+          "detail": "건원중보"
+        },
+        {
+          "term": "숙종",
+          "detail": "해동통보·은병·삼한통보"
+        },
+        {
+          "term": "태조",
+          "detail": "역분전"
+        },
+        {
+          "term": "경종",
+          "detail": "전시과 시작"
+        },
+        {
+          "term": "녹과전",
+          "detail": "무신 집권기 말부터 지급한 토지"
+        }
+      ],
+      "highlights": [
+        "건원중보",
+        "해동통보",
+        "은병",
+        "삼한통보",
+        "역분전",
+        "전시과",
+        "녹과전"
+      ],
+      "sourceCue": "전시과는 5대 경종 때 시작"
+    },
+    {
+      "id": "lecture-m-buddhist-leaders",
+      "era": "goryeo",
+      "title": "의천과 지눌",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "의천",
+          "detail": "천태종 개창·교관겸수·교장 편찬"
+        },
+        {
+          "term": "지눌",
+          "detail": "수선사 결사·정혜쌍수·돈오점수"
+        }
+      ],
+      "highlights": [
+        "천태종",
+        "교관겸수",
+        "교장",
+        "수선사 결사",
+        "정혜쌍수",
+        "돈오점수"
+      ],
+      "sourceCue": "정해상수 도어 점수가 보이면"
+    },
+    {
+      "id": "lecture-m-other-monks",
+      "era": "goryeo",
+      "title": "고려 승려의 짝",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "혜심",
+          "detail": "유불일치설"
+        },
+        {
+          "term": "요세",
+          "detail": "백련 결사·법화 신앙"
+        },
+        {
+          "term": "균여",
+          "detail": "보현십원가·성상융회"
+        }
+      ],
+      "highlights": [
+        "유불일치설",
+        "백련 결사",
+        "법화 신앙",
+        "보현십원가",
+        "성상융회"
+      ],
+      "sourceCue": "오답 선택지로 나오는 스님들"
+    },
+    {
+      "id": "lecture-m-goryeo-towers",
+      "era": "goryeo",
+      "title": "고려의 탑과 불상",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "월정사 8각 9층 석탑",
+          "detail": "고려 전기"
+        },
+        {
+          "term": "경천사지 10층 석탑",
+          "detail": "원 간섭기·국립중앙박물관 소장"
+        },
+        {
+          "term": "관촉사 석조 미륵보살 입상",
+          "detail": "고려의 지방적·독자적 불상 양식"
+        }
+      ],
+      "highlights": [
+        "월정사 8각 9층 석탑",
+        "경천사지 10층 석탑",
+        "관촉사 석조 미륵보살 입상"
+      ],
+      "sourceCue": "고려의 대표 탑으로는"
+    },
+    {
+      "id": "lecture-m-goryeo-buildings",
+      "era": "goryeo",
+      "title": "고려 목조 건축",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "부석사 무량수전",
+          "detail": "배흘림기둥·소조 여래 좌상"
+        },
+        {
+          "term": "봉정사 극락전",
+          "detail": "현존하는 가장 오래된 목조 건물로 알려짐"
+        },
+        {
+          "term": "구별",
+          "detail": "부석사 창건은 통일신라 의상, 무량수전은 고려 건축"
+        }
+      ],
+      "highlights": [
+        "부석사 무량수전",
+        "배흘림기둥",
+        "봉정사 극락전"
+      ],
+      "sourceCue": "가장 유력한 거는 부석사 무량 수전"
+    },
+    {
+      "id": "lecture-m-goryeo-crafts",
+      "era": "goryeo",
+      "title": "고려 인쇄술과 공예",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "직지",
+          "detail": "1377년 청주 흥덕사·현존 최고 금속 활자본"
+        },
+        {
+          "term": "청자",
+          "detail": "비색·상감 기법"
+        },
+        {
+          "term": "나전 칠기",
+          "detail": "자개로 장식한 칠기"
+        }
+      ],
+      "highlights": [
+        "직지",
+        "청주 흥덕사",
+        "금속 활자본",
+        "비색",
+        "상감",
+        "나전 칠기"
+      ],
+      "sourceCue": "청주는 직지의 고장이죠"
+    },
+    {
+      "id": "lecture-m-foundation",
+      "era": "joseon",
+      "title": "태조와 정도전",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "태조",
+          "detail": "천상열차분야지도 제작·제1차 왕자의 난 후 퇴위"
+        },
+        {
+          "term": "정도전",
+          "detail": "불씨잡변으로 불교 비판·조선경국전 저술"
+        }
+      ],
+      "highlights": [
+        "천상열차분야지도",
+        "불씨잡변",
+        "조선경국전"
+      ],
+      "sourceCue": "조선을 설계한 또 한 명 정도전"
+    },
+    {
+      "id": "lecture-m-taejong",
+      "era": "joseon",
+      "title": "태종의 왕권 강화",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "6조 직계제",
+          "detail": "6조가 왕에게 직접 보고"
+        },
+        {
+          "term": "사간원 독립",
+          "detail": "간쟁 기관 정비"
+        },
+        {
+          "term": "호패법·양전 사업",
+          "detail": "인구와 토지 파악·재정 확보"
+        },
+        {
+          "term": "주자소·계미자",
+          "detail": "금속 활자 인쇄"
+        },
+        {
+          "term": "혼일강리역대국도지도",
+          "detail": "태종 때 제작된 세계 지도"
+        }
+      ],
+      "highlights": [
+        "6조 직계제",
+        "사간원 독립",
+        "호패법·양전 사업",
+        "주자소·계미자",
+        "혼일강리역대국도지도"
+      ],
+      "sourceCue": "이방원이나 세조가 나오지 않을까"
+    },
+    {
+      "id": "lecture-m-sejong-border",
+      "era": "joseon",
+      "title": "세종의 국방과 조세",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "4군 6진",
+          "detail": "여진을 몰아내고 북방 개척"
+        },
+        {
+          "term": "이종무",
+          "detail": "쓰시마섬 정벌"
+        },
+        {
+          "term": "3포 개방·계해약조",
+          "detail": "일본과 제한적 교역"
+        },
+        {
+          "term": "전분 6등법·연분 9등법",
+          "detail": "토지 비옥도·풍흉에 따라 전세 차등 부과"
+        }
+      ],
+      "highlights": [
+        "4군 6진",
+        "이종무",
+        "3포 개방·계해약조",
+        "전분 6등법·연분 9등법"
+      ],
+      "sourceCue": "연분 구등법입니다"
+    },
+    {
+      "id": "lecture-m-sejong-books",
+      "era": "joseon",
+      "title": "세종의 문화",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "농사직설",
+          "detail": "우리 풍토와 농민 경험을 반영한 농서"
+        },
+        {
+          "term": "칠정산",
+          "detail": "한양 기준으로 천체 운동 계산"
+        },
+        {
+          "term": "향약집성방·의방유취",
+          "detail": "의학서 편찬"
+        },
+        {
+          "term": "갑인자",
+          "detail": "세종 때 만든 금속 활자"
+        }
+      ],
+      "highlights": [
+        "농사직설",
+        "칠정산",
+        "향약집성방·의방유취",
+        "갑인자"
+      ],
+      "sourceCue": "농사 직설이에요"
+    },
+    {
+      "id": "lecture-m-sejo",
+      "era": "joseon",
+      "title": "세조",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "계유정난",
+          "detail": "김종서 등 제거 후 권력 장악"
+        },
+        {
+          "term": "직전법",
+          "detail": "현직 관리에게만 수조권 지급"
+        },
+        {
+          "term": "이시애의 난",
+          "detail": "함길도에서 일어난 반란"
+        },
+        {
+          "term": "간경도감",
+          "detail": "불경 번역·간행"
+        },
+        {
+          "term": "원각사지 10층 석탑",
+          "detail": "불교 진흥을 보여 주는 문화재"
+        }
+      ],
+      "highlights": [
+        "계유정난",
+        "직전법",
+        "이시애의 난",
+        "간경도감",
+        "원각사지 10층 석탑"
+      ],
+      "sourceCue": "세조하면 간경도감이 더 중요"
+    },
+    {
+      "id": "lecture-m-seongjong-joseon",
+      "era": "joseon",
+      "title": "조선 성종",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "경국대전",
+          "detail": "국가 기본 법전 완성"
+        },
+        {
+          "term": "홍문관",
+          "detail": "집현전을 계승한 학술·언론 기관"
+        },
+        {
+          "term": "김종직 등 사림",
+          "detail": "정계 진출 확대"
+        },
+        {
+          "term": "악학궤범",
+          "detail": "성현 등이 음악 정리"
+        },
+        {
+          "term": "국조오례의",
+          "detail": "국가 의례 정비"
+        }
+      ],
+      "highlights": [
+        "경국대전",
+        "홍문관",
+        "김종직 등 사림",
+        "악학궤범",
+        "국조오례의"
+      ],
+      "sourceCue": "성종, 성연, 성성, 악학개범"
+    },
+    {
+      "id": "lecture-m-sahwa",
+      "era": "joseon",
+      "title": "4대 사화의 계기",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "무오사화",
+          "detail": "연산군·김종직의 조의제문"
+        },
+        {
+          "term": "갑자사화",
+          "detail": "연산군·폐비 윤씨 사사 사건"
+        },
+        {
+          "term": "기묘사화",
+          "detail": "중종·조광조의 개혁"
+        },
+        {
+          "term": "을사사화",
+          "detail": "명종·윤임과 윤원형의 외척 대립"
+        }
+      ],
+      "highlights": [
+        "무오사화",
+        "갑자사화",
+        "기묘사화",
+        "을사사화"
+      ],
+      "sourceCue": "여기서 이번에 한 문제 나올 거 같아요",
+      "sequence": [
+        "무오(1498)",
+        "갑자(1504)",
+        "기묘(1519)",
+        "을사(1545)"
+      ]
+    },
+    {
+      "id": "lecture-m-jogwangjo",
+      "era": "joseon",
+      "title": "조광조의 개혁",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "현량과",
+          "detail": "추천으로 인재 등용"
+        },
+        {
+          "term": "위훈 삭제",
+          "detail": "중종반정의 거짓 공훈 삭제"
+        },
+        {
+          "term": "소격서 폐지",
+          "detail": "도교 제사 기관 혁파"
+        }
+      ],
+      "highlights": [
+        "현량과",
+        "위훈 삭제",
+        "소격서 폐지"
+      ],
+      "sourceCue": "조강조와 관련해서도 단독 문제"
+    },
+    {
+      "id": "lecture-m-seonjo",
+      "era": "joseon",
+      "title": "선조 때 정치 변화",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "동인·서인",
+          "detail": "이조 전랑 임명을 둘러싸고 분화"
+        },
+        {
+          "term": "기축옥사",
+          "detail": "정여립 모반 사건에서 비롯"
+        },
+        {
+          "term": "구별",
+          "detail": "효종 때 기축봉사는 송시열의 북벌 건의"
+        }
+      ],
+      "highlights": [
+        "이조 전랑",
+        "기축옥사",
+        "정여립",
+        "기축봉사"
+      ],
+      "sourceCue": "기축 옥사는 감옥할 때 옥"
+    },
+    {
+      "id": "lecture-m-imjin",
+      "era": "joseon",
+      "title": "임진왜란의 전투와 군제",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "이순신",
+          "detail": "한산도 대첩"
+        },
+        {
+          "term": "권율·김시민",
+          "detail": "행주 대첩·진주 대첩"
+        },
+        {
+          "term": "신립·정문부",
+          "detail": "탄금대 전투·길주 전투"
+        },
+        {
+          "term": "훈련도감",
+          "detail": "포수·사수·살수의 삼수병 편성"
+        }
+      ],
+      "highlights": [
+        "한산도 대첩",
+        "행주 대첩",
+        "진주 대첩",
+        "탄금대 전투",
+        "길주 전투",
+        "훈련도감"
+      ],
+      "sourceCue": "임진혜란 3대 대첩"
+    },
+    {
+      "id": "lecture-m-gwanghaegun",
+      "era": "joseon",
+      "title": "광해군",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "기유약조",
+          "detail": "일본과 국교 회복"
+        },
+        {
+          "term": "중립 외교",
+          "detail": "명과 후금 사이에서 실리 추구·강홍립의 사르후 전투"
+        },
+        {
+          "term": "대동법",
+          "detail": "경기도에서 시작"
+        },
+        {
+          "term": "정치 갈등",
+          "detail": "영창대군 처형·인목대비 유폐"
+        }
+      ],
+      "highlights": [
+        "기유약조",
+        "중립 외교",
+        "대동법",
+        "정치 갈등"
+      ],
+      "sourceCue": "강공립의 사로 전투"
+    },
+    {
+      "id": "lecture-m-injo-wars",
+      "era": "joseon",
+      "title": "인조와 두 호란",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "이괄의 난",
+          "detail": "인조가 공주 공산성으로 피란"
+        },
+        {
+          "term": "정묘호란",
+          "detail": "후금 침입·정봉수의 용골산성 항전"
+        },
+        {
+          "term": "병자호란",
+          "detail": "청 침입·남한산성 항전"
+        },
+        {
+          "term": "김준룡",
+          "detail": "병자호란 때 광교산 전투"
+        },
+        {
+          "term": "삼전도비",
+          "detail": "청에 항복한 뒤 세워짐"
+        }
+      ],
+      "highlights": [
+        "정묘호란",
+        "용골산성",
+        "병자호란",
+        "남한산성",
+        "광교산 전투",
+        "삼전도비"
+      ],
+      "sourceCue": "이번에 병자 허란이 나올 자리"
+    },
+    {
+      "id": "lecture-m-hyo-hyeon",
+      "era": "joseon",
+      "title": "효종과 현종",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "효종의 북벌",
+          "detail": "송시열의 기축봉사"
+        },
+        {
+          "term": "효종의 나선 정벌",
+          "detail": "청의 요청으로 러시아와의 전투에 조총 부대 파견"
+        },
+        {
+          "term": "현종의 예송",
+          "detail": "상복을 입는 기간을 둘러싼 두 차례 논쟁"
+        }
+      ],
+      "highlights": [
+        "북벌",
+        "기축봉사",
+        "나선 정벌",
+        "예송"
+      ],
+      "sourceCue": "현종 때 예송입니다"
+    },
+    {
+      "id": "lecture-m-sukjong-joseon",
+      "era": "joseon",
+      "title": "숙종",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "백두산정계비",
+          "detail": "청과 국경 경계 확인"
+        },
+        {
+          "term": "금위영",
+          "detail": "수도 방어 군영 설치"
+        },
+        {
+          "term": "환국",
+          "detail": "경신 → 기사 → 갑술 순으로 정권 교체"
+        },
+        {
+          "term": "대표 사건",
+          "detail": "송시열 사사·인현왕후 폐위와 복위"
+        }
+      ],
+      "highlights": [
+        "백두산정계비",
+        "금위영",
+        "환국",
+        "대표 사건"
+      ],
+      "sourceCue": "숙종은 세 가지가 중요"
+    },
+    {
+      "id": "lecture-m-yeongjo",
+      "era": "joseon",
+      "title": "영조",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "탕평비",
+          "detail": "붕당 간 대립 완화"
+        },
+        {
+          "term": "이인좌의 난",
+          "detail": "영조 즉위에 반대하는 반란"
+        },
+        {
+          "term": "균역법",
+          "detail": "군포를 2필에서 1필로 축소"
+        },
+        {
+          "term": "청계천 준설·신문고 부활",
+          "detail": "민생·민의 수렴"
+        },
+        {
+          "term": "속대전·동국문헌비고",
+          "detail": "법전 보완·제도와 문물 정리"
+        }
+      ],
+      "highlights": [
+        "탕평비",
+        "이인좌의 난",
+        "균역법",
+        "청계천 준설·신문고 부활",
+        "속대전·동국문헌비고"
+      ],
+      "sourceCue": "영조때는 자주 홍수가"
+    },
+    {
+      "id": "lecture-m-jeongjo",
+      "era": "joseon",
+      "title": "정조의 개혁",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "신해통공",
+          "detail": "육의전을 제외한 시전의 금난전권 폐지"
+        },
+        {
+          "term": "규장각",
+          "detail": "학술·정책 연구 기관"
+        },
+        {
+          "term": "장용영",
+          "detail": "왕의 호위 부대"
+        },
+        {
+          "term": "초계문신제",
+          "detail": "젊은 문신 재교육"
+        },
+        {
+          "term": "수원 화성",
+          "detail": "왕권 강화와 도시 건설"
+        }
+      ],
+      "highlights": [
+        "신해통공",
+        "규장각",
+        "장용영",
+        "초계문신제",
+        "수원 화성"
+      ],
+      "sourceCue": "정조때 경제 개혁은 신내통"
+    },
+    {
+      "id": "lecture-m-jeongjo-books",
+      "era": "joseon",
+      "title": "정조의 책과 신해박해",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "무예도보통지",
+          "detail": "무예 정리"
+        },
+        {
+          "term": "대전통편",
+          "detail": "기존 법전 통합·보완"
+        },
+        {
+          "term": "동문휘고",
+          "detail": "외교 문서 정리"
+        },
+        {
+          "term": "신해박해",
+          "detail": "윤지충의 제사 거부·신주 소각 사건"
+        }
+      ],
+      "highlights": [
+        "무예도보통지",
+        "대전통편",
+        "동문휘고",
+        "신해박해"
+      ],
+      "sourceCue": "정조하면 윤지충"
+    },
+    {
+      "id": "lecture-m-sunjo",
+      "era": "joseon",
+      "title": "순조",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "신유박해",
+          "detail": "1801년 천주교 탄압·정약종 처형, 정약용·정약전 유배"
+        },
+        {
+          "term": "황사영 백서 사건",
+          "detail": "외세 지원을 요청하는 백서가 발각"
+        },
+        {
+          "term": "공노비 해방",
+          "detail": "중앙 관서의 노비 해방"
+        },
+        {
+          "term": "홍경래의 난",
+          "detail": "서북 지역 차별 등에 반발"
+        }
+      ],
+      "highlights": [
+        "신유박해",
+        "황사영 백서 사건",
+        "공노비 해방",
+        "홍경래의 난"
+      ],
+      "sourceCue": "순조는 신유박해"
+    },
+    {
+      "id": "lecture-m-sedo",
+      "era": "joseon",
+      "title": "세도 정치와 농민 봉기",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "순조·헌종·철종",
+          "detail": "외척이 비변사 등을 장악"
+        },
+        {
+          "term": "임술 농민 봉기",
+          "detail": "철종 때 진주에서 시작해 확산"
+        },
+        {
+          "term": "박규수",
+          "detail": "안핵사로 진주에 파견"
+        },
+        {
+          "term": "삼정이정청",
+          "detail": "삼정의 문란을 바로잡으려 설치"
+        },
+        {
+          "term": "정감록",
+          "detail": "새 왕조 출현을 예언하는 사상 유행"
+        }
+      ],
+      "highlights": [
+        "순조·헌종·철종",
+        "임술 농민 봉기",
+        "박규수",
+        "삼정이정청",
+        "정감록"
+      ],
+      "sourceCue": "진주를 시작으로 대규모의 임술"
+    },
+    {
+      "id": "lecture-m-offices",
+      "era": "joseon",
+      "title": "조선 중앙 기관 구별",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "승정원",
+          "detail": "왕명 출납·도승지·별칭 은대"
+        },
+        {
+          "term": "사헌부",
+          "detail": "관리 감찰·대사헌"
+        },
+        {
+          "term": "사간원",
+          "detail": "왕에게 간쟁·대사간"
+        },
+        {
+          "term": "홍문관",
+          "detail": "학술·경연·대제학·별칭 옥당"
+        },
+        {
+          "term": "삼사",
+          "detail": "사헌부·사간원·홍문관이 언론 기능 담당"
+        }
+      ],
+      "highlights": [
+        "승정원",
+        "사헌부",
+        "사간원",
+        "홍문관",
+        "삼사"
+      ],
+      "sourceCue": "정치 기구에서도 한 문제씩"
+    },
+    {
+      "id": "lecture-m-education-office",
+      "era": "joseon",
+      "title": "성균관과 양사",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "성균관",
+          "detail": "최고 유학 교육 기관·대사성"
+        },
+        {
+          "term": "대성전·명륜당",
+          "detail": "공자 등 제사 공간·유학 교육 공간"
+        },
+        {
+          "term": "양사",
+          "detail": "사헌부·사간원·서경권 행사"
+        }
+      ],
+      "highlights": [
+        "성균관",
+        "대성전·명륜당",
+        "양사"
+      ],
+      "sourceCue": "성균관은 대성전과 명륜단"
+    },
+    {
+      "id": "lecture-m-bibyeonsa",
+      "era": "joseon",
+      "title": "비변사의 변화",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "삼포왜란",
+          "detail": "중종 때 설치의 계기"
+        },
+        {
+          "term": "을묘왜변",
+          "detail": "명종 때 상설 기구로 확대"
+        },
+        {
+          "term": "세도 정치",
+          "detail": "외척의 권력 기반"
+        },
+        {
+          "term": "흥선대원군",
+          "detail": "폐지하여 왕권 강화"
+        }
+      ],
+      "highlights": [
+        "삼포왜란",
+        "을묘왜변",
+        "세도 정치",
+        "흥선대원군"
+      ],
+      "sourceCue": "비변사는 중종때 삼포회란",
+      "sequence": [
+        "임시 기구",
+        "상설화",
+        "권력 집중",
+        "폐지"
+      ]
+    },
+    {
+      "id": "lecture-m-joseon-trade",
+      "era": "joseon",
+      "title": "조선의 대외 교류",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "조선 전기",
+          "detail": "부산포·제포·염포의 3포 개방"
+        },
+        {
+          "term": "조선 후기",
+          "detail": "부산포에서 일본과 교역·숙종 때 초량 왜관 설치"
+        },
+        {
+          "term": "통신사",
+          "detail": "일본에 파견한 외교 사절"
+        },
+        {
+          "term": "경원·경성 무역소",
+          "detail": "여진과 교역"
+        }
+      ],
+      "highlights": [
+        "3포",
+        "초량 왜관",
+        "통신사",
+        "경원·경성"
+      ],
+      "sourceCue": "초량 외관은 조선 후기에"
+    },
+    {
+      "id": "lecture-m-late-society",
+      "era": "joseon",
+      "title": "조선 후기 사회·문화",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "서얼의 통청 운동",
+          "detail": "청요직 진출 요구"
+        },
+        {
+          "term": "중인의 시사",
+          "detail": "문학 활동 모임"
+        },
+        {
+          "term": "한글 소설·전기수",
+          "detail": "소설 유행·이야기를 읽어 주는 직업 등장"
+        },
+        {
+          "term": "산대놀이·판소리·탈춤",
+          "detail": "서민 문화 발달"
+        }
+      ],
+      "highlights": [
+        "서얼의 통청 운동",
+        "중인의 시사",
+        "한글 소설·전기수",
+        "산대놀이·판소리·탈춤"
+      ],
+      "sourceCue": "전반적으로 평등으로 가는 시기"
+    },
+    {
+      "id": "lecture-m-late-economy",
+      "era": "joseon",
+      "title": "조선 후기 경제의 단서",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "구황 작물",
+          "detail": "감자·고구마 재배"
+        },
+        {
+          "term": "상품 작물",
+          "detail": "담배·인삼 등 판매용 작물 재배"
+        },
+        {
+          "term": "광산 개발",
+          "detail": "덕대·설점수세제"
+        },
+        {
+          "term": "도고·송상",
+          "detail": "독점 상인·개성 상인"
+        },
+        {
+          "term": "상평통보",
+          "detail": "상업 발달과 함께 널리 유통"
+        }
+      ],
+      "highlights": [
+        "구황 작물",
+        "상품 작물",
+        "광산 개발",
+        "도고·송상",
+        "상평통보"
+      ],
+      "sourceCue": "덕대, 설 수세제라는 표현"
+    },
+    {
+      "id": "lecture-m-daedong",
+      "era": "joseon",
+      "title": "대동법",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "공납 개혁",
+          "detail": "방납의 폐단을 줄이려 토산물 대신 쌀·포·돈으로 납부"
+        },
+        {
+          "term": "추진",
+          "detail": "광해군 때 경기도 시행·이원익과 김육 등 기여"
+        },
+        {
+          "term": "공인",
+          "detail": "선혜청에서 공가를 받아 물품 조달"
+        },
+        {
+          "term": "결과",
+          "detail": "상품 화폐 경제 발달"
+        }
+      ],
+      "highlights": [
+        "방납",
+        "공인",
+        "선혜청",
+        "상품 화폐 경제"
+      ],
+      "sourceCue": "대동법을 주관했던 선해청"
+    },
+    {
+      "id": "lecture-m-gyunyeok",
+      "era": "joseon",
+      "title": "영조의 균역법",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "군포",
+          "detail": "1년에 2필 → 1필로 경감"
+        },
+        {
+          "term": "결작",
+          "detail": "토지에 부과해 부족분 보충"
+        },
+        {
+          "term": "선무군관포",
+          "detail": "일부 부유층에게 군포 부과"
+        },
+        {
+          "term": "어장세·선박세",
+          "detail": "재정 부족분 보충"
+        }
+      ],
+      "highlights": [
+        "군포",
+        "결작",
+        "선무군관포",
+        "어장세·선박세"
+      ],
+      "sourceCue": "결작 선무 군간포라는 단어"
+    },
+    {
+      "id": "lecture-m-land-tax",
+      "era": "joseon",
+      "title": "조선 토지·전세 제도",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "세조의 직전법",
+          "detail": "현직 관리만 수조권 지급·수신전과 휼양전 폐지"
+        },
+        {
+          "term": "성종의 관수관급제",
+          "detail": "국가가 조세를 거둬 관리에게 지급"
+        },
+        {
+          "term": "명종",
+          "detail": "직전법 폐지·녹봉만 지급"
+        },
+        {
+          "term": "세종의 공법",
+          "detail": "전분 6등법·연분 9등법"
+        },
+        {
+          "term": "인조의 영정법",
+          "detail": "풍흉과 관계없이 전세액 고정"
+        }
+      ],
+      "highlights": [
+        "세조의 직전법",
+        "성종의 관수관급제",
+        "명종",
+        "세종의 공법",
+        "인조의 영정법"
+      ],
+      "sourceCue": "과전법으로 시작을 했죠",
+      "sequence": [
+        "과전법",
+        "직전법",
+        "관수관급제",
+        "직전법 폐지"
+      ]
+    },
+    {
+      "id": "lecture-m-seowon",
+      "era": "joseon",
+      "title": "서원과 성리학",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "백운동 서원",
+          "detail": "중종 때 주세붕이 설립"
+        },
+        {
+          "term": "소수 서원",
+          "detail": "명종 때 사액을 받아 이름 변경"
+        },
+        {
+          "term": "이황",
+          "detail": "성학십도·기대승과 사단칠정 논쟁"
+        },
+        {
+          "term": "이이",
+          "detail": "성학집요·동호문답·해주 향약"
+        }
+      ],
+      "highlights": [
+        "백운동 서원",
+        "소수 서원",
+        "성학십도",
+        "사단칠정 논쟁",
+        "성학집요",
+        "동호문답"
+      ],
+      "sourceCue": "최초의 서원은 중종 때"
+    },
+    {
+      "id": "lecture-m-early-paintings",
+      "era": "joseon",
+      "title": "조선 전기 그림",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "강희안",
+          "detail": "고사관수도"
+        },
+        {
+          "term": "안견",
+          "detail": "몽유도원도·안평대군의 꿈을 그림"
+        }
+      ],
+      "highlights": [
+        "고사관수도",
+        "몽유도원도"
+      ],
+      "sourceCue": "이번에 조선의 그림이 나올 때"
+    },
+    {
+      "id": "lecture-m-late-paintings",
+      "era": "joseon",
+      "title": "조선 후기 그림",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "정선",
+          "detail": "진경산수화·인왕제색도·금강전도"
+        },
+        {
+          "term": "김홍도",
+          "detail": "단원·서민 생활을 그린 풍속화"
+        },
+        {
+          "term": "신윤복",
+          "detail": "혜원·월하정인"
+        },
+        {
+          "term": "김득신",
+          "detail": "파적도"
+        },
+        {
+          "term": "강세황",
+          "detail": "영통동구도"
+        }
+      ],
+      "highlights": [
+        "진경산수화",
+        "인왕제색도",
+        "금강전도",
+        "김홍도",
+        "신윤복",
+        "월하정인",
+        "파적도",
+        "영통동구도"
+      ],
+      "sourceCue": "겸제 정선의 인왕 재색도"
+    },
+    {
+      "id": "lecture-d-daewongun",
+      "era": "joseon",
+      "title": "흥선대원군의 왕권 강화",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "경복궁 중건",
+          "detail": "공사 비용 마련을 위해 당백전 발행."
+        },
+        {
+          "term": "비변사 폐지",
+          "detail": "왕권을 강화하고 의정부의 기능 회복."
+        },
+        {
+          "term": "호포제",
+          "detail": "양반에게도 군포 부과."
+        }
+      ],
+      "highlights": [
+        "경복궁 중건",
+        "비변사 폐지",
+        "호포제",
+        "당백전"
+      ],
+      "sourceCue": "고종의 아버지 흥선대군"
+    },
+    {
+      "id": "lecture-d-western-attacks",
+      "era": "joseon",
+      "title": "병인양요와 신미양요",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "병인양요",
+          "detail": "1866년 프랑스 침입 → 양헌수의 정족산성 전투, 외규장각 도서 약탈."
+        },
+        {
+          "term": "신미양요",
+          "detail": "1871년 미국 침입 → 어재연의 광성보 항전."
+        },
+        {
+          "term": "척화비",
+          "detail": "신미양요 이후 서양과의 통상 수교 거부."
+        }
+      ],
+      "highlights": [
+        "병인양요",
+        "신미양요",
+        "척화비",
+        "양헌수",
+        "정족산성",
+        "어재연",
+        "광성보"
+      ],
+      "sourceCue": "병제병 오신척",
+      "sequence": [
+        "병인박해",
+        "제너럴 셔먼호 사건",
+        "병인양요",
+        "오페르트 도굴 미수",
+        "신미양요",
+        "척화비"
+      ]
+    },
+    {
+      "id": "lecture-d-ganghwa",
+      "era": "opening",
+      "title": "강화도 조약과 부속 조약",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "강화도 조약",
+          "detail": "1876년, 운요호 사건을 계기로 체결. 부산·원산·인천 개항, 해안 측량권 인정."
+        },
+        {
+          "term": "조일 무역 규칙",
+          "detail": "1876년: 무관세, 양곡 수출 허용."
+        },
+        {
+          "term": "조일 통상 장정",
+          "detail": "1883년 개정: 관세·방곡령 조항 포함."
+        }
+      ],
+      "highlights": [
+        "강화도 조약",
+        "조일 무역 규칙",
+        "조일 통상 장정",
+        "운요호 사건",
+        "해안 측량권",
+        "무관세",
+        "방곡령"
+      ],
+      "sourceCue": "강화도 조약이죠"
+    },
+    {
+      "id": "lecture-d-early-reforms",
+      "era": "opening",
+      "title": "1880년대 개화 정책",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "통리기무아문",
+          "detail": "개화 정책을 추진한 중앙 기구."
+        },
+        {
+          "term": "군제 개편",
+          "detail": "5군영을 2영으로 통합, 신식 군대 별기군 창설."
+        }
+      ],
+      "highlights": [
+        "통리기무아문",
+        "군제 개편"
+      ],
+      "sourceCue": "통리 기무화문을 중심으로"
+    },
+    {
+      "id": "lecture-d-anti-opening",
+      "era": "opening",
+      "title": "위정척사: 반대한 대상 구별",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "최익현",
+          "detail": "왜양일체론으로 일본과의 강화도 조약 체결 반대."
+        },
+        {
+          "term": "이만손",
+          "detail": "영남 만인소로 『조선책략』 유포와 미국과의 수교 반대."
+        }
+      ],
+      "highlights": [
+        "최익현",
+        "이만손",
+        "왜양일체론",
+        "영남 만인소"
+      ],
+      "sourceCue": "이번에 최현 물어볼 수도 있어요"
+    },
+    {
+      "id": "lecture-d-usa-treaty",
+      "era": "opening",
+      "title": "조미 수호 통상 조약",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "1882년",
+          "detail": "김홍집이 가져온 『조선책략』이 수교 논의에 영향."
+        },
+        {
+          "term": "최혜국 대우",
+          "detail": "조약에 처음 규정. 조선의 관세 부과 권한도 인정."
+        }
+      ],
+      "highlights": [
+        "1882년",
+        "최혜국 대우"
+      ],
+      "sourceCue": "조미수호 통상조약"
+    },
+    {
+      "id": "lecture-d-imogunlan",
+      "era": "opening",
+      "title": "임오군란과 뒤따른 조약",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "임오군란",
+          "detail": "1882년 구식 군인 차별에 반발. 청군 진압 뒤 청의 내정 간섭 강화."
+        },
+        {
+          "term": "제물포 조약",
+          "detail": "일본 공사관 경비 병력 주둔 허용."
+        },
+        {
+          "term": "조청 상민 수륙 무역 장정",
+          "detail": "청 상인의 내륙 진출 허용."
+        },
+        {
+          "term": "청의 간섭",
+          "detail": "흥선대원군 납치, 마젠창·묄렌도르프 고문 파견."
+        }
+      ],
+      "highlights": [
+        "임오군란",
+        "제물포 조약",
+        "조청 상민 수륙 무역 장정",
+        "청의 간섭",
+        "마젠창",
+        "묄렌도르프"
+      ],
+      "sourceCue": "임재조라고 외워 봅시다"
+    },
+    {
+      "id": "lecture-d-gapsin",
+      "era": "opening",
+      "title": "갑신정변과 뒤따른 조약",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "갑신정변",
+          "detail": "1884년 김옥균 등 급진 개화파, 우정총국 개국 축하연을 계기로 정변."
+        },
+        {
+          "term": "한성 조약",
+          "detail": "조선이 일본에 배상."
+        },
+        {
+          "term": "톈진 조약",
+          "detail": "청·일 양군 철수, 조선에 파병할 때 서로 알리기로 합의."
+        }
+      ],
+      "highlights": [
+        "갑신정변",
+        "한성 조약",
+        "톈진 조약"
+      ],
+      "sourceCue": "갑한텐입니다"
+    },
+    {
+      "id": "lecture-d-neutrality",
+      "era": "opening",
+      "title": "거문도 사건과 중립화론",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "거문도 사건",
+          "detail": "1885년 영국이 러시아를 견제하며 거문도 점령."
+        },
+        {
+          "term": "중립화론",
+          "detail": "열강의 간섭에서 벗어나기 위해 조선 중립화 주장."
+        }
+      ],
+      "highlights": [
+        "거문도 사건",
+        "중립화론"
+      ],
+      "sourceCue": "검운도를 불법 점령"
+    },
+    {
+      "id": "lecture-d-envoys",
+      "era": "opening",
+      "title": "개화 사절단: 어디로 갔나",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "일본",
+          "detail": "수신사·조사 시찰단."
+        },
+        {
+          "term": "청",
+          "detail": "영선사 파견 → 귀국 뒤 무기 제조소 기기창 설치."
+        },
+        {
+          "term": "미국",
+          "detail": "조미 수호 통상 조약의 답례로 보빙사 파견."
+        },
+        {
+          "term": "프랑스",
+          "detail": "조불 수호 통상 조약으로 천주교 포교 인정."
+        }
+      ],
+      "highlights": [
+        "일본",
+        "청",
+        "미국",
+        "프랑스"
+      ],
+      "sourceCue": "사절단을 보내요"
+    },
+    {
+      "id": "lecture-d-donghak-first",
+      "era": "opening",
+      "title": "동학 농민 운동: 1차 봉기",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "고부 농민 봉기",
+          "detail": "조병갑의 수탈에 저항. 안핵사 이용태의 탄압으로 봉기 확대."
+        },
+        {
+          "term": "황토현·황룡촌",
+          "detail": "농민군 승리 뒤 전주성 점령."
+        },
+        {
+          "term": "전주 화약",
+          "detail": "농민군은 집강소 설치·폐정 개혁 추진, 정부는 교정청 설치."
+        }
+      ],
+      "highlights": [
+        "고부 농민 봉기",
+        "황토현·황룡촌",
+        "전주 화약"
+      ],
+      "sourceCue": "황토연 황룡촌 전투",
+      "sequence": [
+        "고부 봉기",
+        "황토현·황룡촌 전투",
+        "전주성 점령",
+        "전주 화약"
+      ]
+    },
+    {
+      "id": "lecture-d-donghak-second",
+      "era": "opening",
+      "title": "동학 농민 운동: 2차 봉기",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "청·일 군대 개입",
+          "detail": "정부의 청군 요청 뒤 일본군도 진입. 일본의 경복궁 점령과 청일 전쟁."
+        },
+        {
+          "term": "2차 봉기",
+          "detail": "일본의 침략에 맞서 남접·북접 연합."
+        },
+        {
+          "term": "우금치 전투",
+          "detail": "공주에서 패배 → 전봉준 체포."
+        }
+      ],
+      "highlights": [
+        "청·일 군대 개입",
+        "2차 봉기",
+        "우금치 전투"
+      ],
+      "sourceCue": "공주 우금치에서 패배",
+      "sequence": [
+        "일본군 경복궁 점령",
+        "청일 전쟁",
+        "농민군 2차 봉기",
+        "우금치 패배"
+      ]
+    },
+    {
+      "id": "lecture-d-gabo-first",
+      "era": "opening",
+      "title": "1차 갑오개혁",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "군국기무처",
+          "detail": "1894년 1차 갑오개혁 추진 기구."
+        },
+        {
+          "term": "낡은 제도 폐지",
+          "detail": "과거제·신분제·노비제 폐지, 과부의 재가 허용, 고문 금지."
+        }
+      ],
+      "highlights": [
+        "군국기무처",
+        "낡은 제도 폐지",
+        "과거제",
+        "신분제",
+        "과부의 재가"
+      ],
+      "sourceCue": "군국 기무처 꼭 한번 외워 주세요"
+    },
+    {
+      "id": "lecture-d-gabo-second",
+      "era": "opening",
+      "title": "2차 갑오개혁",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "홍범 14조",
+          "detail": "고종이 종묘에서 독립 서고문과 함께 발표."
+        },
+        {
+          "term": "지방·사법 개편",
+          "detail": "전국을 23부로 개편, 재판소 설치."
+        },
+        {
+          "term": "교육입국 조서",
+          "detail": "근대 교육 추진 → 한성 사범학교 설립."
+        }
+      ],
+      "highlights": [
+        "홍범 14조",
+        "지방·사법 개편",
+        "교육입국 조서",
+        "23부"
+      ],
+      "sourceCue": "홍범 14조를 선포"
+    },
+    {
+      "id": "lecture-d-eulmi",
+      "era": "opening",
+      "title": "삼국 간섭에서 아관파천까지",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "삼국 간섭",
+          "detail": "러시아·프랑스·독일이 일본의 요동반도 차지에 제동."
+        },
+        {
+          "term": "을미사변",
+          "detail": "1895년 일본이 명성 황후 시해."
+        },
+        {
+          "term": "을미개혁",
+          "detail": "단발령, 건양 연호, 친위대·진위대 설치."
+        },
+        {
+          "term": "아관파천",
+          "detail": "1896년 고종이 러시아 공사관으로 이동, 개혁 중단."
+        }
+      ],
+      "highlights": [
+        "삼국 간섭",
+        "을미사변",
+        "을미개혁",
+        "아관파천",
+        "단발령",
+        "건양",
+        "친위대·진위대"
+      ],
+      "sourceCue": "단발령, 건약 연호",
+      "sequence": [
+        "삼국 간섭",
+        "을미사변",
+        "을미개혁",
+        "아관파천"
+      ]
+    },
+    {
+      "id": "lecture-d-independence-club",
+      "era": "opening",
+      "title": "독립협회",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "서재필",
+          "detail": "1896년 독립협회 창립, 독립문 건립."
+        },
+        {
+          "term": "만민 공동회",
+          "detail": "민중 토론 집회. 러시아의 절영도 조차 요구 반대."
+        },
+        {
+          "term": "관민 공동회",
+          "detail": "관리와 민중이 함께 참여해 헌의 6조 채택."
+        },
+        {
+          "term": "중추원",
+          "detail": "개편을 통해 의회 설립 추진."
+        }
+      ],
+      "highlights": [
+        "서재필",
+        "만민 공동회",
+        "관민 공동회",
+        "중추원"
+      ],
+      "sourceCue": "이번에 독립협회 나올 때가 됐습니다"
+    },
+    {
+      "id": "lecture-d-gwangmu",
+      "era": "opening",
+      "title": "대한제국과 광무개혁",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "대한제국",
+          "detail": "1897년 고종이 황제 즉위, 광무개혁 추진."
+        },
+        {
+          "term": "원수부",
+          "detail": "황제 직속 최고 군사 기구. 군사 지휘권 강화."
+        },
+        {
+          "term": "지계",
+          "detail": "토지 소유 증명 문서 발급."
+        }
+      ],
+      "highlights": [
+        "대한제국",
+        "원수부",
+        "지계",
+        "토지 소유 증명"
+      ],
+      "sourceCue": "원수부랑지게 보이면 광무 개혁"
+    },
+    {
+      "id": "lecture-d-loss-sovereignty",
+      "era": "opening",
+      "title": "국권 피탈 순서",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "제1차 한일 협약",
+          "detail": "1904년 고문 정치: 재정 메가타·외교 스티븐스, 화폐 정리 사업."
+        },
+        {
+          "term": "을사늑약",
+          "detail": "1905년 외교권 박탈, 통감부 설치."
+        },
+        {
+          "term": "헤이그 특사",
+          "detail": "1907년 파견 → 고종 강제 퇴위, 군대 해산."
+        },
+        {
+          "term": "기유각서·강제 병합",
+          "detail": "1909년 사법권 박탈 → 1910년 국권 피탈."
+        }
+      ],
+      "highlights": [
+        "제1차 한일 협약",
+        "을사늑약",
+        "헤이그 특사",
+        "기유각서·강제 병합"
+      ],
+      "sourceCue": "고문 정치가 시작이 돼요",
+      "sequence": [
+        "제1차 한일 협약",
+        "을사늑약",
+        "고종 강제 퇴위·군대 해산",
+        "기유각서",
+        "강제 병합"
+      ]
+    },
+    {
+      "id": "lecture-d-righteous-army",
+      "era": "opening",
+      "title": "정미의병",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "군대 해산",
+          "detail": "1907년 해산 군인이 의병에 합류, 전투력 강화."
+        },
+        {
+          "term": "13도 창의군",
+          "detail": "서울 진공 작전 추진."
+        }
+      ],
+      "highlights": [
+        "군대 해산",
+        "13도 창의군"
+      ],
+      "sourceCue": "13도 창의군을 조직"
+    },
+    {
+      "id": "lecture-d-patriotic-societies",
+      "era": "opening",
+      "title": "개화기 단체: 목적을 연결",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "황국중앙총상회",
+          "detail": "상권 수호 운동."
+        },
+        {
+          "term": "보안회·농광회사",
+          "detail": "일제의 황무지 개간권 요구 반대."
+        },
+        {
+          "term": "대한자강회",
+          "detail": "고종 강제 퇴위 반대 운동."
+        }
+      ],
+      "highlights": [
+        "황국중앙총상회",
+        "보안회·농광회사",
+        "대한자강회"
+      ],
+      "sourceCue": "황국 중앙 총상"
+    },
+    {
+      "id": "lecture-d-sinminhoe",
+      "era": "opening",
+      "title": "신민회",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "비밀 결사",
+          "detail": "1907년 조직, 105인 사건으로 와해."
+        },
+        {
+          "term": "교육·산업",
+          "detail": "대성학교·오산학교, 태극서관 운영."
+        },
+        {
+          "term": "국외 기지",
+          "detail": "서간도 독립운동 기지와 신흥강습소 설립 추진."
+        }
+      ],
+      "highlights": [
+        "비밀 결사",
+        "교육·산업",
+        "국외 기지",
+        "105인 사건",
+        "대성학교",
+        "오산학교",
+        "태극서관"
+      ],
+      "sourceCue": "배고인 사건으로 와되었죠"
+    },
+    {
+      "id": "lecture-d-debt",
+      "era": "opening",
+      "title": "국채 보상 운동",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "1907년 대구",
+          "detail": "서상돈·김광제 등이 국채를 갚기 위한 모금 운동 시작."
+        },
+        {
+          "term": "대한매일신보",
+          "detail": "운동을 전국에 알리고 모금 지원."
+        }
+      ],
+      "highlights": [
+        "1907년 대구",
+        "대한매일신보",
+        "서상돈·김광제"
+      ],
+      "sourceCue": "대한매일 신부에서 지원"
+    },
+    {
+      "id": "lecture-d-modern-culture",
+      "era": "opening",
+      "title": "개화기 교통·시설",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "1899년",
+          "detail": "서울 전차 운행, 경인선 개통."
+        },
+        {
+          "term": "철도 순서",
+          "detail": "경인선 1899 → 경부선 1905 → 경의선 1906."
+        },
+        {
+          "term": "원각사",
+          "detail": "개화기에 문을 연 극장. 단성사는 일제강점기 영화 상영과 연결."
+        },
+        {
+          "term": "동양척식주식회사",
+          "detail": "1908년 설립. 국권 피탈 이전부터 존재."
+        }
+      ],
+      "highlights": [
+        "1899년",
+        "철도 순서",
+        "원각사",
+        "동양척식주식회사"
+      ],
+      "sourceCue": "은하철도 999"
+    },
+    {
+      "id": "lecture-d-newspapers",
+      "era": "opening",
+      "title": "근대 신문 구별",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "한성순보",
+          "detail": "1883년 박문국 발행, 순한문 신문."
+        },
+        {
+          "term": "독립신문",
+          "detail": "서재필, 한글판·영문판 발행."
+        },
+        {
+          "term": "대한매일신보",
+          "detail": "양기탁·베델이 창간, 국채 보상 운동 지원. 일제의 신문지법 탄압."
+        }
+      ],
+      "highlights": [
+        "한성순보",
+        "독립신문",
+        "대한매일신보"
+      ],
+      "sourceCue": "한성순보가 있고"
+    },
+    {
+      "id": "lecture-d-modern-schools",
+      "era": "opening",
+      "title": "근대 학교: 설립 주체와 목적",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "원산학사",
+          "detail": "1883년 덕원 주민과 관리가 함께 설립한 근대 학교."
+        },
+        {
+          "term": "동문학",
+          "detail": "통역관 양성 기관."
+        },
+        {
+          "term": "육영공원",
+          "detail": "1886년 관립 학교. 헐버트 등 외국인 교사, 좌원·우원 구분."
+        },
+        {
+          "term": "한성 사범학교",
+          "detail": "2차 갑오개혁의 교육입국 조서 이후 설립."
+        },
+        {
+          "term": "오산학교·대성학교",
+          "detail": "신민회 계열. 이승훈의 오산학교, 안창호의 대성학교."
+        }
+      ],
+      "highlights": [
+        "원산학사",
+        "동문학",
+        "육영공원",
+        "한성 사범학교",
+        "오산학교·대성학교",
+        "덕원",
+        "헐버트",
+        "좌원·우원"
+      ],
+      "sourceCue": "교육 기간에서 한 문제 나올 것 같습니다"
+    },
+    {
+      "id": "lecture-d-women-schools",
+      "era": "opening",
+      "title": "여성 교육과 여권통문",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "이화학당",
+          "detail": "최초의 근대 여성 교육 기관."
+        },
+        {
+          "term": "여권통문",
+          "detail": "1898년 북촌 여성들이 여성 교육·권리 주장."
+        },
+        {
+          "term": "찬양회",
+          "detail": "순성여학교 설립 추진."
+        }
+      ],
+      "highlights": [
+        "이화학당",
+        "여권통문",
+        "찬양회"
+      ],
+      "sourceCue": "여권통문 찬양회"
+    },
+    {
+      "id": "lecture-d-military-rule",
+      "era": "colonial",
+      "title": "1910년대 무단 통치",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "헌병 경찰",
+          "detail": "강압적 통치, 조선 태형령 시행."
+        },
+        {
+          "term": "회사령",
+          "detail": "회사 설립 허가제."
+        },
+        {
+          "term": "토지 조사 사업",
+          "detail": "1910년대 시행, 신고주의에 따른 토지 소유 조사."
+        }
+      ],
+      "highlights": [
+        "헌병 경찰",
+        "회사령",
+        "토지 조사 사업"
+      ],
+      "sourceCue": "태형령과 회사령"
+    },
+    {
+      "id": "lecture-d-march-first",
+      "era": "colonial",
+      "title": "3·1 운동의 배경과 영향",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "배경",
+          "detail": "민족 자결주의, 도쿄의 2·8 독립선언, 고종의 장례."
+        },
+        {
+          "term": "일제의 탄압",
+          "detail": "제암리 학살 사건."
+        },
+        {
+          "term": "영향",
+          "detail": "대한민국 임시정부 수립, 일제의 이른바 문화 통치 전환."
+        }
+      ],
+      "highlights": [
+        "배경",
+        "일제의 탄압",
+        "영향",
+        "2·8 독립선언",
+        "제암리 학살"
+      ],
+      "sourceCue": "고종의 인산일"
+    },
+    {
+      "id": "lecture-d-provisional-government",
+      "era": "colonial",
+      "title": "대한민국 임시정부",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "연통제·교통국",
+          "detail": "국내외 연락망 운영."
+        },
+        {
+          "term": "독립 공채",
+          "detail": "독립운동 자금 마련."
+        },
+        {
+          "term": "구미위원부",
+          "detail": "미국에서 외교 활동."
+        },
+        {
+          "term": "국민대표회의",
+          "detail": "1923년 상하이, 임시정부의 진로 논의."
+        },
+        {
+          "term": "건국강령",
+          "detail": "1941년 조소앙의 삼균주의를 토대로 제정."
+        }
+      ],
+      "highlights": [
+        "연통제·교통국",
+        "독립 공채",
+        "구미위원부",
+        "국민대표회의",
+        "건국강령",
+        "조소앙",
+        "삼균주의"
+      ],
+      "sourceCue": "조소왕의 삼균주의"
+    },
+    {
+      "id": "lecture-d-economic-movements",
+      "era": "colonial",
+      "title": "1920년대 실력 양성 운동",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "물산 장려 운동",
+          "detail": "조만식, 평양에서 시작. 국산품 사용 운동."
+        },
+        {
+          "term": "민립 대학 설립 운동",
+          "detail": "조선인의 대학 설립 추진. 일제는 경성제국대학 설립."
+        }
+      ],
+      "highlights": [
+        "물산 장려 운동",
+        "민립 대학 설립 운동",
+        "조만식",
+        "경성제국대학"
+      ],
+      "sourceCue": "평양에서 조만식을 중심으로"
+    },
+    {
+      "id": "lecture-d-rice-production",
+      "era": "colonial",
+      "title": "산미 증식 계획",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "1920년대",
+          "detail": "일본의 쌀 부족 해결을 위해 조선의 쌀 생산량 확대."
+        },
+        {
+          "term": "농민 부담",
+          "detail": "증산량보다 많은 쌀이 일본으로 반출, 비용을 농민에게 전가."
+        },
+        {
+          "term": "결과",
+          "detail": "조선의 식량난 심화, 소작 쟁의 증가."
+        }
+      ],
+      "highlights": [
+        "1920년대",
+        "농민 부담",
+        "결과"
+      ],
+      "sourceCue": "수탈에 가는 쌀이 더 많아서"
+    },
+    {
+      "id": "lecture-d-june10-singan",
+      "era": "colonial",
+      "title": "6·10 만세 운동에서 신간회까지",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "6·10 만세 운동",
+          "detail": "1926년 순종 장례를 계기로 전개."
+        },
+        {
+          "term": "정우회 선언",
+          "detail": "사회주의 세력의 민족주의 세력과의 협동 주장."
+        },
+        {
+          "term": "신간회",
+          "detail": "1927년 민족 협동 전선 단체로 설립."
+        },
+        {
+          "term": "광주 학생 항일 운동",
+          "detail": "1929년, 신간회가 진상 조사단 파견·지원."
+        }
+      ],
+      "highlights": [
+        "6·10 만세 운동",
+        "정우회 선언",
+        "신간회",
+        "광주 학생 항일 운동"
+      ],
+      "sourceCue": "정우의 선언을 토대로",
+      "sequence": [
+        "6·10 만세 운동",
+        "정우회 선언",
+        "신간회 창립",
+        "광주 학생 항일 운동"
+      ]
+    },
+    {
+      "id": "lecture-d-labor-organizations",
+      "era": "colonial",
+      "title": "농민·노동 조직의 연도",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "1924년",
+          "detail": "조선노농총동맹 결성."
+        },
+        {
+          "term": "1927년",
+          "detail": "조선농민총동맹·조선노동총동맹으로 분리."
+        }
+      ],
+      "highlights": [
+        "1924년",
+        "1927년",
+        "조선노농총동맹",
+        "조선농민총동맹·조선노동총동맹"
+      ],
+      "sourceCue": "연도까지 꼭 한번 외워 주세요"
+    },
+    {
+      "id": "lecture-d-farmers",
+      "era": "colonial",
+      "title": "농민 운동과 일제의 농촌 정책",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "암태도 소작 쟁의",
+          "detail": "1923년 전남 신안, 높은 소작료에 저항."
+        },
+        {
+          "term": "혁명적 농민 조합",
+          "detail": "1930년대 사회주의 영향을 받은 농민 운동."
+        },
+        {
+          "term": "농촌 진흥 운동",
+          "detail": "1930년대 총독부의 농촌 통제 정책."
+        },
+        {
+          "term": "남면북양 정책",
+          "detail": "1930년대 남부 목화 재배·북부 양 사육 장려."
+        }
+      ],
+      "highlights": [
+        "암태도 소작 쟁의",
+        "혁명적 농민 조합",
+        "농촌 진흥 운동",
+        "남면북양 정책"
+      ],
+      "sourceCue": "암태도 소작쟁이"
+    },
+    {
+      "id": "lecture-d-workers",
+      "era": "colonial",
+      "title": "대표 노동 운동",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "원산 총파업",
+          "detail": "1929년 대규모 노동자 파업, 국내외 지원."
+        },
+        {
+          "term": "강주룡",
+          "detail": "1931년 평양 을밀대에서 고공 농성."
+        }
+      ],
+      "highlights": [
+        "원산 총파업",
+        "강주룡",
+        "을밀대"
+      ],
+      "sourceCue": "강주용이라는 여성노동 운동가"
+    },
+    {
+      "id": "lecture-d-social-movements",
+      "era": "colonial",
+      "title": "소년·여성·형평 운동",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "방정환",
+          "detail": "소년 운동, 어린이날 제정."
+        },
+        {
+          "term": "근우회",
+          "detail": "여성 운동 단체, 신간회의 자매 단체."
+        },
+        {
+          "term": "형평 운동",
+          "detail": "진주에서 시작, 백정에 대한 신분 차별 철폐."
+        }
+      ],
+      "highlights": [
+        "방정환",
+        "근우회",
+        "형평 운동"
+      ],
+      "sourceCue": "신간의 자매 단체"
+    },
+    {
+      "id": "lecture-d-enlightenment",
+      "era": "colonial",
+      "title": "농촌 계몽 운동",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "브나로드 운동",
+          "detail": "동아일보 주도, 농촌에서 문자 보급·계몽 활동."
+        },
+        {
+          "term": "『상록수』",
+          "detail": "심훈의 소설, 농촌 계몽 운동을 소재로 함."
+        }
+      ],
+      "highlights": [
+        "브나로드 운동",
+        "『상록수』"
+      ],
+      "sourceCue": "동화일보에서 주도한 분화로 운동"
+    },
+    {
+      "id": "lecture-d-korean-language",
+      "era": "colonial",
+      "title": "국문 연구 단체의 변화",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "국문연구소",
+          "detail": "개화기, 주시경·지석영 등 참여."
+        },
+        {
+          "term": "조선어연구회",
+          "detail": "1920년대, 가갸날 제정·잡지 『한글』 발행."
+        },
+        {
+          "term": "조선어학회",
+          "detail": "1930년대, 한글 맞춤법 통일안·우리말 큰사전 편찬 추진."
+        },
+        {
+          "term": "조선어학회 사건",
+          "detail": "1942년 일제의 탄압으로 활동 중단."
+        }
+      ],
+      "highlights": [
+        "국문연구소",
+        "조선어연구회",
+        "조선어학회",
+        "조선어학회 사건",
+        "주시경·지석영",
+        "가갸날",
+        "한글 맞춤법 통일안",
+        "우리말 큰사전"
+      ],
+      "sourceCue": "국문 관련된 문제 나올 수 있으니까",
+      "sequence": [
+        "국문연구소",
+        "조선어연구회",
+        "조선어학회"
+      ]
+    },
+    {
+      "id": "lecture-d-wartime-rule",
+      "era": "colonial",
+      "title": "전시 동원과 황국 신민화",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "중일 전쟁",
+          "detail": "1937년 발발 → 전시 동원 체제 강화."
+        },
+        {
+          "term": "국가 총동원법",
+          "detail": "1938년, 인력·물자 동원."
+        },
+        {
+          "term": "황국 신민화",
+          "detail": "황국 신민 서사 암송·신사 참배 강요."
+        },
+        {
+          "term": "생활 통제",
+          "detail": "애국반 운영, 여성에게 몸뻬 착용 장려."
+        }
+      ],
+      "highlights": [
+        "중일 전쟁",
+        "국가 총동원법",
+        "황국 신민화",
+        "생활 통제"
+      ],
+      "sourceCue": "국가 총동원법을 시행"
+    },
+    {
+      "id": "lecture-d-repressive-laws",
+      "era": "colonial",
+      "title": "일제의 사상 통제 법령",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "치안 유지법",
+          "detail": "1925년 제정, 사회주의·민족 운동 탄압에 이용."
+        },
+        {
+          "term": "조선 사상범 예방 구금령",
+          "detail": "1941년, 항일 운동가 등을 예방 구금."
+        }
+      ],
+      "highlights": [
+        "치안 유지법",
+        "조선 사상범 예방 구금령"
+      ],
+      "sourceCue": "조선 사상범 예방 구급"
+    },
+    {
+      "id": "lecture-d-secret-societies",
+      "era": "colonial",
+      "title": "1910년대 비밀 결사",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "독립의군부",
+          "detail": "임병찬, 복벽주의·국권 반환 요구."
+        },
+        {
+          "term": "대한광복회",
+          "detail": "박상진, 대구 중심. 공화주의·군자금 모집·친일파 처단."
+        }
+      ],
+      "highlights": [
+        "독립의군부",
+        "대한광복회",
+        "임병찬",
+        "박상진"
+      ],
+      "sourceCue": "독립의근부와 대한 광복회"
+    },
+    {
+      "id": "lecture-d-west-gando",
+      "era": "colonial",
+      "title": "서간도 독립운동 기지",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "이회영 형제·신민회",
+          "detail": "서간도 독립운동 기지 개척."
+        },
+        {
+          "term": "경학사",
+          "detail": "한인 자치·교육 활동."
+        },
+        {
+          "term": "신흥강습소",
+          "detail": "뒤에 신흥무관학교로 발전."
+        }
+      ],
+      "highlights": [
+        "이회영 형제·신민회",
+        "경학사",
+        "신흥강습소"
+      ],
+      "sourceCue": "서관도 하면 경학사"
+    },
+    {
+      "id": "lecture-d-north-gando",
+      "era": "colonial",
+      "title": "북간도 독립운동 기지",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "대종교",
+          "detail": "단군 신앙을 기반으로 독립운동 전개."
+        },
+        {
+          "term": "중광단",
+          "detail": "뒤에 북로군정서로 발전."
+        },
+        {
+          "term": "명동학교",
+          "detail": "윤동주가 다닌 학교."
+        }
+      ],
+      "highlights": [
+        "대종교",
+        "중광단",
+        "명동학교"
+      ],
+      "sourceCue": "명동학교도 북간도"
+    },
+    {
+      "id": "lecture-d-maritime-province",
+      "era": "colonial",
+      "title": "연해주 독립운동 기지",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "권업회·신한촌",
+          "detail": "한인 단체와 집단 거주지."
+        },
+        {
+          "term": "대한광복군정부",
+          "detail": "연해주에 수립된 독립운동 조직."
+        },
+        {
+          "term": "대한국민의회",
+          "detail": "연해주의 임시정부 조직."
+        },
+        {
+          "term": "강제 이주",
+          "detail": "1937년 소련이 한인을 중앙아시아로 강제 이주시킴."
+        }
+      ],
+      "highlights": [
+        "권업회·신한촌",
+        "대한광복군정부",
+        "대한국민의회",
+        "강제 이주"
+      ],
+      "sourceCue": "정부도 있고 의회도 있었습니다"
+    },
+    {
+      "id": "lecture-d-shanghai-americas",
+      "era": "colonial",
+      "title": "상하이·미주 독립운동",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "상하이 신한청년당",
+          "detail": "김규식을 파리 강화 회의에 파견."
+        },
+        {
+          "term": "미주 대한인국민회",
+          "detail": "미주 한인 단체의 통합 조직."
+        },
+        {
+          "term": "흥사단",
+          "detail": "안창호가 샌프란시스코에서 조직."
+        },
+        {
+          "term": "하와이",
+          "detail": "박용만의 대조선국민군단, 사탕수수 농장."
+        },
+        {
+          "term": "멕시코",
+          "detail": "에네켄 농장, 숭무학교."
+        }
+      ],
+      "highlights": [
+        "상하이 신한청년당",
+        "미주 대한인국민회",
+        "흥사단",
+        "하와이",
+        "멕시코"
+      ],
+      "sourceCue": "대한인 국민회가 만들어져요"
+    },
+    {
+      "id": "lecture-d-uiyeoldan",
+      "era": "colonial",
+      "title": "의열단",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "김원봉",
+          "detail": "의열단 조직, 식민 통치 기관 파괴·요인 처단."
+        },
+        {
+          "term": "조선혁명선언",
+          "detail": "신채호가 작성한 의열단 활동 지침."
+        },
+        {
+          "term": "김상옥·김익상·김지섭",
+          "detail": "의열단 단원들의 의거."
+        }
+      ],
+      "highlights": [
+        "김원봉",
+        "조선혁명선언",
+        "김상옥·김익상·김지섭"
+      ],
+      "sourceCue": "이번에는 의열단 나오지 않을까"
+    },
+    {
+      "id": "lecture-d-battles-1920",
+      "era": "colonial",
+      "title": "봉오동 전투·청산리 대첩",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "봉오동 전투",
+          "detail": "1920년 홍범도의 대한독립군 등이 승리."
+        },
+        {
+          "term": "청산리 대첩",
+          "detail": "1920년 김좌진의 북로군정서·홍범도의 대한독립군 등이 승리."
+        }
+      ],
+      "highlights": [
+        "봉오동 전투",
+        "청산리 대첩"
+      ],
+      "sourceCue": "봉우동 전투에서 이겨요"
+    },
+    {
+      "id": "lecture-d-army-sequence",
+      "era": "colonial",
+      "title": "1920년대 독립군의 이동",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "간도 참변",
+          "detail": "일본군이 간도 지역 한인 학살."
+        },
+        {
+          "term": "자유시 참변",
+          "detail": "러시아 자유시로 이동한 독립군이 큰 피해를 입음."
+        },
+        {
+          "term": "미쓰야 협정",
+          "detail": "일본과 만주 군벌이 독립군 탄압에 협력."
+        }
+      ],
+      "highlights": [
+        "간도 참변",
+        "자유시 참변",
+        "미쓰야 협정"
+      ],
+      "sourceCue": "봉청 간잠",
+      "sequence": [
+        "봉오동 전투",
+        "청산리 대첩",
+        "간도 참변",
+        "자유시 참변",
+        "미쓰야 협정"
+      ]
+    },
+    {
+      "id": "lecture-d-allied-armies",
+      "era": "colonial",
+      "title": "1930년대 한중 연합 작전",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "한국독립군",
+          "detail": "지청천, 쌍성보·대전자령 전투."
+        },
+        {
+          "term": "조선혁명군",
+          "detail": "양세봉, 영릉가·흥경성 전투."
+        },
+        {
+          "term": "배경",
+          "detail": "1931년 만주사변 뒤 중국군과 연합 작전 강화."
+        }
+      ],
+      "highlights": [
+        "한국독립군",
+        "조선혁명군",
+        "배경",
+        "지청천",
+        "쌍성보·대전자령",
+        "양세봉",
+        "영릉가·흥경성"
+      ],
+      "sourceCue": "쌍대 밑에는"
+    },
+    {
+      "id": "lecture-d-patriotic-corps",
+      "era": "colonial",
+      "title": "한인애국단",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "김구",
+          "detail": "대한민국 임시정부를 지원하기 위해 조직."
+        },
+        {
+          "term": "이봉창",
+          "detail": "도쿄에서 일왕을 향해 폭탄 투척."
+        },
+        {
+          "term": "윤봉길",
+          "detail": "상하이 훙커우 공원 의거 → 중국 국민당 정부의 임시정부 지원 강화."
+        }
+      ],
+      "highlights": [
+        "김구",
+        "이봉창",
+        "윤봉길"
+      ],
+      "sourceCue": "이봉창 윤봉기 의사"
+    },
+    {
+      "id": "lecture-d-volunteer-corps",
+      "era": "colonial",
+      "title": "조선의용대",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "김원봉",
+          "detail": "1938년 중국 우한에서 결성."
+        },
+        {
+          "term": "조선민족전선연맹",
+          "detail": "산하 군사 조직으로 출범."
+        },
+        {
+          "term": "중국 관내 최초",
+          "detail": "중국 관내에서 결성된 최초의 한인 무장 부대."
+        }
+      ],
+      "highlights": [
+        "김원봉",
+        "조선민족전선연맹",
+        "중국 관내 최초"
+      ],
+      "sourceCue": "중국 관내에서 최초로 결성"
+    },
+    {
+      "id": "lecture-d-liberation-army",
+      "era": "colonial",
+      "title": "한국광복군",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "충칭",
+          "detail": "대한민국 임시정부가 1940년 창설, 총사령관 지청천."
+        },
+        {
+          "term": "인도·미얀마",
+          "detail": "영국군과 공동 작전."
+        },
+        {
+          "term": "미국 OSS",
+          "detail": "협력하여 국내 진공 작전 준비."
+        }
+      ],
+      "highlights": [
+        "충칭",
+        "인도·미얀마",
+        "미국 OSS",
+        "지청천",
+        "국내 진공 작전"
+      ],
+      "sourceCue": "인도, 미안마, 미국"
+    },
+    {
+      "id": "lecture-d-film-culture",
+      "era": "colonial",
+      "title": "일제강점기 영화·생활 문화",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "『아리랑』",
+          "detail": "1926년 나운규 작품, 단성사에서 개봉."
+        },
+        {
+          "term": "단성사",
+          "detail": "『아리랑』·『임자 없는 나룻배』 등을 상영한 영화관."
+        },
+        {
+          "term": "도시 생활",
+          "detail": "백화점·문화주택·다방, 모던 걸·모던 보이."
+        },
+        {
+          "term": "라디오 방송",
+          "detail": "일제강점기에 시작."
+        }
+      ],
+      "highlights": [
+        "『아리랑』",
+        "단성사",
+        "도시 생활",
+        "라디오 방송"
+      ],
+      "sourceCue": "나은규가 각본 감독 주연"
+    },
+    {
+      "id": "lecture-c-preparation",
+      "era": "contemporary",
+      "title": "광복 직후의 건국 준비",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "건국동맹",
+          "detail": "여운형이 1944년 조직한 국내 비밀결사."
+        },
+        {
+          "term": "건국준비위원회",
+          "detail": "1945년 광복 직후 여운형·안재홍 등이 결성."
+        },
+        {
+          "term": "조선인민공화국",
+          "detail": "1945년 9월 선포. 1948년 수립된 북한 정권과 구별."
+        }
+      ],
+      "highlights": [
+        "건국동맹",
+        "건국준비위원회",
+        "조선인민공화국"
+      ],
+      "sourceCue": "건준이랑 조선 인민 공화국도 세트로"
+    },
+    {
+      "id": "lecture-c-moscow",
+      "era": "contemporary",
+      "title": "모스크바 3국 외상 회의",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "1945년 12월",
+          "detail": "미국·영국·소련이 한국 문제 논의."
+        },
+        {
+          "term": "결정",
+          "detail": "임시 민주 정부 수립·미소 공동 위원회 설치·최고 5년 신탁 통치 협의."
+        }
+      ],
+      "highlights": [
+        "미소 공동 위원회",
+        "신탁 통치"
+      ],
+      "sourceCue": "러시아 모스크바에서는 미국 영국 소련"
+    },
+    {
+      "id": "lecture-c-coalition",
+      "era": "contemporary",
+      "title": "정읍 발언과 좌우 합작",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "정읍 발언",
+          "detail": "1946년 이승만이 남한만의 정부 수립 가능성 언급."
+        },
+        {
+          "term": "좌우 합작 위원회",
+          "detail": "여운형·김규식 등 중도 세력이 통일 정부 추진."
+        },
+        {
+          "term": "좌우 합작 7원칙",
+          "detail": "1946년 발표. 여운형 피살 등으로 운동 약화."
+        }
+      ],
+      "highlights": [
+        "정읍 발언",
+        "여운형·김규식",
+        "좌우 합작 7원칙"
+      ],
+      "sourceCue": "여영, 김규식 등의 중도파"
+    },
+    {
+      "id": "lecture-c-southnorth",
+      "era": "contemporary",
+      "title": "남북 협상과 정부 수립",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "남북 협상",
+          "detail": "1948년 김구·김규식이 단독 정부에 반대하며 평양 방문."
+        },
+        {
+          "term": "5·10 총선거",
+          "detail": "제헌 국회의원을 선출한 선거. 대통령 선거가 아님."
+        },
+        {
+          "term": "정부 수립",
+          "detail": "7·17 제헌 헌법 공포 뒤 8·15 대한민국 정부 수립."
+        }
+      ],
+      "highlights": [
+        "남북 협상",
+        "김구·김규식",
+        "5·10 총선거"
+      ],
+      "sourceCue": "남한만의 총선거를 맡겠다",
+      "sequence": [
+        "남북 협상",
+        "5·10 총선거",
+        "7·17 제헌 헌법",
+        "8·15 정부 수립"
+      ]
+    },
+    {
+      "id": "lecture-c-jeju",
+      "era": "contemporary",
+      "title": "제주 4·3 사건",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "1948년 제주",
+          "detail": "무장봉기와 진압 과정에서 많은 민간인이 희생."
+        },
+        {
+          "term": "김대중 정부",
+          "detail": "2000년 제주 4·3 특별법 제정."
+        },
+        {
+          "term": "노무현 정부",
+          "detail": "2003년 진상조사보고서 확정·대통령의 공식 사과."
+        }
+      ],
+      "highlights": [
+        "제주 4·3",
+        "김대중 정부",
+        "노무현 정부"
+      ],
+      "sourceCue": "김대중 정부 때는 여기와 관련된 특별법"
+    },
+    {
+      "id": "lecture-c-constitutionassembly",
+      "era": "contemporary",
+      "title": "광복 직후 재산·농지와 친일 청산",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "반민족행위처벌법",
+          "detail": "1948년 제정. 반민특위가 친일 행위 조사."
+        },
+        {
+          "term": "농지개혁법",
+          "detail": "1949년 제정. 유상 매수·유상 분배, 농가당 3정보 상한."
+        },
+        {
+          "term": "신한공사",
+          "detail": "미군정기에 일본인 소유 농지 등을 관리한 기관."
+        }
+      ],
+      "highlights": [
+        "반민족행위처벌법",
+        "반민특위",
+        "유상 매수·유상 분배",
+        "신한공사"
+      ],
+      "sourceCue": "재헌 국회는 헌법을 맞는 거 말고"
+    },
+    {
+      "id": "lecture-c-war",
+      "era": "contemporary",
+      "title": "6·25 전쟁의 순서",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "애치슨 선언",
+          "detail": "1950년 1월. 미국의 태평양 방위선에서 한반도 제외."
+        },
+        {
+          "term": "1·4 후퇴",
+          "detail": "중국군 개입 후 1951년 서울에서 후퇴."
+        },
+        {
+          "term": "정전 협정",
+          "detail": "1953년 7월. 군사분계선과 비무장지대 설정."
+        },
+        {
+          "term": "한미 상호 방위 조약",
+          "detail": "정전 뒤인 1953년 10월 체결."
+        }
+      ],
+      "highlights": [
+        "애치슨 선언",
+        "인천 상륙 작전",
+        "1·4 후퇴",
+        "정전 협정"
+      ],
+      "sourceCue": "애치선은 625 전쟁 직전",
+      "sequence": [
+        "북한의 남침",
+        "인천 상륙 작전",
+        "중국군 개입",
+        "1·4 후퇴",
+        "정전 협정"
+      ]
+    },
+    {
+      "id": "lecture-c-rhee",
+      "era": "contemporary",
+      "title": "이승만 정부의 장기 집권",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "발췌 개헌·1952",
+          "detail": "전쟁 중 부산에서 대통령 직선제 도입."
+        },
+        {
+          "term": "사사오입 개헌·1954",
+          "detail": "초대 대통령에 한해 중임 제한 철폐."
+        },
+        {
+          "term": "정권 말기",
+          "detail": "진보당 조봉암 처형·경향신문 폐간."
+        }
+      ],
+      "highlights": [
+        "발췌 개헌",
+        "사사오입 개헌",
+        "조봉암"
+      ],
+      "sourceCue": "부산에서 있었어요"
+    },
+    {
+      "id": "lecture-c-april",
+      "era": "contemporary",
+      "title": "4·19 혁명과 장면 내각",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "발단",
+          "detail": "1960년 3·15 부정 선거, 김주열 시신 발견."
+        },
+        {
+          "term": "결과",
+          "detail": "이승만 하야 → 허정 과도 정부 → 장면 내각."
+        },
+        {
+          "term": "제2공화국",
+          "detail": "의원 내각제·양원제 국회. 대통령 윤보선, 국무총리 장면."
+        }
+      ],
+      "highlights": [
+        "3·15 부정 선거",
+        "김주열",
+        "의원 내각제",
+        "양원제"
+      ],
+      "sourceCue": "의원 내각제랑 양원제 국회가 잠깐"
+    },
+    {
+      "id": "lecture-c-julyfour",
+      "era": "contemporary",
+      "title": "7·4 남북 공동 성명",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "1972년·박정희 정부",
+          "detail": "자주·평화·민족 대단결의 통일 3원칙."
+        },
+        {
+          "term": "남북 조절 위원회",
+          "detail": "공동 성명 실천을 위해 설치."
+        }
+      ],
+      "highlights": [
+        "자주·평화·민족 대단결",
+        "남북 조절 위원회"
+      ],
+      "sourceCue": "자주 평화 민족 대단결"
+    },
+    {
+      "id": "lecture-c-yushin",
+      "era": "contemporary",
+      "title": "3선 개헌과 유신 체제",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "3선 개헌·1969",
+          "detail": "대통령의 3회 연속 재임 허용."
+        },
+        {
+          "term": "유신 헌법·1972",
+          "detail": "통일주체국민회의 간선제·6년 임기·중임 제한 없음."
+        },
+        {
+          "term": "반유신 운동",
+          "detail": "개헌 청원 100만인 서명 운동·3·1 민주 구국 선언."
+        }
+      ],
+      "highlights": [
+        "3선 개헌",
+        "통일주체국민회의",
+        "3·1 민주 구국 선언"
+      ],
+      "sourceCue": "대통령은 통일주체 국민에 의해서 뽑고"
+    },
+    {
+      "id": "lecture-c-yushinend",
+      "era": "contemporary",
+      "title": "유신 체제의 붕괴",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "YH 무역 사건",
+          "detail": "여성 노동자들이 신민당사에서 농성."
+        },
+        {
+          "term": "부마 민주 항쟁",
+          "detail": "김영삼 의원직 제명 뒤 부산·마산에서 시위."
+        },
+        {
+          "term": "10·26 사건·1979",
+          "detail": "박정희 피살로 유신 체제 붕괴."
+        }
+      ],
+      "highlights": [
+        "YH 무역 사건",
+        "부마 민주 항쟁",
+        "10·26 사건"
+      ],
+      "sourceCue": "YH 무역 사건이 일어나고",
+      "sequence": [
+        "YH 무역 사건",
+        "김영삼 제명",
+        "부마 민주 항쟁",
+        "10·26 사건"
+      ]
+    },
+    {
+      "id": "lecture-c-parkeconomy",
+      "era": "contemporary",
+      "title": "박정희 정부의 경제·사회",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "산업화",
+          "detail": "경제 개발 5개년 계획·포항 제철소·수출 100억 달러."
+        },
+        {
+          "term": "교통·수출",
+          "detail": "경부 고속도로·서울 지하철 1호선·마산 수출 자유 지역."
+        },
+        {
+          "term": "사회",
+          "detail": "새마을 운동·전태일 분신·아침 이슬 금지곡 지정."
+        }
+      ],
+      "highlights": [
+        "경제 개발 5개년 계획",
+        "새마을 운동",
+        "전태일"
+      ],
+      "sourceCue": "경제개발 5개년 계획 경부 고속도로"
+    },
+    {
+      "id": "lecture-c-gwangju",
+      "era": "contemporary",
+      "title": "5·18 민주화 운동",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "배경",
+          "detail": "1980년 신군부의 비상계엄 전국 확대."
+        },
+        {
+          "term": "핵심",
+          "detail": "광주 시민들이 계엄군의 폭력 진압에 저항, 시민군 조직."
+        },
+        {
+          "term": "시기 구별",
+          "detail": "최규하 대통령 재임 중 발생. 전두환 대통령 취임은 그해 9월."
+        }
+      ],
+      "highlights": [
+        "비상계엄 전국 확대",
+        "시민군",
+        "최규하"
+      ],
+      "sourceCue": "시민군이 나오면 518 민주화 운동"
+    },
+    {
+      "id": "lecture-c-chun",
+      "era": "contemporary",
+      "title": "전두환 정부의 특징",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "통제",
+          "detail": "삼청교육대·보도 지침."
+        },
+        {
+          "term": "경제",
+          "detail": "저금리·저달러·저유가의 3저 호황, 최저임금법 제정."
+        },
+        {
+          "term": "생활",
+          "detail": "야간 통행금지 해제·교복 자율화·프로 야구 출범·컬러 TV 방송."
+        }
+      ],
+      "highlights": [
+        "삼청교육대",
+        "3저 호황",
+        "최저임금법"
+      ],
+      "sourceCue": "3저 호항이었습니다"
+    },
+    {
+      "id": "lecture-c-june",
+      "era": "contemporary",
+      "title": "6월 민주 항쟁",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "계기",
+          "detail": "박종철 고문치사 사건, 4·13 호헌 조치."
+        },
+        {
+          "term": "전개",
+          "detail": "호헌 철폐·독재 타도 요구. 이한열이 최루탄에 피격."
+        },
+        {
+          "term": "결과",
+          "detail": "6·29 선언 → 대통령 직선제·5년 단임제 개헌."
+        }
+      ],
+      "highlights": [
+        "박종철",
+        "4·13 호헌 조치",
+        "이한열",
+        "직선제·5년 단임제"
+      ],
+      "sourceCue": "지금의 헌법이 6월 민주황쟁의 결과물"
+    },
+    {
+      "id": "lecture-c-rohtae",
+      "era": "contemporary",
+      "title": "노태우 정부와 북방 외교",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "7·7 선언·1988",
+          "detail": "북한과의 교류·공산권 국가와의 관계 개선 추진."
+        },
+        {
+          "term": "남북 관계",
+          "detail": "고위급 회담·남북한 유엔 동시 가입·남북 기본 합의서."
+        },
+        {
+          "term": "추가 단서",
+          "detail": "한반도 비핵화 공동 선언·1988 서울 올림픽."
+        }
+      ],
+      "highlights": [
+        "7·7 선언",
+        "남북 기본 합의서",
+        "남북한 유엔 동시 가입"
+      ],
+      "sourceCue": "남북한 UN 동시 가입"
+    },
+    {
+      "id": "lecture-c-kimyoung",
+      "era": "contemporary",
+      "title": "김영삼 정부",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "문민정부",
+          "detail": "하나회 해체·금융실명제·역사 바로 세우기."
+        },
+        {
+          "term": "경제",
+          "detail": "WTO 출범 때 가입·OECD 가입, 임기 말 외환 위기."
+        },
+        {
+          "term": "사회",
+          "detail": "지방자치 전면 실시·민주노총 출범."
+        }
+      ],
+      "highlights": [
+        "금융실명제",
+        "하나회 해체",
+        "외환 위기"
+      ],
+      "sourceCue": "김영삼 정부 때 제일 중요한 건 금융 실병제"
+    },
+    {
+      "id": "lecture-c-kimdae",
+      "era": "contemporary",
+      "title": "김대중 정부",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "6·15 남북 공동 선언",
+          "detail": "2000년 최초의 남북 정상 회담, 평양에서 김정일과 회담."
+        },
+        {
+          "term": "교류",
+          "detail": "금강산 해로 관광 시작·개성 공단 조성 합의."
+        },
+        {
+          "term": "경제",
+          "detail": "금 모으기 운동·외환 위기 극복, IMF 차입금 조기 상환."
+        }
+      ],
+      "highlights": [
+        "6·15 남북 공동 선언",
+        "금강산 해로 관광",
+        "금 모으기 운동"
+      ],
+      "sourceCue": "최초로 남북 정상 회담을 했다는 거죠"
+    },
+    {
+      "id": "lecture-c-rohmuhyun",
+      "era": "contemporary",
+      "title": "노무현·문재인 정부의 남북 관계",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "노무현 정부",
+          "detail": "2007년 정상 회담과 10·4 선언, 개성 공단 착공."
+        },
+        {
+          "term": "문재인 정부",
+          "detail": "2018년 평창 올림픽 공동 입장·판문점 선언."
+        }
+      ],
+      "highlights": [
+        "10·4 선언",
+        "개성 공단 착공",
+        "판문점 선언"
+      ],
+      "sourceCue": "김대중 노무현 문재인 정부 쪽에서도"
+    },
+    {
+      "id": "lecture-c-family",
+      "era": "contemporary",
+      "title": "남북 교류의 정부별 단서",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "박정희",
+          "detail": "7·4 남북 공동 성명·통일 3원칙."
+        },
+        {
+          "term": "전두환",
+          "detail": "1985년 이산가족 고향 방문단·예술 공연단 교환."
+        },
+        {
+          "term": "노태우",
+          "detail": "남북 기본 합의서·유엔 동시 가입·비핵화 공동 선언."
+        },
+        {
+          "term": "김대중",
+          "detail": "최초의 남북 정상 회담·6·15 공동 선언."
+        }
+      ],
+      "highlights": [
+        "7·4 남북 공동 성명",
+        "이산가족 고향 방문단",
+        "6·15 공동 선언"
+      ],
+      "sourceCue": "전도한 정부 때는 최초로 이산 가족"
+    },
+    {
+      "id": "lecture-c-fta",
+      "era": "contemporary",
+      "title": "FTA는 서명과 발효 구별",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "한·칠레 FTA",
+          "detail": "서명 2003년 김대중 → 발효 2004년 노무현."
+        },
+        {
+          "term": "한·미 FTA",
+          "detail": "서명 2007년 노무현 → 발효 2012년 이명박."
+        },
+        {
+          "term": "한·중 FTA",
+          "detail": "서명·발효 모두 2015년 박근혜."
+        }
+      ],
+      "highlights": [
+        "한·칠레 FTA",
+        "한·미 FTA",
+        "한·중 FTA"
+      ],
+      "sourceCue": "체결했던 시점이랑 그 체결 내용이"
+    },
+    {
+      "id": "lecture-c-constitutionearly",
+      "era": "contemporary",
+      "title": "헌법 변천: 제헌~제2공화국",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "제헌 헌법·1948",
+          "detail": "국회에서 대통령 선출."
+        },
+        {
+          "term": "1차·1952",
+          "detail": "발췌 개헌: 대통령 직선제."
+        },
+        {
+          "term": "2차·1954",
+          "detail": "사사오입 개헌: 초대 대통령 중임 제한 철폐."
+        },
+        {
+          "term": "3차·1960",
+          "detail": "의원 내각제·양원제."
+        },
+        {
+          "term": "4차·1960",
+          "detail": "3·15 부정 선거 관련자 등을 처벌할 소급 입법 근거."
+        }
+      ],
+      "highlights": [
+        "발췌 개헌",
+        "사사오입 개헌",
+        "의원 내각제"
+      ],
+      "sourceCue": "발체 기원 다음에 사사 호입 개헌"
+    },
+    {
+      "id": "lecture-c-constitutionlate",
+      "era": "contemporary",
+      "title": "헌법 변천: 대통령제 복귀 이후",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "5차·1962",
+          "detail": "대통령제·단원제 국회."
+        },
+        {
+          "term": "6차·1969",
+          "detail": "3선 개헌."
+        },
+        {
+          "term": "7차·1972",
+          "detail": "유신 헌법: 통일주체국민회의 간선제·6년 임기."
+        },
+        {
+          "term": "8차·1980",
+          "detail": "대통령 선거인단 간선제·7년 단임제."
+        },
+        {
+          "term": "9차·1987",
+          "detail": "6월 민주 항쟁의 결과, 직선제·5년 단임제."
+        }
+      ],
+      "highlights": [
+        "대통령 선거인단",
+        "7년 단임제",
+        "직선제·5년 단임제"
+      ],
+      "sourceCue": "삼성원 다음이 유신원법이고",
+      "sequence": [
+        "3선 개헌",
+        "유신 헌법",
+        "7년 단임제",
+        "직선제·5년 단임제"
+      ]
+    },
+    {
+      "id": "lecture-c-democracy",
+      "era": "contemporary",
+      "title": "민주화 운동 세 가지 비교",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "4·19 혁명·1960",
+          "detail": "3·15 부정 선거·김주열 → 이승만 하야."
+        },
+        {
+          "term": "5·18 민주화 운동·1980",
+          "detail": "비상계엄 확대·광주·시민군."
+        },
+        {
+          "term": "6월 민주 항쟁·1987",
+          "detail": "박종철·이한열·호헌 철폐 → 직선제 개헌."
+        }
+      ],
+      "highlights": [
+        "김주열",
+        "시민군",
+        "호헌 철폐"
+      ],
+      "sourceCue": "민주화 운동만 다시 한번 보면"
+    },
+    {
+      "id": "lecture-c-cheongju",
+      "era": "cross-era",
+      "title": "지역 단서: 청주",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "서원경",
+          "detail": "통일신라 5소경 중 하나."
+        },
+        {
+          "term": "신라 촌락 문서",
+          "detail": "서원경 주변 등의 촌락 기록. 일본에서 발견."
+        },
+        {
+          "term": "직지",
+          "detail": "고려 말 청주 흥덕사 간행, 현존 최고 금속활자본."
+        }
+      ],
+      "highlights": [
+        "서원경",
+        "신라 촌락 문서",
+        "직지"
+      ],
+      "sourceCue": "청주와 관련해서 다시 한번만 보면"
+    },
+    {
+      "id": "lecture-c-chungju",
+      "era": "cross-era",
+      "title": "지역 단서: 충주",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "충주 고구려비",
+          "detail": "고구려의 한반도 중부 진출을 보여 주는 비석."
+        },
+        {
+          "term": "중원경",
+          "detail": "통일신라 5소경 중 하나."
+        },
+        {
+          "term": "김윤후",
+          "detail": "고려 충주성에서 몽골군에 항전."
+        },
+        {
+          "term": "신립",
+          "detail": "임진왜란 때 충주 탄금대 전투."
+        }
+      ],
+      "highlights": [
+        "충주 고구려비",
+        "중원경",
+        "김윤후",
+        "탄금대"
+      ],
+      "sourceCue": "충주는 크게네 가지가 중요합니다"
+    },
+    {
+      "id": "lecture-c-stupa",
+      "era": "cross-era",
+      "title": "승탑으로 알아보는 불교",
+      "emphasis": false,
+      "rows": [
+        {
+          "term": "승탑",
+          "detail": "승려의 사리를 봉안한 탑. 통일신라·고려 등 여러 시대에 존재."
+        },
+        {
+          "term": "선종",
+          "detail": "경전 공부보다 참선·수행 강조, 신라 말 구산선문 형성."
+        }
+      ],
+      "highlights": [
+        "승탑",
+        "참선·수행",
+        "구산선문"
+      ],
+      "sourceCue": "승탑이 나왔다고 해서 통일신라를 보장"
+    },
+    {
+      "id": "lecture-c-palace",
+      "era": "cross-era",
+      "title": "궁궐의 이름과 특징",
+      "emphasis": true,
+      "rows": [
+        {
+          "term": "경복궁",
+          "detail": "조선의 법궁, 정도전이 이름 지음. 흥선 대원군 때 중건."
+        },
+        {
+          "term": "창덕궁",
+          "detail": "창경궁과 함께 동궐. 정조가 규장각 설치."
+        },
+        {
+          "term": "창경궁",
+          "detail": "일제가 동물원·식물원을 조성하고 창경원으로 격하."
+        },
+        {
+          "term": "경희궁",
+          "detail": "서궐이라고 부름."
+        },
+        {
+          "term": "덕수궁",
+          "detail": "서양식 석조전. 미소 공동 위원회 개최 장소."
+        }
+      ],
+      "highlights": [
+        "경복궁",
+        "규장각",
+        "창경원",
+        "서궐",
+        "석조전"
+      ],
+      "sourceCue": "군걸를 한번 보면"
+    }
+  ],
+  "corrections": [
+    {
+      "issue": "신집을 살수 대첩 뒤 승전 기념으로 편찬한 것처럼 설명",
+      "correction": "신집 편찬은 600년이며 살수 대첩(612)보다 앞선다.",
+      "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0037554"
+    },
+    {
+      "issue": "진흥왕 관련 비석 다섯 곳을 한데 묶어 순수비로 오인할 여지",
+      "correction": "순수비는 북한산·창녕·황초령·마운령 4기이며 단양 적성비는 별개다.",
+      "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0055015"
+    },
+    {
+      "issue": "혜공왕과 김헌창의 난을 직접 연결하는 설명",
+      "correction": "혜공왕 피살은 780년, 김헌창의 난은 헌덕왕 14년인 822년이다.",
+      "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0063205"
+    },
+    {
+      "issue": "궁예의 국호 태봉·마진 순서가 뒤섞임",
+      "correction": "후고구려에서 마진(904), 태봉(911) 순으로 국호를 바꾸었다.",
+      "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0058942"
+    },
+    {
+      "issue": "발해 무왕을 백제 두 번째 왕으로 잘못 말함",
+      "correction": "장문휴를 보내 당 등주를 공격한 왕은 발해 무왕이다.",
+      "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0019179"
+    },
+    {
+      "issue": "정혜공주 묘 이름과 천장 구조가 자막에서 뭉개짐",
+      "correction": "고구려 계승을 보여 주는 모줄임 천장은 발해 정혜공주 묘의 특징이다.",
+      "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0051146"
+    },
+    {
+      "issue": "성덕 대왕 신종이 성덕왕 재위 중 완성된 것으로 혼동 가능",
+      "correction": "성덕 대왕 신종은 성덕왕을 기리기 위해 만들었으며 혜공왕 때 완성되었다.",
+      "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0029268"
+    },
+    {
+      "issue": "지눌이 조계종을 개창했다는 단정",
+      "correction": "수선사 결사·정혜쌍수·돈오점수로 정리.",
+      "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0031457"
+    },
+    {
+      "issue": "공민왕이 정동행성 전체를 폐지했다고 설명",
+      "correction": "정동행성 이문소 폐지로 바로잡음.",
+      "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0004295"
+    },
+    {
+      "issue": "신해통공의 예외를 6조 거리로 오인",
+      "correction": "육의전을 제외한 시전의 금난전권 폐지.",
+      "sourceUrl": "https://contents.history.go.kr/mobile/hm/view.do?levelId=hm_106_0080"
+    },
+    {
+      "issue": "신유박해 때 정약용 형제를 모두 처형한 듯한 설명",
+      "correction": "정약종은 처형, 정약용·정약전은 유배.",
+      "sourceUrl": "https://encykorea.aks.ac.kr/Article/E0050549"
+    },
+    {
+      "issue": "초조대장경 조판을 거란 3차 침입에 직접 연결",
+      "correction": "현종 때 거란 침입에 대응하며 조판 시작으로 정리.",
+      "sourceUrl": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200500"
+    },
+    {
+      "issue": "3포의 염포, 김준룡, 계미자 등 자막 오기",
+      "correction": "염포·김준룡·계미자·시무 28조·노비안검법 등 역사 용어를 표준 표기로 수정."
+    },
+    {
+      "issue": "이황이 도산 서원을 직접 세웠다는 설명",
+      "correction": "서원 창건 시점을 잘못 외우지 않도록 이황의 저술·논쟁만 수록."
+    },
+    {
+      "issue": "원수부를 황제의 친위부대로 설명",
+      "correction": "원수부는 황제 직속 최고 군사 기구로 정리.",
+      "sourceUrl": "https://contents.history.go.kr/front/ht/view.do?levelId=ht_003_0040_0010_0020"
+    },
+    {
+      "issue": "아리랑을 최초의 한국 영화라고 설명",
+      "correction": "최초라는 표현을 빼고 1926년 나운규 작품·단성사 개봉으로 정리.",
+      "sourceUrl": "https://e-gonghun.mpva.go.kr/user/IndepCrusaderDetail.do?goTocode=20003&mngNo=7471"
+    },
+    {
+      "issue": "농민·노동 총동맹 분리 연도",
+      "correction": "조선노농총동맹 1924년, 조선농민총동맹·조선노동총동맹 분리 1927년.",
+      "sourceUrl": "https://contents.history.go.kr/front/tg/view.do?ganada=&levelId=tg_004_2000&pageUnit=1&treeId=0202"
+    },
+    {
+      "issue": "국채 보상 운동의 대구 발기인을 양기탁·서상돈으로 설명",
+      "correction": "대구 발기인은 서상돈·김광제, 양기탁은 대한매일신보를 통한 지원으로 구별.",
+      "sourceUrl": "https://contents.history.go.kr/mobile/tg/view.do?ganada=&levelId=tg_004_0160&pageUnit=10&subjectCode=all&tabId=01"
+    },
+    {
+      "issue": "자동 자막의 인명·기구명 오인식",
+      "correction": "최고 대구→최혜국 대우, 주식경·지석경→주시경·지석영, 강주용→강주룡, 미세아→미쓰야, 윤봉기→윤봉길 등 표준 표기로 교정."
+    },
+    {
+      "issue": "1886년 육영공원을 최초의 관립학교로 단정",
+      "correction": "앞선 동문학과의 혼동을 피하도록 1886년 관립 학교·좌원과 우원·헐버트로 정리."
+    },
+    {
+      "issue": "화폐 정리 사업을 제1차 한일 협약과 동시에 시행한 듯한 설명",
+      "correction": "1904년 협약 뒤 재정 고문 메가타가 추진한 사업으로 연결하고 동일 연도라고 단정하지 않음."
+    },
+    {
+      "issue": "단성사가 일제강점기에 처음 생긴 듯한 시대 구분",
+      "correction": "단성사의 개관 시점을 단정하지 않고 일제강점기의 영화 상영 활동과 연결."
+    },
+    {
+      "issue": "한·칠레 FTA를 노무현 정부로만 묶는 설명",
+      "correction": "2003년 2월 김대중 정부에서 서명, 2004년 노무현 정부에서 발효.",
+      "sourceUrl": "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=102026&seq=291556"
+    },
+    {
+      "issue": "한·미 FTA 체결·발효 정부 혼동",
+      "correction": "2007년 노무현 정부 서명, 2012년 이명박 정부 발효.",
+      "sourceUrl": "https://fta.go.kr/ftamain/kfta/ov/"
+    },
+    {
+      "issue": "5·18을 전두환 정부 출범 뒤 사건처럼 연결",
+      "correction": "1980년 5월 최규하 대통령 재임 중 신군부의 계엄 확대에 맞선 항쟁.",
+      "sourceUrl": "https://518.mpva.go.kr/518/contents.do?key=417"
+    },
+    {
+      "issue": "건국준비위원회와 북한 정권의 이름 혼동",
+      "correction": "건준 계열의 조선인민공화국은 1945년 9월 선포. 북한 정권은 1948년 조선민주주의인민공화국.",
+      "sourceUrl": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402700"
+    },
+    {
+      "issue": "제헌 국회 활동을 모두 1948년으로 오해할 가능성",
+      "correction": "반민족행위처벌법은 1948년, 농지개혁법은 1949년 제정.",
+      "sourceUrl": "https://theme.archives.go.kr/next/koreaOfRecord/farmlandReform.do"
+    },
+    {
+      "issue": "제3·4차 개헌을 모두 내각제 도입으로 설명",
+      "correction": "3차는 의원 내각제·양원제, 4차는 부정 선거 관련자 처벌 등을 위한 소급 입법 근거.",
+      "sourceUrl": "https://theme.archives.go.kr/next/rediscovery/index4.do"
+    },
+    {
+      "issue": "정전선을 38도선과 동일시",
+      "correction": "정전 협정으로 설정한 경계는 군사분계선. 38도선과 일치하지 않음."
+    },
+    {
+      "issue": "충주 고구려비를 장수왕 건립으로 단정",
+      "correction": "건립 왕·연대에는 여러 견해가 있어 고구려의 중부 진출을 보여 준다는 공통 사실로 정리.",
+      "sourceUrl": "https://contents.history.go.kr/mobile/kc/view.do?code=kc_age_10&levelId=kc_r100500"
+    },
+    {
+      "issue": "이한열의 사망을 항쟁 도중으로 단순화",
+      "correction": "6월 항쟁 과정에서 피격되었고, 사망은 1987년 7월 5일. 카드에는 피격으로 표현."
+    },
+    {
+      "issue": "조선 건국 동맹이 단순 개명하여 건준이 되었다는 표현",
+      "correction": "건국동맹을 기반으로 광복 직후 여운형·안재홍 등이 건준을 결성.",
+      "sourceUrl": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_144_0040"
+    }
+  ]
+}
