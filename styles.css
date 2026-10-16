@@ -136,3 +136,5 @@
 @media(max-width:600px){.site-header nav{flex-wrap:nowrap;justify-content:flex-start;gap:14px;overflow-x:auto;max-width:100%;scrollbar-width:thin;padding-bottom:3px}.site-header nav>a{flex:none;white-space:nowrap}}
 
 .review-home-link{background:#f7efd5;border-color:#e0d2a7}.review-home-link strong,.review-home-link>span:last-child{color:#6b5425}.review-home-link:hover{background:#f2e7c3}
+
+.instant-score{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:12px 14px;margin-bottom:16px;background:#eef3ed;border:1px solid #d3dfd4;border-radius:3px}.instant-score>span{font-size:12px;color:var(--ink-soft)}.instant-score strong{font-size:23px;font-variant-numeric:tabular-nums;white-space:nowrap}.mobile-score{margin-left:12px;font-size:12px;white-space:nowrap;font-variant-numeric:tabular-nums}@media(max-width:600px){.instant-score{padding:9px 12px;margin-bottom:12px}.instant-score strong{font-size:21px}.mobile-score{font-size:11px;margin-left:8px}.mobile-status{gap:4px;flex-wrap:wrap}}
